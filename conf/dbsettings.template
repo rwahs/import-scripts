@@ -1,0 +1,12 @@
+#!/bin/bash
+# Source database connection settings
+export sourceDatabase=rwahs_museum
+export sourceUserName=rwahs_data
+export sourcePassword=password
+export sourceHostname=localhost
+
+# Destination database connection settings
+export destinationDatabase=rwahs
+export destinationUserName=rwahs
+export destinationPassword=password
+export destinationHostname=localhost
