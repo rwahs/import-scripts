@@ -1,0 +1,6 @@
+#!/bin/bash
+base="${BASH_SOURCE%/*}"
+pushd "$base" > /dev/null
+base=`pwd`
+popd > /dev/null
+export PATH="$base/bin:$base/conf:$PATH"
