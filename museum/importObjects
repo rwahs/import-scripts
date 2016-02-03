@@ -51,7 +51,7 @@ while getopts rpdmhl:o:ifg:q: param; do
 		;;
 		r)
 			# refresh data
-			schema/dumptomysql "$sourceFile" "mysqlDatabase" "-h$mysqlHostname -u$mysqlUserName -p$mysqlPassword"
+			schema/dumptomysql "$sourceFile" "$sourceDatabase" "-h$sourceHostname -u$sourceUserName -p$sourcePassword"
 		;;
 		p)
 			mysql -u"$sourceUserName" -p"$sourcePassword" -h"$sourceHostname" "$sourceDatabase" < sql/generateDataReport.sql
@@ -97,6 +97,7 @@ while getopts rpdmhl:o:ifg:q: param; do
 	esac
 done
 
+mysqlConnectionString="mysql://$sourceUserName:$sourcePassword@$sourceHostname/$sourceDatabase?table=$sourceTable&limit=$limit&offset=$offset"
 
 caUtils import-data --disable-ncurses -m "$mapping_machine_name" -s "$mysqlConnectionString" -l "$logdir" -d DEBUG -f "$importFormat" "$dontUseATransaction" "$indexOnTheFly"
 if [ "$reIndex" = true ] ; then

@@ -22,8 +22,10 @@ echo " + MYSQL_OPTIONS = $MYSQL_OPTIONS"
 
 echo "Creating fresh database $TARGET"
 SQL="DROP DATABASE IF EXISTS \`$TARGET\`; CREATE DATABASE \`$TARGET\`;"
-mysql $MYSQL_OPTIONS -e "$SQL"
-
+mysql ${MYSQL_OPTIONS} -e "$SQL"
+TEMPDIR=`mktemp -d`
+TARGET_SCHEMA="$TARGET"
+TARGET="$TEMPDIR/$TARGET"
 echo "Exporting MDB schema to $TARGET.mdbschema.sql"
 mdb-schema --no-not-null --no-not-empty "$SOURCE" mysql > "$TARGET.mdbschema.sql"
 
@@ -36,7 +38,7 @@ sed -e 's/varchar (255)/blob/g'| #these are all ole fields
 sed -e 's/float/double/g' > "$TARGET.schema.sql"
 
 echo "Importing MDB schema"
-mysql $MYSQL_OPTIONS "$TARGET" < "$TARGET.schema.sql"
+mysql ${MYSQL_OPTIONS} "$TARGET_SCHEMA" < "$TARGET.schema.sql"
 
 echo "Getting list of tables"
 mdb-tables -1 "$SOURCE" > "$TARGET.tables"
@@ -45,20 +47,21 @@ echo "Loading data"
 cat "$TARGET.tables" | while read TABLE;
 do
 	echo "Loading data for table $TABLE"
-	TABLEFILE="${TABLE//\//-}"
-	mdb-export -I mysql "$SOURCE" "$TABLE"> "$TABLEFILE.sql"
+	TABLEFILEBASE="$TEMPDIR/${TABLE//\//-}"
+	mdb-export -I mysql "$SOURCE" "$TABLE"> "$TABLEFILEBASE.sql"
 	ROWDELIMITER="\n"
 	QUOTES='"'
 	DELIMITER="\t"
 	ESCAPE='\'
 	DATEFORMAT="%F" #ISO 8601
-	mdb-export -R "$ROWDELIMITER" -D "$DATEFORMAT" -d "$DELIMITER" -q "$QUOTES" -X "$ESCAPE" "$SOURCE" "$TABLE" >"$TABLEFILE.csv" #replace 'empty' values with NULL
-	LOADSQL="LOAD DATA LOCAL INFILE '$TABLEFILE.csv' INTO TABLE \`$TABLEFILE\` FIELDS TERMINATED BY '$DELIMITER' OPTIONALLY ENCLOSED BY '$QUOTES' ESCAPED BY '\\$ESCAPE' LINES TERMINATED BY '$ROWDELIMITER' IGNORE 1 LINES; SHOW WARNINGS;"
-	mysql $MYSQL_OPTIONS --local-infile=1 $TARGET -e "$LOADSQL"
+	mdb-export -R "$ROWDELIMITER" -D "$DATEFORMAT" -d "$DELIMITER" -q "$QUOTES" -X "$ESCAPE" "$SOURCE" "$TABLE" >"$TABLEFILEBASE.csv" #replace 'empty' values with NULL
+	LOADSQL="LOAD DATA LOCAL INFILE '$TABLEFILEBASE.csv' INTO TABLE \`$TABLE\` FIELDS TERMINATED BY '$DELIMITER' OPTIONALLY ENCLOSED BY '$QUOTES' ESCAPED BY '\\$ESCAPE' LINES TERMINATED BY '$ROWDELIMITER' IGNORE 1 LINES; SHOW WARNINGS;"
+	mysql ${MYSQL_OPTIONS} --local-infile=1 ${TARGET_SCHEMA} -e "$LOADSQL"
 done
 
 echo "Fixing date fields"
 CREATEFIXDATES="select concat ('UPDATE \`', table_name, '\` SET \`', column_name, '\` = NULL WHERE \`', column_name, '\` = 0;') as 'SELECT NULL;' from information_schema.columns where column_type = 'datetime' and table_schema = '$TARGET';"
-mysql $MYSQL_OPTIONS "$TARGET" -e "$CREATEFIXDATES" | mysql $MYSQL_OPTIONS $TARGET
-
+mysql ${MYSQL_OPTIONS} "$TARGET_SCHEMA" -e "$CREATEFIXDATES" | mysql ${MYSQL_OPTIONS} ${TARGET_SCHEMA}
+rm ${TEMPDIR}/*
+rmdir ${TEMPDIR}
 echo "Done: $0"
