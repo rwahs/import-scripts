@@ -1,2 +1,4 @@
-# import-scripts
-Import scripts for RWAHS CollectiveAccess installation.
+# RWAHS Import Scripts
+
+Mapping files and import related scripts and tools for RWAHS CollectiveAccess installation.
+
