@@ -1,0 +1,40 @@
+#!/bin/bash
+set -e
+if [ -z "$1" ]
+then
+	echo "Usage: $0 [nuke] [load] [report] <tableList>"
+	echo "    nuke:      reset your installation first"
+	echo "    load:      load the import mapping"
+	echo "    report:    populate the destination data reports. You probably don't want to run this without nuke"
+	echo "               You probably don't want to run this without nuke or if you have more than one table"
+	echo "    tableList: spaceDelimited list of field groups to load test data for. Examples:"
+	echo "               baseObject"
+	exit 1
+fi
+set -u
+report=''
+for fieldGroup in "$@"
+do
+	if [ "$fieldGroup" == "nuke" ]
+	then
+		reset-ca
+		./importObjects -d -m
+	elif [ "$fieldGroup" == "load" ]
+	then
+		./importObjects -m
+	elif [ "$fieldGroup" == "report" ]
+	then
+		report="report"
+	else
+		echo "Processing $fieldGroup"
+		./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/$fieldGroup.sql`"
+		if [ "$report" == "report" ]
+		then
+			pushd sampleRecords/
+			# flush the browse cache
+			redis-cli KEYS "*BrowseService*"| xargs --no-run-if-empty redis-cli DEL
+			./getSampleRecords ${fieldGroup}
+			popd
+		fi
+	fi
+done

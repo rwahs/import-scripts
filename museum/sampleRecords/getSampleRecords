@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# A script to call a CA web service, search for objects and return all objects using a bundle formatter defined by the first passed parameter.
+if [ -z "$1" ]
+then
+	>&2 echo "No argument supplied. You need to supply a bundle name"
+	>&2 echo ""
+	>&2 echo "A script to call a CA web service, search for objects and return all objects using a bundle formatter defined by the first passed parameter."
+	>&2 echo ""
+	>&2 echo "Usage: $0 <bundlename>"
+	>&2 echo "    where <bundlename>.bundles.json exists in the current directory."
+	>&2 echo "    For example:"
+	>&2 echo "        $0 registration"
+	exit 1
+fi
+BUNDLE=$1
+curl -XGET 'http://administrator:administrator@localhost/rwahs/providence/service.php/browse/ca_objects?pretty=1' -d @${BUNDLE}.browse.bundles.json > ${BUNDLE}.destination.json
