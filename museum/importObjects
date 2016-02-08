@@ -22,7 +22,7 @@ mapping_extension=xlsx
 mapping_file="$mapping"."$mapping_extension"
 mapping_machine_name=museum
 source ../conf/dbsettings
-sourceTable=Objects
+sourceTable=ObjectsExport
 importFormat=mysql
 logdir=importlog
 limit=0
@@ -36,6 +36,12 @@ mkdir -p "$logdir"
 function urlencode() {
 	## function to encode where queries
 	echo -n "$1" | perl -MURI::Escape -ne 'print uri_escape($_)'
+}
+function sqltransform() {
+	sqlContent=`cat sql/transformations/"$1"`
+	echo "Running migration $1"
+	# execute the sql in a transaction
+	echo "BEGIN; ${sqlContent} COMMIT;"|mysql -u"$sourceUserName" -p"$sourcePassword" -h"$sourceHostname" "$sourceDatabase"
 }
 while getopts rpdmhl:o:ifg:q: param; do
 	case $param in
@@ -52,6 +58,8 @@ while getopts rpdmhl:o:ifg:q: param; do
 		r)
 			# refresh data
 			schema/dumptomysql "$sourceFile" "$sourceDatabase" "-h$sourceHostname -u$sourceUserName -p$sourcePassword"
+			sqltransform OptimiseTables.sql
+			sqltransform ObjectsExportView.sql
 		;;
 		p)
 			mysql -u"$sourceUserName" -p"$sourcePassword" -h"$sourceHostname" "$sourceDatabase" < sql/generateDataReport.sql
