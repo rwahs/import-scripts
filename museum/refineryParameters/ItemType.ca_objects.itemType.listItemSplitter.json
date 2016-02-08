@@ -1,0 +1,7 @@
+{
+  "list": "itemTypes",
+  "listItemType": "concept",
+  "matchOn": [
+    "label"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "list": "object_acq_types",
+  "listItemType": "concept",
+  "matchOn": [
+    "label"
+  ]
+}

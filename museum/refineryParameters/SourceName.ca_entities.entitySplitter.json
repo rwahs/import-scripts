@@ -1,0 +1,29 @@
+{
+  "entityType": "individual",
+  "relationshipType": "source",
+  "displayNameFormat": "surnameCommaForename",
+  "matchOn": [
+    "idno", "label"
+  ],
+  "attributes" :{
+    "AddressContainer":{
+      "Address1": "^Address",
+      "TownCity": "^TownCity",
+      "State": "^State",
+      "PostCode": "^PostCode",
+      "Country": "Australia"
+    },
+    "Phone": "^Phone",
+    "MobilePhone": "^MobilePhone",
+    "Deceased": "^Deceased",
+    "DonorNotes": "^DonorNotes",
+    "Email": "^EMail",
+    "Fax": "^Fax",
+    "DonorAgentName": "^DonorAgentName",
+    "DonorAgentAddress": "^DonorAgentAddress",
+    "DonorAgentPhone": "^DonorAgentPhone",
+    "LastEditBy": "^SourceLastEditBy",
+    "LastEditDate": "^SourceLastEditDate",
+    "LegacyID": "^SourceID"
+  }
+}
