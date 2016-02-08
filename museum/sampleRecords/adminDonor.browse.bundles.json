@@ -2,7 +2,6 @@
 
   "bundles" : {
     "type_id": { "convertCodesToDisplayText": true },
-    "ca_objects.ItemType": { "convertCodesToDisplayText": true },
     "ca_objects.AccessionPrefix": {},
     "ca_objects.AccessionYear": {},
     "ca_objects.AccessionNumber": {},
@@ -11,6 +10,8 @@
     "ca_objects.AccessionBy": {},
     "ca_objects.AccessionDate": {},
     "ca_entities": {},
+    "ca_entities.entity_id": {},
+    "ca_entities.idno": {},
     "ca_entities.prefix": {},
     "ca_entities.forename": {},
     "ca_entities.middlename": {},
@@ -24,7 +25,7 @@
     "ca_entities.Fax": {},
     "ca_entities.Email": {},
     "ca_entities.DonorNotes": {},
-    "ca_entities.Deceased": {},
+    "ca_entities.Deceased": { "convertCodesToDisplayText": true },
     "ca_entities.DonorAgentName": {},
     "ca_entities.DonorAgentAddress": {},
     "ca_entities.DonorAgentPhone": {},
