@@ -8,7 +8,7 @@ then
 	echo "    report:    populate the destination data reports. You probably don't want to run this without nuke"
 	echo "               You probably don't want to run this without nuke or if you have more than one table"
 	echo "    tableList: spaceDelimited list of field groups to load test data for. Examples:"
-	echo "               baseObject"
+	echo "               baseObject adminDonor"
 	exit 1
 fi
 set -u

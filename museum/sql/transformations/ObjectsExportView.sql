@@ -9,7 +9,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
 				s.Fax,
 				NULL           AS DonorAgentName,
 				NULL           AS DonorAgentAddress,
-				NULL           AS DonorAgentPhoneNumber,
+				NULL           AS DonorAgentPhone,
 				s.FirstNames,
 				s.Initials,
 				s.LastEditBy   AS SourceLastEditBy,
@@ -26,7 +26,3 @@ CREATE OR REPLACE VIEW ObjectsExport AS
 				Objects o
 				LEFT JOIN Methods m ON (o.Method = m.Method)
 				LEFT JOIN Sources s ON (o.SourceName = s.SourceName);
-
-SELECT DISTINCT Sources.Address
-FROM Sources;
-SELECT * FROM ObjectsExport;
