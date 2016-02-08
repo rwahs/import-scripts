@@ -1,7 +1,6 @@
 {"criteria":{"status_facet": [0]},
 
   "bundles" : {
-    "type_id": { "convertCodesToDisplayText": true },
     "ca_objects.AccessionPrefix": {},
     "ca_objects.AccessionYear": {},
     "ca_objects.AccessionNumber": {},
@@ -12,10 +11,10 @@
     "ca_entities": {},
     "ca_entities.entity_id": {},
     "ca_entities.idno": {},
-    "ca_entities.prefix": {},
-    "ca_entities.forename": {},
-    "ca_entities.middlename": {},
-    "ca_entities.surname": {},
+    "ca_entities.preferred_labels.prefix": {},
+    "ca_entities.preferred_labels.forename": {},
+    "ca_entities.preferred_labels.middlename": {},
+    "ca_entities.preferred_labels.surname": {},
     "ca_entities.AddressContainer.Address1": {},
     "ca_entities.AddressContainer.TownCity": {},
     "ca_entities.AddressContainer.State": {},

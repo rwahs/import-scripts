@@ -1,7 +1,11 @@
 {
   "entityType": "individual",
   "relationshipType": "source",
-  "displayNameFormat": "surnameCommaForename",
+  "forename": "^FirstNames",
+  "middlename": "^Initials",
+  "surname": "^LastName",
+  "prefix": "^Salutation",
+  "displayname": "^SourceName",
   "matchOn": [
     "idno", "label"
   ],
