@@ -14,7 +14,9 @@ then
     >&2 echo "        $0 registration"
     exit 1
 fi
+source ../../env
 checkConfig testsettings
+source ../../conf/testsettings
 BUNDLE="$1"
 TABLE="$2"
 curl -XGET "http://${CA_WS_USERNAME}:${CA_WS_PASSWORD}@${CA_HOSTNAME}/${CA_BASE_PATH}/service.php/browse/${TABLE}?pretty=1" -d @"${BUNDLE}".browse.bundles.json > "${BUNDLE}".destination.json
