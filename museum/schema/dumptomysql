@@ -32,7 +32,6 @@ echo "Cleaning MDB schema"
 cat "$TARGET.mdbschema.sql" |
 sed -e 's/\(CREATE TABLE.*\)\//\1_/g' | #and can't import from files with a slash in their  name
 sed -e 's/text (255)/text/g'| #these are all memo
-sed -e 's/varchar (255)/blob/g'| #these are all ole fields
 sed -e 's/float/double/g' > "$TARGET.schema.sql"
 
 echo "Importing MDB schema"
