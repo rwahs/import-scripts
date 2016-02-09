@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 set -e
 set -u
-./museum/importObjects -r -p -m
+# Refresh source data, produce a data report and load the import mapping
+./museum/importObjects -rpm
+# Run the import
 ./museum/importObjects -f
