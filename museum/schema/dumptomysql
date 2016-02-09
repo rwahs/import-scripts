@@ -15,50 +15,50 @@ if [ $# -gt 2 ]; then
 fi
 
 echo "Got the following arguments:"
-echo " + SOURCE = $SOURCE"
-echo " + TARGET = $TARGET"
-echo " + MYSQL_OPTIONS = $MYSQL_OPTIONS"
+echo " + SOURCE = ${SOURCE}"
+echo " + TARGET = ${TARGET}"
+echo " + MYSQL_OPTIONS = ${MYSQL_OPTIONS}"
 
-echo "Creating fresh database $TARGET"
-SQL="DROP DATABASE IF EXISTS \`$TARGET\`; CREATE DATABASE \`$TARGET\`;"
-mysql ${MYSQL_OPTIONS} -e "$SQL"
+echo "Creating fresh database ${TARGET}"
+SQL="DROP DATABASE IF EXISTS \`${TARGET}\`; CREATE DATABASE \`${TARGET}\`;"
+mysql ${MYSQL_OPTIONS} -e "${SQL}"
 TEMPDIR=`mktemp -d`
-TARGET_SCHEMA="$TARGET"
-TARGET="$TEMPDIR/$TARGET"
-echo "Exporting MDB schema to $TARGET.mdbschema.sql"
-mdb-schema --no-not-null --no-not-empty "$SOURCE" mysql > "$TARGET.mdbschema.sql"
+TARGET_SCHEMA="${TARGET}"
+TARGET="${TEMPDIR}/${TARGET}"
+echo "Exporting MDB schema to ${TARGET}.mdbschema.sql"
+mdb-schema --no-not-null --no-not-empty "${SOURCE}" mysql > "${TARGET}.mdbschema.sql"
 
 echo "Cleaning MDB schema"
-cat "$TARGET.mdbschema.sql" |
+cat "${TARGET}.mdbschema.sql" |
 sed -e 's/\(CREATE TABLE.*\)\//\1_/g' | #and can't import from files with a slash in their  name
 sed -e 's/text (255)/text/g'| #these are all memo
-sed -e 's/float/double/g' > "$TARGET.schema.sql"
+sed -e 's/float/double/g' > "${TARGET}.schema.sql"
 
 echo "Importing MDB schema"
-mysql ${MYSQL_OPTIONS} "$TARGET_SCHEMA" < "$TARGET.schema.sql"
+mysql ${MYSQL_OPTIONS} "${TARGET_SCHEMA}" < "${TARGET}.schema.sql"
 
 echo "Getting list of tables"
-mdb-tables -1 "$SOURCE" > "$TARGET.tables"
+mdb-tables -1 "${SOURCE}" > "${TARGET}.tables"
 
 echo "Loading data"
-cat "$TARGET.tables" | while read TABLE;
+cat "${TARGET}.tables" | while read TABLE;
 do
-    echo "Loading data for table $TABLE"
-    TABLEFILEBASE="$TEMPDIR/${TABLE//\//-}"
-    mdb-export -I mysql "$SOURCE" "$TABLE"> "$TABLEFILEBASE.sql"
+    echo "Loading data for table ${TABLE}"
+    TABLEFILEBASE="${TEMPDIR}/${TABLE//\//-}"
+    mdb-export -I mysql "${SOURCE}" "${TABLE}"> "${TABLEFILEBASE}.sql"
     ROWDELIMITER="\n"
     QUOTES='"'
     DELIMITER="\t"
     ESCAPE='\'
     DATEFORMAT="%F" #ISO 8601
-    mdb-export -R "$ROWDELIMITER" -D "$DATEFORMAT" -d "$DELIMITER" -q "$QUOTES" -X "$ESCAPE" "$SOURCE" "$TABLE" >"$TABLEFILEBASE.csv" #replace 'empty' values with NULL
-    LOADSQL="LOAD DATA LOCAL INFILE '$TABLEFILEBASE.csv' INTO TABLE \`$TABLE\` FIELDS TERMINATED BY '$DELIMITER' OPTIONALLY ENCLOSED BY '$QUOTES' ESCAPED BY '\\$ESCAPE' LINES TERMINATED BY '$ROWDELIMITER' IGNORE 1 LINES; SHOW WARNINGS;"
-    mysql ${MYSQL_OPTIONS} --local-infile=1 ${TARGET_SCHEMA} -e "$LOADSQL"
+    mdb-export -R "${ROWDELIMITER}" -D "${DATEFORMAT}" -d "${DELIMITER}" -q "${QUOTES}" -X "${ESCAPE}" "${SOURCE}" "${TABLE}" >"${TABLEFILEBASE}.csv" #replace 'empty' values with NULL
+    LOADSQL="LOAD DATA LOCAL INFILE '${TABLEFILEBASE}.csv' INTO TABLE \`${TABLE}\` FIELDS TERMINATED BY '${DELIMITER}' OPTIONALLY ENCLOSED BY '${QUOTES}' ESCAPED BY '\\${ESCAPE}' LINES TERMINATED BY '${ROWDELIMITER}' IGNORE 1 LINES; SHOW WARNINGS;"
+    mysql ${MYSQL_OPTIONS} --local-infile=1 "${TARGET_SCHEMA}" -e "${LOADSQL}"
 done
 
 echo "Fixing date fields"
-CREATEFIXDATES="select concat ('UPDATE \`', table_name, '\` SET \`', column_name, '\` = NULL WHERE \`', column_name, '\` = 0;') as 'SELECT NULL;' from information_schema.columns where column_type = 'datetime' and table_schema = '$TARGET';"
-mysql ${MYSQL_OPTIONS} "$TARGET_SCHEMA" -e "$CREATEFIXDATES" | mysql ${MYSQL_OPTIONS} ${TARGET_SCHEMA}
-rm ${TEMPDIR}/*
-rmdir ${TEMPDIR}
+CREATEFIXDATES="select concat ('UPDATE \`', table_name, '\` SET \`', column_name, '\` = NULL WHERE \`', column_name, '\` = 0;') as 'SELECT NULL;' from information_schema.columns where column_type = 'datetime' and table_schema = '${TARGET}';"
+mysql ${MYSQL_OPTIONS} "${TARGET_SCHEMA}" -e "${CREATEFIXDATES}" | mysql ${MYSQL_OPTIONS} "${TARGET_SCHEMA}"
+rm "${TEMPDIR}/"*
+rmdir "${TEMPDIR}"
 echo "Done: $0"
