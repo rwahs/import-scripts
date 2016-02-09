@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # http://nialldonegan.me/2007/03/10/converting-microsoft-access-mdb-into-csv-or-mysql-in-linux/
 
 # stop on errors and undefined variables
