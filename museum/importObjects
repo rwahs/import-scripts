@@ -5,7 +5,7 @@ set -e
 set -u
 
 # load environment settings
-pushd `dirname "$0"`>/dev/null
+pushd `dirname "${0}"`>/dev/null
 source ../env
 
 # perform pre-execution checks
@@ -19,7 +19,7 @@ mapping=rwahsMuseumMapping
 mapping_id="11ynTouvmgYI-RoesX3rbvi4xUAhiwTCsOcoUwGLqVHc"
 # https://docs.google.com/spreadsheets/d/11ynTouvmgYI-RoesX3rbvi4xUAhiwTCsOcoUwGLqVHc/edit?usp=sharing
 mapping_extension=xlsx
-mapping_file="$mapping"."$mapping_extension"
+mapping_file="${mapping}"."${mapping_extension}"
 mapping_machine_name=museum
 source ../conf/dbsettings
 sourceTable=Objects
@@ -32,29 +32,29 @@ dontUseATransaction="--direct"
 # disable search indexing on import then reindex at the end
 indexOnTheFly="--no-search-indexing"
 reIndex=false
-mkdir -p "$logdir"
+mkdir -p "${logdir}"
 function urlencode() {
     ## function to encode where queries
-    echo -n "$1" | perl -MURI::Escape -ne 'print uri_escape($_)'
+    echo -n "${1}" | perl -MURI::Escape -ne 'print uri_escape(${_})'
 }
 while getopts rpdmhl:o:ifg:q: param; do
-    case $param in
+    case ${param} in
 
         l)
-            limit="$OPTARG"
+            limit="${OPTARG}"
         ;;
         o)
-            offset="$OPTARG"
+            offset="${OPTARG}"
         ;;
         g)
-            logdir="$OPTARG"
+            logdir="${OPTARG}"
         ;;
         r)
             # refresh data
-            schema/dumptomysql "$sourceFile" "$sourceDatabase" "-h$sourceHostname -u$sourceUserName -p$sourcePassword"
+            schema/dumptomysql "${sourceFile}" "${sourceDatabase}" "-h${sourceHostname} -u${sourceUserName} -p${sourcePassword}"
         ;;
         p)
-            mysql -u"$sourceUserName" -p"$sourcePassword" -h"$sourceHostname" "$sourceDatabase" < sql/generateDataReport.sql
+            mysql -u"${sourceUserName}" -p"${sourcePassword}" -h"${sourceHostname}" "${sourceDatabase}" < sql/generateDataReport.sql
         ;;
         d)
         #download mapping from google drive
@@ -62,7 +62,7 @@ while getopts rpdmhl:o:ifg:q: param; do
         ;;
         m)
             #load mapping
-            caUtils load-import-mapping -l "$logdir" -d DEBUG -f "$mapping_file"
+            caUtils load-import-mapping -l "${logdir}" -d DEBUG -f "${mapping_file}"
             exit 0
         ;;
         i)
@@ -73,13 +73,13 @@ while getopts rpdmhl:o:ifg:q: param; do
         ;;
         q)
             mysqlWhereQuery=" WHERE ${OPTARG}"
-            sourceTable=$(urlencode "$sourceTable${mysqlWhereQuery}")
+            sourceTable=$(urlencode "${sourceTable}${mysqlWhereQuery}")
             echo "${mysqlWhereQuery}"
         ;;
         h)
             echo "Usage $0 [-r -d -m -l -o -i -g -q -f -p -h]"
             echo "Flags:"
-            echo "  -r  refresh data from pentaho"
+            echo "  -r  refresh source data"
             echo "  -d  download mapping from google drive"
             echo "  -m  reload CollectiveAccess mapping"
             echo "  -l  specify the limit for the data load"
@@ -97,10 +97,10 @@ while getopts rpdmhl:o:ifg:q: param; do
     esac
 done
 
-mysqlConnectionString="mysql://$sourceUserName:$sourcePassword@$sourceHostname/$sourceDatabase?table=$sourceTable&limit=$limit&offset=$offset"
+mysqlConnectionString="mysql://${sourceUserName}:${sourcePassword}@${sourceHostname}/${sourceDatabase}?table=${sourceTable}&limit=${limit}&offset=${offset}"
 
-caUtils import-data --disable-ncurses -m "$mapping_machine_name" -s "$mysqlConnectionString" -l "$logdir" -d DEBUG -f "$importFormat" "$dontUseATransaction" "$indexOnTheFly"
-if [ "$reIndex" = true ] ; then
+caUtils import-data --disable-ncurses -m "${mapping_machine_name}" -s "${mysqlConnectionString}" -l "${logdir}" -d DEBUG -f "${importFormat}" "${dontUseATransaction}" "${indexOnTheFly}"
+if [ "${reIndex}" = true ] ; then
     echo "Rebuilding search index"
     caUtils rebuild-search-index
 fi
