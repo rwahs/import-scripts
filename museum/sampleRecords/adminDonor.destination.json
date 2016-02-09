@@ -1017,7 +1017,7 @@
       "ca_entities.LastEditDate":"January 10 2011",
       "ca_entities.LegacyID":"1395",
       "ca_objects.acquisition_type_id":"Donation",
-      "ca_objects.ConditionOnReceipt":"Damaged",
+      "ca_objects.ConditionOnReceipt":"Poor",
       "ca_objects.LegalTitle.LegalTitleYesNo":"Yes",
       "ca_objects.Copyright.CopyrightYesNo":"No"
     }
