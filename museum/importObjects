@@ -11,7 +11,7 @@ source ../env
 # perform pre-execution checks
 checkConfig
 checkCollectiveAccess
-checkGoogleCL
+checkGdrive
 
 # setup local variables
 sourceFile=source/MosaicPlus10Data.MDB
