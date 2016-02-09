@@ -33,7 +33,7 @@ do
             pushd sampleRecords/
             # flush the browse cache
             redis-cli KEYS "*BrowseService*"| xargs --no-run-if-empty redis-cli DEL
-            ./getSampleRecords ${fieldGroup}
+            ./getSampleRecords ${fieldGroup} ca_objects
             popd
         fi
     fi
