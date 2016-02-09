@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "status_facet": [
+            0
+        ]
+    },
+    "bundles": {
+        "type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.itemType": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.legacyId": {}
+    }
+}

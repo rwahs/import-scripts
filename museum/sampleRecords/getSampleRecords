@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -e
+set -u
+# A script to call a CA web service, search for objects and return all objects using a bundle formatter defined by the first passed parameter.
+if [ $# -ne 2 ]
+then
+    >&2 echo "No arguments supplied. You need to supply a bundle name and a table as parameters"
+    >&2 echo ""
+    >&2 echo "A script to call a CA web service, search for objects and return all objects using a bundle formatter defined by the first passed parameter."
+    >&2 echo ""
+    >&2 echo "Usage: $0 <bundlename> <tablename>"
+    >&2 echo "    where <bundlename>.bundles.json exists in the current directory."
+    >&2 echo "    For example:"
+    >&2 echo "        $0 registration"
+    exit 1
+fi
+source ../../env
+checkConfig testsettings
+source ../../conf/testsettings
+BUNDLE="$1"
+TABLE="$2"
+curl -XGET "http://${CA_WS_USERNAME}:${CA_WS_PASSWORD}@${CA_HOSTNAME}/${CA_BASE_PATH}/service.php/browse/${TABLE}?pretty=1" -d @"${BUNDLE}".browse.bundles.json > "${BUNDLE}".destination.json
