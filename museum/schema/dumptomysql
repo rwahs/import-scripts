@@ -6,7 +6,6 @@ set -e
 set -u
 
 export MDBOPTS="use_index;debug_all"
-export MDB_COPY_OLE
 
 SOURCE="$1"
 TARGET="$2"
