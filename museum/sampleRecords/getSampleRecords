@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+set -e
+set -u
 # A script to call a CA web service, search for objects and return all objects using a bundle formatter defined by the first passed parameter.
 if [ -z "$1" ]
 then
