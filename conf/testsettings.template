@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Source database connection settings
+export CA_WS_USERNAME=administrator
+export CA_WS_PASSWORD=administrator
+export CA_HOSTNAME=localhost
+export CA_BASE_PATH=rwahs/providence/

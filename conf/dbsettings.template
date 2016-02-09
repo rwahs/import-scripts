@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Source database connection settings
 export sourceDatabase=rwahs_museum
 export sourceUserName=rwahs_data

@@ -2,5 +2,5 @@
 source/
 importlog/
 nohup.out
-conf/dbsettings
+conf/*settings
 bin/drive
