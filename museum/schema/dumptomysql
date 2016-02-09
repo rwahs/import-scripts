@@ -30,8 +30,7 @@ mdb-schema --no-not-null --no-not-empty "$SOURCE" mysql > "$TARGET.mdbschema.sql
 
 echo "Cleaning MDB schema"
 cat "$TARGET.mdbschema.sql" |
-grep -v "COMMENT ON COLUMN" | #cos comments break mysql
-sed -e 's/\(CREATE TABLE.*\)\//\1-/g' | #and can't import from files with a slash in their  name
+sed -e 's/\(CREATE TABLE.*\)\//\1_/g' | #and can't import from files with a slash in their  name
 sed -e 's/text (255)/text/g'| #these are all memo
 sed -e 's/varchar (255)/blob/g'| #these are all ole fields
 sed -e 's/float/double/g' > "$TARGET.schema.sql"
