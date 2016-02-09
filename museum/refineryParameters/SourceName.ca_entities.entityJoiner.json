@@ -1,6 +1,6 @@
 {
   "entityType": "individual",
-  "relationshipType": "source",
+  "relationshipType": "donor",
   "forename": "^FirstNames",
   "middlename": "^Initials",
   "surname": "^LastName",
