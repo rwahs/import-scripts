@@ -14,5 +14,5 @@ then
     >&2 echo "        $0 registration"
     exit 1
 fi
-BUNDLE=$1
-curl -XGET 'http://administrator:administrator@localhost/rwahs/providence/service.php/browse/ca_objects?pretty=1' -d @${BUNDLE}.browse.bundles.json > ${BUNDLE}.destination.json
+BUNDLE="$1"
+curl -XGET 'http://administrator:administrator@localhost/rwahs/providence/service.php/browse/ca_objects?pretty=1' -d @"${BUNDLE}".browse.bundles.json > "${BUNDLE}".destination.json
