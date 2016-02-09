@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
-if [ -z "$1" ]
+set -u
+if [ $# -eq 0 ]
 then
     echo "Usage: $0 [nuke] [load] [report] <tableList>"
     echo "    nuke:      reset your installation first"
@@ -11,24 +12,23 @@ then
     echo "               baseObject"
     exit 1
 fi
-set -u
 report=''
 for fieldGroup in "$@"
 do
-    if [ "$fieldGroup" == "nuke" ]
+    if [ "${fieldGroup}" == "nuke" ]
     then
         reset-ca
         ./importObjects -d -m
-    elif [ "$fieldGroup" == "load" ]
+    elif [ "${fieldGroup}" == "load" ]
     then
         ./importObjects -m
-    elif [ "$fieldGroup" == "report" ]
+    elif [ "${fieldGroup}" == "report" ]
     then
         report="report"
     else
-        echo "Processing $fieldGroup"
-        ./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/$fieldGroup.sql`"
-        if [ "$report" == "report" ]
+        echo "Processing ${fieldGroup}"
+        ./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/${fieldGroup}.sql`"
+        if [ "${report}-" == "report" ]
         then
             pushd sampleRecords/
             # flush the browse cache
