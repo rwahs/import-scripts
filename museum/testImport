@@ -28,7 +28,7 @@ do
     else
         echo "Processing ${fieldGroup}"
         ./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/${fieldGroup}.sql`"
-        if [ "${report}-" == "report" ]
+        if [ "${report-}" == "report" ]
         then
             pushd sampleRecords/
             # flush the browse cache
