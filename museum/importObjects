@@ -9,7 +9,7 @@ pushd `dirname "$0"`>/dev/null
 source ../env
 
 # perform pre-execution checks
-checkConfig
+checkConfig dbsettings
 checkCollectiveAccess
 checkGdrive
 
