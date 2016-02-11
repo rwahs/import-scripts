@@ -18,6 +18,6 @@ SELECT
     ItemType,
     PrimaryKey_Object_Table
 FROM
-    Objects
+    ObjectsExport
 WHERE
     PrimaryKey_Object_Table IN (25580, 25579);

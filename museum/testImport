@@ -9,7 +9,7 @@ then
     echo "    report:    populate the destination data reports. You probably don't want to run this without nuke"
     echo "               You probably don't want to run this without nuke or if you have more than one table"
     echo "    tableList: spaceDelimited list of field groups to load test data for. Examples:"
-    echo "               baseObject"
+    echo "               baseObject adminDonor"
     exit 1
 fi
 report=''
@@ -28,7 +28,7 @@ do
     else
         echo "Processing ${fieldGroup}"
         ./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/${fieldGroup}.sql`"
-        if [ "${report}-" == "report" ]
+        if [ "${report-}" == "report" ]
         then
             pushd sampleRecords/
             # flush the browse cache
