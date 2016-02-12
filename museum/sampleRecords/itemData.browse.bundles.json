@@ -27,9 +27,9 @@
         },
         "ca_objects.StatementOfSignificance": {},
         "ca_objects.Materials": {},
-        "ca_objects.Dimensions": {},
-        "ca_objects.Classification": {
-            "convertCodesToDisplayText": true
+        "ca_objects.Dimensions.DimensionsValue": {},
+        "classificationHierarchy": {
+            "template": "^ca_list_items.hierarchy.preferred_labels.name_singular"
         }
     }
 }
