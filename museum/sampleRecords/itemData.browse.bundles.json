@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "status_facet": [
+            0
+        ]
+    },
+    "bundles": {
+        "ca_objects.Description": {},
+        "ca_objects.MakersMarks": {},
+        "ca_objects.ItemDates": {},
+        "ca_objects.EarliestYear": {},
+        "ca_objects.LatestYear": {},
+        "ca_objects.HistoricalDetails": {},
+        "ca_objects.ResearchBy": {},
+        "ca_objects.BibliographReferences": {},
+        "ca_objects.Importance": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.SignificanceCriteria": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.ComparativeCriteria": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.PhysicalCondition": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.StatementOfSignificance": {},
+        "ca_objects.Materials": {},
+        "ca_objects.Dimensions": {},
+        "ca_objects.Classification": {
+            "convertCodesToDisplayText": true
+        }
+    }
+}
