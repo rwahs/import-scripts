@@ -1,0 +1,7 @@
+{
+  "list": "PhysicalCondition",
+  "listItemType": "concept",
+  "matchOn": [
+    "label"
+  ]
+}
