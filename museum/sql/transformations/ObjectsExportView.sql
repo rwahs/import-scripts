@@ -55,7 +55,13 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.OtherNum), '')                       AS OtherNum,
         NULLIF(TRIM(o.PhotoNum), '')                       AS PhotoNum,
         NULLIF(TRIM(o.PhysicalCondition), '')              AS PhysicalCondition,
-        NULLIF(TRIM(o.PrimaryClass), '')                   AS PrimaryClass,
+#         When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
+        CASE WHEN
+            TRIM(o.SecondaryClass) = ''
+            THEN NULL
+        WHEN TRIM(o.PrimaryClass) = ''
+            THEN NULL
+        ELSE TRIM(o.PrimaryClass) END                      AS PrimaryClass,
         NULLIF(TRIM(o.QualityFailsYesNo), '')              AS QualityFailsYesNo,
         NULLIF(TRIM(o.ReceiptNum), '')                     AS ReceiptNum,
         NULLIF(TRIM(o.ReceivedBy), '')                     AS ReceivedBy,
@@ -68,7 +74,13 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.Restrictions), '')                   AS Restrictions,
         NULLIF(TRIM(o.RestrictionsDetails), '')            AS RestrictionsDetails,
         NULLIF(TRIM(o.ReturnedYesNo), '')                  AS ReturnedYesNo,
-        NULLIF(TRIM(o.SecondaryClass), '')                 AS SecondaryClass,
+        #         When TertiaryClass is blank then SecondaryClass's value is already in `Classification`
+        CASE WHEN
+            TRIM(o.TertiaryClass) = ''
+            THEN NULL
+        WHEN TRIM(o.SecondaryClass) = ''
+            THEN NULL
+        ELSE TRIM(o.SecondaryClass) END                    AS SecondaryClass,
         NULLIF(TRIM(o.Significance_Aesthetic), 0)          AS Significance_Aesthetic,
         NULLIF(TRIM(o.Significance_Historic), 0)           AS Significance_Historic,
         NULLIF(TRIM(o.SourceName), '')                     AS SourceName,
