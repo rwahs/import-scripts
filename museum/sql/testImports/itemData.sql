@@ -25,6 +25,9 @@ UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Dimensions IS NOT 
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE PrimaryClass IS NOT NULL AND PrimaryClass <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE SecondaryClass IS NOT NULL AND SecondaryClass <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE TertiaryClass IS NOT NULL AND TertiaryClass <> '' LIMIT 2)
+UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE SignificanceCriteria LIKE '%;%' LIMIT 2)
+UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE ComparativeCriteria LIKE '%;%' LIMIT 2)
+UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Classification IS NOT NULL LIMIT 2)
 
 ;
 ## now we've found the sample records use them as the source
