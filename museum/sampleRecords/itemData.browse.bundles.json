@@ -29,7 +29,7 @@
         "ca_objects.Materials": {},
         "ca_objects.Dimensions.DimensionsValue": {},
         "classificationHierarchy": {
-            "template": "^ca_list_items.hierarchy.preferred_labels.name_singular"
+            "template": "<unit relativeTo='ca_list_items'><unit relativeTo='ca_list_items.hierarchy'><unit>^idno (^item_id)</unit></unit></unit>"
         }
     }
 }

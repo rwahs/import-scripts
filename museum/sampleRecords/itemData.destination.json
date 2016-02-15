@@ -12,7 +12,7 @@
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.Materials":"Oil on hardboard",
       "ca_objects.Dimensions.DimensionsValue":"H:58.4cms W:81.8cms",
-      "classificationHierarchy":"ILLUSTRATIONS;Oil;building"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (182); Oil (183); building (184)"
     },
     {
       "object_id":"2",
@@ -25,7 +25,7 @@
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.Materials":"Oil on Masonite",
       "ca_objects.Dimensions.DimensionsValue":"H: 45.4cms W: 55.5cms.  Unframed.",
-      "classificationHierarchy":"ILLUSTRATIONS;Oil;building"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (182); Oil (183); building (184)"
     },
     {
       "object_id":"3",
@@ -41,7 +41,7 @@
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.Materials":"Etching on paper",
       "ca_objects.Dimensions.DimensionsValue":"H: 39.3cms W: 21cms. Frame:",
-      "classificationHierarchy":"Root node for Classification;ILLUSTRATIONS;Etching;building"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (182); Etching (185); building (186)"
     },
     {
       "object_id":"4",
@@ -57,7 +57,7 @@
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.Materials":"Etching on paper",
       "ca_objects.Dimensions.DimensionsValue":"H: 35.5cm W: 13.7cm. Frame:",
-      "classificationHierarchy":"Root node for Classification;ILLUSTRATIONS;Etching;building"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (182); Etching (185); building (186)"
     },
     {
       "object_id":"5",
@@ -72,7 +72,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
       "ca_objects.Dimensions.DimensionsValue":"Large size 28x22 cm",
-      "classificationHierarchy":"Building;hospitals"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Building (189); hospitals (190)"
     },
     {
       "object_id":"6",
@@ -84,7 +84,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
       "ca_objects.Dimensions.DimensionsValue":"Large size (30x25cm)",
-      "classificationHierarchy":"Building;houses"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Building (189); houses (191)"
     },
     {
       "object_id":"7",
@@ -96,7 +96,7 @@
       "ca_objects.Importance":"State",
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Dimensions.DimensionsValue":"Imperial size (25x19 cm)",
-      "classificationHierarchy":"PLACE;Building;description"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Building (189); description (193)"
     },
     {
       "object_id":"8",
@@ -109,7 +109,7 @@
       "ca_objects.PhysicalCondition":"1",
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Dimensions.DimensionsValue":"Imperial size 17cm x 22cm",
-      "classificationHierarchy":"PLACE;Land;rottnest island"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Land (195); rottnest island (196)"
     },
     {
       "object_id":"9",
@@ -120,7 +120,7 @@
       "ca_objects.ItemDates":"1936",
       "ca_objects.BibliographReferences":"Western Australian Historical Society &amp; P.M.G.",
       "ca_objects.Materials":"1868 letterbox with bronze plaque",
-      "classificationHierarchy":"Root node for Classification;MEMORIALS;Plaques"
+      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (198); Plaques (199)"
     },
     {
       "object_id":"10",
@@ -130,7 +130,7 @@
       "ca_objects.Description":"William de Vlamingh : Inscription reads \"William de Vlamingh Dutch Navigator who visited this island on the 30th December 1696 and named it Rottenest Island.\"  Located on Rottnest.",
       "ca_objects.ItemDates":"1935",
       "ca_objects.BibliographReferences":"Rottnest Board of Control and Western Australian Historical Society",
-      "classificationHierarchy":"Root node for Classification;MEMORIALS;Plaques"
+      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (198); Plaques (199)"
     },
     {
       "object_id":"11",
@@ -143,7 +143,7 @@
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Dimensions.DimensionsValue":"Carte de visite",
-      "classificationHierarchy":"Root node for Classification;PERSON;Group"
+      "classificationHierarchy":"Root node for Classification (179); PERSON (200); Group (201)"
     },
     {
       "object_id":"12",
@@ -155,7 +155,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Scientific or Research;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Social: \nScientific: \nHistoric:",
       "ca_objects.Dimensions.DimensionsValue":"H: 12 cm. : W: 29 cm.",
-      "classificationHierarchy":"Root node for Classification;PLACE;Fremantle;view of harbour"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Fremantle (202); view of harbour (203)"
     },
     {
       "object_id":"13",
@@ -169,7 +169,7 @@
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Materials":"Wood, cotton, metal",
       "ca_objects.Dimensions.DimensionsValue":"39.5cms x 23.8cms x 9.4cms",
-      "classificationHierarchy":"Root node for Classification;DOMESTIC EQUIPMENT;Writing equipment;desks"
+      "classificationHierarchy":"Root node for Classification (179); DOMESTIC EQUIPMENT (205); Writing equipment (206); desks (207)"
     },
     {
       "object_id":"14",
@@ -182,7 +182,7 @@
       "ca_objects.StatementOfSignificance":"Aesthetic: \nSocial:",
       "ca_objects.Materials":"Cotton",
       "ca_objects.Dimensions.DimensionsValue":"W:130cms; L:222cms; Width of lace: 7.5cms",
-      "classificationHierarchy":"Root node for Classification;MANCHESTER;Bedding;sheets"
+      "classificationHierarchy":"Root node for Classification (179); MANCHESTER (209); Bedding (210); sheets (211)"
     },
     {
       "object_id":"15",
@@ -196,7 +196,7 @@
       "ca_objects.StatementOfSignificance":"Social: \nAesthetic:",
       "ca_objects.Materials":"Wood, metal.",
       "ca_objects.Dimensions.DimensionsValue":"L: 27.7 cm x  W: 27.7 cm x H: 27.7 cm",
-      "classificationHierarchy":"Root node for Classification;RECREATIONS;Games;cribbage board"
+      "classificationHierarchy":"Root node for Classification (179); RECREATIONS (212); Games (213); cribbage board (214)"
     },
     {
       "object_id":"16",
@@ -210,7 +210,7 @@
       "ca_objects.ComparativeCriteria":"Provenance;Condition",
       "ca_objects.StatementOfSignificance":"social",
       "ca_objects.Dimensions.DimensionsValue":"H: 9cm.; W: 12 cm.",
-      "classificationHierarchy":"Root node for Classification;GROUP;Picnic;coolgardie"
+      "classificationHierarchy":"Root node for Classification (179); GROUP (216); Picnic (217); coolgardie (218)"
     },
     {
       "object_id":"17",
@@ -226,7 +226,7 @@
       "ca_objects.ComparativeCriteria":"Rarity",
       "ca_objects.StatementOfSignificance":"Rarity: Cocked hat\/tricorne C1770 in excellent condition",
       "ca_objects.Materials":"corded silk",
-      "classificationHierarchy":"COSTUME;Male headwear;tricorne"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (219); Male headwear (220); tricorne (221)"
     },
     {
       "object_id":"18",
@@ -239,7 +239,7 @@
       "ca_objects.StatementOfSignificance":"Historic: \nCondition:  Good",
       "ca_objects.Materials":"Card board",
       "ca_objects.Dimensions.DimensionsValue":"PC, H:912cm ; W:9cm",
-      "classificationHierarchy":"Root node for Classification;PLACE;Grave"
+      "classificationHierarchy":"Root node for Classification (179); PLACE (188); Grave (222)"
     },
     {
       "object_id":"19",
@@ -269,7 +269,7 @@
       "ca_objects.SignificanceCriteria":"Scientific or Research",
       "ca_objects.StatementOfSignificance":"Scientific:",
       "ca_objects.Dimensions.DimensionsValue":"H: 5 cm., W: 8 cm.",
-      "classificationHierarchy":"Root node for Classification;FAUNA;Native;mountain devil"
+      "classificationHierarchy":"Root node for Classification (179); FAUNA (223); Native (224); mountain devil (225)"
     },
     {
       "object_id":"21",
@@ -285,7 +285,7 @@
       "ca_objects.ComparativeCriteria":"Interpretive Potential",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial: \nInterpretive:",
       "ca_objects.Materials":"Cardboard",
-      "classificationHierarchy":"Root node for Classification;PORTRAIT;Couple;aboriginal australians"
+      "classificationHierarchy":"Root node for Classification (179); PORTRAIT (226); Couple (227); aboriginal australians (228)"
     },
     {
       "object_id":"22",
@@ -300,7 +300,7 @@
       "ca_objects.StatementOfSignificance":"Provenance: Mollie Bentley papers",
       "ca_objects.Materials":"paper",
       "ca_objects.Dimensions.DimensionsValue":"H;9cm W:7cm",
-      "classificationHierarchy":"Individual;edward edwards"
+      "classificationHierarchy":"Root node for Classification (179); PERSON (200); Individual (229); edward edwards (230)"
     },
     {
       "object_id":"23",
@@ -315,7 +315,7 @@
       "ca_objects.StatementOfSignificance":"Rarity: Heritage item",
       "ca_objects.Materials":"sateen, silk net, beading, hooks",
       "ca_objects.Dimensions.DimensionsValue":"H:130cm W:196cm",
-      "classificationHierarchy":"Root node for Classification;COSTUME;Female;dress, evening"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (219); Female (231); dress, evening (232)"
     },
     {
       "object_id":"24",
@@ -324,12 +324,12 @@
       "display_label":"GREETING CARD WITH PAINTING OF CARNARVON DRY RIVER BED",
       "ca_objects.Description":"Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. \/Paul, paralysed in the arms by poliomyelitis, paints with his foot.\nWith Best Wishes\/for Christmas\/and the New Year\nHandwritten message in black ink",
       "ca_objects.MakersMarks":"painting by Paul Berry for Paraplegic Association of WA",
-      "ca_objects.ComparativeCriteria":"representativeness",
+      "ca_objects.ComparativeCriteria":"Representativeness",
       "ca_objects.PhysicalCondition":"2",
       "ca_objects.StatementOfSignificance":"Representativeness: Greeting card with painting of Carnarvon done for Paraplegic Association of WA",
       "ca_objects.Materials":"paper, printing ink and writing ink",
       "ca_objects.Dimensions.DimensionsValue":"10 cm x 5 cm",
-      "classificationHierarchy":"Root node for Classification;PLACES;Carnarvon;dry river bed"
+      "classificationHierarchy":"Root node for Classification (179); PLACES (233); Carnarvon (234); dry river bed (235)"
     },
     {
       "object_id":"25",
@@ -341,7 +341,7 @@
       "ca_objects.StatementOfSignificance":"Interpretive: Photograph of Nurse Pearl Ashwin one of the first Aboriginal women in Meekatharra to become a registered nurse",
       "ca_objects.Materials":"photographic paper and printing ink",
       "ca_objects.Dimensions.DimensionsValue":"W:10 x H 14",
-      "classificationHierarchy":"Root node for Classification;PERSON;Individual;ashwin pearl"
+      "classificationHierarchy":"Root node for Classification (179); PERSON (200); Individual (229); ashwin pearl (236)"
     },
     {
       "object_id":"26",
@@ -353,10 +353,10 @@
       "ca_objects.EarliestYear":"1940",
       "ca_objects.LatestYear":"1949",
       "ca_objects.SignificanceCriteria":"Historic",
-      "ca_objects.ComparativeCriteria":"representativeness",
+      "ca_objects.ComparativeCriteria":"Representativeness",
       "ca_objects.StatementOfSignificance":"Historic: \nRepresentativeness:",
       "ca_objects.Materials":"35 mm negative",
-      "classificationHierarchy":"Root node for Classification;COMMUNICATION;Postal;pmg light truck"
+      "classificationHierarchy":"Root node for Classification (179); COMMUNICATION (237); Postal (238); pmg light truck (239)"
     }
   ]
 }
