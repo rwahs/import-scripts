@@ -1,0 +1,7 @@
+{
+  "entityType": "individual",
+  "relationshipType": "related",
+  "matchOn": [
+    "idno", "label"
+  ]
+}

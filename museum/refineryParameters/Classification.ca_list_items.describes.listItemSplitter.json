@@ -1,0 +1,52 @@
+{
+    "list": "Classification",
+    "listItemType": "concept",
+    "relationshipType": "described",
+    "attributes": {
+        "is_enabled": true,
+        "status": "completed"
+    },
+    "matchOn": [
+        "label"
+    ],
+    "parents": [
+        {
+            "name": "^SecondaryClass",
+            "type": "concept",
+            "idno": "^SecondaryClass",
+            "attributes": {
+                "is_enabled": true,
+                "status": "completed"
+            },
+            "rules": [
+                {
+                    "trigger": "\"^SecondaryClass\" IN [\"-\",\"?\", \"^Classification\"]",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "^PrimaryClass",
+            "type": "concept",
+            "idno": "^PrimaryClass",
+            "attributes": {
+                "is_enabled": true,
+                "status": "completed"
+            },
+            "rules": [
+                {
+                    "trigger": "\"^PrimaryClass\" IN [\"-\",\"?\", \"^Classification\"]",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
