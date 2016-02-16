@@ -54,5 +54,5 @@ SELECT
 FROM
     SubjectsExport
 WHERE
-    s_SubjectID IN(105,36,202,200,104,142,124,106)
+    s_SubjectID IN(105,36,200,104,142,202,124,106)
 ;

@@ -13,7 +13,8 @@
       "ca_occurrences.SubjectDates":"1910-1980",
       "ca_occurrences.LastEditBy":"JILLM",
       "ca_occurrences.LastEditDate":"1 January 2001",
-      "ca_objects":"A1986.52",
+      "ca_objects.idno":"A1986.52",
+      "ca_objects.type_id":"Artwork",
       "ca_objects_x_occurrences.Association":"Worked weather bureau",
       "ca_objects_x_occurrences.SubjectDates":"1939-1945",
       "ca_objects_x_occurrences.LegacyID":"39"
@@ -29,9 +30,14 @@
       "ca_occurrences.LegacyID":"104",
       "ca_occurrences.LastEditBy":"JILLM",
       "ca_occurrences.LastEditDate":"1 January 2001",
-      "ca_objects":"A1986.138l",
+      "ca_objects.idno":"A1986.138l",
+      "ca_objects.type_id":"Artwork",
       "ca_objects_x_occurrences.Association":"artist",
-      "ca_objects_x_occurrences.LegacyID":"128"
+      "ca_objects_x_occurrences.LegacyID":"128",
+      "ca_occurrences_x_occurrences.Association":"Josephine is wife of Henry Charles Princep",
+      "ca_occurrences_x_occurrences.LegacyID":"1",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"2",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"3"
     },
     {
       "occurrence_id":"3",
@@ -40,7 +46,11 @@
       "display_label":"Bussell, Josephine",
       "ca_occurrences.type_id":"Person",
       "ca_occurrences.idno":"Bussell, Josephine",
-      "ca_occurrences.preferred_labels":"Bussell, Josephine"
+      "ca_occurrences.preferred_labels":"Bussell, Josephine",
+      "ca_occurrences_x_occurrences.Association":"Josephine is wife of Henry Charles Princep",
+      "ca_occurrences_x_occurrences.LegacyID":"1",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"2",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"3"
     },
     {
       "occurrence_id":"4",
@@ -55,10 +65,16 @@
       "ca_occurrences.LastEditBy":"JILLM",
       "ca_occurrences.LastEditDate":"1 January 2001",
       "ca_occurrences.Description":"Cummins joined the WA Police Force in 1922.  He was a well-known WA artist.  In 1939 he was commissioned by the 'Western Mail' to complete a series of drawings of historic homesteads.",
-      "ca_objects":"A1996.50gg",
+      "ca_objects.idno":"A1996.50gg",
+      "ca_objects.type_id":"Artwork",
       "ca_objects_x_occurrences.Association":"creator of artwork. In 1939 he was commissioned by the 'Western Mail' to complete a series of drawings of historic homesteads.  This drawing is part of the series.",
       "ca_objects_x_occurrences.SubjectDates":"1897-",
-      "ca_objects_x_occurrences.LegacyID":"129"
+      "ca_objects_x_occurrences.LegacyID":"129",
+      "ca_occurrences_x_occurrences.Association":"Cummins was an artist in a series published by the Western Mail",
+      "ca_occurrences_x_occurrences.SubjectDates":"1939",
+      "ca_occurrences_x_occurrences.LegacyID":"4",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"4",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"5"
     },
     {
       "occurrence_id":"5",
@@ -71,10 +87,16 @@
       "ca_occurrences.LegacyID":"106",
       "ca_occurrences.LastEditBy":"JILLM",
       "ca_occurrences.LastEditDate":"1 January 2001",
-      "ca_objects":"A1996.50gg",
+      "ca_objects.idno":"A1996.50gg",
+      "ca_objects.type_id":"Artwork",
       "ca_objects_x_occurrences.Association":"publisher of the series of artworks",
       "ca_objects_x_occurrences.SubjectDates":"1939",
-      "ca_objects_x_occurrences.LegacyID":"130"
+      "ca_objects_x_occurrences.LegacyID":"130",
+      "ca_occurrences_x_occurrences.Association":"Cummins was an artist in a series published by the Western Mail",
+      "ca_occurrences_x_occurrences.SubjectDates":"1939",
+      "ca_occurrences_x_occurrences.LegacyID":"4",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"4",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"5"
     },
     {
       "occurrence_id":"6",
@@ -101,9 +123,11 @@
       "ca_occurrences.LastEditBy":"KOLP",
       "ca_occurrences.LastEditDate":"1 January 2011",
       "ca_occurrences.Description":"Leeuwin Lighthouse opened 1896",
-      "ca_objects":"P1999.589;P1999.590;P1999.591;P1999.592;P1999.604;P1999.605;P1999.641",
+      "ca_objects.idno":"P1999.589;P1999.590;P1999.591;P1999.592;P1999.604;P1999.605;P1999.641",
+      "ca_objects.type_id":"Photograph;Photograph;Photograph;Photograph;Photograph;Photograph;Photograph",
       "ca_objects_x_occurrences.Association":"Photograph of Leeuwin Lighthouse;Photograph of Leeuwin Lighthouse;photograph of picnic at opening of Leeuwin Lighthouse;photograph of picnic at opening of Leeuwin Lighthouse;scene of bay;Deepdene;Dedication of Cape Leeuwin Lighthouse",
       "ca_objects_x_occurrences.SubjectDates":";;;1896;;;1896",
+      "ca_objects_x_occurrences.effective_date":";;;;;;",
       "ca_objects_x_occurrences.LegacyID":"273;276;277;279;287;288;353"
     },
     {
@@ -117,10 +141,15 @@
       "ca_occurrences.LegacyID":"200",
       "ca_occurrences.LastEditBy":"ValH",
       "ca_occurrences.LastEditDate":"1 January 2013",
-      "ca_objects":"C1933.20",
+      "ca_objects.idno":"C1933.20",
+      "ca_objects.type_id":"Costume",
       "ca_objects_x_occurrences.Association":"Costume of Amelia",
       "ca_objects_x_occurrences.SubjectDates":"1840-1860",
-      "ca_objects_x_occurrences.LegacyID":"887"
+      "ca_objects_x_occurrences.LegacyID":"887",
+      "ca_occurrences_x_occurrences.Association":"Amelia was the daughter of Georgiana",
+      "ca_occurrences_x_occurrences.LegacyID":"15",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"8",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"9"
     },
     {
       "occurrence_id":"9",
@@ -130,7 +159,11 @@
       "ca_occurrences.type_id":"Person",
       "ca_occurrences.idno":"MOLLOY, Georgiana",
       "ca_occurrences.preferred_labels":"MOLLOY, Georgiana",
-      "ca_occurrences.LegacyID":"202"
+      "ca_occurrences.LegacyID":"202",
+      "ca_occurrences_x_occurrences.Association":"Amelia was the daughter of Georgiana",
+      "ca_occurrences_x_occurrences.LegacyID":"15",
+      "ca_occurrences_x_occurrences.occurrence_left_id":"8",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"9"
     }
   ]
 }

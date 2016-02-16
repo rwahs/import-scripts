@@ -1,6 +1,6 @@
 {
     "objectType": "^o_ItemType",
-    "relationshipType": "describes",
+    "relationshipType": "depicts",
     "matchOn": [
         "idno"
     ],

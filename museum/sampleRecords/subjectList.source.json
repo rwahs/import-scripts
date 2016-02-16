@@ -1,7 +1,6 @@
 [{
   "s_SubjectID": 36,
   "s_Dates": "1910-1980",
-  "s_HeritageSite": "0",
   "s_LastEditBy": "JILLM",
   "s_LastEditDate": "2001-1",
   "s_SubjectName": "Anderson, ND",
@@ -14,7 +13,6 @@
  },
  {
   "s_SubjectID": 104,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "JILLM",
   "s_LastEditDate": "2001-1",
   "s_SubjectName": "PRINSEP, Henry Charles (Bonchop]",
@@ -32,7 +30,6 @@
  {
   "s_SubjectID": 105,
   "s_Dates": "1897-",
-  "s_HeritageSite": "0",
   "s_LastEditBy": "JILLM",
   "s_LastEditDate": "2001-1",
   "s_SubjectDescription": "Cummins joined the WA Police Force in 1922.  He was a well-known WA artist.  In 1939 he was commissioned by the 'Western Mail' to complete a series of drawings of historic homesteads.",
@@ -52,7 +49,6 @@
  },
  {
   "s_SubjectID": 106,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "JILLM",
   "s_LastEditDate": "2001-1",
   "s_SubjectName": "Western Mail",
@@ -71,7 +67,6 @@
  },
  {
   "s_SubjectID": 124,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KRAV",
   "s_LastEditDate": "2009-1",
   "s_SubjectDescription": "Cattle",
@@ -81,7 +76,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -94,7 +88,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -107,7 +100,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -120,7 +112,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -134,7 +125,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -147,7 +137,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -160,7 +149,6 @@
  },
  {
   "s_SubjectID": 142,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "KOLP",
   "s_LastEditDate": "2011-1",
   "s_SubjectDescription": "Leeuwin Lighthouse opened 1896",
@@ -174,7 +162,6 @@
  },
  {
   "s_SubjectID": 200,
-  "s_HeritageSite": "0",
   "s_LastEditBy": "ValH",
   "s_LastEditDate": "2013-1",
   "s_SubjectName": "MOLLOY Amelia",
@@ -192,7 +179,6 @@
  },
  {
   "s_SubjectID": 202,
-  "s_HeritageSite": "0",
   "s_SubjectName": "MOLLOY, Georgiana",
   "s_SubjectType": "Person",
   "ss_SubjectSubjectID": 16,

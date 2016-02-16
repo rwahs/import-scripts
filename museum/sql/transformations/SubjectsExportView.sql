@@ -2,7 +2,7 @@ CREATE OR REPLACE VIEW SubjectsExport AS
 SELECT
     NULLIF(s.SubjectID,'') AS s_SubjectID,
     NULLIF(s.Dates,'') AS s_Dates,
-    NULLIF(s.HeritageSite,'') AS s_HeritageSite,
+    NULLIF(s.HeritageSite,0) AS s_HeritageSite,
     NULLIF(s.LastEditBy,'') AS s_LastEditBy,
     NULLIF(s.LastEditDate,'0000-00-00 00:00:00') AS s_LastEditDate,
     NULLIF(s.LoadSubjectID,'') AS s_LoadSubjectID,

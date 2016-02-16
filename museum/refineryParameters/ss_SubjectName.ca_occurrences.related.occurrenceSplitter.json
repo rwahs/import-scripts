@@ -1,6 +1,6 @@
 {
     "occurrenceType": "^rs_SubjectType",
-    "relationshipType": "describes",
+    "relationshipType": "related",
     "matchOn": [
         "idno"
     ],
