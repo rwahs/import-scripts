@@ -150,6 +150,3 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         LEFT JOIN Methods m ON (o.Method = m.Method)
         LEFT JOIN Sources s ON (o.SourceName = s.SourceName)
     ORDER BY o.PrimaryKey_Object_Table;
-SELECT DISTINCT SourceName
-FROM ObjectsExport
-WHERE SourceName LIKE '<%';
