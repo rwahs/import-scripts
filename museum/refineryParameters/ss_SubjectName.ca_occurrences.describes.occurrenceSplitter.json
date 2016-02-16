@@ -1,0 +1,14 @@
+{
+    "occurrenceType": "^rs_SubjectType",
+    "relationshipType": "describes",
+    "matchOn": [
+        "idno"
+    ],
+    "interstitial": {
+        "Association": "^ss_Association",
+        "SubjectDates": "^ss_Dates",
+        "sdatetime":  "^ss_DateMin",
+        "edatetime":  "^ss_DateMax",
+        "LegacyID": "^ss_SubjectSubjectID"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "status_facet": [
+            0
+        ]
+    },
+    "bundles": {
+        "ca_occurrences.type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_occurrences.idno": {},
+        "ca_occurrences.preferred_labels": {},
+        "ca_occurrences.LegacyID": {},
+        "ca_occurrences.SubjectDates": {},
+        "ca_occurrences.LastEditBy": {},
+        "ca_occurrences.LastEditDate": {},
+        "ca_occurrences.Description": {},
+        "ca_objects": {},
+        "ca_objects_x_occurrences.Association": {},
+        "ca_objects_x_occurrences.SubjectDates": {},
+        "ca_objects_x_occurrences.sdatetime": {},
+        "ca_objects_x_occurrences.edatetime": {},
+        "ca_objects_x_occurrences.LegacyID": {},
+        "ca_occurrences": {},
+        "ca_occurrences_x_occurrences.Association": {},
+        "ca_occurrences_x_occurrences.SubjectDates": {},
+        "ca_occurrences_x_occurrences.sdatetime": {},
+        "ca_occurrences_x_occurrences.edatetime": {},
+        "ca_occurrences_x_occurrences.LegacyID": {},
+        "ca_occurrences.type_id ": {}
+    }
+}
