@@ -65,7 +65,7 @@ done
 shift $(($OPTIND - 1))
 importScript=$1
 shift
-if [ ! ${flags} == "" ]
+if [ ! "${flags}" == "" ]
 then
     ./${importScript} "${flags}"
 fi
