@@ -79,7 +79,7 @@ do
         pushd sampleRecords/
         # flush the browse cache
         redis-cli KEYS "*BrowseService*"| xargs --no-run-if-empty redis-cli DEL
-        ./getSampleRecords ${dataCategory} "${table}"
+        ./getSampleRecords "${dataCategory}" "${table}"
         popd
     fi
 done
