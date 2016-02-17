@@ -62,7 +62,7 @@ while getopts :nlrt:p:h param; do
     esac
 done
 # remove the flags from the argument array
-shift $(expr $OPTIND - 1 )
+shift $(($OPTIND - 1))
 importScript=$1
 shift
 if [ ! ${flags} == "" ]
