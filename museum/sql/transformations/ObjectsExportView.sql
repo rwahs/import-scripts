@@ -55,7 +55,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.OtherNum), '')                              AS OtherNum,
         NULLIF(TRIM(o.PhotoNum), '')                              AS PhotoNum,
         NULLIF(TRIM(o.PhysicalCondition), '')                     AS PhysicalCondition,
-        #         When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
+        # When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
         CASE WHEN
             TRIM(o.SecondaryClass) = ''
             THEN NULL
@@ -74,7 +74,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.Restrictions), '')                          AS Restrictions,
         NULLIF(TRIM(o.RestrictionsDetails), '')                   AS RestrictionsDetails,
         NULLIF(TRIM(o.ReturnedYesNo), '')                         AS ReturnedYesNo,
-        #         When TertiaryClass is blank then SecondaryClass's value is already in `Classification`
+        # When TertiaryClass is blank then SecondaryClass's value is already in `Classification`
         CASE WHEN
             TRIM(o.TertiaryClass) = ''
             THEN NULL
@@ -104,7 +104,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.WhyReminder), '')                           AS WhyReminder,
         NULLIF(TRIM(o.XternalReference), '')                      AS XternalReference,
         NULLIF(TRIM(o.Xtra), '')                                  AS Xtra,
-        #         Synthesised fields or join fields
+        # Synthesised fields or join fields
         NULLIF(TRIM(m.MethodDescription), '')                     AS MethodDescription,
 
         NULLIF(CONCAT_WS(';',
