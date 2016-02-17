@@ -1,40 +1,85 @@
 #!/usr/bin/env bash
 set -e
 set -u
-if [ $# -eq 0 ]
-then
-    echo "Usage: $0 [nuke] [load] [report] <tableList>"
-    echo "    nuke:      reset your installation first"
-    echo "    load:      load the import mapping"
-    echo "    report:    populate the destination data reports. You probably don't want to run this without nuke"
-    echo "               You probably don't want to run this without nuke or if you have more than one table"
-    echo "    tableList: spaceDelimited list of field groups to load test data for. Examples:"
-    echo "               baseObject adminDonor"
+scriptName="$0"
+function showHelp {
+    echo "Usage: ${scriptName} [-n] [-l] [-r] [-t <table] [-p <primary_key>] <importScript> <dataCategory>"
+    echo "    -n:               nuke - reset your installation first"
+    echo "    -l:               load - load the import mapping"
+    echo "    -r:               report - populate the destination data reports. You probably don't want to run this without nuke"
+    echo "                      You probably don't want to run this without nuke or if you have more than one table"
+    echo "    -t <table>:       table - table name you want to test import for. Example: ca_objects"
+    echo "    -p <primary_key>: primary key to use when querying for source data"
+
+    echo "    importScript:     Import script to test the import for. Example: importObjects"
+    echo "    dataCategory:     spaceDelimited list of field groups to load test data for. Examples:"
+    echo "                      baseObject adminDonor"
+
+}
+if [ $# -eq 0 ]; then
+    echo "No argument found">&2
+    showHelp >&2
     exit 1
 fi
+
 report=''
-for fieldGroup in "$@"
+table='ca_objects'
+primary_key='PrimaryKey_Object_Table'
+flags=''
+
+while getopts :nlrt:p:h param; do
+    case ${param} in
+
+        n)
+            reset-ca
+            flags=-dm
+        ;;
+        l)
+            flags=-m
+        ;;
+        r)
+            report="report"
+        ;;
+        t)
+            table="${OPTARG}"
+        ;;
+        p)
+            primary_key="${OPTARG}"
+        ;;
+        h)
+            showHelp >&2
+        ;;
+        \?)
+            echo "Error: Invalid option '-${OPTARG}' provided to the 'build' task." >&2
+            showHelp >&2
+            exit 1
+        ;;
+        :)
+            echo "Error: Option '-${OPTARG}' missing parameter value." >&2
+            showHelp
+            exit 1
+        ;;
+    esac
+done
+# remove the flags from the argument array
+shift $(($OPTIND - 1))
+importScript=$1
+shift
+if [ ! "${flags}" == "" ]
+then
+    ./${importScript} "${flags}"
+fi
+for dataCategory in "$@"
 do
-    if [ "${fieldGroup}" == "nuke" ]
+    echo "Processing ${dataCategory}"
+    query=`grep "${primary_key} IN" ./sql/testImports/${dataCategory}.sql`
+    ./"${importScript}" -f -q "${query}"
+    if [ "${report-}" == "report" ]
     then
-        reset-ca
-        ./importObjects -d -m
-    elif [ "${fieldGroup}" == "load" ]
-    then
-        ./importObjects -m
-    elif [ "${fieldGroup}" == "report" ]
-    then
-        report="report"
-    else
-        echo "Processing ${fieldGroup}"
-        ./importObjects -f -q "`grep 'PrimaryKey_Object_Table IN' ./sql/testImports/${fieldGroup}.sql`"
-        if [ "${report-}" == "report" ]
-        then
-            pushd sampleRecords/
-            # flush the browse cache
-            redis-cli KEYS "*BrowseService*"| xargs --no-run-if-empty redis-cli DEL
-            ./getSampleRecords ${fieldGroup} ca_objects
-            popd
-        fi
+        pushd sampleRecords/
+        # flush the browse cache
+        redis-cli KEYS "*BrowseService*"| xargs --no-run-if-empty redis-cli DEL
+        ./getSampleRecords "${dataCategory}" "${table}"
+        popd
     fi
 done

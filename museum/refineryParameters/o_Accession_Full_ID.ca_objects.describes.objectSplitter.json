@@ -1,0 +1,14 @@
+{
+    "objectType": "^o_ItemType",
+    "relationshipType": "depicts",
+    "matchOn": [
+        "idno"
+    ],
+    "interstitial": {
+        "Association": "^os_Association",
+        "SubjectDates": "^os_Dates",
+        "sdatetime":  "^os_DateMin",
+        "edatetime":  "^os_DateMax",
+        "LegacyID": "^os_ObjectSubjectID"
+    }
+}

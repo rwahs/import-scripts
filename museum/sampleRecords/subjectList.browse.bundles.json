@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "status_facet": [
+            0
+        ]
+    },
+    "bundles": {
+        "ca_occurrences.type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_occurrences.idno": {},
+        "ca_occurrences.preferred_labels": {},
+        "ca_occurrences.LegacyID": {},
+        "ca_occurrences.SubjectDates": {},
+        "ca_occurrences.LastEditBy": {},
+        "ca_occurrences.LastEditDate": {},
+        "ca_occurrences.Description": {},
+        "ca_objects.idno": {},
+        "ca_objects.type_id": {
+            "convertCodesToDisplayText": 1
+        },
+        "ca_objects_x_occurrences.Association": {},
+        "ca_objects_x_occurrences.SubjectDates": {},
+        "ca_objects_x_occurrences.sdatetime": {},
+        "ca_objects_x_occurrences.edatetime": {},
+        "ca_objects_x_occurrences.effective_date": {},
+        "ca_objects_x_occurrences.LegacyID": {},
+        "ca_occurrences_x_occurrences.Association": {},
+        "ca_occurrences_x_occurrences.SubjectDates": {},
+        "ca_occurrences_x_occurrences.sdatetime": {},
+        "ca_occurrences_x_occurrences.edatetime": {},
+        "ca_occurrences_x_occurrences.effective_date": {},
+        "ca_occurrences_x_occurrences.LegacyID": {},
+        "ca_occurrences_x_occurrences.occurrence_left_id": {},
+        "ca_occurrences_x_occurrences.occurrence_right_id": {}
+    }
+}
