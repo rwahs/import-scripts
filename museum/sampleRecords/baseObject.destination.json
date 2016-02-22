@@ -7,7 +7,6 @@
       "idno":"P2013.1577",
       "display_label":"TAMMIN, ST MARKS CHURCH",
       "type_id":"Photograph",
-      "ca_objects.ItemType":"Photograph",
       "ca_objects.LegacyID":"25579"
     },
     {
@@ -16,7 +15,6 @@
       "idno":"P2013.1578",
       "display_label":"TAMMIN HOTEL",
       "type_id":"Photograph",
-      "ca_objects.ItemType":"Photograph",
       "ca_objects.LegacyID":"25580"
     }
   ]

@@ -8,9 +8,6 @@
         "type_id": {
             "convertCodesToDisplayText": true
         },
-        "ca_objects.ItemType": {
-            "convertCodesToDisplayText": true
-        },
         "ca_objects.LegacyID": {}
     }
 }
