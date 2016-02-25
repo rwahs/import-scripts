@@ -79,7 +79,7 @@ VALUES
     ('Library', 'Library');
 
 
-# CREATE OR REPLACE VIEW LocationHistoryExport AS
+CREATE OR REPLACE VIEW LocationHistoryExport AS
 SELECT
     NULLIF(lh.LocationHistoryID, '')                                  AS LocationHistoryID,
     NULLIF(lh.AuthorizedBy, '')                                       AS AuthorizedBy,
@@ -87,8 +87,6 @@ SELECT
     NULLIF(lh.LocationDate, '')                                       AS LocationDate,
     NULLIF(lh.LocationStatus, '')                                     AS LocationStatus,
     NULLIF(lh.PrimaryKey_Object_Table, '')                            AS PrimaryKey_Object_Table,
-    NULLIF(lh.LocationDate, '')                                       AS LocationDate,
-    NULLIF(lh.LocationStatus, '')                                     AS LocationStatus,
     NULLIF(o.Accession_Full_ID, '')                                   AS o_Accession_Full_ID,
     NULLIF(o.ItemType, '')                                            AS o_ItemType,
     IFNULL(sl.StandardisedName, NULLIF(TRIM(lh.Location), ''))        AS topLevelLocation,
