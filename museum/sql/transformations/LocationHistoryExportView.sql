@@ -90,9 +90,6 @@ CREATE OR REPLACE VIEW LocationHistoryExport AS
         NULLIF(o.Accession_Full_ID, '')                                   AS o_Accession_Full_ID,
         NULLIF(o.ItemType, '')                                            AS o_ItemType,
         IFNULL(sl.StandardisedName, NULLIF(TRIM(lh.Location), ''))        AS topLevelLocation,
-        sl.Alias,
-        sl.id,
-        LENGTH(sl.Alias),
         NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), '') AS childStorageLocation,
         CASE
         WHEN ISNULL(NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), ''))
