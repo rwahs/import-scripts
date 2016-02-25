@@ -107,6 +107,5 @@ CREATE OR REPLACE VIEW LocationHistoryExport AS
     WHERE
         ItemType NOT IN ('Photograph', 'Memorials')
     GROUP BY lh.LocationHistoryID
-    HAVING childType = 'container'
     ORDER BY
         lh.LocationHistoryID, sl.id;
