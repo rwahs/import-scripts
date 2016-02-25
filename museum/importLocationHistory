@@ -15,14 +15,14 @@ checkGdrive
 
 # setup local variables
 sourceFile=source/MosaicPlus10Data.MDB
-mapping=rwahsSubjectListMapping
-mapping_id="1zKHsF977x6SlQN7JtvnN-F4mGlNNcMClcwBAT_967zU"
-# https://docs.google.com/spreadsheets/d/1zKHsF977x6SlQN7JtvnN-F4mGlNNcMClcwBAT_967zU/edit#gid=0
+mapping=rwahsLocationHistoryMapping
+mapping_id="1qIQ9YRaICpi0euGT8HFaLuMC17l8DoCqPTCroIUyYIY"
+# https://docs.google.com/spreadsheets/d/1qIQ9YRaICpi0euGT8HFaLuMC17l8DoCqPTCroIUyYIY/edit#gid=0
 mapping_extension=xlsx
 mapping_file="${mapping}"."${mapping_extension}"
-mapping_machine_name=subjectList
+mapping_machine_name=locationHistory
 source ../conf/dbsettings
-sourceTable=SubjectsExport
+sourceTable=LocationHistoryExport
 importFormat=mysql
 logdir=importlog
 limit=0
@@ -57,7 +57,7 @@ while getopts rpdmhl:o:ifg:q: param; do
         ;;
         r)
             # refresh data
-            sqltransform SubjectsExportView.sql
+            sqltransform LocationHistoryExportView.sql
         ;;
         p)
             mysql -u"${sourceUserName}" -p"${sourcePassword}" -h"${sourceHostname}" "${sourceDatabase}" < sql/generateDataReport.sql
