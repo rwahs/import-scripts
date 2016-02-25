@@ -7,3 +7,9 @@ ADD INDEX (SourceName);
 ALTER TABLE Sources
 ADD PRIMARY KEY (SourceID),
 ADD INDEX (SourceName);
+
+ALTER TABLE LocationHistory
+ADD PRIMARY KEY (LocationHistoryID),
+ADD INDEX (PrimaryKey_Object_Table),
+ADD INDEX (LocationStatus),
+ADD INDEX (LocationDate);
