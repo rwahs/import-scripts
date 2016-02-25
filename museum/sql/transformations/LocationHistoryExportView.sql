@@ -80,36 +80,36 @@ VALUES
 
 
 CREATE OR REPLACE VIEW LocationHistoryExport AS
-SELECT
-    NULLIF(lh.LocationHistoryID, '')                                  AS LocationHistoryID,
-    NULLIF(lh.AuthorizedBy, '')                                       AS AuthorizedBy,
-    NULLIF(lh.Location, '')                                           AS Location,
-    NULLIF(lh.LocationDate, '')                                       AS LocationDate,
-    NULLIF(lh.LocationStatus, '')                                     AS LocationStatus,
-    NULLIF(lh.PrimaryKey_Object_Table, '')                            AS PrimaryKey_Object_Table,
-    NULLIF(o.Accession_Full_ID, '')                                   AS o_Accession_Full_ID,
-    NULLIF(o.ItemType, '')                                            AS o_ItemType,
-    IFNULL(sl.StandardisedName, NULLIF(TRIM(lh.Location), ''))        AS topLevelLocation,
-    sl.Alias,
-    sl.id,
-    LENGTH(sl.Alias),
-    NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), '') AS childStorageLocation,
-    CASE
-    WHEN ISNULL(NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), ''))
-        THEN NULL
-    WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%box%'
-        THEN 'box'
-    WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%draw%'
-        THEN 'drawer'
-    ELSE 'container'
-    END                                                               AS childType
-FROM
-    LocationHistory lh JOIN Objects o USING (PrimaryKey_Object_Table)
-    LEFT JOIN StandardisedLocations sl
-        ON LEFT(TRIM(lh.Location), LENGTH(sl.Alias)) = sl.Alias
-WHERE
-    ItemType NOT IN ('Photograph', 'Memorials')
-GROUP BY lh.LocationHistoryID
-HAVING childType = 'container'
-ORDER BY
-    lh.LocationHistoryID, sl.id;
+    SELECT
+        NULLIF(lh.LocationHistoryID, '')                                  AS LocationHistoryID,
+        NULLIF(lh.AuthorizedBy, '')                                       AS AuthorizedBy,
+        NULLIF(lh.Location, '')                                           AS Location,
+        NULLIF(lh.LocationDate, '')                                       AS LocationDate,
+        NULLIF(lh.LocationStatus, '')                                     AS LocationStatus,
+        NULLIF(lh.PrimaryKey_Object_Table, '')                            AS PrimaryKey_Object_Table,
+        NULLIF(o.Accession_Full_ID, '')                                   AS o_Accession_Full_ID,
+        NULLIF(o.ItemType, '')                                            AS o_ItemType,
+        IFNULL(sl.StandardisedName, NULLIF(TRIM(lh.Location), ''))        AS topLevelLocation,
+        sl.Alias,
+        sl.id,
+        LENGTH(sl.Alias),
+        NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), '') AS childStorageLocation,
+        CASE
+        WHEN ISNULL(NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), ''))
+            THEN NULL
+        WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%box%'
+            THEN 'box'
+        WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%draw%'
+            THEN 'drawer'
+        ELSE 'container'
+        END                                                               AS childType
+    FROM
+        LocationHistory lh JOIN Objects o USING (PrimaryKey_Object_Table)
+        LEFT JOIN StandardisedLocations sl
+            ON LEFT(TRIM(lh.Location), LENGTH(sl.Alias)) = sl.Alias
+    WHERE
+        ItemType NOT IN ('Photograph', 'Memorials')
+    GROUP BY lh.LocationHistoryID
+    HAVING childType = 'container'
+    ORDER BY
+        lh.LocationHistoryID, sl.id;
