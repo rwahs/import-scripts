@@ -5,7 +5,6 @@
         },
         "ca_movements.idno": {},
         "ca_movements.AuthorizedBy": {},
-        "ca_movements.Location": {},
         "ca_movements.MovementDate": {},
         "ca_movements.LocationStatus": {
             "convertCodesToDisplayText": true
@@ -14,6 +13,10 @@
         "ca_objects": {},
         "ca_objects.type_id": {
             "convertCodesToDisplayText": true
+        },
+        "locationHierarchy":{
+            "template": "^ca_storage_locations.hierarchy.preferred_labels"
+
         },
         "ca_storage_locations": {},
         "ca_storage_locations.type_id": {

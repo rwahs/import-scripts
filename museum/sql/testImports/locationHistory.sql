@@ -8,8 +8,10 @@ UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE PrimaryKey_Objec
 UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE o_Accession_Full_ID IS NOT NULL LIMIT 5)
 UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE o_ItemType IS NOT NULL LIMIT 5)
 UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE topLevelLocation IS NOT NULL LIMIT 5)
+UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE topLevelLocation IS NULL LIMIT 5)
 UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE childStorageLocation IS NOT NULL LIMIT 5)
 UNION(SELECT LocationHistoryID FROM LocationHistoryExport WHERE childType IS NOT NULL LIMIT 5)
+UNION(SELECT LocationHistoryID FROM LocationHistoryExport GROUP BY PrimaryKey_Object_Table  HAVING count(LocationHistoryID)>1 LIMIT 5)
 
 ;
 ## now we've found the sample records use them as the source
@@ -28,5 +30,5 @@ SELECT
 FROM
     LocationHistoryExport
 WHERE
-    LocationHistoryID IN(1,2,3,4,5)
+    LocationHistoryID IN(1,2,3,4,5,41,42,43,44,45,120,164,155,221,108)
 ;
