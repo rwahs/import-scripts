@@ -11,5 +11,10 @@ set -u
 # Run the subject import
 ./museum/importSubjects
 
+# Refresh source subject data, refresh the data report and load the object import mapping
+./museum/importLocationHistory -rpm
+# Run the subject import
+./museum/importLocationHistory
+
 # Rebuild the search index
 caUtils rebuild-search-index

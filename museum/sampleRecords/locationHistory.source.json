@@ -1,0 +1,66 @@
+[{
+  "LocationHistoryID": 1,
+  "AuthorizedBy": "JILLM",
+  "Location": "Tranby Room, Drawer 9",
+  "LocationDate": "2000-03-08",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 230,
+  "o_Accession_Full_ID": "A1992.95",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 9",
+  "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 2,
+  "AuthorizedBy": "JILLM",
+  "Location": "Tranby Room, Drawer 9",
+  "LocationDate": "2000-03-13",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 244,
+  "o_Accession_Full_ID": "A1992.96a",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 9",
+  "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 3,
+  "AuthorizedBy": "JILLM",
+  "Location": "Tranby Room, Drawer 9",
+  "LocationDate": "2000-03-13",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 245,
+  "o_Accession_Full_ID": "A1992.96b",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 9",
+  "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 4,
+  "AuthorizedBy": "JILLM",
+  "Location": "Tranby Room, Drawer 9",
+  "LocationDate": "2000-03-27",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 263,
+  "o_Accession_Full_ID": "A1992.96c",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 9",
+  "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 5,
+  "AuthorizedBy": "JILLM",
+  "Location": "Tranby Room, Drawer 9",
+  "LocationDate": "2000-03-27",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 264,
+  "o_Accession_Full_ID": "A1901.515d",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 9",
+  "childType": "drawer"
+ }
+]

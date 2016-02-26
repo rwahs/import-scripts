@@ -1,9 +1,4 @@
 {
-    "criteria": {
-        "status_facet": [
-            0
-        ]
-    },
     "bundles": {
         "ca_objects.Description": {},
         "ca_objects.MakersMarks": {},

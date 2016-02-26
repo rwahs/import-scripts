@@ -1,0 +1,23 @@
+{
+    "bundles": {
+        "ca_movements.type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_movements.idno": {},
+        "ca_movements.AuthorizedBy": {},
+        "ca_movements.Location": {},
+        "ca_movements.MovementDate": {},
+        "ca_movements.LocationStatus": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_movements.PrimaryKey_Object_Table": {},
+        "ca_objects": {},
+        "ca_objects.type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_storage_locations": {},
+        "ca_storage_locations.type_id": {
+            "convertCodesToDisplayText": true
+        }
+    }
+}
