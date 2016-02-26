@@ -12,9 +12,9 @@
       "ca_movements.MovementDate":"8 March 2000",
       "ca_movements.LocationStatus":"Stored",
       "ca_objects":"A1992.95",
-      "ca_objects.type_id":"24",
-      "ca_storage_locations":"Tranby room",
-      "ca_storage_locations.type_id":"room"
+      "ca_objects.type_id":"Artwork",
+      "ca_storage_locations":"Drawer 9",
+      "ca_storage_locations.type_id":"drawer"
     },
     {
       "movement_id":"2",
@@ -27,9 +27,9 @@
       "ca_movements.MovementDate":"13 March 2000",
       "ca_movements.LocationStatus":"Stored",
       "ca_objects":"A1992.96a",
-      "ca_objects.type_id":"24",
-      "ca_storage_locations":"Tranby room",
-      "ca_storage_locations.type_id":"room"
+      "ca_objects.type_id":"Artwork",
+      "ca_storage_locations":"Drawer 9",
+      "ca_storage_locations.type_id":"drawer"
     },
     {
       "movement_id":"3",
@@ -42,9 +42,9 @@
       "ca_movements.MovementDate":"13 March 2000",
       "ca_movements.LocationStatus":"Stored",
       "ca_objects":"A1992.96b",
-      "ca_objects.type_id":"24",
-      "ca_storage_locations":"Tranby room",
-      "ca_storage_locations.type_id":"room"
+      "ca_objects.type_id":"Artwork",
+      "ca_storage_locations":"Drawer 9",
+      "ca_storage_locations.type_id":"drawer"
     },
     {
       "movement_id":"4",
@@ -57,9 +57,9 @@
       "ca_movements.MovementDate":"27 March 2000",
       "ca_movements.LocationStatus":"Stored",
       "ca_objects":"A1992.96c",
-      "ca_objects.type_id":"24",
-      "ca_storage_locations":"Tranby room",
-      "ca_storage_locations.type_id":"room"
+      "ca_objects.type_id":"Artwork",
+      "ca_storage_locations":"Drawer 9",
+      "ca_storage_locations.type_id":"drawer"
     },
     {
       "movement_id":"5",
@@ -72,9 +72,9 @@
       "ca_movements.MovementDate":"27 March 2000",
       "ca_movements.LocationStatus":"Stored",
       "ca_objects":"A1901.515d",
-      "ca_objects.type_id":"24",
-      "ca_storage_locations":"Tranby room",
-      "ca_storage_locations.type_id":"room"
+      "ca_objects.type_id":"Artwork",
+      "ca_storage_locations":"Drawer 9",
+      "ca_storage_locations.type_id":"drawer"
     }
   ]
 }
