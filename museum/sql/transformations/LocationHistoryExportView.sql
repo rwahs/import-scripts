@@ -37,6 +37,8 @@ VALUES
     ('Exhibition room ,', 'Exhibition room'),
     ('Exhibition room,', 'Exhibition room'),
     ('Exhibition room', 'Exhibition room'),
+    ('Museum Room (Tranby Room),', 'Tranby room'),
+    ('Museum Room (Tranby Room)', 'Tranby room'),
     ('Museum Storeroom ,', 'Museum Store'),
     ('Museum Storeroom,', 'Museum Store'),
     ('Museum Storeroom', 'Museum Store'),
@@ -64,7 +66,6 @@ VALUES
     ('Meeting room', 'Meeting room'),
     ('Tranby room ,', 'Tranby room'),
     ('Tranby room,', 'Tranby room'),
-    ('Museum Room (Tranby Room),', 'Tranby room'),
     ('Tranby room', 'Tranby room'),
     ('T.R.,', 'Tranby room'),
     ('T.R.', 'Tranby room'),
@@ -103,19 +104,22 @@ SELECT
         # Fill in the standardised name for an item which only has a single level
         TRIM(lh.Location) = sl.Alias
         THEN sl.StandardisedName
+    WHEN
+        ISNULL(sl.StandardisedName)
+        THEN TRIM(lh.Location)
     ELSE
-        NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), '')
+        TRIM(SUBSTR(lh.Location, POSITION(sl.Alias IN lh.Location) + length(sl.Alias)))
     END                                    AS childStorageLocation,
     CASE
+    WHEN
+        ISNULL(sl.StandardisedName)
+        THEN 'container'
     WHEN TRIM(lh.Location) = sl.Alias
         THEN 'room'
-    WHEN ISNULL(NULLIF(TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)), ''))
-        THEN NULL
-    WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%box%'
+    WHEN lh.Location LIKE '%box%'
         THEN 'box'
-    WHEN TRIM(SUBSTR(TRIM(lh.Location), LENGTH(sl.Alias) + 1)) LIKE '%draw%'
+    WHEN lh.Location LIKE '%draw%'
         THEN 'drawer'
-
     ELSE 'container'
     END                                    AS childType
 FROM

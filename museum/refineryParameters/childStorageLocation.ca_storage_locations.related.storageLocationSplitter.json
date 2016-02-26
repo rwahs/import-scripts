@@ -2,7 +2,7 @@
     "storageLocationType": "^childType",
     "relationshipType": "related",
     "attributes":{
-        "idno": "%",
+        "idno": "",
         "is_enabled": true,
         "status": "completed"
     },
@@ -13,7 +13,7 @@
         {
             "name": "^topLevelLocation",
             "type": "room",
-            "idno": "%",
+            "idno": "",
             "attributes":{
                 "is_enabled": true
             }
