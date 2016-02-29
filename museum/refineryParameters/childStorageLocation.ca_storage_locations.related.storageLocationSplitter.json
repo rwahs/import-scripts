@@ -1,0 +1,23 @@
+{
+    "storageLocationType": "^childType",
+    "relationshipType": "related",
+    "attributes":{
+        "idno": "",
+        "is_enabled": true,
+        "status": "completed"
+    },
+    "matchOn": [
+        "label"
+    ],
+    "parents": [
+        {
+            "name": "^topLevelLocation",
+            "type": "room",
+            "idno": "",
+            "attributes":{
+                "is_enabled": true
+            }
+        }
+
+    ]
+}

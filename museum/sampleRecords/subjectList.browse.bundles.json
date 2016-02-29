@@ -1,9 +1,4 @@
 {
-    "criteria": {
-        "status_facet": [
-            0
-        ]
-    },
     "bundles": {
         "ca_occurrences.type_id": {
             "convertCodesToDisplayText": true

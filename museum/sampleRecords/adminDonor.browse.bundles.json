@@ -1,5 +1,4 @@
-{"criteria":{"status_facet": [0]},
-
+{
   "bundles" : {
     "ca_objects.AccessionPrefix": {},
     "ca_objects.AccessionYear": {},
