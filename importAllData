@@ -11,9 +11,9 @@ set -u
 # Run the subject import
 ./museum/importSubjects
 
-# Refresh source subject data, refresh the data report and load the object import mapping
+# Refresh source location history data, refresh the data report and load the object import mapping
 ./museum/importLocationHistory -rpm
-# Run the subject import
+# Run the location history import
 ./museum/importLocationHistory
 
 # Rebuild the search index
