@@ -8,7 +8,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.AccessionParts), '')                        AS AccessionParts,
         NULLIF(TRIM(o.Accession_Full_ID), '')                     AS Accession_Full_ID,
         NULLIF(TRIM(o.AccessionBy), '')                           AS AccessionBy,
-        NULLIF(TRIM(o.AccessionDate), '')                         AS AccessionDate,
+        NULLIF(TRIM(o.AccessionDate), '0000-00-00')               AS AccessionDate,
         NULLIF(TRIM(o.AdminText1), '')                            AS AdminText1,
         NULLIF(TRIM(o.AdminText2), '')                            AS AdminText2,
         NULLIF(TRIM(o.AmountPaid), '')                            AS AmountPaid,
@@ -25,6 +25,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.Correspondence), '')                        AS Correspondence,
         NULLIF(TRIM(o.DateReceived), '')                          AS DateReceived,
         NULLIF(TRIM(o.DeAccessionedYesNo), '')                    AS DeAccessionedYesNo,
+        NULLIF(TRIM(d.DeaccessionReason), '')                     AS DeaccessionReason,
+        NULLIF(TRIM(d.DeaccessionDisposal), '')                   AS DeaccessionDisposal,
         NULLIF(TRIM(o.Description), '')                           AS Description,
         NULLIF(TRIM(o.Dimensions), '')                            AS Dimensions,
         NULLIF(TRIM(o.EarliestYear), 0)                           AS EarliestYear,
@@ -149,4 +151,5 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         Objects o
         LEFT JOIN Methods m ON (o.Method = m.Method)
         LEFT JOIN Sources s ON (o.SourceName = s.SourceName)
+        LEFT JOIN DeAccessions d USING (Accession_Full_ID)
     ORDER BY o.PrimaryKey_Object_Table;

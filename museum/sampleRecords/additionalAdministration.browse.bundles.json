@@ -1,0 +1,17 @@
+{
+    "bundles": {
+        "ca_objects.AccessionByContainer.AccessionBy": {},
+        "ca_objects.AccessionByContainer.AccessionDate": {},
+        "ca_objects.is_deaccessioned": {},
+        "ca_objects.deaccession_notes": {},
+        "ca_objects.deaccession_type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.LastEditDate": {},
+        "ca_objects.LastEditBy": {},
+        "ca_objects.OtherNumber": {
+            "delimiter": ";"
+        },
+        "ca_storage_locations": {}
+    }
+}
