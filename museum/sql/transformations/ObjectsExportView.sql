@@ -18,6 +18,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.BibliographReferences), '')                 AS BibliographReferences,
         NULLIF(TRIM(o.CompletedYesNo), '')                        AS CompletedYesNo,
         NULLIF(TRIM(o.ConditionOnReceipt), '')                    AS ConditionOnReceipt,
+        rc.`Condition`                                            AS ConditionOnReceiptCode,
+        rc.SequenceOnForm                                         AS ConditionOnReceiptSequenceOnForm,
         NULLIF(TRIM(o.ConditionReport), '')                       AS ConditionReport,
         NULLIF(TRIM(o.ConditionSurveyedBy), '')                   AS ConditionSurveyedBy,
         NULLIF(TRIM(o.CopyrightDetails), '')                      AS CopyrightDetails,
@@ -57,6 +59,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.OtherNum), '')                              AS OtherNum,
         NULLIF(TRIM(o.PhotoNum), '')                              AS PhotoNum,
         NULLIF(TRIM(o.PhysicalCondition), '')                     AS PhysicalCondition,
+        pc.Condition                                              AS PhysicalConditionCode,
+        pc.ConditionDescription                                   AS PhysicalConditionDescription,
         # When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
         CASE WHEN
             TRIM(o.SecondaryClass) = ''
@@ -103,6 +107,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.ValuationGroup), '')                        AS ValuationGroup,
         NULLIF(TRIM(o.ValuationID), '')                           AS ValuationID,
         NULLIF(TRIM(o.VisualCondition), '')                       AS VisualCondition,
+        vc.Condition                                              AS VisualConditionCode,
+        vc.ConditionDescription                                   AS VisualConditionDescription,
         NULLIF(TRIM(o.WhyReminder), '')                           AS WhyReminder,
         NULLIF(TRIM(o.XternalReference), '')                      AS XternalReference,
         NULLIF(TRIM(o.Xtra), '')                                  AS Xtra,
@@ -152,4 +158,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         LEFT JOIN Methods m ON (o.Method = m.Method)
         LEFT JOIN Sources s ON (o.SourceName = s.SourceName)
         LEFT JOIN DeAccessions d USING (Accession_Full_ID)
+        LEFT JOIN ReceiptConditions vc ON (o.VisualCondition = vc.SequenceOnForm)
+        LEFT JOIN ReceiptConditions pc ON (o.PhysicalCondition = pc.SequenceOnForm)
+        LEFT JOIN ReceiptConditions rc ON (o.ConditionOnReceipt = rc.ConditionDescription)
     ORDER BY o.PrimaryKey_Object_Table;
