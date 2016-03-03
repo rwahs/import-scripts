@@ -152,7 +152,12 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(s.Salutation), '')                            AS Salutation,
         NULLIF(TRIM(s.SourceID), '')                              AS SourceID,
         NULLIF(TRIM(s.State), '')                                 AS State,
-        NULLIF(TRIM(s.TownCity), '')                              AS TownCity
+        NULLIF(TRIM(s.TownCity), '')                              AS TownCity,
+        # Conservation fields
+        NULLIF(TRIM(c.ConservationHistoryID), '')                 AS ConservationHistoryID,
+        NULLIF(TRIM(c.ConservationBy), '')                        AS ConservationBy,
+        NULLIF(TRIM(c.ConservationDate), '')                      AS ConservationDate,
+        NULLIF(TRIM(c.Conservation), '')                          AS Conservation
     FROM
         Objects o
         LEFT JOIN Methods m ON (o.Method = m.Method)
@@ -161,4 +166,5 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         LEFT JOIN ReceiptConditions vc ON (o.VisualCondition = vc.SequenceOnForm)
         LEFT JOIN ReceiptConditions pc ON (o.PhysicalCondition = pc.SequenceOnForm)
         LEFT JOIN ReceiptConditions rc ON (o.ConditionOnReceipt = rc.ConditionDescription)
+        LEFT JOIN ConservationHistory c ON (o.Accession_Full_ID = c.Accession_Full_ID)
     ORDER BY o.PrimaryKey_Object_Table;
