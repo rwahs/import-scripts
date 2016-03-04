@@ -1,5 +1,6 @@
 {
     "bundles": {
+        "ca_objects.ConditionReportContainer": {},
         "ca_objects.ConditionReportContainer.ConditionReport": {},
         "ca_objects.ConditionReportContainer.ConditionReportBy": {},
         "ca_objects.PhysicalCondition": {
