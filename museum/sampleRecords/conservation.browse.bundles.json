@@ -1,0 +1,24 @@
+{
+    "bundles": {
+        "ca_objects.ConditionReportContainer.ConditionReport": {},
+        "ca_objects..ConditionReportContainer.ConditionReportBy": {},
+        "ca_objects.PhysicalCondition": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.RecommendationsContainer.Recommendation": {},
+        "ca_objects.RecommendationsContainer.ReminderDate": {},
+        "ca_objects.RecommendationsContainer.RecommendationsWhy": {},
+        "ca_objects.VisualCondition": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_occurrences.ConservationDetails": {},
+        "ca_occurrences.ConservationDate": {},
+        "ca_occurrences": {},
+        "ca_occurrences.idno": {},
+        "ca_occurrences.type_id": {"convertCodesToDisplayText": true},
+        "ca_objects_x_occurrences.type_id": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_occurrences.Conservator": {}
+    }
+}

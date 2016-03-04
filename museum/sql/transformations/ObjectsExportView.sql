@@ -38,7 +38,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.HistoricalDetails), '')                     AS HistoricalDetails,
         NULLIF(TRIM(o.HistoryText1), '')                          AS HistoryText1,
         NULLIF(TRIM(o.Importance), '')                            AS Importance,
-        NULLIF(TRIM(o.InsuranceDate), '')                         AS InsuranceDate,
+        NULLIF(TRIM(o.InsuranceDate), '0000-00-00')               AS InsuranceDate,
         NULLIF(TRIM(o.InsuranceValue), '')                        AS InsuranceValue,
         NULLIF(TRIM(o.ItemDates), '')                             AS ItemDates,
         NULLIF(TRIM(o.ItemName), '')                              AS ItemName,
@@ -48,9 +48,9 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.LatestYear), 0)                             AS LatestYear,
         NULLIF(TRIM(o.LegalTitleYesNo), '')                       AS LegalTitleYesNo,
         NULLIF(TRIM(o.Location), '')                              AS Location,
-        NULLIF(TRIM(o.LocationDate), '')                          AS LocationDate,
+        NULLIF(TRIM(o.LocationDate), '0000-00-00')                AS LocationDate,
         NULLIF(TRIM(o.LocationStatus), '')                        AS LocationStatus,
-        NULLIF(TRIM(o.LoggedDate), '')                            AS LoggedDate,
+        NULLIF(TRIM(o.LoggedDate), '0000-00-00')                  AS LoggedDate,
         NULLIF(TRIM(o.MakersMarks), '')                           AS MakersMarks,
         NULLIF(TRIM(o.Materials), '')                             AS Materials,
         NULLIF(TRIM(o.Method), '')                                AS Method,
@@ -72,7 +72,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.ReceiptNum), '')                            AS ReceiptNum,
         NULLIF(TRIM(o.ReceivedBy), '')                            AS ReceivedBy,
         NULLIF(TRIM(o.Recommendations), '')                       AS Recommendations,
-        NULLIF(TRIM(o.ReminderDate), '')                          AS ReminderDate,
+        NULLIF(TRIM(o.ReminderDate), '0000-00-00')                AS ReminderDate,
         NULLIF(TRIM(o.ResearchBy), '')                            AS ResearchBy,
         NULLIF(TRIM(o.ResearchText1), '')                         AS ResearchText1,
         NULLIF(TRIM(o.ResearchText2), '')                         AS ResearchText2,
@@ -156,7 +156,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         # Conservation fields
         NULLIF(TRIM(c.ConservationHistoryID), '')                 AS ConservationHistoryID,
         NULLIF(TRIM(c.ConservationBy), '')                        AS ConservationBy,
-        NULLIF(TRIM(c.ConservationDate), '')                      AS ConservationDate,
+        NULLIF(TRIM(c.ConservationDate), '0000-00-00')            AS ConservationDate,
         NULLIF(TRIM(c.Conservation), '')                          AS Conservation
     FROM
         Objects o
