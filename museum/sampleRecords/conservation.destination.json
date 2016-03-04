@@ -30,7 +30,8 @@
       "ca_occurrences":"2",
       "ca_occurrences.idno":"2",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105"
+      "ca_objects_x_occurrences.type_id":"105",
+      "ca_occurrences.Conservator":"External"
     },
     {
       "object_id":"3",
@@ -45,7 +46,8 @@
       "ca_occurrences":"3",
       "ca_occurrences.idno":"3",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105"
+      "ca_objects_x_occurrences.type_id":"105",
+      "ca_occurrences.Conservator":"internal"
     },
     {
       "object_id":"4",
@@ -91,7 +93,8 @@
       "id":"7",
       "idno":"MA2005.4",
       "display_label":"PHONOGRAPH",
-      "ca_objects.ConditionReportContainer.ConditionReport":"Richard Rennie report:   Wooden box is excellent.  Banner transfer is excellent.  Polish is original green oak finish in excellent condition.   Winding handle is good original.    However - Motor is worn, motor needs lubrication, top plate has been repainted, front gate clip is not original, screws holding top plate to box not original (replace with round head screws)  Hole on LHS of wooden cabinet not original.  Lid clips on sides of box have been re-p[lated.     Pars missing are  Reproducer, horn, shaver (on rear of carriage), gear wheel cover."
+      "ca_objects.ConditionReportContainer.ConditionReport":"Richard Rennie report:   Wooden box is excellent.  Banner transfer is excellent.  Polish is original green oak finish in excellent condition.   Winding handle is good original.    However - Motor is worn, motor needs lubrication, top plate has been repainted, front gate clip is not original, screws holding top plate to box not original (replace with round head screws)  Hole on LHS of wooden cabinet not original.  Lid clips on sides of box have been re-p[lated.     Pars missing are  Reproducer, horn, shaver (on rear of carriage), gear wheel cover.",
+      "ca_objects.ConditionReportContainer.ConditionReportBy":"Richard Rennie, October 2015."
     }
   ]
 }

@@ -1,8 +1,6 @@
 {
     "occurrenceType": "Conservation",
     "relationshipType": "conservation",
-    "preferred_labels": "^Conservation",
-    "occurrenceName": "^Conservation",
     "name": "^Conservation",
     "matchOn": [
         "idno"
@@ -10,9 +8,6 @@
     "attributes":{
         "ConservationDetails": "^Conservation",
         "ConservationDate": "^ConservationDate",
-        "Conservator": "^ConservationBy",
-        "preferred_labels": "^Conservation",
-        "preferred_labels.name": "^Conservation",
-        "name": "^Conservation"
+        "Conservator": "^ConservationBy"
     }
 }
