@@ -34,6 +34,7 @@ UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE MethodDescription 
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Method IS NOT NULL  AND Method <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE DateReceived IS NOT NULL  AND DateReceived <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE ConditionOnReceipt IS NOT NULL  AND ConditionOnReceipt <> '' LIMIT 2)
+UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE ConditionOnReceiptCode IS NOT NULL AND ConditionOnReceiptCode <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE LegalTitleYesNo IS NOT NULL  AND LegalTitleYesNo <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE TitleDetails IS NOT NULL  AND TitleDetails <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE CopyrightYesNo IS NOT NULL  AND CopyrightYesNo <> '' LIMIT 2)
@@ -77,6 +78,7 @@ SELECT
 	Method,
 	DateReceived,
 	ConditionOnReceipt,
+	ConditionOnReceiptCode,
 	LegalTitleYesNo,
 	TitleDetails,
 	CopyrightYesNo,
