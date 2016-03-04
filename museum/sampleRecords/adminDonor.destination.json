@@ -600,6 +600,7 @@
       "ca_entities.LegacyID":"494",
       "ca_objects.acquisition_type_id":"Donation",
       "ca_objects.DateReceived":"12 January 1999",
+      "ca_objects.ConditionOnReceipt":"Fair \/ Used",
       "ca_objects.LegalTitle.LegalTitleYesNo":"No",
       "ca_objects.Copyright.CopyrightYesNo":"No"
     },
