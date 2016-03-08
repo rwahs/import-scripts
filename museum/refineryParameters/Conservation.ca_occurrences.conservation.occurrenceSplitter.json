@@ -1,0 +1,13 @@
+{
+    "occurrenceType": "Conservation",
+    "relationshipType": "conservation",
+    "name": "^Conservation",
+    "matchOn": [
+        "idno"
+    ],
+    "attributes":{
+        "ConservationDetails": "^Conservation",
+        "ConservationDate": "^ConservationDate",
+        "Conservator": "^ConservationBy"
+    }
+}

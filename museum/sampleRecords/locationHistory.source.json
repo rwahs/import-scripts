@@ -142,6 +142,19 @@
   "childType": "container"
  },
  {
+  "LocationHistoryID": 109,
+  "AuthorizedBy": "Curator",
+  "Location": "Locked Storeroom B4",
+  "LocationDate": "1999-08-03",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 8,
+  "o_Accession_Full_ID": "A1937.46",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Locked Storeroom",
+  "childStorageLocation": "B4",
+  "childType": "container"
+ },
+ {
   "LocationHistoryID": 120,
   "AuthorizedBy": "Curator",
   "Location": "Hall, North Wall",
@@ -152,6 +165,19 @@
   "o_ItemType": "ArtWork",
   "topLevelLocation": null,
   "childStorageLocation": "Hall, North Wall",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 121,
+  "AuthorizedBy": "Curator",
+  "Location": "Locked Storeroom B1",
+  "LocationDate": "1998-11-05",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 2,
+  "o_Accession_Full_ID": "A1949.11o",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Locked Storeroom",
+  "childStorageLocation": "B1",
   "childType": "container"
  },
  {
@@ -166,6 +192,19 @@
   "topLevelLocation": null,
   "childStorageLocation": "Top room",
   "childType": "container"
+ },
+ {
+  "LocationHistoryID": 156,
+  "AuthorizedBy": "Curator",
+  "Location": "Locked Storeroom, Drawer B3",
+  "LocationDate": "1999-10-20",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 6,
+  "o_Accession_Full_ID": "A1978.9",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Locked Storeroom",
+  "childStorageLocation": "Drawer B3",
+  "childType": "drawer"
  },
  {
   "LocationHistoryID": 164,
@@ -192,5 +231,122 @@
   "topLevelLocation": "Tranby room",
   "childStorageLocation": "Drawer D9",
   "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 3633,
+  "AuthorizedBy": "JILLM",
+  "Location": "Artworks Store Room B9",
+  "LocationDate": "1998-11-04",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 7,
+  "o_Accession_Full_ID": "A1991.101",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "B9",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 3720,
+  "AuthorizedBy": "Curator",
+  "Location": "artworks Store Room, Top shelf, B7",
+  "LocationDate": "1998-11-05",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 2,
+  "o_Accession_Full_ID": "A1949.11o",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "Top shelf, B7",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 3728,
+  "AuthorizedBy": "Curator",
+  "Location": "Artworks Store Room, B3",
+  "LocationDate": "1999-10-20",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 6,
+  "o_Accession_Full_ID": "A1978.9",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "B3",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 3737,
+  "AuthorizedBy": "Curator",
+  "Location": "Artworks Store Room, B4",
+  "LocationDate": "1999-08-03",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 8,
+  "o_Accession_Full_ID": "A1937.46",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "B4",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 3744,
+  "AuthorizedBy": "Curator",
+  "Location": "Meeting Room",
+  "LocationDate": "1999-08-03",
+  "LocationStatus": "Displayed",
+  "PrimaryKey_Object_Table": 8,
+  "o_Accession_Full_ID": "A1937.46",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": null,
+  "childStorageLocation": "Meeting room",
+  "childType": "room"
+ },
+ {
+  "LocationHistoryID": 26548,
+  "AuthorizedBy": "Curator",
+  "Location": "Artworks Storeroom Shelf B7",
+  "LocationDate": "1998-11-05",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 2,
+  "o_Accession_Full_ID": "A1949.11o",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "Shelf B7",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 26936,
+  "AuthorizedBy": "Curator",
+  "Location": "Tranby Room Drawer 11",
+  "LocationDate": "1999-08-03",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 8,
+  "o_Accession_Full_ID": "A1937.46",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Tranby room",
+  "childStorageLocation": "Drawer 11",
+  "childType": "drawer"
+ },
+ {
+  "LocationHistoryID": 31761,
+  "AuthorizedBy": "Curator",
+  "Location": "Artworks Storeroom shelf B3",
+  "LocationDate": "1999-10-20",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 6,
+  "o_Accession_Full_ID": "A1978.9",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "shelf B3",
+  "childType": "container"
+ },
+ {
+  "LocationHistoryID": 31780,
+  "AuthorizedBy": "JILLM",
+  "Location": "Artworks Storeroom Shelf C2",
+  "LocationDate": "1999-10-20",
+  "LocationStatus": "Stored",
+  "PrimaryKey_Object_Table": 3,
+  "o_Accession_Full_ID": "A1984.380",
+  "o_ItemType": "ArtWork",
+  "topLevelLocation": "Artworks room",
+  "childStorageLocation": "Shelf C2",
+  "childType": "container"
  }
 ]

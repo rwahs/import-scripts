@@ -18,6 +18,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.BibliographReferences), '')                 AS BibliographReferences,
         NULLIF(TRIM(o.CompletedYesNo), '')                        AS CompletedYesNo,
         NULLIF(TRIM(o.ConditionOnReceipt), '')                    AS ConditionOnReceipt,
+        rc.`Condition`                                            AS ConditionOnReceiptCode,
+        rc.SequenceOnForm                                         AS ConditionOnReceiptSequenceOnForm,
         NULLIF(TRIM(o.ConditionReport), '')                       AS ConditionReport,
         NULLIF(TRIM(o.ConditionSurveyedBy), '')                   AS ConditionSurveyedBy,
         NULLIF(TRIM(o.CopyrightDetails), '')                      AS CopyrightDetails,
@@ -36,7 +38,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.HistoricalDetails), '')                     AS HistoricalDetails,
         NULLIF(TRIM(o.HistoryText1), '')                          AS HistoryText1,
         NULLIF(TRIM(o.Importance), '')                            AS Importance,
-        NULLIF(TRIM(o.InsuranceDate), '')                         AS InsuranceDate,
+        NULLIF(TRIM(o.InsuranceDate), '0000-00-00')               AS InsuranceDate,
         NULLIF(TRIM(o.InsuranceValue), '')                        AS InsuranceValue,
         NULLIF(TRIM(o.ItemDates), '')                             AS ItemDates,
         NULLIF(TRIM(o.ItemName), '')                              AS ItemName,
@@ -46,9 +48,9 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.LatestYear), 0)                             AS LatestYear,
         NULLIF(TRIM(o.LegalTitleYesNo), '')                       AS LegalTitleYesNo,
         NULLIF(TRIM(o.Location), '')                              AS Location,
-        NULLIF(TRIM(o.LocationDate), '')                          AS LocationDate,
+        NULLIF(TRIM(o.LocationDate), '0000-00-00')                AS LocationDate,
         NULLIF(TRIM(o.LocationStatus), '')                        AS LocationStatus,
-        NULLIF(TRIM(o.LoggedDate), '')                            AS LoggedDate,
+        NULLIF(TRIM(o.LoggedDate), '0000-00-00')                  AS LoggedDate,
         NULLIF(TRIM(o.MakersMarks), '')                           AS MakersMarks,
         NULLIF(TRIM(o.Materials), '')                             AS Materials,
         NULLIF(TRIM(o.Method), '')                                AS Method,
@@ -57,6 +59,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.OtherNum), '')                              AS OtherNum,
         NULLIF(TRIM(o.PhotoNum), '')                              AS PhotoNum,
         NULLIF(TRIM(o.PhysicalCondition), '')                     AS PhysicalCondition,
+        pc.Condition                                              AS PhysicalConditionCode,
+        pc.ConditionDescription                                   AS PhysicalConditionDescription,
         # When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
         CASE WHEN
             TRIM(o.SecondaryClass) = ''
@@ -68,7 +72,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.ReceiptNum), '')                            AS ReceiptNum,
         NULLIF(TRIM(o.ReceivedBy), '')                            AS ReceivedBy,
         NULLIF(TRIM(o.Recommendations), '')                       AS Recommendations,
-        NULLIF(TRIM(o.ReminderDate), '')                          AS ReminderDate,
+        NULLIF(TRIM(o.ReminderDate), '0000-00-00')                AS ReminderDate,
         NULLIF(TRIM(o.ResearchBy), '')                            AS ResearchBy,
         NULLIF(TRIM(o.ResearchText1), '')                         AS ResearchText1,
         NULLIF(TRIM(o.ResearchText2), '')                         AS ResearchText2,
@@ -103,6 +107,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.ValuationGroup), '')                        AS ValuationGroup,
         NULLIF(TRIM(o.ValuationID), '')                           AS ValuationID,
         NULLIF(TRIM(o.VisualCondition), '')                       AS VisualCondition,
+        vc.Condition                                              AS VisualConditionCode,
+        vc.ConditionDescription                                   AS VisualConditionDescription,
         NULLIF(TRIM(o.WhyReminder), '')                           AS WhyReminder,
         NULLIF(TRIM(o.XternalReference), '')                      AS XternalReference,
         NULLIF(TRIM(o.Xtra), '')                                  AS Xtra,
@@ -146,10 +152,19 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(s.Salutation), '')                            AS Salutation,
         NULLIF(TRIM(s.SourceID), '')                              AS SourceID,
         NULLIF(TRIM(s.State), '')                                 AS State,
-        NULLIF(TRIM(s.TownCity), '')                              AS TownCity
+        NULLIF(TRIM(s.TownCity), '')                              AS TownCity,
+        # Conservation fields
+        NULLIF(TRIM(c.ConservationHistoryID), '')                 AS ConservationHistoryID,
+        NULLIF(TRIM(c.ConservationBy), '')                        AS ConservationBy,
+        NULLIF(TRIM(c.ConservationDate), '0000-00-00')            AS ConservationDate,
+        NULLIF(TRIM(c.Conservation), '')                          AS Conservation
     FROM
         Objects o
         LEFT JOIN Methods m ON (o.Method = m.Method)
         LEFT JOIN Sources s ON (o.SourceName = s.SourceName)
         LEFT JOIN DeAccessions d USING (Accession_Full_ID)
+        LEFT JOIN ReceiptConditions vc ON (o.VisualCondition = vc.SequenceOnForm)
+        LEFT JOIN ReceiptConditions pc ON (o.PhysicalCondition = pc.SequenceOnForm)
+        LEFT JOIN ReceiptConditions rc ON (o.ConditionOnReceipt = rc.ConditionDescription)
+        LEFT JOIN ConservationHistory c ON (o.Accession_Full_ID = c.Accession_Full_ID)
     ORDER BY o.PrimaryKey_Object_Table;
