@@ -9,7 +9,7 @@ pushd `dirname "$0"`>/dev/null
 source ../env
 source ../bin/importData
 function refreshData() {
-    sqltransform SourcesView.sql
+    sqltransform SourcesExportView.sql
 }
 
 # perform pre-execution checks
