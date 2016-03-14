@@ -9,7 +9,7 @@ pushd `dirname "$0"`>/dev/null
 source ../env
 source ../bin/importData
 function refreshData() {
-    sqltransform LocationHistoryExportView.sql
+    sqltransform SourcesView.sql
 }
 
 # perform pre-execution checks
@@ -18,12 +18,13 @@ checkCollectiveAccess
 checkGdrive
 
 # setup local variables
-mapping=rwahsLocationHistoryMapping
-mapping_id="1qIQ9YRaICpi0euGT8HFaLuMC17l8DoCqPTCroIUyYIY"
-# https://docs.google.com/spreadsheets/d/1qIQ9YRaICpi0euGT8HFaLuMC17l8DoCqPTCroIUyYIY/edit#gid=0
+sourceFile=source/MosaicPlus10Data.MDB
+mapping=rwahsDonorMapping
+mapping_id="1xhhQcV98rh3SidXOmGFBsJ0TXpjI3XbS7qRRKN9pknc"
+# https://docs.google.com/spreadsheets/d/1xhhQcV98rh3SidXOmGFBsJ0TXpjI3XbS7qRRKN9pknc/edit#gid=0
 
-mapping_machine_name=locationHistory
-sourceTable=LocationHistoryExport
+mapping_machine_name=donors
+sourceTable=SourcesExport
 
 importData $@
 popd > /dev/null
