@@ -1,17 +1,24 @@
 #!/usr/bin/env bash
 set -e
 set -u
+
+
+# Refresh source donor data, produce a data report and load the donor import mapping
+./museum/importDonors -rpm
+# Run the donor import
+./museum/importDonors
+
 # Refresh source object data, produce a data report and load the object import mapping
 ./museum/importObjects -rpm
 # Run the object import
 ./museum/importObjects
 
-# Refresh source subject data, refresh the data report and load the object import mapping
+# Refresh source subject data, refresh the data report and load the subject import mapping
 ./museum/importSubjects -rpm
 # Run the subject import
 ./museum/importSubjects
 
-# Refresh source location history data, refresh the data report and load the object import mapping
+# Refresh source location history data, refresh the data report and load the location history import mapping
 ./museum/importLocationHistory -rpm
 # Run the location history import
 ./museum/importLocationHistory

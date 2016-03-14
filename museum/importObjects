@@ -9,9 +9,6 @@ pushd `dirname "$0"`>/dev/null
 source ../env
 source ../bin/importData
 function refreshData() {
-    sourceFile=source/MosaicPlus10Data.MDB
-    schema/dumptomysql "${sourceFile}" "${sourceDatabase}" "-h${sourceHostname} -u${sourceUserName} -p${sourcePassword}"
-    sqltransform OptimiseTables.sql
     sqltransform ObjectsExportView.sql
 }
 
