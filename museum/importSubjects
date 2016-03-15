@@ -25,5 +25,5 @@ mapping_id="1zKHsF977x6SlQN7JtvnN-F4mGlNNcMClcwBAT_967zU"
 mapping_machine_name=subjectList
 sourceTable=SubjectsExport
 
-importData $@
+importData "$@"
 popd > /dev/null

@@ -25,5 +25,5 @@ mapping_id="11ynTouvmgYI-RoesX3rbvi4xUAhiwTCsOcoUwGLqVHc"
 mapping_machine_name=museum
 sourceTable=ObjectsExport
 
-importData $@
+importData "$@"
 popd > /dev/null

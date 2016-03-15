@@ -29,5 +29,5 @@ mapping_id="1xhhQcV98rh3SidXOmGFBsJ0TXpjI3XbS7qRRKN9pknc"
 mapping_machine_name=donors
 sourceTable=SourcesExport
 
-importData $@
+importData "$@"
 popd > /dev/null

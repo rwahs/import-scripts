@@ -25,5 +25,5 @@ mapping_id="1qIQ9YRaICpi0euGT8HFaLuMC17l8DoCqPTCroIUyYIY"
 mapping_machine_name=locationHistory
 sourceTable=LocationHistoryExport
 
-importData $@
+importData "$@"
 popd > /dev/null
