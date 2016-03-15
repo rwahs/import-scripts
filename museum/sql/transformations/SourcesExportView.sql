@@ -13,7 +13,7 @@ CREATE OR REPLACE VIEW SourcesExport AS
         NULLIF(TRIM(s.Initials), '')                              AS Initials,
         NULLIF(TRIM(s.LastEditBy), '')                            AS SourceLastEditBy,
         NULLIF(TRIM(s.LastEditDate), '0000-00-00 00:00:00')       AS SourceLastEditDate,
-        NULLIF(TRIM(s.LastName), '')                              AS LastName,
+        NULLIF(TRIM(REPLACE(s.LastName, '<<N/A>>', 'N/A')), '')   AS LastName,
         NULLIF(TRIM(s.Organisation), '')                          AS Organisation,
         NULLIF(TRIM(s.Phone), '')                                 AS Phone,
         NULLIF(TRIM(s.MobilePhone), '')                           AS MobilePhone,
