@@ -4,24 +4,24 @@ set -u
 
 
 # Refresh source donor data, produce a data report and load the donor import mapping
-./museum/importDonors -rpm
+./importScripts/importDonors -rpm
 # Run the donor import
-./museum/importDonors
+./importScripts/importDonors
 
 # Refresh source object data, produce a data report and load the object import mapping
-./museum/importObjects -rpm
+./importScripts/importObjects -rpm
 # Run the object import
-./museum/importObjects
+./importScripts/importObjects
 
 # Refresh source subject data, refresh the data report and load the subject import mapping
-./museum/importSubjects -rpm
+./importScripts/importSubjects -rpm
 # Run the subject import
-./museum/importSubjects
+./importScripts/importSubjects
 
 # Refresh source location history data, refresh the data report and load the location history import mapping
-./museum/importLocationHistory -rpm
+./importScripts/importLocationHistory -rpm
 # Run the location history import
-./museum/importLocationHistory
+./importScripts/importLocationHistory
 
 # Rebuild the search index
 caUtils rebuild-search-index
