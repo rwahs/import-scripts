@@ -12,11 +12,6 @@ function refreshData() {
     sqltransform SubjectsExportView.sql
 }
 
-# perform pre-execution checks
-checkConfig dbsettings
-checkCollectiveAccess
-checkGdrive
-
 # setup local variables
 mapping=rwahsSubjectListMapping
 mapping_id="1zKHsF977x6SlQN7JtvnN-F4mGlNNcMClcwBAT_967zU"
