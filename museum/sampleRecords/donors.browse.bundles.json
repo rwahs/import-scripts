@@ -1,0 +1,27 @@
+{
+    "bundles": {
+        "ca_entities.idno": {},
+        "ca_entities.preferred_labels.displayname": {},
+        "ca_entities.preferred_labels.prefix": {},
+        "ca_entities.preferred_labels.forename": {},
+        "ca_entities.preferred_labels.middlename": {},
+        "ca_entities.preferred_labels.surname": {},
+        "ca_entities.AddressContainer.Address1": {},
+        "ca_entities.AddressContainer.TownCity": {},
+        "ca_entities.AddressContainer.State": {},
+        "ca_entities.AddressContainer.PostCode": {},
+        "ca_entities.Phone": {},
+        "ca_entities.MobilePhone": {},
+        "ca_entities.Fax": {},
+        "ca_entities.Email": {},
+        "ca_entities.DonorNotes": {},
+        "ca_entities.Deceased": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_entities.DonorAgentName": {},
+        "ca_entities.DonorAgentAddress": {},
+        "ca_entities.DonorAgentPhone": {},
+        "ca_entities.LastEditBy": {},
+        "ca_entities.LastEditDate": {}
+    }
+}

@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# halt on any errors or undefined variables
+set -e
+set -u
+
+# load environment settings
+pushd `dirname "$0"`>/dev/null
+source ../env
+source ../bin/importData
+function refreshData() {
+    sourceFile=source/MosaicPlus10Data.MDB
+    schema/dumptomysql "${sourceFile}" "${sourceDatabase}" "-h${sourceHostname} -u${sourceUserName} -p${sourcePassword}"
+    sqltransform OptimiseTables.sql
+    sqltransform SourcesExportView.sql
+}
+
+# setup local variables
+sourceFile=source/MosaicPlus10Data.MDB
+mapping=rwahsDonorMapping
+mapping_id="1xhhQcV98rh3SidXOmGFBsJ0TXpjI3XbS7qRRKN9pknc"
+# https://docs.google.com/spreadsheets/d/1xhhQcV98rh3SidXOmGFBsJ0TXpjI3XbS7qRRKN9pknc/edit#gid=0
+
+mapping_machine_name=donors
+sourceTable=SourcesExport
+
+importData "$@"
+popd > /dev/null
