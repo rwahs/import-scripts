@@ -15,11 +15,6 @@ function refreshData() {
     sqltransform SourcesExportView.sql
 }
 
-# perform pre-execution checks
-checkConfig dbsettings
-checkCollectiveAccess
-checkGdrive
-
 # setup local variables
 sourceFile=source/MosaicPlus10Data.MDB
 mapping=rwahsDonorMapping

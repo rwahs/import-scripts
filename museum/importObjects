@@ -12,11 +12,6 @@ function refreshData() {
     sqltransform ObjectsExportView.sql
 }
 
-# perform pre-execution checks
-checkConfig dbsettings
-checkCollectiveAccess
-checkGdrive
-
 # setup local variables
 mapping=rwahsMuseumMapping
 mapping_id="11ynTouvmgYI-RoesX3rbvi4xUAhiwTCsOcoUwGLqVHc"
