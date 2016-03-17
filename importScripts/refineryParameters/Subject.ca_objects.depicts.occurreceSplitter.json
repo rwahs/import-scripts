@@ -1,0 +1,10 @@
+{
+    "occurrenceType": "subject",
+    "relationshipType": "depicts",
+    "delimiter": [
+        ";"
+    ],
+    "matchOn": [
+        "label"
+    ]
+}

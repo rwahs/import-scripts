@@ -23,5 +23,10 @@ set -u
 # Run the location history import
 ./importScripts/importLocationHistory
 
+# Refresh source library data, refresh the data report and load the library import mapping
+./importScripts/importLibrary -rpm
+# Run the location history import
+./importScripts/importLibrary
+
 # Rebuild the search index
 caUtils rebuild-search-index
