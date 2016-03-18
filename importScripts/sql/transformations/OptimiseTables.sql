@@ -22,3 +22,8 @@ ALTER TABLE ReceiptConditions
 ADD PRIMARY KEY (SequenceOnForm),
 ADD INDEX (`Condition`),
 ADD INDEX (`ConditionDescription`);
+
+ALTER TABLE Library
+ADD PRIMARY KEY (PublicationID),
+ADD INDEX (PublicationType),
+ADD INDEX (HomeLocation);

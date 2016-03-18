@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# halt on any errors or undefined variables
+set -e
+set -u
+
+# load environment settings
+pushd `dirname "$0"`>/dev/null
+source ../env
+source ../bin/importData
+function refreshData() {
+    sqltransform LibraryExportView.sql
+}
+
+# setup local variables
+mapping=rwahsLibraryMapping
+mapping_id="1tQlbe0AZos9e8mVpxY_OaJMTT3Fq-rBPWkVbIuLwvY0"
+# https://docs.google.com/spreadsheets/d/1tQlbe0AZos9e8mVpxY_OaJMTT3Fq-rBPWkVbIuLwvY0/edit?usp=sharing
+
+mapping_machine_name=library
+sourceTable=LibraryExport
+
+importData "$@"
+popd > /dev/null
