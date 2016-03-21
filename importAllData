@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 set -u
-
+pushd `dirname "$0"`>/dev/null
 
 # Refresh source donor data, produce a data report and load the donor import mapping
 ./importScripts/importDonors -rpm
@@ -30,3 +30,4 @@ set -u
 
 # Rebuild the search index
 caUtils rebuild-search-index
+popd > /dev/null
