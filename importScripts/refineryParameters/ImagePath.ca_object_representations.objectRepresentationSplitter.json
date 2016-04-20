@@ -1,0 +1,14 @@
+{
+    "objectRepresentationType": "front",
+    "attributes": {
+        "media": "^ItemName",
+        "preferred_labels": "^ImageDescription",
+        "idno": "^ObjectsImagesID",
+        "access": "^DisplayImage",
+        "status": "complete"
+    },
+    "interstitial":{
+        "is_primary": "^DefaultImageIndicator"
+    },
+    "mediaPrefix": "ImagesMosaic"
+}
