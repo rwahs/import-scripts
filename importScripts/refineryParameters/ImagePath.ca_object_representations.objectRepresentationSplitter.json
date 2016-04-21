@@ -1,8 +1,8 @@
 {
     "objectRepresentationType": "front",
     "attributes": {
-        "media": "^ItemName",
-        "preferred_labels": "^ImageDescription",
+        "media": "^ImagePath",
+        "name": "^ImageDescription",
         "idno": "^ObjectsImagesID",
         "access": "^DisplayImage",
         "status": "complete"
