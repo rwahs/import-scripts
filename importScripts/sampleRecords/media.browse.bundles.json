@@ -1,23 +1,17 @@
 {
     "bundles": {
-        "ca_objects.idno": {},
         "ca_objects.type_id": {
             "convertCodesToDisplayText": true
         },
+        "ca_objects.idno": {},
         "ca_objects.preferred_labels": {},
-        "ca_object_representations.preferred_labels": {},
-        "ca_object_representations.idno": {},
-        "ca_object_representations.urls": {},
-        "ca_object_representations.info": {},
-        "ca_object_representations.media": {},
+        "ca_object_representations.original_filename": {},
+        "ca_object_representations.access": {},
+        "ca_objects_x_object_representations.is_primary": {},
         "ca_object_representations.type_id": {
             "convertCodesToDisplayText": true
         },
-        "ca_object_representation_labels.name": {},
-        "ca_object_representations.access": {},
-        "ca_object_representations.status": {
-            "convertCodesToDisplayText": true
-        },
-        "ca_objects_x_object_representations.is_primary": {}
+        "ca_object_representations.mimetype": {},
+        "ca_object_representations.media": {}
     }
 }

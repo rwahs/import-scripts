@@ -1,14 +1,46 @@
 [{
-  "ObjectsImagesID": "27874",
+  "ObjectsImagesID": "10010",
+  "ImageDescription": null,
   "ItemType": "Photograph",
-  "Accession_Full_ID": "P1999.1477copied",
-  "ItemName": "STATE LIBRARY OF WESTERN AUSTRALIA INTERIOR",
-  "ImagePath": "Large/m1999_1477.jpg.pdf",
+  "Accession_Full_ID": "P2010.86",
+  "ItemName": "KIMBERLEY, HORSE BREAKING",
+  "ImagePath": "Compact disc/2010_86.tif",
+  "DisplayImage": "0",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ObjectsImagesID": "10388",
+  "ImageDescription": null,
+  "ItemType": "Photograph",
+  "Accession_Full_ID": "P2010.79",
+  "ItemName": "TIMBER FELLING IN WA",
+  "ImagePath": "Compact disc/p2010_79.tif",
+  "DisplayImage": "0",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ObjectsImagesID": "14336",
+  "ImageDescription": null,
+  "ItemType": "Costume",
+  "Accession_Full_ID": "C1992.13",
+  "ItemName": "DRESS",
+  "ImagePath": "Costumes/C1992_13c.tif",
+  "DisplayImage": "0",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ObjectsImagesID": "18991",
+  "ImageDescription": null,
+  "ItemType": "Photograph",
+  "Accession_Full_ID": "P2012.1680",
+  "ItemName": "PERTH - ST ALBAN'S ANGLICAN CHURCH, HIGHGATE",
+  "ImagePath": "Post Card/m2012_1680.tif",
   "DisplayImage": "0",
   "DefaultImageIndicator": "0"
  },
  {
   "ObjectsImagesID": "32",
+  "ImageDescription": null,
   "ItemType": "Memorials",
   "Accession_Full_ID": "ME1929.106.2",
   "ItemName": "PETER CHIDLOW AND EDWARD JONES",
@@ -37,6 +69,26 @@
   "DefaultImageIndicator": "0"
  },
  {
+  "ObjectsImagesID": "35",
+  "ImageDescription": null,
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.2",
+  "ItemName": "PERTH (CITY) FOUNDATION PLAQUE",
+  "ImagePath": "Memorials/ME2019_2.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "1"
+ },
+ {
+  "ObjectsImagesID": "36",
+  "ImageDescription": "Primary Image",
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.8",
+  "ItemName": "CAPTAIN THE HON JOHN SEPTIMUS ROE, R.N.",
+  "ImagePath": "Memorials/ME2019_8_1.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "1"
+ },
+ {
   "ObjectsImagesID": "37",
   "ImageDescription": "Opening of Girls' Friendly Society",
   "ItemType": "Memorials",
@@ -47,7 +99,48 @@
   "DefaultImageIndicator": "0"
  },
  {
+  "ObjectsImagesID": "38",
+  "ImageDescription": null,
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.10",
+  "ItemName": "EDWARD TIMOTHY HOOLEY PLAQUE",
+  "ImagePath": "Memorials/ME2019_10.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "1"
+ },
+ {
+  "ObjectsImagesID": "43",
+  "ImageDescription": "Long shot showing entrance to Kings Park",
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.26",
+  "ItemName": "EDITH DIRCKSEY COWAN : PLAQUE",
+  "ImagePath": "Memorials/ME2019_26_2.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ObjectsImagesID": "47",
+  "ImageDescription": "Long shot showing entire corner",
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.42",
+  "ItemName": "BIRCH'S CORNER : PLAQUE",
+  "ImagePath": "Memorials/ME2019_42_2.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ObjectsImagesID": "51",
+  "ImageDescription": "Part of ceremony unveiling stone",
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.98",
+  "ItemName": "CHINESE GRAVES : MONUMENT",
+  "ImagePath": "Memorials/ME2019_98_2.jpg",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "0"
+ },
+ {
   "ObjectsImagesID": "9814",
+  "ImageDescription": null,
   "ItemType": "Photograph",
   "Accession_Full_ID": "P1999.196",
   "ItemName": "FLOOD DEBRIS,  CARNARVON",
