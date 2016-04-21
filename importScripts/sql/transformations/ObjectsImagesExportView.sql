@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW ObjectImagesExport AS
+CREATE OR REPLACE VIEW ObjectsImagesExport AS
 SELECT
     NULLIF(TRIM(o.ItemType), '')                              AS ItemType,
     NULLIF(TRIM(i.Accession_Full_ID), '')                     AS Accession_Full_ID,

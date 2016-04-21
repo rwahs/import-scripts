@@ -1,0 +1,61 @@
+[{
+  "ItemType": "Photograph",
+  "Accession_Full_ID": "P1999.1477copied",
+  "ItemName": "STATE LIBRARY OF WESTERN AUSTRALIA INTERIOR",
+  "ObjectsImagesID": "27874",
+  "ImagePath": "Large/m1999_1477.jpg.pdf",
+  "ImageDescription": null,
+  "DisplayImage": "0",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME1929.106.2",
+  "ItemName": "PETER CHIDLOW AND EDWARD JONES",
+  "ObjectsImagesID": "32",
+  "ImagePath": "Memorials/ME1929_106_2.jpg",
+  "ImageDescription": null,
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "1"
+ },
+ {
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.6",
+  "ItemName": "ALFRED HILLMAN PLAQUE",
+  "ObjectsImagesID": "33",
+  "ImagePath": "Memorials/ME2019_6_1.jpg",
+  "ImageDescription": "Primary Image",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "1"
+ },
+ {
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.6",
+  "ItemName": "ALFRED HILLMAN PLAQUE",
+  "ObjectsImagesID": "34",
+  "ImagePath": "Memorials/ME2019_6_2.jpg",
+  "ImageDescription": "Alternate lighting",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ItemType": "Memorials",
+  "Accession_Full_ID": "ME19.8",
+  "ItemName": "CAPTAIN THE HON JOHN SEPTIMUS ROE, R.N.",
+  "ObjectsImagesID": "37",
+  "ImagePath": "Memorials/ME2019_8_2.jpg",
+  "ImageDescription": "Opening of Girls' Friendly Society",
+  "DisplayImage": "1",
+  "DefaultImageIndicator": "0"
+ },
+ {
+  "ItemType": "Photograph",
+  "Accession_Full_ID": "P1999.196",
+  "ItemName": "FLOOD DEBRIS,  CARNARVON",
+  "ObjectsImagesID": "9814",
+  "ImagePath": "Carte de Visite/P1999_196.pdf",
+  "ImageDescription": null,
+  "DisplayImage": "0",
+  "DefaultImageIndicator": "0"
+ }
+]
