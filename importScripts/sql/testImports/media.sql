@@ -14,12 +14,12 @@ UNION(SELECT ObjectsImagesID FROM ObjectsImagesExport WHERE DefaultImageIndicato
 ;
 ## now we've found the sample records use them as the source
 SELECT
+    ObjectsImagesID,
+    ImageDescription,
     ItemType,
     Accession_Full_ID,
     ItemName,
-    ObjectsImagesID,
     ImagePath,
-    ImageDescription,
     DisplayImage,
     DefaultImageIndicator
 FROM
