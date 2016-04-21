@@ -1,13 +1,14 @@
 {
     "objectRepresentationType": "front",
-    "matchOn": ["idno"],
+    "matchOn": [
+        "idno"
+    ],
     "attributes": {
         "media": "^ImagePath",
-        "preferred_labels":{
+        "preferred_labels": {
             "name": "^ImageDescription"
         },
-        "access": "^DisplayImage",
-        "status": "complete"
+        "access": "^DisplayImage"
     },
     "interstitial": {
         "is_primary": "^DefaultImageIndicator"
