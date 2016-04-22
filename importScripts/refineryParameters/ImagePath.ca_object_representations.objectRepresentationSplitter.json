@@ -1,0 +1,17 @@
+{
+    "objectRepresentationType": "front",
+    "matchOn": [
+        "idno"
+    ],
+    "attributes": {
+        "media": "^ImagePath",
+        "preferred_labels": {
+            "name": "^ImageDescription"
+        },
+        "access": "^DisplayImage"
+    },
+    "interstitial": {
+        "is_primary": "^DefaultImageIndicator"
+    },
+    "mediaPrefix": "ImagesMosaic"
+}

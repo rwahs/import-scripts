@@ -27,3 +27,11 @@ ALTER TABLE Library
 ADD PRIMARY KEY (PublicationID),
 ADD INDEX (PublicationType),
 ADD INDEX (HomeLocation);
+
+ALTER TABLE ObjectsImages
+MODIFY ImageFilePath VARCHAR(255),
+ADD PRIMARY KEY (ObjectsImagesID),
+ADD INDEX (Accession_Full_ID),
+ADD INDEX (ImageFileName),
+ADD INDEX (ImageFilePath);
+

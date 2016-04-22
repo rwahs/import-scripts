@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# halt on any errors or undefined variables
+set -e
+set -u
+
+# load environment settings
+pushd `dirname "$0"`>/dev/null
+source ../env
+source ../bin/importData
+function refreshData() {
+    TEMPDIR=`mktemp -d`
+    find "${COLLECTIVEACCESS_HOME}/import/ImagesMosaic/"* -type f -print |sed -e 's|.*/ImagesMosaic/||' > source/media-list.txt
+    sqltransform ImportMediaDirectoryListing.sql
+    sqltransform ObjectsImagesExportView.sql
+}
+
+# setup local variables
+mapping=rwahsMediaMapping
+mapping_id="1kIJon6okU8LRHNiV5Eg7uF3gkwJHfZqygz4UnvJQnPA"
+# https://docs.google.com/spreadsheets/d/1kIJon6okU8LRHNiV5Eg7uF3gkwJHfZqygz4UnvJQnPA/edit?usp=sharing
+
+mapping_machine_name=media
+sourceTable=ObjectsImagesExport
+
+importData "$@"
+popd > /dev/null

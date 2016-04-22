@@ -28,6 +28,11 @@ pushd `dirname "$0"`>/dev/null
 # Run the location history import
 ./importScripts/importLibrary
 
+# Refresh source media data, refresh the data report and load the media import mapping
+./importScripts/importMedia -rpm
+# Run the location history import
+./importScripts/importMedia
+
 # Rebuild the search index
 caUtils rebuild-search-index
 popd > /dev/null
