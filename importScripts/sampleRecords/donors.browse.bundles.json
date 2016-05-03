@@ -5,6 +5,7 @@
         "ca_entities.preferred_labels.prefix": {},
         "ca_entities.preferred_labels.forename": {},
         "ca_entities.preferred_labels.middlename": {},
+        "ca_entities.preferred_labels.other_forenames": {},
         "ca_entities.preferred_labels.surname": {},
         "ca_entities.AddressContainer.Address1": {},
         "ca_entities.AddressContainer.TownCity": {},
