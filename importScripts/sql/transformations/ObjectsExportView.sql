@@ -106,7 +106,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.TreatmentPriority), '')                     AS TreatmentPriority,
         NULLIF(TRIM(o.UsualLocation), '')                         AS UsualLocation,
         IF(
-            TRIM(o.Location) = '',
+            TRIM(o.Location) = '' OR ISNULL(o.Location),
             NULLIF(TRIM(o.UsualLocation), ''),
             NULL
         )                                                         AS DefaultCurrentLocation,
