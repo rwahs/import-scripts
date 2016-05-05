@@ -206,6 +206,18 @@
     {
       "object_id":"16",
       "id":"16",
+      "idno":"MA2001.21c",
+      "display_label":"TABLE CENTRE,  WHITE LINEN CENTRE WITH LACE EDGING",
+      "ca_objects.Description":"TABLE CENTRE, WHITE LINEN CENTRE WITH LACE EDGING. Almost a square with lace medalion stitched in centre.  Linen has a scalloped edging. Has been altered from a  rectangle, with a seam across one side and joins in the lace to form corners. Lace surrounds are six cms wide.",
+      "ca_objects.PhysicalCondition":"Poor",
+      "ca_objects.StatementOfSignificance":"Unknown",
+      "ca_objects.Materials":"Linen, cotton.",
+      "ca_objects.Dimensions.DimensionsValue":"27cms x 30cms, linen centre 14.5 x 19 cms.",
+      "classificationHierarchy":"Root node for Classification (183); MANCHESTER (255); Table linen (256)"
+    },
+    {
+      "object_id":"17",
+      "id":"17",
       "idno":"P1999.1132copied",
       "display_label":"? CLARKSON, GROUP OF THREE",
       "ca_objects.Description":"? Clarkson, group of three",
@@ -214,11 +226,11 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Dimensions.DimensionsValue":"Carte de visite",
-      "classificationHierarchy":"Root node for Classification (183); PERSON (254); Group (255)"
+      "classificationHierarchy":"Root node for Classification (183); PERSON (257); Group (258)"
     },
     {
-      "object_id":"17",
-      "id":"17",
+      "object_id":"18",
+      "id":"18",
       "idno":"P1999.1798copied",
       "display_label":"FREMANTLE, LOOKING SOUTH FROM ROUND HOUSE",
       "ca_objects.Description":"Fremantle, looking South From Round House",
@@ -226,11 +238,11 @@
       "ca_objects.SignificanceCriteria":"Historic;Scientific or Research;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Social: \nScientific: \nHistoric:",
       "ca_objects.Dimensions.DimensionsValue":"H: 12 cm. : W: 29 cm.",
-      "classificationHierarchy":"Root node for Classification (183); PLACE (244); Fremantle (256); view of harbour (257)"
+      "classificationHierarchy":"Root node for Classification (183); PLACE (244); Fremantle (259); view of harbour (260)"
     },
     {
-      "object_id":"18",
-      "id":"18",
+      "object_id":"19",
+      "id":"19",
       "idno":"P1999.3540copied",
       "display_label":"SANDALWOODER'S CAMP. OLD MAN OF 82 YEARS.",
       "ca_objects.Description":"Sandalwooder's camp. Old man of 82 years. Photograph depicts a makeshift hut constructed of corrugated iron and hessian. Poles are used to keep the corrugated iron on the structure. The old man does not appear in the photograph.\nCOPIED",
@@ -239,19 +251,19 @@
       "classificationHierarchy":"Root node for Classification (183); PLACE (244); Building (245)"
     },
     {
-      "object_id":"19",
-      "id":"19",
+      "object_id":"20",
+      "id":"20",
       "idno":"C1989.169g",
       "display_label":"SHOE, INFANT'S",
       "ca_objects.Description":"Shoe, Infant's.  Only one shoette knitted in wool; Panel in front with raised knobs; ankle straps.",
       "ca_objects.Importance":"Local",
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Wool, cotton, silk, bone (mother of pearl)",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME (259); Infants (260); shoette (261)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME (262); Infants (263); shoette (264)"
     },
     {
-      "object_id":"20",
-      "id":"20",
+      "object_id":"21",
+      "id":"21",
       "idno":"MA1984.103A-C",
       "display_label":"CREAM  AND SUGAR SET",
       "ca_objects.Description":"Sugar bowl and cream jug of china, light brown with sprays of pink roses and leaves. Gold edges. Set into EPNS stand with handle. Provenance: Belonged to donor's aunt, Miss Annie George.",
@@ -260,11 +272,11 @@
       "ca_objects.PhysicalCondition":"Poor",
       "ca_objects.Materials":"Metal, china.",
       "ca_objects.Dimensions.DimensionsValue":"A. W:19.2cms; D:11.2cms; H:18cms. B. W:7.2cms; D:8.5cms; H:6cms. C:W:6cms; D:12cms; H:7.8cms",
-      "classificationHierarchy":"Root node for Classification (183); DOMESTIC EQUIPMENT (263); Food &amp; drink consumption (264); crockery (265)"
+      "classificationHierarchy":"Root node for Classification (183); DOMESTIC EQUIPMENT (266); Food &amp; drink consumption (267); crockery (268)"
     },
     {
-      "object_id":"21",
-      "id":"21",
+      "object_id":"22",
+      "id":"22",
       "idno":"MA1980.21d",
       "display_label":"WRITING DESK, BLACK JAPANNED",
       "ca_objects.Description":"Wooden box, japanned; opens to form a velvet covered writing surface. Bottom of box has divisions for storage. Box is black with ornamentation on lid of a circle of flowers of inlaid mother of pearl surrounding a bunch of flowers, painted and inlaid mother of pearl. Provenance: Belonged to Mrs Bridges, grand-daughter of Capt Thomas who came to WA on 'Gilmore' on 10\/11\/1829.",
@@ -274,11 +286,11 @@
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Materials":"Wood, cotton, metal",
       "ca_objects.Dimensions.DimensionsValue":"39.5cms x 23.8cms x 9.4cms",
-      "classificationHierarchy":"Root node for Classification (183); DOMESTIC EQUIPMENT (263); Writing equipment (266); desks (267)"
+      "classificationHierarchy":"Root node for Classification (183); DOMESTIC EQUIPMENT (266); Writing equipment (269); desks (270)"
     },
     {
-      "object_id":"22",
-      "id":"22",
+      "object_id":"23",
+      "id":"23",
       "idno":"C1990.110",
       "display_label":"STOCKINGS, 1 PAIR, NYLON - FEMALE",
       "ca_objects.Description":"1 pair of nylon stockings. 15 denier micro mesh, seamless perfect nylons. Size 9 \"GARDENIA\"  in deep beige colour. New not worn.",
@@ -287,11 +299,11 @@
       "ca_objects.PhysicalCondition":"Excellent",
       "ca_objects.Materials":"Nylon.",
       "ca_objects.Dimensions.DimensionsValue":"L : 95.5 cm;  Size 9",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME (259); Female (269); stockings (270)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME (262); Female (271); stockings (272)"
     },
     {
-      "object_id":"23",
-      "id":"23",
+      "object_id":"24",
+      "id":"24",
       "idno":"MA1994.63",
       "display_label":"BEDSPREAD, WHITE KNITTED",
       "ca_objects.Description":"The bedspread is knitted in a shell pattern with fine needles. The item must have been made by machine, as there are no joins in it and could not have been hand knitted. Provenance: A card sewn on to the bedspread states 'Bedspread knitted for Mrs S W Viveash 'Ashby' Middle Swan by her mother'. The Bicentennial Dictionary of Western Australians states that S.W. Viveash arrived in WA in 1838 per 'Britomart' with his wife and children. He married Susan Mary Smith, b 1813.",
@@ -299,11 +311,11 @@
       "ca_objects.PhysicalCondition":"Fair \/ Used",
       "ca_objects.Materials":"Cotton",
       "ca_objects.Dimensions.DimensionsValue":"W:167cms; L:266cms + 5cm fringe",
-      "classificationHierarchy":"Root node for Classification (183); MANCHESTER (272); Bedding (273); bedspreads (274)"
+      "classificationHierarchy":"Root node for Classification (183); MANCHESTER (255); Bedding (274); bedspreads (275)"
     },
     {
-      "object_id":"24",
-      "id":"24",
+      "object_id":"25",
+      "id":"25",
       "idno":"MA1990.105",
       "display_label":"SHEET, WHITE COTTON WITH LACE",
       "ca_objects.Description":"One single sheet with a 7.5cm wide row of hand-crocheted lace 5.5cms from top of sheet, crocheted in design of roses and leaves and hand sewn to sheet.",
@@ -312,11 +324,11 @@
       "ca_objects.StatementOfSignificance":"Aesthetic: \nSocial:",
       "ca_objects.Materials":"Cotton",
       "ca_objects.Dimensions.DimensionsValue":"W:130cms; L:222cms; Width of lace: 7.5cms",
-      "classificationHierarchy":"Root node for Classification (183); MANCHESTER (272); Bedding (273); sheets (275)"
+      "classificationHierarchy":"Root node for Classification (183); MANCHESTER (255); Bedding (274); sheets (276)"
     },
     {
-      "object_id":"25",
-      "id":"25",
+      "object_id":"26",
+      "id":"26",
       "idno":"MA1992.41",
       "display_label":"TRIANGULAR CRIBBAGE BOARD",
       "ca_objects.Description":"Triangular cribbage board with a brass knob at each join to act as a foot.  Each side has two holes to contain pegs, covered with a strip of brass fastened with a central pin, so cover can swivel to cover holes.  Stated by donor to be 100 years old.",
@@ -326,32 +338,32 @@
       "ca_objects.StatementOfSignificance":"Social: \nAesthetic:",
       "ca_objects.Materials":"Wood, metal.",
       "ca_objects.Dimensions.DimensionsValue":"L: 27.7 cm x  W: 27.7 cm x H: 27.7 cm",
-      "classificationHierarchy":"Root node for Classification (183); RECREATIONS (276); Games (277); cribbage board (278)"
+      "classificationHierarchy":"Root node for Classification (183); RECREATIONS (277); Games (278); cribbage board (279)"
     },
     {
-      "object_id":"26",
-      "id":"26",
+      "object_id":"27",
+      "id":"27",
       "idno":"A2007.182",
       "display_label":"FLOWER PAINTING",
       "ca_objects.Description":"Flower painting on canvas.  Wooden frame, slightly gilded.  Purple and orange flowers with leaves.  Oil on canvas.  No provenance found in collection.  Artist unknown.\n\nMissing from drawer location unknown as at 18.06.15",
       "ca_objects.Materials":"Canvas, wood.",
       "ca_objects.Dimensions.DimensionsValue":"H: 28 W: 18.5 cm",
-      "classificationHierarchy":"Root node for Classification (183); ARTWORKS (279); Painting (280); oil (281)"
+      "classificationHierarchy":"Root node for Classification (183); ARTWORKS (280); Painting (281); oil (282)"
     },
     {
-      "object_id":"27",
-      "id":"27",
+      "object_id":"28",
+      "id":"28",
       "idno":"C1995.36",
       "display_label":"FAN, SMALL, BLACK",
       "ca_objects.Description":"Small, black fan, has black painted bamboo sticks with matt finish &amp; guards with high gloss finish.  Leaf is of black satin with narrow band of silver on top edge.  Decoration is of red flowers with green and yellow leaves.",
       "ca_objects.Importance":"Local",
       "ca_objects.StatementOfSignificance":"social",
       "ca_objects.Materials":"Bamboo, satin, silver",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME ACCESSORIES (282); Female (283); fan (284)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME ACCESSORIES (283); Female (284); fan (285)"
     },
     {
-      "object_id":"28",
-      "id":"28",
+      "object_id":"29",
+      "id":"29",
       "idno":"P1999.3645copied",
       "display_label":"ST ANDREW'S, COOLGARDIE PICNIC",
       "ca_objects.Description":"Picnic at McMahons Dairy for St Andrews Anglican Church\nFront row: Tim Packard, Gwenyth ?, Edna Jacobs, Bobbie Packard\nCOPIED",
@@ -361,11 +373,11 @@
       "ca_objects.ComparativeCriteria":"Provenance;Condition",
       "ca_objects.StatementOfSignificance":"social",
       "ca_objects.Dimensions.DimensionsValue":"H: 9cm.; W: 12 cm.",
-      "classificationHierarchy":"Root node for Classification (183); GROUP (285); Picnic (286); coolgardie (287)"
+      "classificationHierarchy":"Root node for Classification (183); GROUP (286); Picnic (287); coolgardie (288)"
     },
     {
-      "object_id":"29",
-      "id":"29",
+      "object_id":"30",
+      "id":"30",
       "idno":"C2009.135",
       "display_label":"COCKED HAT\/TRICORNE",
       "ca_objects.Description":"Rare eighteenth century cocked hat, plain, black corded swilk. Round crown with band and rosette. Wide brim on three sides which fold back to centre. Hand-stitched, narrow cord ties. Ca 1770  Heritage item.",
@@ -377,11 +389,11 @@
       "ca_objects.ComparativeCriteria":"Rarity",
       "ca_objects.StatementOfSignificance":"Rarity: Cocked hat\/tricorne C1770 in excellent condition",
       "ca_objects.Materials":"corded silk",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME (259); Male headwear (288); tricorne (289)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME (262); Male headwear (289); tricorne (290)"
     },
     {
-      "object_id":"30",
-      "id":"30",
+      "object_id":"31",
+      "id":"31",
       "idno":"P2009.96",
       "display_label":"WILLIAM &amp; MARY BLAKE GRAVESTONE",
       "ca_objects.Description":"William &amp; Mary Blake gravestone.  Wooden headstone in foreground &amp; the names of the Blakes on the marble stone in background.",
@@ -390,11 +402,11 @@
       "ca_objects.StatementOfSignificance":"Historic: \nCondition:  Good",
       "ca_objects.Materials":"Card board",
       "ca_objects.Dimensions.DimensionsValue":"PC, H:912cm ; W:9cm",
-      "classificationHierarchy":"Root node for Classification (183); PLACE (244); Grave (290)"
+      "classificationHierarchy":"Root node for Classification (183); PLACE (244); Grave (291)"
     },
     {
-      "object_id":"31",
-      "id":"31",
+      "object_id":"32",
+      "id":"32",
       "idno":"P2009.291",
       "display_label":"H.M.S. HOOD IN FREMANTLE",
       "ca_objects.Description":"H.M.S. Hood in Fremantle, 1924",
@@ -408,8 +420,8 @@
       "ca_objects.Dimensions.DimensionsValue":"B, H:12cm. ; W:18cm."
     },
     {
-      "object_id":"32",
-      "id":"32",
+      "object_id":"33",
+      "id":"33",
       "idno":"P1999.4318copied",
       "display_label":"MOUNTAIN DEVIL",
       "ca_objects.Description":"Mountain devil\nCOPIED",
@@ -420,11 +432,11 @@
       "ca_objects.SignificanceCriteria":"Scientific or Research",
       "ca_objects.StatementOfSignificance":"Scientific:",
       "ca_objects.Dimensions.DimensionsValue":"H: 5 cm., W: 8 cm.",
-      "classificationHierarchy":"Root node for Classification (183); FAUNA (291); Native (292); mountain devil (293)"
+      "classificationHierarchy":"Root node for Classification (183); FAUNA (292); Native (293); mountain devil (294)"
     },
     {
-      "object_id":"33",
-      "id":"33",
+      "object_id":"34",
+      "id":"34",
       "idno":"P1999.2474",
       "display_label":"ABORIGINES - MAN &amp; WOMAN IN WESTERN DRESS (S.W) (P.C. SENT 1906)",
       "ca_objects.Description":"Aboriginal man and woman in western dress  in South West.\nPC sent 1906\nOld No. P926",
@@ -436,11 +448,11 @@
       "ca_objects.ComparativeCriteria":"Interpretive Potential",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial: \nInterpretive:",
       "ca_objects.Materials":"Cardboard",
-      "classificationHierarchy":"Root node for Classification (183); PORTRAIT (294); Couple (295); aboriginal australians (296)"
+      "classificationHierarchy":"Root node for Classification (183); PORTRAIT (295); Couple (296); aboriginal australians (297)"
     },
     {
-      "object_id":"34",
-      "id":"34",
+      "object_id":"35",
+      "id":"35",
       "idno":"P2009.430",
       "display_label":"EDWARDS, EDWARD WILLIAM",
       "ca_objects.Description":"Photo of Edward William Edwards, showing upper body, dressed in shirt, tie and waistcoat with hat. B.1871 d 1956. C1940s",
@@ -451,11 +463,11 @@
       "ca_objects.StatementOfSignificance":"Provenance: Mollie Bentley papers",
       "ca_objects.Materials":"paper",
       "ca_objects.Dimensions.DimensionsValue":"H;9cm W:7cm",
-      "classificationHierarchy":"Root node for Classification (183); PERSON (254); Individual (297); edward edwards (298)"
+      "classificationHierarchy":"Root node for Classification (183); PERSON (257); Individual (298); edward edwards (299)"
     },
     {
-      "object_id":"35",
-      "id":"35",
+      "object_id":"36",
+      "id":"36",
       "idno":"C2009.183",
       "display_label":"EVENING GOWN",
       "ca_objects.Description":"Cream silk net over gold sateen evening gown. Extensive panels of white and brown bugle beadwork to front bodice and centre front. V-shape neck with appliqued lace and bead insert. Elbow length sleeves with dropped glass beads and sequin trim. Net overlay is raised higher at front hem with bugle glass bead tassel. Ca 1911-1914. Heritage item\n\nCollection Dreswses, Evening ca1910-1920",
@@ -466,11 +478,11 @@
       "ca_objects.StatementOfSignificance":"Rarity: Heritage item",
       "ca_objects.Materials":"sateen, silk net, beading, hooks",
       "ca_objects.Dimensions.DimensionsValue":"H:130cm W:196cm",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME (259); Female (269); dress, evening (299)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME (262); Female (271); dress, evening (300)"
     },
     {
-      "object_id":"36",
-      "id":"36",
+      "object_id":"37",
+      "id":"37",
       "idno":"C2010.62",
       "display_label":"EVENING DRESS",
       "ca_objects.Description":"Lilac crepe, cocktail length evening dress.  Has V-shaped neck bound in cream silk &amp; finished with a cream rosette.  Short sleeves trimmed with cream silk.  Basque waist trimmed in cream.  Bias cut skirt.  Zip to back (not original).\nMade &amp; worn by Mrs. Betty Sagar (nee Lankester) ca 1938-40 &amp; subsequently worn again by her granddaughter in ca 1990.",
@@ -480,11 +492,11 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
       "ca_objects.Materials":"Silk",
-      "classificationHierarchy":"Root node for Classification (183); COSTUME (259); Female (269); dress (301)"
+      "classificationHierarchy":"Root node for Classification (183); COSTUME (262); Female (271); dress (302)"
     },
     {
-      "object_id":"37",
-      "id":"37",
+      "object_id":"38",
+      "id":"38",
       "idno":"P2014.25",
       "display_label":"GREETING CARD WITH PAINTING OF CARNARVON DRY RIVER BED",
       "ca_objects.Description":"Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. \/Paul, paralysed in the arms by poliomyelitis, paints with his foot.\nWith Best Wishes\/for Christmas\/and the New Year\nHandwritten message in black ink",
@@ -494,11 +506,11 @@
       "ca_objects.StatementOfSignificance":"Representativeness: Greeting card with painting of Carnarvon done for Paraplegic Association of WA",
       "ca_objects.Materials":"paper, printing ink and writing ink",
       "ca_objects.Dimensions.DimensionsValue":"10 cm x 5 cm",
-      "classificationHierarchy":"Root node for Classification (183); PLACES (302); Carnarvon (303); dry river bed (304)"
+      "classificationHierarchy":"Root node for Classification (183); PLACES (303); Carnarvon (304); dry river bed (305)"
     },
     {
-      "object_id":"38",
-      "id":"38",
+      "object_id":"39",
+      "id":"39",
       "idno":"P2014.807",
       "display_label":"NURSE PEARL ASHWIN MEEKATHARRA HOSPITAL",
       "ca_objects.Description":"Post card. Nurse Pearl Ashwin in nursing uniform  Meekatharra Hospital\n\nPrinted on reverse: Image: Nurse Pearl Ashwin, Meekatharra Hospital\/State Library of Western Australia, BA368\/278\/My Story: Pearl Ashwin was one of the first Aboriginal women in Meekatharra to become a registered nurse and is pictured here working at Meekatharra Hospital.\n\nStorylines is a State Library initiative to explore with the community the last 125 years of Aboriginal history through our heritage collections.",
@@ -506,11 +518,11 @@
       "ca_objects.StatementOfSignificance":"Interpretive: Photograph of Nurse Pearl Ashwin one of the first Aboriginal women in Meekatharra to become a registered nurse",
       "ca_objects.Materials":"photographic paper and printing ink",
       "ca_objects.Dimensions.DimensionsValue":"W:10 x H 14",
-      "classificationHierarchy":"Root node for Classification (183); PERSON (254); Individual (297); ashwin pearl (305)"
+      "classificationHierarchy":"Root node for Classification (183); PERSON (257); Individual (298); ashwin pearl (306)"
     },
     {
-      "object_id":"39",
-      "id":"39",
+      "object_id":"40",
+      "id":"40",
       "idno":"P2015.140",
       "display_label":"TELECOM HISTORICAL PICTURES",
       "ca_objects.Description":"Telecom Historical Pictures - PMG Light Truck",
@@ -521,7 +533,7 @@
       "ca_objects.ComparativeCriteria":"Representativeness",
       "ca_objects.StatementOfSignificance":"Historic: \nRepresentativeness:",
       "ca_objects.Materials":"35 mm negative",
-      "classificationHierarchy":"Root node for Classification (183); COMMUNICATION (306); Postal (307); pmg light truck (308)"
+      "classificationHierarchy":"Root node for Classification (183); COMMUNICATION (307); Postal (308); pmg light truck (309)"
     }
   ]
 }

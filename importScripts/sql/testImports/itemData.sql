@@ -28,7 +28,6 @@ UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE TertiaryClass IS N
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE SignificanceCriteria LIKE '%;%' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE ComparativeCriteria LIKE '%;%' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Classification IS NOT NULL LIMIT 2)
-UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE DefaultCurrentLocation IS NOT NULL LIMIT 2)
 
 ;
 ## now we've found the sample records use them as the source
@@ -62,10 +61,9 @@ SELECT
     Classification,
     PrimaryClass,
     SecondaryClass,
-    TertiaryClass,
-    DefaultCurrentLocation
+    TertiaryClass
 FROM
     ObjectsExport
 WHERE
-    PrimaryKey_Object_Table IN(3,6,8,23,25,29,30,47,48,4138,1584,1621,1622,755,1841,3977,4406,3767,4324,4496,5773,679,750,17084,3058,12836,679,13671,27992,11114,14390,11423,14712,11457,12626,26488,28319,8789,8260,3369)
+    PrimaryKey_Object_Table IN(29,30,47,48,4138,1584,1621,1622,755,1841,4496,5773,679,750,3058,12836,13671,27992,11114,14390,11423,14712,11457,12626,26488,28319)
 ;
