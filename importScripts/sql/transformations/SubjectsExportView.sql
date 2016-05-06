@@ -18,19 +18,19 @@ SELECT
     NULLIF(o.Accession_Full_ID,'') AS o_Accession_Full_ID,
     NULLIF(o.ItemType,'') AS o_ItemType,
     NULLIF(ss.SubjectSubjectID,'') AS ss_SubjectSubjectID,
-    NULLIF(ss.SubjectID,'') AS ss_SubjectID,
-    NULLIF(ss.SubjectName,'') AS ss_SubjectName,
+    NULLIF(relatedSubject.SubjectID,'') AS relatedSubject_SubjectID,
+    NULLIF(relatedSubject.SubjectName,'') AS relatedSubject_SubjectName,
     NULLIF(ss.Association,'') AS ss_Association,
     NULLIF(ss.Dates,'') AS ss_Dates,
     NULLIF(ss.DateMin,'') AS ss_DateMin,
     NULLIF(ss.DateMax,'') AS ss_DateMax,
-    NULLIF(rs.SubjectType,'') AS rs_SubjectType
+    NULLIF(relatedSubject.SubjectType,'') AS relatedSubject_SubjectType
 FROM
     Subjects s
     LEFT JOIN ObjectsSubjects os ON os.SubjectName = s.SubjectName
     LEFT JOIN Objects o ON os.Accession_Full_ID = o.Accession_Full_ID
     LEFT JOIN SubjectsSubjects ss ON s.SubjectID = ss.SubjectID
-    LEFT JOIN Subjects rs ON ss.SubjectName = rs.SubjectName
+    LEFT JOIN Subjects relatedSubject ON ss.SubjectName = relatedSubject.SubjectName
 ORDER BY
     s.SubjectID,
     os.ObjectSubjectID,

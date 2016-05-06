@@ -4,6 +4,9 @@
             "convertCodesToDisplayText": true
         },
         "ca_occurrences.idno": {},
+        "ca_occurrences.access": {
+            "convertCodesToDisplayText": 1
+        },
         "ca_occurrences.preferred_labels": {},
         "ca_occurrences.LegacyID": {},
         "ca_occurrences.SubjectDates": {},
