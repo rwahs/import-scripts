@@ -133,20 +133,27 @@
     {
       "object_id":"10",
       "id":"10",
+      "idno":"P2000\/",
+      "display_label":"HOOLEY, ELLA",
+      "ca_objects.Summary":"Test item only."
+    },
+    {
+      "object_id":"11",
+      "id":"11",
       "idno":"P1999.1004copied",
       "display_label":"ZEPHYR (FERRY)",
-      "ca_objects.Description":"Zephyr  (Ferry)<br \/><br \/>\nWritten on reverse: A E Tilley &amp; Co Pty Ltd Fremantle Ferry S S Zephyr",
+      "ca_objects.Summary":"Zephyr  (Ferry)<br \/><br \/>\nWritten on reverse: A E Tilley &amp; Co Pty Ltd Fremantle Ferry S S Zephyr",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Unknown",
       "ca_objects.Dimensions.DimensionsValue":"Imperial size (21x25 cm)",
       "classificationHierarchy":"Root node for Classification (178); OBJECT (244); Ships (245); ferries (246)"
     },
     {
-      "object_id":"11",
-      "id":"11",
+      "object_id":"12",
+      "id":"12",
       "idno":"P1999\/1006",
       "display_label":"COLONIAL HOSPITAL, ST MARY'S CATHEDRAL &amp; R.C. BISHOPS HOUSE",
-      "ca_objects.Description":"Colonial Hospital, St Mary's Cathedral &amp; Roman Catholic Bishops House. Victoria Square c1860s<br \/><br \/>\nSite of Royal Perth Hospital",
+      "ca_objects.Summary":"Colonial Hospital, St Mary's Cathedral &amp; Roman Catholic Bishops House. Victoria Square c1860s<br \/><br \/>\nSite of Royal Perth Hospital",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Unknown",
       "ca_objects.ItemDates":"c1863",
@@ -158,11 +165,11 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Building (248); hospitals (249)"
     },
     {
-      "object_id":"12",
-      "id":"12",
+      "object_id":"13",
+      "id":"13",
       "idno":"P1999.1008copied",
       "display_label":"THE BUNGALOW, SIR JOHN FORREST'S HOME",
-      "ca_objects.Description":"The Bungalow, Hay Street.<br \/>\nHome of Sir John and Lady Forrest, left to Lady Forrest by her father Howard Hamersley.<br \/>\nBuilt by Wittenoom family",
+      "ca_objects.Summary":"The Bungalow, Hay Street.<br \/>\nHome of Sir John and Lady Forrest, left to Lady Forrest by her father Howard Hamersley.<br \/>\nBuilt by Wittenoom family",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"unknown",
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
@@ -171,11 +178,11 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Building (248); houses (250)"
     },
     {
-      "object_id":"13",
-      "id":"13",
+      "object_id":"14",
+      "id":"14",
       "idno":"P1999.1013Copied",
       "display_label":"DESCRIPTION OF 'PARK BUNGALOW' HOME OF C.Y. O'CONNOR.",
-      "ca_objects.Description":"Description of 'Park Bungalow', home of C.Y. O'Connor<br \/>\nCOPIED",
+      "ca_objects.Summary":"Description of 'Park Bungalow', home of C.Y. O'Connor<br \/>\nCOPIED",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"unknown",
       "ca_objects.Importance":"State",
@@ -184,11 +191,11 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Building (248); description (252)"
     },
     {
-      "object_id":"14",
-      "id":"14",
+      "object_id":"15",
+      "id":"15",
       "idno":"P1999.1070copied(b",
       "display_label":"ROTTNEST SETTLEMENT: THOMPSONS BAY 1900-1908",
-      "ca_objects.Description":"Rottnest settlement: Thomsons Bay 1900-1908. From right to left - The Pilot boats crew quarters-dining room, kitchen, etc. The opening in front was the boat shed. The Pilot took ships to Fremantle and he was later ferried back to the island. The second building was originally the Pilot's quarters, then the Signalmans and now Des Sullivan's house. The third building was semi-detached houses, the left one occupied by Chief Warder J.J. O'Donoghue on his retirement. In 1917 or 1918 O'Donoghue was transferred to the Board of Control. Another occupant was the school teacher. The fourth building was the Superintendents house. On the extreme left is the Governor's residence or Government House as the locals called it. The sea wall was built by Superintendent Vincent. <br \/>\nAccession No. 43.120",
+      "ca_objects.Summary":"Rottnest settlement: Thomsons Bay 1900-1908. From right to left - The Pilot boats crew quarters-dining room, kitchen, etc. The opening in front was the boat shed. The Pilot took ships to Fremantle and he was later ferried back to the island. The second building was originally the Pilot's quarters, then the Signalmans and now Des Sullivan's house. The third building was semi-detached houses, the left one occupied by Chief Warder J.J. O'Donoghue on his retirement. In 1917 or 1918 O'Donoghue was transferred to the Board of Control. Another occupant was the school teacher. The fourth building was the Superintendents house. On the extreme left is the Governor's residence or Government House as the locals called it. The sea wall was built by Superintendent Vincent. <br \/>\nAccession No. 43.120",
       "ca_objects.ResearchBy":"po",
       "ca_objects.Importance":"State",
       "ca_objects.PhysicalCondition":"Excellent",
@@ -197,8 +204,8 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Land (253); rottnest island (254)"
     },
     {
-      "object_id":"15",
-      "id":"15",
+      "object_id":"16",
+      "id":"16",
       "idno":"ME16.2",
       "display_label":"HALF-WAY TREE",
       "ca_objects.Description":"Half-way Tree  in Claremont, Stirling Highway, south side opposite Vaucluse Street  <br \/><br \/>\n Inscription reads \"On this spot stood the Half-way Tree at which mailmen from Perth and Fremantle met and exchanged their mails from the earliest days of the colony up to 1867\".",
@@ -208,8 +215,8 @@
       "classificationHierarchy":"Root node for Classification (178); MEMORIALS (255); Plaques (256)"
     },
     {
-      "object_id":"16",
-      "id":"16",
+      "object_id":"17",
+      "id":"17",
       "idno":"ME7.2",
       "display_label":"WILLIAM DE VLAMINGH",
       "ca_objects.Description":"William de Vlamingh : Inscription reads \"William de Vlamingh Dutch Navigator who visited this island on the 30th December 1696 and named it Rottenest Island.\"  Located on Rottnest.",
@@ -218,11 +225,11 @@
       "classificationHierarchy":"Root node for Classification (178); MEMORIALS (255); Plaques (256)"
     },
     {
-      "object_id":"17",
-      "id":"17",
+      "object_id":"18",
+      "id":"18",
       "idno":"P1999.1132copied",
       "display_label":"? CLARKSON, GROUP OF THREE",
-      "ca_objects.Description":"? Clarkson, group of three",
+      "ca_objects.Summary":"? Clarkson, group of three",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Manning",
       "ca_objects.Importance":"State",
@@ -232,11 +239,11 @@
       "classificationHierarchy":"Root node for Classification (178); PERSON (257); Group (258)"
     },
     {
-      "object_id":"18",
-      "id":"18",
+      "object_id":"19",
+      "id":"19",
       "idno":"P1999.1798copied",
       "display_label":"FREMANTLE, LOOKING SOUTH FROM ROUND HOUSE",
-      "ca_objects.Description":"Fremantle, looking South From Round House",
+      "ca_objects.Summary":"Fremantle, looking South From Round House",
       "ca_objects.ItemDates":"1902",
       "ca_objects.SignificanceCriteria":"Historic;Scientific or Research;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Social: \nScientific: \nHistoric:",
@@ -244,8 +251,8 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Fremantle (259); view of harbour (260)"
     },
     {
-      "object_id":"19",
-      "id":"19",
+      "object_id":"20",
+      "id":"20",
       "idno":"C1989.169g",
       "display_label":"SHOE, INFANT'S",
       "ca_objects.Description":"Shoe, Infant's.  Only one shoette knitted in wool; Panel in front with raised knobs; ankle straps.",
@@ -255,8 +262,8 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME (262); Infants (263); shoette (264)"
     },
     {
-      "object_id":"20",
-      "id":"20",
+      "object_id":"21",
+      "id":"21",
       "idno":"MA1984.103A-C",
       "display_label":"CREAM  AND SUGAR SET",
       "ca_objects.Description":"Sugar bowl and cream jug of china, light brown with sprays of pink roses and leaves. Gold edges. Set into EPNS stand with handle. Provenance: Belonged to donor's aunt, Miss Annie George.",
@@ -268,8 +275,8 @@
       "classificationHierarchy":"Root node for Classification (178); DOMESTIC EQUIPMENT (266); Food &amp; drink consumption (267); crockery (268)"
     },
     {
-      "object_id":"21",
-      "id":"21",
+      "object_id":"22",
+      "id":"22",
       "idno":"MA1980.21d",
       "display_label":"WRITING DESK, BLACK JAPANNED",
       "ca_objects.Description":"Wooden box, japanned; opens to form a velvet covered writing surface. Bottom of box has divisions for storage. Box is black with ornamentation on lid of a circle of flowers of inlaid mother of pearl surrounding a bunch of flowers, painted and inlaid mother of pearl. Provenance: Belonged to Mrs Bridges, grand-daughter of Capt Thomas who came to WA on 'Gilmore' on 10\/11\/1829.",
@@ -282,8 +289,8 @@
       "classificationHierarchy":"Root node for Classification (178); DOMESTIC EQUIPMENT (266); Writing equipment (269); desks (270)"
     },
     {
-      "object_id":"22",
-      "id":"22",
+      "object_id":"23",
+      "id":"23",
       "idno":"C1990.110",
       "display_label":"STOCKINGS, 1 PAIR, NYLON - FEMALE",
       "ca_objects.Description":"1 pair of nylon stockings. 15 denier micro mesh, seamless perfect nylons. Size 9 \"GARDENIA\"  in deep beige colour. New not worn.",
@@ -295,8 +302,8 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME (262); Female (272); stockings (273)"
     },
     {
-      "object_id":"23",
-      "id":"23",
+      "object_id":"24",
+      "id":"24",
       "idno":"MA1994.63",
       "display_label":"BEDSPREAD, WHITE KNITTED",
       "ca_objects.Description":"The bedspread is knitted in a shell pattern with fine needles. The item must have been made by machine, as there are no joins in it and could not have been hand knitted. Provenance: A card sewn on to the bedspread states 'Bedspread knitted for Mrs S W Viveash 'Ashby' Middle Swan by her mother'. The Bicentennial Dictionary of Western Australians states that S.W. Viveash arrived in WA in 1838 per 'Britomart' with his wife and children. He married Susan Mary Smith, b 1813.",
@@ -307,8 +314,8 @@
       "classificationHierarchy":"Root node for Classification (178); MANCHESTER (275); Bedding (276); bedspreads (277)"
     },
     {
-      "object_id":"24",
-      "id":"24",
+      "object_id":"25",
+      "id":"25",
       "idno":"MA1990.105",
       "display_label":"SHEET, WHITE COTTON WITH LACE",
       "ca_objects.Description":"One single sheet with a 7.5cm wide row of hand-crocheted lace 5.5cms from top of sheet, crocheted in design of roses and leaves and hand sewn to sheet.",
@@ -320,8 +327,8 @@
       "classificationHierarchy":"Root node for Classification (178); MANCHESTER (275); Bedding (276); sheets (278)"
     },
     {
-      "object_id":"25",
-      "id":"25",
+      "object_id":"26",
+      "id":"26",
       "idno":"MA1992.41",
       "display_label":"TRIANGULAR CRIBBAGE BOARD",
       "ca_objects.Description":"Triangular cribbage board with a brass knob at each join to act as a foot.  Each side has two holes to contain pegs, covered with a strip of brass fastened with a central pin, so cover can swivel to cover holes.  Stated by donor to be 100 years old.",
@@ -334,8 +341,8 @@
       "classificationHierarchy":"Root node for Classification (178); RECREATIONS (279); Games (280); cribbage board (281)"
     },
     {
-      "object_id":"26",
-      "id":"26",
+      "object_id":"27",
+      "id":"27",
       "idno":"C1995.36",
       "display_label":"FAN, SMALL, BLACK",
       "ca_objects.Description":"Small, black fan, has black painted bamboo sticks with matt finish &amp; guards with high gloss finish.  Leaf is of black satin with narrow band of silver on top edge.  Decoration is of red flowers with green and yellow leaves.",
@@ -345,11 +352,11 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME ACCESSORIES (282); Female (283); fan (284)"
     },
     {
-      "object_id":"27",
-      "id":"27",
+      "object_id":"28",
+      "id":"28",
       "idno":"P1999.3645copied",
       "display_label":"ST ANDREW'S, COOLGARDIE PICNIC",
-      "ca_objects.Description":"Picnic at McMahons Dairy for St Andrews Anglican Church<br \/>\nFront row: Tim Packard, Gwenyth ?, Edna Jacobs, Bobbie Packard<br \/>\nCOPIED",
+      "ca_objects.Summary":"Picnic at McMahons Dairy for St Andrews Anglican Church<br \/>\nFront row: Tim Packard, Gwenyth ?, Edna Jacobs, Bobbie Packard<br \/>\nCOPIED",
       "ca_objects.ItemDates":"1911",
       "ca_objects.Importance":"Local",
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
@@ -359,8 +366,8 @@
       "classificationHierarchy":"Root node for Classification (178); GROUP (285); Picnic (286); coolgardie (287)"
     },
     {
-      "object_id":"28",
-      "id":"28",
+      "object_id":"29",
+      "id":"29",
       "idno":"C2009.135",
       "display_label":"COCKED HAT\/TRICORNE",
       "ca_objects.Description":"Rare eighteenth century cocked hat, plain, black corded swilk. Round crown with band and rosette. Wide brim on three sides which fold back to centre. Hand-stitched, narrow cord ties. Ca 1770  Heritage item.",
@@ -375,11 +382,11 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME (262); Male headwear (288); tricorne (289)"
     },
     {
-      "object_id":"29",
-      "id":"29",
+      "object_id":"30",
+      "id":"30",
       "idno":"P2009.96",
       "display_label":"WILLIAM &amp; MARY BLAKE GRAVESTONE",
-      "ca_objects.Description":"William &amp; Mary Blake gravestone.  Wooden headstone in foreground &amp; the names of the Blakes on the marble stone in background.",
+      "ca_objects.Summary":"William &amp; Mary Blake gravestone.  Wooden headstone in foreground &amp; the names of the Blakes on the marble stone in background.",
       "ca_objects.SignificanceCriteria":"Historic",
       "ca_objects.ComparativeCriteria":"Condition",
       "ca_objects.StatementOfSignificance":"Historic: \nCondition:  Good",
@@ -388,11 +395,11 @@
       "classificationHierarchy":"Root node for Classification (178); PLACE (247); Grave (290)"
     },
     {
-      "object_id":"30",
-      "id":"30",
+      "object_id":"31",
+      "id":"31",
       "idno":"P2009.291",
       "display_label":"H.M.S. HOOD IN FREMANTLE",
-      "ca_objects.Description":"H.M.S. Hood in Fremantle, 1924",
+      "ca_objects.Summary":"H.M.S. Hood in Fremantle, 1924",
       "ca_objects.ItemDates":"1924",
       "ca_objects.EarliestYear":"1924",
       "ca_objects.LatestYear":"1924",
@@ -403,11 +410,11 @@
       "ca_objects.Dimensions.DimensionsValue":"B, H:12cm. ; W:18cm."
     },
     {
-      "object_id":"31",
-      "id":"31",
+      "object_id":"32",
+      "id":"32",
       "idno":"P1999.4318copied",
       "display_label":"MOUNTAIN DEVIL",
-      "ca_objects.Description":"Mountain devil<br \/>\nCOPIED",
+      "ca_objects.Summary":"Mountain devil<br \/>\nCOPIED",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Mrs Fraser",
       "ca_objects.ItemDates":"1938",
@@ -419,11 +426,11 @@
       "classificationHierarchy":"Root node for Classification (178); FAUNA (291); Native (292); mountain devil (293)"
     },
     {
-      "object_id":"32",
-      "id":"32",
+      "object_id":"33",
+      "id":"33",
       "idno":"P1999.2474",
       "display_label":"ABORIGINES - MAN &amp; WOMAN IN WESTERN DRESS (S.W) (P.C. SENT 1906)",
-      "ca_objects.Description":"Aboriginal man and woman in western dress  in South West.<br \/>\nPC sent 1906<br \/>\nOld No. P926",
+      "ca_objects.Summary":"Aboriginal man and woman in western dress  in South West.<br \/>\nPC sent 1906<br \/>\nOld No. P926",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Austral Stores",
       "ca_objects.ItemDates":"1906",
@@ -436,11 +443,11 @@
       "classificationHierarchy":"Root node for Classification (178); PORTRAIT (294); Couple (295); aboriginal australians (296)"
     },
     {
-      "object_id":"33",
-      "id":"33",
+      "object_id":"34",
+      "id":"34",
       "idno":"P2009.430",
       "display_label":"EDWARDS, EDWARD WILLIAM",
-      "ca_objects.Description":"Photo of Edward William Edwards, showing upper body, dressed in shirt, tie and waistcoat with hat. B.1871 d 1956. C1940s",
+      "ca_objects.Summary":"Photo of Edward William Edwards, showing upper body, dressed in shirt, tie and waistcoat with hat. B.1871 d 1956. C1940s",
       "ca_objects.ItemDates":"1940s",
       "ca_objects.EarliestYear":"1940",
       "ca_objects.LatestYear":"1949",
@@ -451,8 +458,8 @@
       "classificationHierarchy":"Root node for Classification (178); PERSON (257); Individual (297); edward edwards (298)"
     },
     {
-      "object_id":"34",
-      "id":"34",
+      "object_id":"35",
+      "id":"35",
       "idno":"C2009.183",
       "display_label":"EVENING GOWN",
       "ca_objects.Description":"Cream silk net over gold sateen evening gown. Extensive panels of white and brown bugle beadwork to front bodice and centre front. V-shape neck with appliqued lace and bead insert. Elbow length sleeves with dropped glass beads and sequin trim. Net overlay is raised higher at front hem with bugle glass bead tassel. Ca 1911-1914. Heritage item<br \/><br \/>\nCollection Dreswses, Evening ca1910-1920",
@@ -466,8 +473,8 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME (262); Female (272); dress, evening (299)"
     },
     {
-      "object_id":"35",
-      "id":"35",
+      "object_id":"36",
+      "id":"36",
       "idno":"C2010.62",
       "display_label":"EVENING DRESS",
       "ca_objects.Description":"Lilac crepe, cocktail length evening dress.  Has V-shaped neck bound in cream silk &amp; finished with a cream rosette.  Short sleeves trimmed with cream silk.  Basque waist trimmed in cream.  Bias cut skirt.  Zip to back (not original).<br \/>\nMade &amp; worn by Mrs. Betty Sagar (nee Lankester) ca 1938-40 &amp; subsequently worn again by her granddaughter in ca 1990.",
@@ -480,11 +487,11 @@
       "classificationHierarchy":"Root node for Classification (178); COSTUME (262); Female (272); dress (301)"
     },
     {
-      "object_id":"36",
-      "id":"36",
+      "object_id":"37",
+      "id":"37",
       "idno":"P2014.25",
       "display_label":"GREETING CARD WITH PAINTING OF CARNARVON DRY RIVER BED",
-      "ca_objects.Description":"Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry<br \/>\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. \/Paul, paralysed in the arms by poliomyelitis, paints with his foot.<br \/>\nWith Best Wishes\/for Christmas\/and the New Year<br \/>\nHandwritten message in black ink",
+      "ca_objects.Summary":"Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry<br \/>\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. \/Paul, paralysed in the arms by poliomyelitis, paints with his foot.<br \/>\nWith Best Wishes\/for Christmas\/and the New Year<br \/>\nHandwritten message in black ink",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"painting by Paul Berry for Paraplegic Association of WA",
       "ca_objects.ComparativeCriteria":"Representativeness",
@@ -495,11 +502,11 @@
       "classificationHierarchy":"Root node for Classification (178); PLACES (302); Carnarvon (303); dry river bed (304)"
     },
     {
-      "object_id":"37",
-      "id":"37",
+      "object_id":"38",
+      "id":"38",
       "idno":"P2014.807",
       "display_label":"NURSE PEARL ASHWIN MEEKATHARRA HOSPITAL",
-      "ca_objects.Description":"Post card. Nurse Pearl Ashwin in nursing uniform  Meekatharra Hospital<br \/><br \/>\nPrinted on reverse: Image: Nurse Pearl Ashwin, Meekatharra Hospital\/State Library of Western Australia, BA368\/278\/My Story: Pearl Ashwin was one of the first Aboriginal women in Meekatharra to become a registered nurse and is pictured here working at Meekatharra Hospital.<br \/><br \/>\nStorylines is a State Library initiative to explore with the community the last 125 years of Aboriginal history through our heritage collections.",
+      "ca_objects.Summary":"Post card. Nurse Pearl Ashwin in nursing uniform  Meekatharra Hospital<br \/><br \/>\nPrinted on reverse: Image: Nurse Pearl Ashwin, Meekatharra Hospital\/State Library of Western Australia, BA368\/278\/My Story: Pearl Ashwin was one of the first Aboriginal women in Meekatharra to become a registered nurse and is pictured here working at Meekatharra Hospital.<br \/><br \/>\nStorylines is a State Library initiative to explore with the community the last 125 years of Aboriginal history through our heritage collections.",
       "ca_objects.ComparativeCriteria":"Interpretive Potential",
       "ca_objects.StatementOfSignificance":"Interpretive: Photograph of Nurse Pearl Ashwin one of the first Aboriginal women in Meekatharra to become a registered nurse",
       "ca_objects.Materials":"photographic paper and printing ink",
@@ -507,11 +514,11 @@
       "classificationHierarchy":"Root node for Classification (178); PERSON (257); Individual (297); ashwin pearl (305)"
     },
     {
-      "object_id":"38",
-      "id":"38",
+      "object_id":"39",
+      "id":"39",
       "idno":"P2015.140",
       "display_label":"TELECOM HISTORICAL PICTURES",
-      "ca_objects.Description":"Telecom Historical Pictures - PMG Light Truck",
+      "ca_objects.Summary":"Telecom Historical Pictures - PMG Light Truck",
       "ca_objects.ItemDates":"1940s",
       "ca_objects.EarliestYear":"1940",
       "ca_objects.LatestYear":"1949",
