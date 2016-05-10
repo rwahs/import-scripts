@@ -152,6 +152,22 @@
     {
       "occurrence_id":"9",
       "id":"9",
+      "idno":"144",
+      "display_label":"University of Western Australia",
+      "ca_occurrences.type_id":"Subject",
+      "ca_occurrences.idno":"144",
+      "ca_occurrences.access":"accessible to public",
+      "ca_occurrences.preferred_labels":"University of Western Australia",
+      "ca_objects.idno":"P1999.609;P2014.846",
+      "ca_objects.type_id":"Photograph;Photograph",
+      "ca_objects_x_occurrences.Association":"photograph of corn field later playing field of University;PHOTOGRAPH",
+      "ca_objects_x_occurrences.SubjectDates":"1893;1930-39",
+      "ca_objects_x_occurrences.effective_date":";",
+      "ca_objects_x_occurrences.LegacyID":"300;950"
+    },
+    {
+      "occurrence_id":"10",
+      "id":"10",
       "idno":"167",
       "display_label":"BUSSELL Family",
       "ca_occurrences.type_id":"Subject",
@@ -165,8 +181,24 @@
       "ca_objects_x_occurrences.LegacyID":"656"
     },
     {
-      "occurrence_id":"10",
-      "id":"10",
+      "occurrence_id":"11",
+      "id":"11",
+      "idno":"170",
+      "display_label":"Royal Western Australian Historical Society",
+      "ca_occurrences.type_id":"Subject",
+      "ca_occurrences.idno":"170",
+      "ca_occurrences.access":"accessible to public",
+      "ca_occurrences.preferred_labels":"Royal Western Australian Historical Society",
+      "ca_objects.idno":"P2003.760;P2003.761;P2003.762;P2003.763;P2003.764;P2003.765;P2003.767;P2003.768;P2003.769",
+      "ca_objects.type_id":"Photograph;Photograph;Photograph;Photograph;Photograph;Photograph;Photograph;Photograph;Photograph",
+      "ca_objects_x_occurrences.Association":"photograph, Veronica Toohey;photograph, bookshop;photograph, bookshop;bookshop;photograph bookshop;entrance, south door.;photograph;photograph entrance, south door;Society office",
+      "ca_objects_x_occurrences.SubjectDates":"1996;1996;1996;1996;1996;1996;;;1996",
+      "ca_objects_x_occurrences.effective_date":";;;;;;;;",
+      "ca_objects_x_occurrences.LegacyID":"682;683;685;686;687;688;689;690;691"
+    },
+    {
+      "occurrence_id":"12",
+      "id":"12",
       "idno":"200",
       "display_label":"MOLLOY Amelia",
       "ca_occurrences.type_id":"Subject",
@@ -182,12 +214,12 @@
       "ca_objects_x_occurrences.LegacyID":"887",
       "ca_occurrences_x_occurrences.Association":"Amelia was the daughter of Georgiana",
       "ca_occurrences_x_occurrences.LegacyID":"15",
-      "ca_occurrences_x_occurrences.occurrence_left_id":"10",
-      "ca_occurrences_x_occurrences.occurrence_right_id":"11"
+      "ca_occurrences_x_occurrences.occurrence_left_id":"12",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"13"
     },
     {
-      "occurrence_id":"11",
-      "id":"11",
+      "occurrence_id":"13",
+      "id":"13",
       "idno":"202",
       "display_label":"MOLLOY, Georgiana",
       "ca_occurrences.type_id":"Subject",
@@ -196,12 +228,12 @@
       "ca_occurrences.preferred_labels":"MOLLOY, Georgiana",
       "ca_occurrences_x_occurrences.Association":"Amelia was the daughter of Georgiana",
       "ca_occurrences_x_occurrences.LegacyID":"15",
-      "ca_occurrences_x_occurrences.occurrence_left_id":"10",
-      "ca_occurrences_x_occurrences.occurrence_right_id":"11"
+      "ca_occurrences_x_occurrences.occurrence_left_id":"12",
+      "ca_occurrences_x_occurrences.occurrence_right_id":"13"
     },
     {
-      "occurrence_id":"12",
-      "id":"12",
+      "occurrence_id":"14",
+      "id":"14",
       "idno":"218",
       "display_label":"Busselton",
       "ca_occurrences.type_id":"Subject",
