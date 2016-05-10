@@ -2,6 +2,10 @@
     "bundles": {
         "ca_objects.Description": {},
         "ca_objects.MakersMarks": {},
+        "ca_objects.Creator.CreatorType": {
+            "convertCodesToDisplayText": true
+        },
+        "ca_objects.Creator.CreatorName": {},
         "ca_objects.ItemDates": {},
         "ca_objects.EarliestYear": {},
         "ca_objects.LatestYear": {},
