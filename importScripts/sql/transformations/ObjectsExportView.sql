@@ -51,11 +51,11 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.LocationDate), '0000-00-00')                AS LocationDate,
         NULLIF(TRIM(o.LocationStatus), '')                        AS LocationStatus,
         NULLIF(TRIM(o.LoggedDate), '0000-00-00')                  AS LoggedDate,
-        CASE WHEN o.ItemType = 'Photograph'
+        CASE WHEN o.ItemType IN ('Photograph', 'Memorials')
             THEN NULL
         ELSE
             NULLIF(TRIM(o.MakersMarks), '') END                   AS MakersMarks,
-        CASE WHEN o.ItemType = 'Photograph'
+        CASE WHEN o.ItemType IN ('Photograph', 'Memorials')
             THEN
                 NULLIF(TRIM(o.MakersMarks), '')
         ELSE
