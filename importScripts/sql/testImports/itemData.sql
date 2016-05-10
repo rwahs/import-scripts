@@ -2,6 +2,7 @@
 (SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Accession_Full_ID IS NOT NULL AND Accession_Full_ID <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Description IS NOT NULL AND Description <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE MakersMarks IS NOT NULL AND MakersMarks <> '' LIMIT 2)
+UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE Creator IS NOT NULL AND Creator <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE ItemDates IS NOT NULL AND ItemDates <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE EarliestYear IS NOT NULL AND EarliestYear <> '' LIMIT 2)
 UNION(SELECT PrimaryKey_Object_Table FROM ObjectsExport WHERE LatestYear IS NOT NULL AND LatestYear <> '' LIMIT 2)
@@ -36,6 +37,7 @@ SELECT
     ItemName,
     Description,
     MakersMarks,
+    Creator,
     ItemDates,
     EarliestYear,
     LatestYear,
@@ -65,5 +67,5 @@ SELECT
 FROM
     ObjectsExport
 WHERE
-    PrimaryKey_Object_Table IN(29,30,47,48,4138,1584,1621,1622,755,1841,4496,5773,679,750,3058,12836,13671,27992,11114,14390,11423,14712,11457,12626,26488,28319)
+    PrimaryKey_Object_Table IN(3,6,675,679,8,23,25,29,30,47,48,4138,1584,1621,1622,755,1841,3977,4406,3767,4324,4496,5773,679,750,17084,3058,12836,13671,27992,11114,14390,11423,14712,11457,12626,26488,28319,8789)
 ;
