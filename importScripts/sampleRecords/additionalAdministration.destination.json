@@ -4,6 +4,28 @@
     {
       "object_id":"1",
       "id":"1",
+      "idno":"A1984.380",
+      "display_label":"ARCHBISHOP C.O.L . RILEY",
+      "ca_objects.AccessionByContainer.AccessionBy":"Curator",
+      "ca_objects.is_deaccessioned":"0",
+      "ca_objects.LastEditDate":"30 July 2015",
+      "ca_objects.LastEditBy":"PENDS",
+      "ca_storage_locations":"Artworks Store Room C2"
+    },
+    {
+      "object_id":"2",
+      "id":"2",
+      "idno":"A1978.9",
+      "display_label":"UNTITLED (SPRAY OF LESCHENAULTIA) , C1897",
+      "ca_objects.AccessionByContainer.AccessionBy":"jm",
+      "ca_objects.is_deaccessioned":"0",
+      "ca_objects.LastEditDate":"3 June 2015",
+      "ca_objects.LastEditBy":"ValH",
+      "ca_storage_locations":"Artworks Storeroom shelf B3"
+    },
+    {
+      "object_id":"3",
+      "id":"3",
       "idno":"A1900.41",
       "display_label":"SOUTH PERTH FROM MT ELIZA",
       "ca_objects.AccessionByContainer.AccessionBy":"bjk",
@@ -14,8 +36,21 @@
       "ca_storage_locations":"Art Store Room, C9"
     },
     {
-      "object_id":"2",
-      "id":"2",
+      "object_id":"4",
+      "id":"4",
+      "idno":"MA2001.21c",
+      "display_label":"TABLE CENTRE,  WHITE LINEN CENTRE WITH LACE EDGING",
+      "ca_objects.AccessionByContainer.AccessionBy":"REB",
+      "ca_objects.is_deaccessioned":"1",
+      "ca_objects.deaccession_notes":"No relevance to the collection",
+      "ca_objects.deaccession_type_id":"Item discarded",
+      "ca_objects.LastEditDate":"4 April 2011",
+      "ca_objects.LastEditBy":"BEAE",
+      "ca_storage_locations":"MANCHESTER CUPBOARD"
+    },
+    {
+      "object_id":"5",
+      "id":"5",
       "idno":"P1999.1208copied",
       "display_label":"CLARKSON, WILLIAM WILBERFORCE",
       "ca_objects.AccessionByContainer.AccessionBy":"AndI",
@@ -26,8 +61,20 @@
       "ca_storage_locations":"R1208, V1"
     },
     {
-      "object_id":"3",
-      "id":"3",
+      "object_id":"6",
+      "id":"6",
+      "idno":"C1992.24",
+      "display_label":"DRESS, CHILD'S, SILK WITH SMOCKING",
+      "ca_objects.AccessionByContainer.AccessionBy":"BucM",
+      "ca_objects.is_deaccessioned":"1",
+      "ca_objects.deaccession_notes":"Item is disintegrating",
+      "ca_objects.deaccession_type_id":"Item disposed of",
+      "ca_objects.LastEditDate":"25 May 2011",
+      "ca_objects.LastEditBy":"VandB"
+    },
+    {
+      "object_id":"7",
+      "id":"7",
       "idno":"C1989.169g",
       "display_label":"SHOE, INFANT'S",
       "ca_objects.AccessionByContainer.AccessionBy":"BucM",
@@ -36,8 +83,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"4",
-      "id":"4",
+      "object_id":"8",
+      "id":"8",
       "idno":"C1988.60",
       "display_label":"COAT HANGER",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -48,8 +95,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"5",
-      "id":"5",
+      "object_id":"9",
+      "id":"9",
       "idno":"C1984.109",
       "display_label":"TRAVELLING STOCKING HOLDER",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -60,8 +107,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"6",
-      "id":"6",
+      "object_id":"10",
+      "id":"10",
       "idno":"C1988.31c",
       "display_label":"\"KAYSER\" STOCKING SACHET",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -72,8 +119,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"7",
-      "id":"7",
+      "object_id":"11",
+      "id":"11",
       "idno":"C2003.1e",
       "display_label":"BOW-TIE, BLACK RIBBED SILK, CLIP ON",
       "ca_objects.AccessionByContainer.AccessionBy":"RosB",
@@ -85,8 +132,8 @@
       "ca_storage_locations":"Costume Room Box 025"
     },
     {
-      "object_id":"8",
-      "id":"8",
+      "object_id":"12",
+      "id":"12",
       "idno":"C1993.26j",
       "display_label":"MID BROWN COTTON GLOVES",
       "ca_objects.AccessionByContainer.AccessionBy":"LesB",
@@ -96,6 +143,17 @@
       "ca_objects.LastEditDate":"16 February 2011",
       "ca_objects.LastEditBy":"VandB",
       "ca_storage_locations":"Costume Room Box 225"
+    },
+    {
+      "object_id":"13",
+      "id":"13",
+      "idno":"C1995.36",
+      "display_label":"FAN, SMALL, BLACK",
+      "ca_objects.AccessionByContainer.AccessionBy":"JILLM",
+      "ca_objects.is_deaccessioned":"1",
+      "ca_objects.LastEditDate":"15 February 2013",
+      "ca_objects.LastEditBy":"ValH",
+      "ca_storage_locations":"Deaccessioned"
     }
   ]
 }

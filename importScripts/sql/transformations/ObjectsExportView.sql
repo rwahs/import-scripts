@@ -105,6 +105,11 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.TreatmentCompleteYesNo), '')                AS TreatmentCompleteYesNo,
         NULLIF(TRIM(o.TreatmentPriority), '')                     AS TreatmentPriority,
         NULLIF(TRIM(o.UsualLocation), '')                         AS UsualLocation,
+        IF(
+            TRIM(o.UsualLocation) = '' OR ISNULL(o.UsualLocation),
+            NULLIF(TRIM(o.Location), ''),
+            NULL
+        )                                                         AS DefaultUsualLocation,
         NULLIF(TRIM(o.ValuationGroup), '')                        AS ValuationGroup,
         NULLIF(TRIM(o.ValuationID), '')                           AS ValuationID,
         NULLIF(TRIM(o.VisualCondition), '')                       AS VisualCondition,
