@@ -11,16 +11,17 @@ CREATE OR REPLACE VIEW LibraryExport AS
                 CONCAT_WS('; ',
                           # Format First author as Lastname, FirstNames
                           NULLIF(NULLIF(TRIM(REPLACE(REPLACE(REPLACE(
-                                                     CONCAT_WS(
-                                                         ', ',
-                                                         NULLIF(TRIM(l.LastName), ''),
-                                                         NULLIF(TRIM(l.FirstNames), '')
-                                                     ), ' and ', '; '), '&', '; '), '+', '; '))
+                                                                 CONCAT_WS(
+                                                                     ', ',
+                                                                     NULLIF(TRIM(l.LastName), ''),
+                                                                     NULLIF(TRIM(l.FirstNames), '')
+                                                                 ), ' and ', '; '), '&', '; '), '+', '; '))
                           , ''), ';'),
                           # And then add other authors, replacing delimiters with a standard delimiter
                           NULLIF(NULLIF(TRIM(
-                                     REPLACE(REPLACE(REPLACE(l.OtherAuthors, ' and ', '; '), '&', '; '), '+', '; ')
-                                 ), ''), ';')
+                                            REPLACE(REPLACE(REPLACE(l.OtherAuthors, ' and ', '; '), '&', '; '), '+',
+                                                    '; ')
+                                        ), ''), ';')
                 )), '')                                     AS Authors,
         NULLIF(TRIM(l.LastName), '')                        AS LastName,
         NULLIF(TRIM(l.FirstNames), '')                      AS FirstNames,
@@ -32,7 +33,7 @@ CREATE OR REPLACE VIEW LibraryExport AS
         NULLIF(TRIM(l.LibraryNo), '')                       AS LibraryNo,
         NULLIF(TRIM(l.Notes), '')                           AS Notes,
         NULLIF(TRIM(l.PublicationType), '')                 AS PublicationType,
-        NULLIF(TRIM(l.PublicationYear), 0)                 AS PublicationYear,
+        NULLIF(TRIM(l.PublicationYear), 0)                  AS PublicationYear,
         NULLIF(TRIM(l.Publisher), '')                       AS Publisher,
         NULLIF(TRIM(l.WherePublished), '')                  AS WherePublished,
         NULLIF(TRIM(l.Subject), '')                         AS Subject,
@@ -53,7 +54,13 @@ CREATE OR REPLACE VIEW LibraryExport AS
         NULLIF(TRIM(l.MyText), '')                          AS MyText,
         NULLIF(TRIM(l.DeweyNumber), '')                     AS DeweyNumber,
         NULLIF(TRIM(l.Value), '')                           AS `Value`,
-        NULLIF(TRIM(l.Borrower), '')                        AS Borrower
+        NULLIF(TRIM(l.Borrower), '')                        AS Borrower,
+        CONCAT_WS(
+            ', ',
+            IF(l.Pages > 0 AND l.Marks NOT LIKE CONCAT('%',l.Pages, 'p.%'), CONCAT(l.Pages, 'p.'), NULL),
+            NULLIF(TRIM(l.Marks), ''),
+            IF(l.Maps = 1 AND l.Marks NOT LIKE '%map%', 'maps', NULL)
+        )                                                   AS `Collation`
 
     FROM Library l
 
