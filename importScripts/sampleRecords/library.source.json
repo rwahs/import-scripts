@@ -24,7 +24,65 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "vi, 50p. illus., photos."
+ },
+ {
+  "PublicationID": "100",
+  "Title": "Protection of movable cultural heritage",
+  "LegacyID": "100",
+  "Series": "0",
+  "Size": "1 folder",
+  "Authors": "Australia. National Cultural Heritage Committee",
+  "LastName": "Australia. National Cultural Heritage Committee",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "JILLM",
+  "LastEditDate": "2004-07-14 00:00:00",
+  "LibraryNo": "R  AUS",
+  "Notes": "1 folder, contains Protection of Movable Cultural Heritage Act 1986 and Amendment (1988)",
+  "PublicationType": "Book",
+  "Subject": "Protection of Movable Cultural Heritage Act, 1986; Cultural policy",
+  "CurrentLocation": "REFERENCE",
+  "Illustrations": "0",
+  "Maps": "0",
+  "Pages": "0",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-21",
+  "DateOut": "2002-01-24",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": ""
+ },
+ {
+  "PublicationID": "101",
+  "Title": "Copyright (Copyright Amendment Act 1980)",
+  "LegacyID": "101",
+  "Series": "0",
+  "Authors": "Australia. Parliament. Laws, Statutes, etc.",
+  "LastName": "Australia. Parliament. Laws, Statutes, etc.",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "JILLM",
+  "LastEditDate": "2004-07-14 00:00:00",
+  "LibraryNo": "R  AUS",
+  "Notes": "in copyright file",
+  "PublicationType": "Book",
+  "PublicationYear": "1981",
+  "Publisher": "Attorney-General's Dept.",
+  "WherePublished": "Canberra",
+  "Subject": "Copyright",
+  "CurrentLocation": "Reference",
+  "Illustrations": "0",
+  "Maps": "0",
+  "Marks": "unpaged.",
+  "Pages": "0",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-21",
+  "DateOut": "2002-01-24",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "unpaged."
  },
  {
   "PublicationID": "1133",
@@ -54,7 +112,8 @@
   "DateDue": "2002-07-12",
   "DateOut": "2002-06-14",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "332p. Illus., maps, photos"
  },
  {
   "PublicationID": "120",
@@ -82,7 +141,8 @@
   "DateOut": "2002-01-24",
   "VolumeNum": "5 vols.",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "5 vols. Maps, tables."
  },
  {
   "PublicationID": "1239",
@@ -110,7 +170,8 @@
   "DateDue": "2002-07-27",
   "DateOut": "2002-06-29",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "206p. Illus., maps, photos"
  },
  {
   "PublicationID": "12566",
@@ -139,7 +200,8 @@
   "DateDue": "2011-06-02",
   "DeweyNumber": "No. 17",
   "Borrower": "NOT  FOR  LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": ""
  },
  {
   "PublicationID": "13738",
@@ -166,7 +228,8 @@
   "Restrictions": "NOT FOR LOAN",
   "DateOut": "2012-05-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "128p."
  },
  {
   "PublicationID": "139",
@@ -195,7 +258,8 @@
   "DateDue": "2002-02-21",
   "DateOut": "2002-01-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "viii, 130p. Illus., photos."
  },
  {
   "PublicationID": "14118",
@@ -223,7 +287,8 @@
   "DateOut": "2012-11-21",
   "DateReturned": "2012-11-27",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "7p."
  },
  {
   "PublicationID": "14119",
@@ -251,7 +316,37 @@
   "DateOut": "2012-11-21",
   "DateReturned": "2012-11-27",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "7p."
+ },
+ {
+  "PublicationID": "15",
+  "Title": "Buddhism in Western Australia ; alienation or integration",
+  "LegacyID": "15",
+  "Series": "0",
+  "Authors": "Adam, Enid",
+  "LastName": "Adam",
+  "FirstNames": "Enid",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "THOB",
+  "LastEditDate": "2009-09-02 00:00:00",
+  "LibraryNo": "ADA",
+  "Notes": "Review : RWAHS newsletter, Vol. 35, no. 11, Dec. 1996, p. 11-12 / J. Hamory",
+  "PublicationType": "Book",
+  "PublicationYear": "1995",
+  "Publisher": "Author",
+  "Subject": "Buddhists; Australian Nationalist Movement; Vietnamese",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "x, 224p. Illus., maps, photos, tables, appendices.",
+  "Pages": "224",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-14",
+  "DateOut": "2002-01-17",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "x, 224p. Illus., maps, photos, tables, appendices."
  },
  {
   "PublicationID": "17",
@@ -280,7 +375,8 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOTF OR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "145p. Illus., tables, appendix"
  },
  {
   "PublicationID": "19",
@@ -310,7 +406,8 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "84p., vii, 84. Illus., photos, appendix"
  },
  {
   "PublicationID": "218",
@@ -325,7 +422,37 @@
   "Rare": "0",
   "DateDue": "2002-04-23",
   "DateOut": "2002-03-26",
-  "Value": "0"
+  "Value": "0",
+  "Collation": ""
+ },
+ {
+  "PublicationID": "24",
+  "Title": "I remember; Stony Hill, Central Greenough",
+  "LegacyID": "24",
+  "Series": "0",
+  "Authors": "Ahearn, Maude E",
+  "LastName": "Ahearn",
+  "FirstNames": "Maude E",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "SueLE",
+  "LastEditDate": "2002-01-17 00:00:00",
+  "LibraryNo": "AHE",
+  "PublicationType": "Book",
+  "PublicationYear": "1977",
+  "Publisher": "Author",
+  "WherePublished": "Perth",
+  "Subject": "Greenough - History",
+  "Illustrations": "1",
+  "Maps": "0",
+  "Marks": "unpaged, illus., photos.",
+  "Pages": "0",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-14",
+  "DateOut": "2002-01-17",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "unpaged, illus., photos."
  },
  {
   "PublicationID": "3",
@@ -355,7 +482,8 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-09-10",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "xx, 284p., map"
  },
  {
   "PublicationID": "32",
@@ -384,7 +512,8 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "xvii, 445p."
  },
  {
   "PublicationID": "33",
@@ -415,7 +544,38 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "viii, 250p. Illus., maps, photos."
+ },
+ {
+  "PublicationID": "393",
+  "Title": "The Merchant princes of Fremantle: the rise and decline of a colonial elite 1870 - 1900",
+  "LegacyID": "393",
+  "Series": "0",
+  "Authors": "Brown, Patricia M",
+  "LastName": "Brown",
+  "FirstNames": "Patricia M",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "MARRIC",
+  "LastEditDate": "2013-01-25 00:00:00",
+  "LibraryNo": "BRO",
+  "Notes": "Review :  RWAHS newsletter, Vol. 36, no. 4, May 1997, p. 9 / M. Bailey",
+  "PublicationType": "Book",
+  "PublicationYear": "1996",
+  "Publisher": "UWA Pr.",
+  "WherePublished": "Perth",
+  "Subject": "Merchants - Fremantle; Samson Family; Bateman family; Diamond, Arthur J; Higham Family; Lilly, James; Marmion, William; Manning, Charles; Moore, William; Pearse family",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "x, 235p., Illus., photos",
+  "Pages": "235",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-05-02",
+  "DateOut": "2002-04-04",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "x, 235p., Illus., photos, maps"
  },
  {
   "PublicationID": "4",
@@ -445,7 +605,39 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-08-13",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "x, 116p., tables"
+ },
+ {
+  "PublicationID": "472",
+  "Title": "The Rise and demise of Perth's trams and trolley buses",
+  "LegacyID": "472",
+  "Series": "0",
+  "Size": "Large",
+  "Authors": "Carpenter, Slim",
+  "LastName": "Carpenter",
+  "FirstNames": "Slim",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "LanK",
+  "LastEditDate": "2004-04-05 00:00:00",
+  "LibraryNo": "Q  CAR",
+  "PublicationType": "Book",
+  "PublicationYear": "1999",
+  "Publisher": "Author",
+  "WherePublished": "Perth",
+  "Subject": "Trams; Trolley buses",
+  "CurrentLocation": "Large book shelves",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "53p. Illus., plans, tables",
+  "Pages": "53",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-05-03",
+  "DateOut": "2002-04-05",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "53p. Illus., plans, tables, maps"
  },
  {
   "PublicationID": "5",
@@ -474,7 +666,8 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-08-13",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "160p."
  },
  {
   "PublicationID": "541",
@@ -502,7 +695,8 @@
   "DateDue": "2002-05-03",
   "DateOut": "2002-04-05",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "xi, 140p. Illus., ports. Appendix."
  },
  {
   "PublicationID": "555",
@@ -534,7 +728,8 @@
   "DateDue": "2002-05-03",
   "DateOut": "2002-04-05",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "xvi, 523p. Illus., maps, photos, appendix"
  },
  {
   "PublicationID": "6000",
@@ -562,7 +757,8 @@
   "DateDue": "2006-09-01",
   "DateOut": "2006-08-04",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "maps"
  },
  {
   "PublicationID": "673",
@@ -592,7 +788,38 @@
   "DateDue": "2002-05-09",
   "DateOut": "2002-04-11",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "143p. Illus., maps, photos"
+ },
+ {
+  "PublicationID": "68",
+  "Title": "A new general atlas",
+  "LegacyID": "68",
+  "Series": "0",
+  "Authors": "Arrowsmith, A",
+  "LastName": "Arrowsmith",
+  "FirstNames": "A",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "SMIG",
+  "LastEditDate": "2012-08-22 00:00:00",
+  "LibraryNo": "RBQ  ARR",
+  "PublicationType": "Book",
+  "PublicationYear": "1817",
+  "Publisher": "Constable & Co.",
+  "WherePublished": "Edinburgh",
+  "Subject": "Atlases",
+  "CurrentLocation": "Rare books passage",
+  "Illustrations": "0",
+  "Maps": "1",
+  "Marks": "53 maps.",
+  "Pages": "53",
+  "Rare": "1",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-14",
+  "DateOut": "2002-01-17",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Collation": "53p., 53 maps."
  },
  {
   "PublicationID": "74",
@@ -621,7 +848,8 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "232p. illus., photos."
  },
  {
   "PublicationID": "7992",
@@ -647,7 +875,8 @@
   "DateDue": "2007-09-27",
   "DateOut": "2007-08-30",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "4p."
  },
  {
   "PublicationID": "844",
@@ -675,7 +904,8 @@
   "DateDue": "2002-05-17",
   "DateOut": "2002-04-19",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "415p. Illus., photos"
  },
  {
   "PublicationID": "88",
@@ -704,7 +934,8 @@
   "DateOut": "2002-01-24",
   "VolumeNum": "2 vols.",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": ""
  },
  {
   "PublicationID": "9",
@@ -733,6 +964,7 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Collation": "151p. Illus., photos."
  }
 ]
