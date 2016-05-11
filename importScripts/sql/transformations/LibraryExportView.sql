@@ -62,7 +62,11 @@ CREATE OR REPLACE VIEW LibraryExport AS
                         IF(l.Maps = 1 AND l.Marks NOT LIKE '%map%', 'maps', NULL)
                     )), '')                                             AS `Collation`,
         IF(Notes LIKE '%donor%' OR Notes LIKE '%donated%', 'yes', 'no') AS Donated,
-        IF(Notes LIKE '%purchased%', 'yes', 'no')                       AS Purchased
+        IF(
+            Notes LIKE '%purchased%' AND Notes NOT LIKE '%not purchased%',
+            'yes',
+            'no'
+        )                                                               AS Purchased
 
     FROM Library l
 
