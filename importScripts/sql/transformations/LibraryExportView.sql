@@ -55,12 +55,12 @@ CREATE OR REPLACE VIEW LibraryExport AS
         NULLIF(TRIM(l.DeweyNumber), '')                     AS DeweyNumber,
         NULLIF(TRIM(l.Value), '')                           AS `Value`,
         NULLIF(TRIM(l.Borrower), '')                        AS Borrower,
-        CONCAT_WS(
+        NULLIF(TRIM(CONCAT_WS(
             ', ',
             IF(l.Pages > 0 AND l.Marks NOT LIKE CONCAT('%',l.Pages, 'p.%'), CONCAT(l.Pages, 'p.'), NULL),
             NULLIF(TRIM(l.Marks), ''),
             IF(l.Maps = 1 AND l.Marks NOT LIKE '%map%', 'maps', NULL)
-        )                                                   AS `Collation`
+        )), '')                                                   AS `Collation`
 
     FROM Library l
 

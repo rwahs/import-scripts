@@ -39,6 +39,7 @@
         },
         "ca_objects.Marks": {},
         "ca_objects.Pages": {},
+        "ca_objects.Collation": {},
         "ca_objects.Rare": {
             "convertCodesToDisplayText": true
         },

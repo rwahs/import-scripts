@@ -83,6 +83,7 @@ SELECT
     Maps,
     Marks,
     Pages,
+    `Collation`,
     Rare,
     Restrictions,
     DateDue,
@@ -94,8 +95,7 @@ SELECT
     `Value`,
     MyText,
     XternalReference,
-    Xtra,
-    `Collation`
+    Xtra
 FROM
     LibraryExport
 WHERE
