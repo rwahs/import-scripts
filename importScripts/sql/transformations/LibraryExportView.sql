@@ -31,7 +31,10 @@ CREATE OR REPLACE VIEW LibraryExport AS
         NULLIF(TRIM(l.LastEditBy), '')                                  AS LastEditBy,
         NULLIF(TRIM(l.LastEditDate), '0000-00-00 00:00:00')             AS LastEditDate,
         NULLIF(TRIM(l.LibraryNo), '')                                   AS LibraryNo,
-        NULLIF(TRIM(l.Notes), '')                                       AS Notes,
+        NULLIF(TRIM(IF(l.Notes LIKE '%Review%',
+                       LEFT(l.Notes, POSITION('Review' IN Notes) - 1),
+                       l.Notes))
+        , '')                                                           AS Notes,
         NULLIF(TRIM(l.PublicationType), '')                             AS PublicationType,
         NULLIF(TRIM(l.PublicationYear), 0)                              AS PublicationYear,
         NULLIF(TRIM(l.Publisher), '')                                   AS Publisher,
@@ -66,7 +69,12 @@ CREATE OR REPLACE VIEW LibraryExport AS
             Notes LIKE '%purchased%' AND Notes NOT LIKE '%not purchased%',
             'yes',
             'no'
-        )                                                               AS Purchased
+        )                                                               AS Purchased,
+        IF(Notes LIKE '%Review%',
+           NULLIF(TRIM(MID(REPLACE(REPLACE(Notes, 'Review:', 'Review'), 'Review :', 'Review'),
+                           POSITION('Review' IN Notes) + 7)
+                  ), ''), NULL)                                         AS Review
+
 
     FROM Library l
 
