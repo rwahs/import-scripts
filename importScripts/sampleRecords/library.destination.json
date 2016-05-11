@@ -54,7 +54,7 @@
         "Protection of Movable Cultural Heritage Act, 1986",
         "Cultural policy"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"REFERENCE",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -85,7 +85,7 @@
       "ca_occurrences":[
         "Copyright"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"Reference",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"unpaged.",
@@ -119,7 +119,7 @@
         "Batavia (Ship)",
         "Shipwrecks"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"Large book shelves",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"332p. Illus., maps, photos",
@@ -152,7 +152,7 @@
         "Heritage sites",
         "Forests and forestry"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"LARGE BOOK SECTION",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"5 vols. Maps, tables.",
@@ -218,7 +218,7 @@
       "ca_occurrences":[
         "Cottages - New Norcia - Conservation and restoration"
       ],
-      "ca_objects.CurrentLocation":"Foyer annex",
+      "ca_objects.CurrentLocation":"ANNEXE",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -247,7 +247,7 @@
         "Press coverage - Western Australia",
         "Clippings (Newspapers)"
       ],
-      "ca_objects.CurrentLocation":"Battye Library",
+      "ca_objects.CurrentLocation":"BATTYE LIBRARY",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"128p.",
@@ -377,7 +377,7 @@
         "Education - Sources",
         "Schools - Sources"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"LARGE BOOKS SECTION",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"145p. Illus., tables, appendix",
@@ -499,7 +499,7 @@
         "King George Sound",
         "Albany"
       ],
-      "ca_objects.CurrentLocation":"Photographs Room",
+      "ca_objects.CurrentLocation":"Rare book shelves",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"xx, 284p., map",
@@ -570,7 +570,7 @@
         "Le Fanu, Henry Frewen, Bishop",
         "Anglican Church - Bishops - Western Australia - History"
       ],
-      "ca_objects.CurrentLocation":"Photographs Room",
+      "ca_objects.CurrentLocation":"Rare book shelves",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"viii, 250p. Illus., maps, photos.",
@@ -681,7 +681,7 @@
         "Trams",
         "Trolley buses"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"Large book shelves",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"53p. Illus., plans, tables",
@@ -782,7 +782,7 @@
         "Burials"
       ],
       "ca_objects.CopyrightNotes":"Review History West: Vol 37 No 10 p11, Mavis Bailey",
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"Reference",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"xvi, 523p. Illus., maps, photos, appendix",
@@ -817,7 +817,7 @@
       "ca_occurrences":[
         "Hardey -  Maps"
       ],
-      "ca_objects.CurrentLocation":"Map annex",
+      "ca_objects.CurrentLocation":"Annex, Map cabinet",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Pages":"0",
@@ -884,7 +884,7 @@
       "ca_occurrences":[
         "Atlases"
       ],
-      "ca_objects.CurrentLocation":"Passage",
+      "ca_objects.CurrentLocation":"Rare books passage",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"53 maps.",
@@ -949,7 +949,7 @@
         "Societies",
         "British and Foreign Bible Society"
       ],
-      "ca_objects.CurrentLocation":"Map annex",
+      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"4p.",
@@ -1014,7 +1014,7 @@
         "Federation",
         "Australian Federal Convention"
       ],
-      "ca_objects.CurrentLocation":"Photographs Room",
+      "ca_objects.CurrentLocation":"Rare book shelves",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -1045,7 +1045,7 @@
       "ca_occurrences":[
         "Merredin - Pictorial works"
       ],
-      "ca_objects.CurrentLocation":"Library",
+      "ca_objects.CurrentLocation":"Large book shelves",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"151p. Illus., photos.",

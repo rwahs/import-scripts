@@ -28,9 +28,7 @@
         "ca_objects.XternalReference": {},
         "ca_objects.Xtra": {},
         "ca_objects.CopyrightNotes": {},
-        "ca_objects.CurrentLocation": {
-            "convertCodesToDisplayText": true
-        },
+        "ca_objects.CurrentLocation": {},
         "ca_objects.Illustrations": {
             "convertCodesToDisplayText": true
         },
@@ -50,7 +48,6 @@
         "ca_objects.DateOut": {},
         "ca_objects.DateReturned": {},
         "ca_objects.VolumeNumber": {},
-        "ca_objects.Collation": {},
         "ca_objects.Donated": {
             "convertCodesToDisplayText": true
         },
