@@ -25,7 +25,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "100",
@@ -51,7 +53,9 @@
   "DateDue": "2002-02-21",
   "DateOut": "2002-01-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "101",
@@ -81,7 +85,9 @@
   "DateDue": "2002-02-21",
   "DateOut": "2002-01-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "1133",
@@ -112,7 +118,9 @@
   "DateDue": "2002-07-12",
   "DateOut": "2002-06-14",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "120",
@@ -141,7 +149,9 @@
   "DateOut": "2002-01-24",
   "VolumeNum": "5 vols.",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "1239",
@@ -170,7 +180,9 @@
   "DateDue": "2002-07-27",
   "DateOut": "2002-06-29",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "12566",
@@ -199,7 +211,9 @@
   "DateDue": "2011-06-02",
   "DeweyNumber": "No. 17",
   "Borrower": "NOT  FOR  LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "13738",
@@ -227,7 +241,9 @@
   "Restrictions": "NOT FOR LOAN",
   "DateOut": "2012-05-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "139",
@@ -257,7 +273,9 @@
   "DateDue": "2002-02-21",
   "DateOut": "2002-01-24",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "14118",
@@ -286,7 +304,9 @@
   "DateOut": "2012-11-21",
   "DateReturned": "2012-11-27",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "yes"
  },
  {
   "PublicationID": "14119",
@@ -315,7 +335,9 @@
   "DateOut": "2012-11-21",
   "DateReturned": "2012-11-27",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "yes"
  },
  {
   "PublicationID": "15",
@@ -344,7 +366,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "17",
@@ -374,7 +398,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOTF OR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "19",
@@ -405,7 +431,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "218",
@@ -420,7 +448,9 @@
   "Rare": "0",
   "DateDue": "2002-04-23",
   "DateOut": "2002-03-26",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "24",
@@ -449,7 +479,41 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
+ },
+ {
+  "PublicationID": "2847",
+  "Title": "Australia unveiled; the share of the Dutch navigators in the discovery of Australia",
+  "LegacyID": "2847",
+  "Series": "0",
+  "Authors": "Schilder, Gunter",
+  "LastName": "Schilder",
+  "FirstNames": "Gunter",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "JenM",
+  "LastEditDate": "2008-10-02 00:00:00",
+  "LibraryNo": "SCH",
+  "Notes": "A.N. 85.2. Donor: Purchased  for RWAHS\r\nTranslated from the German by Olaf Richter",
+  "PublicationType": "Book",
+  "PublicationYear": "1976",
+  "Publisher": "Theatrum Orbis Terrarum Ltd.",
+  "WherePublished": "Amsterdam",
+  "Subject": "Explorers, Dutch.",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "xi, 424p. Illus., maps.",
+  "Pages": "424",
+  "Collation": "xi, 424p. Illus., maps.",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2003-12-29",
+  "DateOut": "2003-12-01",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Purchased": "yes",
+  "Donated": "yes"
  },
  {
   "PublicationID": "3",
@@ -480,7 +544,9 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-09-10",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "32",
@@ -510,7 +576,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "33",
@@ -542,7 +610,40 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
+ },
+ {
+  "PublicationID": "38",
+  "Title": "Hollywood Primary School 1935-1985",
+  "LegacyID": "38",
+  "Series": "0",
+  "Size": "large",
+  "Authors": "Alexander, Helen",
+  "LastName": "Alexander",
+  "FirstNames": "Helen",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "LIBRARY",
+  "LastEditDate": "2013-02-19 00:00:00",
+  "LibraryNo": "Q  ALE",
+  "Notes": "A.N. 1986.34. Donor: Mrs Helen Alexander\r\nReview: RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 / Coralie Solomon",
+  "PublicationType": "Book",
+  "Subject": "Hollywood Primary School; Schools",
+  "CurrentLocation": "In Large Book section",
+  "Illustrations": "1",
+  "Maps": "0",
+  "Marks": "21p. Illus., plans.",
+  "Pages": "21",
+  "Collation": "21p. Illus., plans.",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-14",
+  "DateOut": "2002-01-17",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "yes"
  },
  {
   "PublicationID": "393",
@@ -572,7 +673,9 @@
   "DateDue": "2002-05-02",
   "DateOut": "2002-04-04",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "4",
@@ -603,7 +706,9 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-08-13",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "472",
@@ -634,7 +739,42 @@
   "DateDue": "2002-05-03",
   "DateOut": "2002-04-05",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
+ },
+ {
+  "PublicationID": "49",
+  "Title": "Working lives",
+  "LegacyID": "49",
+  "Series": "0",
+  "Authors": "Ammon, Walter William; Carson, J. ;  Trenaman, Hubert R",
+  "LastName": "Ammon",
+  "FirstNames": "Walter William",
+  "OtherAuthors": "Carson, J. & Trenaman, Hubert R",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "HARJ",
+  "LastEditDate": "2008-03-10 00:00:00",
+  "LibraryNo": "AMM",
+  "Notes": "A. N. 1986.197 Donor: Mr Jim Carson\r\nA.N. 85.28. Donor: Jim Carson\r\nReview: RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 / B. Parnell",
+  "PublicationType": "Book",
+  "PublicationYear": "1984",
+  "Publisher": "Fremantle Arts Centre Pr.",
+  "WherePublished": "Fremantle",
+  "Subject": "Methodists; Agricultural labourers; Working class; Carson, Jim; Trenaman, Hubert R",
+  "CurrentLocation": "NOT FOR LOAN",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "284p. Illus., maps.",
+  "Pages": "284",
+  "Collation": "284p. Illus., maps.",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2002-02-14",
+  "DateOut": "2002-01-17",
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "yes"
  },
  {
   "PublicationID": "5",
@@ -664,7 +804,9 @@
   "DateDue": "2001-09-10",
   "DateOut": "2001-08-13",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "541",
@@ -693,7 +835,9 @@
   "DateDue": "2002-05-03",
   "DateOut": "2002-04-05",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "555",
@@ -726,7 +870,9 @@
   "DateDue": "2002-05-03",
   "DateOut": "2002-04-05",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "6000",
@@ -755,7 +901,9 @@
   "DateDue": "2006-09-01",
   "DateOut": "2006-08-04",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "673",
@@ -786,7 +934,9 @@
   "DateDue": "2002-05-09",
   "DateOut": "2002-04-11",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "68",
@@ -816,7 +966,41 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
+ },
+ {
+  "PublicationID": "7186",
+  "Title": "Old Fremantle childhood; a tribute to the photography and fatherhood of Arnold Beste",
+  "LegacyID": "7186",
+  "Series": "0",
+  "Authors": "DOWSON, John",
+  "LastName": "DOWSON",
+  "FirstNames": "John",
+  "HomeLocation": "LIBRARY",
+  "LastEditBy": "JenM",
+  "LastEditDate": "2008-11-06 00:00:00",
+  "LibraryNo": "DOW",
+  "Notes": "Accession No. 2007/37; Purchased\r\nReview: History West, Vol. 46, no. 5, June 2007, p. 7 / Cecily Brown",
+  "PublicationType": "Book",
+  "PublicationYear": "2006",
+  "Publisher": "Author",
+  "WherePublished": "Fremantle",
+  "Subject": "Beste family; Fremantle; Children",
+  "Illustrations": "1",
+  "Maps": "1",
+  "Marks": "72p. ; ill., map, photos",
+  "Pages": "72",
+  "Collation": "72p. ; ill., map, photos",
+  "Rare": "0",
+  "Restrictions": "NOT FOR LOAN",
+  "DateDue": "2007-04-18",
+  "DateOut": "2007-03-21",
+  "Borrower": "NOT FOR LOAN",
+  "Value": "0",
+  "Purchased": "yes",
+  "Donated": "no"
  },
  {
   "PublicationID": "74",
@@ -846,7 +1030,9 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "7992",
@@ -873,7 +1059,9 @@
   "DateDue": "2007-09-27",
   "DateOut": "2007-08-30",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "844",
@@ -902,7 +1090,9 @@
   "DateDue": "2002-05-17",
   "DateOut": "2002-04-19",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "88",
@@ -931,7 +1121,9 @@
   "DateOut": "2002-01-24",
   "VolumeNum": "2 vols.",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  },
  {
   "PublicationID": "9",
@@ -961,6 +1153,8 @@
   "DateDue": "2002-02-14",
   "DateOut": "2002-01-17",
   "Borrower": "NOT FOR LOAN",
-  "Value": "0"
+  "Value": "0",
+  "Purchased": "no",
+  "Donated": "no"
  }
 ]
