@@ -41,9 +41,7 @@
         "ca_objects.Rare": {
             "convertCodesToDisplayText": true
         },
-        "ca_objects.Restrictions": {
-            "convertCodesToDisplayText": true
-        },
+        "ca_objects.Restrictions": {},
         "ca_objects.DateDue": {},
         "ca_objects.DateOut": {},
         "ca_objects.DateReturned": {},

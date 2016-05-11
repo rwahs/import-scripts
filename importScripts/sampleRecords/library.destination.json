@@ -29,7 +29,7 @@
       "ca_objects.Pages":"50",
       "ca_objects.Collation":"vi, 50p. illus., photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -59,7 +59,7 @@
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002"
     },
@@ -92,7 +92,7 @@
       "ca_objects.Pages":"0",
       "ca_objects.Collation":"unpaged.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002"
     },
@@ -126,7 +126,7 @@
       "ca_objects.Pages":"332",
       "ca_objects.Collation":"332p. Illus., maps, photos",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"12 July 2002",
       "ca_objects.DateOut":"14 June 2002"
     },
@@ -159,7 +159,7 @@
       "ca_objects.Pages":"0",
       "ca_objects.Collation":"5 vols. Maps, tables.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002",
       "ca_objects.VolumeNumber":"5 vols."
@@ -192,7 +192,7 @@
       "ca_objects.Pages":"206",
       "ca_objects.Collation":"206p. Illus., maps, photos",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"27 July 2002",
       "ca_objects.DateOut":"29 June 2002"
     },
@@ -223,7 +223,7 @@
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT  FOR  LOAN",
       "ca_objects.DateDue":"2 June 2011"
     },
     {
@@ -254,7 +254,7 @@
       "ca_objects.Pages":"128",
       "ca_objects.Collation":"128p.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateOut":"24 May 2012"
     },
     {
@@ -286,7 +286,7 @@
       "ca_objects.Pages":"130",
       "ca_objects.Collation":"viii, 130p. Illus., photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002"
     },
@@ -317,7 +317,7 @@
       "ca_objects.Pages":"7",
       "ca_objects.Collation":"7p.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"28 November 2012",
       "ca_objects.DateOut":"21 November 2012",
       "ca_objects.DateReturned":"27 November 2012"
@@ -351,7 +351,7 @@
       "ca_objects.Pages":"224",
       "ca_objects.Collation":"x, 224p. Illus., maps, photos, tables, appendices.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -384,7 +384,7 @@
       "ca_objects.Pages":"145",
       "ca_objects.Collation":"145p. Illus., tables, appendix",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -417,7 +417,7 @@
       "ca_objects.Pages":"84",
       "ca_objects.Collation":"84p., vii, 84. Illus., photos, appendix",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -470,7 +470,7 @@
       "ca_objects.Pages":"0",
       "ca_objects.Collation":"unpaged, illus., photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -506,7 +506,7 @@
       "ca_objects.Pages":"284",
       "ca_objects.Collation":"xx, 284p., map",
       "ca_objects.Rare":"Yes",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
       "ca_objects.DateOut":"10 September 2001"
     },
@@ -539,7 +539,7 @@
       "ca_objects.Pages":"445",
       "ca_objects.Collation":"xvii, 445p.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -577,7 +577,7 @@
       "ca_objects.Pages":"250",
       "ca_objects.Collation":"viii, 250p. Illus., maps, photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -618,7 +618,7 @@
       "ca_objects.Pages":"235",
       "ca_objects.Collation":"x, 235p., Illus., photos, maps",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"2 May 2002",
       "ca_objects.DateOut":"4 April 2002"
     },
@@ -654,7 +654,7 @@
       "ca_objects.Pages":"116",
       "ca_objects.Collation":"x, 116p., tables",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
       "ca_objects.DateOut":"13 August 2001"
     },
@@ -688,7 +688,7 @@
       "ca_objects.Pages":"53",
       "ca_objects.Collation":"53p. Illus., plans, tables, maps",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
       "ca_objects.DateOut":"5 April 2002"
     },
@@ -721,7 +721,7 @@
       "ca_objects.Pages":"160",
       "ca_objects.Collation":"160p.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
       "ca_objects.DateOut":"13 August 2001"
     },
@@ -754,7 +754,7 @@
       "ca_objects.Pages":"140",
       "ca_objects.Collation":"xi, 140p. Illus., ports. Appendix.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
       "ca_objects.DateOut":"5 April 2002"
     },
@@ -789,7 +789,7 @@
       "ca_objects.Pages":"523",
       "ca_objects.Collation":"xvi, 523p. Illus., maps, photos, appendix",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
       "ca_objects.DateOut":"5 April 2002"
     },
@@ -823,7 +823,7 @@
       "ca_objects.Pages":"0",
       "ca_objects.Collation":"maps",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"1 September 2006",
       "ca_objects.DateOut":"4 August 2006"
     },
@@ -859,7 +859,7 @@
       "ca_objects.Pages":"143",
       "ca_objects.Collation":"143p. Illus., maps, photos",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"9 May 2002",
       "ca_objects.DateOut":"11 April 2002"
     },
@@ -891,7 +891,7 @@
       "ca_objects.Pages":"53",
       "ca_objects.Collation":"53p., 53 maps.",
       "ca_objects.Rare":"Yes",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -923,7 +923,7 @@
       "ca_objects.Pages":"232",
       "ca_objects.Collation":"232p. illus., photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     },
@@ -956,7 +956,7 @@
       "ca_objects.Pages":"4",
       "ca_objects.Collation":"4p.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"27 September 2007",
       "ca_objects.DateOut":"30 August 2007"
     },
@@ -987,7 +987,7 @@
       "ca_objects.Pages":"0",
       "ca_objects.Collation":"415p. Illus., photos",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"17 May 2002",
       "ca_objects.DateOut":"19 April 2002"
     },
@@ -1019,7 +1019,7 @@
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
       "ca_objects.Rare":"Yes",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002",
       "ca_objects.VolumeNumber":"2 vols."
@@ -1052,7 +1052,7 @@
       "ca_objects.Pages":"151",
       "ca_objects.Collation":"151p. Illus., photos.",
       "ca_objects.Rare":"No",
-      "ca_objects.Restrictions":"Not For Loan",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
       "ca_objects.DateOut":"17 January 2002"
     }
