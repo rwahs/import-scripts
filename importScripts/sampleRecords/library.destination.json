@@ -31,7 +31,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"2",
@@ -61,7 +63,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
-      "ca_objects.DateOut":"24 January 2002"
+      "ca_objects.DateOut":"24 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"3",
@@ -94,7 +98,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
-      "ca_objects.DateOut":"24 January 2002"
+      "ca_objects.DateOut":"24 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"4",
@@ -128,7 +134,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"12 July 2002",
-      "ca_objects.DateOut":"14 June 2002"
+      "ca_objects.DateOut":"14 June 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"5",
@@ -162,7 +170,9 @@
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002",
-      "ca_objects.VolumeNumber":"5 vols."
+      "ca_objects.VolumeNumber":"5 vols.",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"6",
@@ -194,7 +204,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"27 July 2002",
-      "ca_objects.DateOut":"29 June 2002"
+      "ca_objects.DateOut":"29 June 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"7",
@@ -224,7 +236,9 @@
       "ca_objects.Pages":"0",
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT  FOR  LOAN",
-      "ca_objects.DateDue":"2 June 2011"
+      "ca_objects.DateDue":"2 June 2011",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"8",
@@ -255,7 +269,9 @@
       "ca_objects.Collation":"128p.",
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
-      "ca_objects.DateOut":"24 May 2012"
+      "ca_objects.DateOut":"24 May 2012",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"9",
@@ -288,7 +304,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
-      "ca_objects.DateOut":"24 January 2002"
+      "ca_objects.DateOut":"24 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"11",
@@ -320,7 +338,9 @@
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"28 November 2012",
       "ca_objects.DateOut":"21 November 2012",
-      "ca_objects.DateReturned":"27 November 2012"
+      "ca_objects.DateReturned":"27 November 2012",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"12",
@@ -336,7 +356,6 @@
       "ca_objects.LastEditBy":"THOB",
       "ca_objects.LastEditDate":"2 September 2009",
       "ca_objects.LibraryNumber":"ADA",
-      "ca_objects.Notes":"Review : RWAHS newsletter, Vol. 35, no. 11, Dec. 1996, p. 11-12 \/ J. Hamory",
       "ca_objects.PublicationType":"Books",
       "ca_objects.DateOfPublication":"1995",
       "ca_objects.Publisher":"Author",
@@ -353,7 +372,10 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 35, no. 11, Dec. 1996, p. 11-12 \/ J. Hamory",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"13",
@@ -386,7 +408,9 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"14",
@@ -403,7 +427,6 @@
       "ca_objects.LastEditBy":"HARJ",
       "ca_objects.LastEditDate":"30 June 2008",
       "ca_objects.LibraryNumber":"ADA",
-      "ca_objects.Notes":"Review: RWAHS newsletter, Vol. 30, no.9, October 1991, p.6",
       "ca_objects.PublicationType":"Books",
       "ca_objects.DateOfPublication":"1990",
       "ca_objects.Publisher":"Hesperian Pr.",
@@ -419,7 +442,10 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 30, no.9, October 1991, p.6",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"15",
@@ -441,7 +467,9 @@
       "ca_objects.Pages":"0",
       "ca_objects.Rare":"No",
       "ca_objects.DateDue":"23 April 2002",
-      "ca_objects.DateOut":"26 March 2002"
+      "ca_objects.DateOut":"26 March 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"16",
@@ -472,11 +500,47 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
       "object_id":"17",
       "id":"17",
+      "idno":"2847",
+      "display_label":"Australia unveiled; the share of the Dutch navigators in the discovery of Australia",
+      "ca_objects.LegacyID":"2847",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "Schilder, Gunter"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"JenM",
+      "ca_objects.LastEditDate":"2 October 2008",
+      "ca_objects.LibraryNumber":"SCH",
+      "ca_objects.Notes":"A.N. 85.2. Donor: Purchased  for RWAHS\nTranslated from the German by Olaf Richter",
+      "ca_objects.PublicationType":"Books",
+      "ca_objects.DateOfPublication":"1976",
+      "ca_objects.Publisher":"Theatrum Orbis Terrarum Ltd.",
+      "ca_objects.PlaceOfPublication":"Amsterdam",
+      "ca_occurrences":[
+        "Explorers, Dutch."
+      ],
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Marks":"xi, 424p. Illus., maps.",
+      "ca_objects.Pages":"424",
+      "ca_objects.Collation":"xi, 424p. Illus., maps.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"29 December 2003",
+      "ca_objects.DateOut":"1 December 2003",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Purchased":"Yes"
+    },
+    {
+      "object_id":"18",
+      "id":"18",
       "idno":"3",
       "display_label":"J N Anderson",
       "ca_objects.LegacyID":"3",
@@ -508,11 +572,13 @@
       "ca_objects.Rare":"Yes",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
-      "ca_objects.DateOut":"10 September 2001"
+      "ca_objects.DateOut":"10 September 2001",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"18",
-      "id":"18",
+      "object_id":"19",
+      "id":"19",
       "idno":"32",
       "display_label":"Australia since Federation; a narrative and critical analysis",
       "ca_objects.LegacyID":"32",
@@ -541,11 +607,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"19",
-      "id":"19",
+      "object_id":"20",
+      "id":"20",
       "idno":"33",
       "display_label":"Four bishops and their See; Perth Western Australia 1857-1957",
       "ca_objects.LegacyID":"33",
@@ -579,11 +647,48 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"20",
-      "id":"20",
+      "object_id":"21",
+      "id":"21",
+      "idno":"38",
+      "display_label":"Hollywood Primary School 1935-1985",
+      "ca_objects.LegacyID":"38",
+      "ca_objects.Series":"0",
+      "ca_objects.Size":"large",
+      "ca_objects.Author":[
+        "Alexander, Helen"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"LIBRARY",
+      "ca_objects.LastEditDate":"19 February 2013",
+      "ca_objects.LibraryNumber":"Q  ALE",
+      "ca_objects.Notes":"A.N. 1986.34. Donor: Mrs Helen Alexander",
+      "ca_objects.PublicationType":"Books",
+      "ca_occurrences":[
+        "Hollywood Primary School",
+        "Schools"
+      ],
+      "ca_objects.CurrentLocation":"In Large Book section",
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"No",
+      "ca_objects.Marks":"21p. Illus., plans.",
+      "ca_objects.Pages":"21",
+      "ca_objects.Collation":"21p. Illus., plans.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"14 February 2002",
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 \/ Coralie Solomon",
+      "ca_objects.Purchased":"No"
+    },
+    {
+      "object_id":"22",
+      "id":"22",
       "idno":"393",
       "display_label":"The Merchant princes of Fremantle: the rise and decline of a colonial elite 1870 - 1900",
       "ca_objects.LegacyID":"393",
@@ -595,7 +700,6 @@
       "ca_objects.LastEditBy":"MARRIC",
       "ca_objects.LastEditDate":"25 January 2013",
       "ca_objects.LibraryNumber":"BRO",
-      "ca_objects.Notes":"Review :  RWAHS newsletter, Vol. 36, no. 4, May 1997, p. 9 \/ M. Bailey",
       "ca_objects.PublicationType":"Books",
       "ca_objects.DateOfPublication":"1996",
       "ca_objects.Publisher":"UWA Pr.",
@@ -620,11 +724,14 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"2 May 2002",
-      "ca_objects.DateOut":"4 April 2002"
+      "ca_objects.DateOut":"4 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 36, no. 4, May 1997, p. 9 \/ M. Bailey",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"21",
-      "id":"21",
+      "object_id":"23",
+      "id":"23",
       "idno":"4",
       "display_label":"A history of teacher training in Western Australia",
       "ca_objects.LegacyID":"4",
@@ -656,11 +763,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
-      "ca_objects.DateOut":"13 August 2001"
+      "ca_objects.DateOut":"13 August 2001",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"22",
-      "id":"22",
+      "object_id":"24",
+      "id":"24",
       "idno":"472",
       "display_label":"The Rise and demise of Perth's trams and trolley buses",
       "ca_objects.LegacyID":"472",
@@ -690,11 +799,55 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
-      "ca_objects.DateOut":"5 April 2002"
+      "ca_objects.DateOut":"5 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"23",
-      "id":"23",
+      "object_id":"25",
+      "id":"25",
+      "idno":"49",
+      "display_label":"Working lives",
+      "ca_objects.LegacyID":"49",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "Ammon, Walter William",
+        "Carson, J.",
+        "Trenaman, Hubert R"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"HARJ",
+      "ca_objects.LastEditDate":"10 March 2008",
+      "ca_objects.LibraryNumber":"AMM",
+      "ca_objects.Notes":"A. N. 1986.197 Donor: Mr Jim Carson\nA.N. 85.28. Donor: Jim Carson",
+      "ca_objects.PublicationType":"Books",
+      "ca_objects.DateOfPublication":"1984",
+      "ca_objects.Publisher":"Fremantle Arts Centre Pr.",
+      "ca_objects.PlaceOfPublication":"Fremantle",
+      "ca_occurrences":[
+        "Methodists",
+        "Agricultural labourers",
+        "Working class",
+        "Carson, Jim",
+        "Trenaman, Hubert R"
+      ],
+      "ca_objects.CurrentLocation":"NOT FOR LOAN",
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Marks":"284p. Illus., maps.",
+      "ca_objects.Pages":"284",
+      "ca_objects.Collation":"284p. Illus., maps.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"14 February 2002",
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 \/ B. Parnell",
+      "ca_objects.Purchased":"No"
+    },
+    {
+      "object_id":"26",
+      "id":"26",
       "idno":"5",
       "display_label":"Twenty-five years; a history of Claremont Teachers College 1952-1977.",
       "ca_objects.LegacyID":"5",
@@ -706,7 +859,7 @@
       "ca_objects.LastEditBy":"HARJ",
       "ca_objects.LastEditDate":"25 February 2008",
       "ca_objects.LibraryNumber":"McK",
-      "ca_objects.Notes":"xx, 160 p. illus., photos, tables, appendices\nReview: RWAHS newsletter, Vol.21, no.9, October 1982, p.4-5 \/ A.E. Williams",
+      "ca_objects.Notes":"xx, 160 p. illus., photos, tables, appendices",
       "ca_objects.PublicationType":"Books",
       "ca_objects.DateOfPublication":"1981",
       "ca_objects.Publisher":"WACAE, Claremont Campus",
@@ -723,11 +876,14 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"10 September 2001",
-      "ca_objects.DateOut":"13 August 2001"
+      "ca_objects.DateOut":"13 August 2001",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter, Vol.21, no.9, October 1982, p.4-5 \/ A.E. Williams",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"24",
-      "id":"24",
+      "object_id":"27",
+      "id":"27",
       "idno":"2015\/31",
       "display_label":"William Ford and Coolgardie; the biography of my father 1849-1932",
       "ca_objects.LegacyID":"541",
@@ -756,11 +912,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
-      "ca_objects.DateOut":"5 April 2002"
+      "ca_objects.DateOut":"5 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"25",
-      "id":"25",
+      "object_id":"28",
+      "id":"28",
       "idno":"555",
       "display_label":"More lonely graves of Western Australia",
       "ca_objects.LegacyID":"555",
@@ -773,7 +931,6 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"3 December 2009",
       "ca_objects.LibraryNumber":"R  COA",
-      "ca_objects.Notes":"Review:  RWAHS newsletter, Vol. 26, no.3, April 1987, p.9 \/  B.  Parnell\nReview: RWAHS newsletter, Vol. 26, no.3, April 1987, p.9 \/ B. Parnell",
       "ca_objects.PublicationType":"Books",
       "ca_objects.DateOfPublication":"2000",
       "ca_objects.Publisher":"Hesperian Pr.",
@@ -791,11 +948,14 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"3 May 2002",
-      "ca_objects.DateOut":"5 April 2002"
+      "ca_objects.DateOut":"5 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter, Vol. 26, no.3, April 1987, p.9 \/  B.  Parnell\nReview RWAHS newsletter, Vol. 26, no.3, April 1987, p.9 \/ B. Parnell",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"26",
-      "id":"26",
+      "object_id":"29",
+      "id":"29",
       "idno":"6000",
       "display_label":"Hardey, Western Australia",
       "ca_objects.LegacyID":"6000",
@@ -825,11 +985,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"1 September 2006",
-      "ca_objects.DateOut":"4 August 2006"
+      "ca_objects.DateOut":"4 August 2006",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"27",
-      "id":"27",
+      "object_id":"30",
+      "id":"30",
       "idno":"262\/99",
       "display_label":"Margaret River style",
       "ca_objects.LegacyID":"673",
@@ -861,11 +1023,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"9 May 2002",
-      "ca_objects.DateOut":"11 April 2002"
+      "ca_objects.DateOut":"11 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"28",
-      "id":"28",
+      "object_id":"31",
+      "id":"31",
       "idno":"68",
       "display_label":"A new general atlas",
       "ca_objects.LegacyID":"68",
@@ -893,11 +1057,50 @@
       "ca_objects.Rare":"Yes",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"29",
-      "id":"29",
+      "object_id":"32",
+      "id":"32",
+      "idno":"Accession ",
+      "display_label":"Old Fremantle childhood; a tribute to the photography and fatherhood of Arnold Beste",
+      "ca_objects.LegacyID":"7186",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "DOWSON, John"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"JenM",
+      "ca_objects.LastEditDate":"6 November 2008",
+      "ca_objects.LibraryNumber":"DOW",
+      "ca_objects.Notes":"Accession No. 2007\/37; Purchased",
+      "ca_objects.PublicationType":"Books",
+      "ca_objects.DateOfPublication":"2006",
+      "ca_objects.Publisher":"Author",
+      "ca_objects.PlaceOfPublication":"Fremantle",
+      "ca_occurrences":[
+        "Beste family",
+        "Fremantle",
+        "Children"
+      ],
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Marks":"72p. ; ill., map, photos",
+      "ca_objects.Pages":"72",
+      "ca_objects.Collation":"72p. ; ill., map, photos",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"18 April 2007",
+      "ca_objects.DateOut":"21 March 2007",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"History West, Vol. 46, no. 5, June 2007, p. 7 \/ Cecily Brown",
+      "ca_objects.Purchased":"Yes"
+    },
+    {
+      "object_id":"33",
+      "id":"33",
       "idno":"74",
       "display_label":"Country images of Western Australia; a portrait of the past",
       "ca_objects.LegacyID":"74",
@@ -925,11 +1128,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"30",
-      "id":"30",
+      "object_id":"34",
+      "id":"34",
       "idno":"7992",
       "display_label":"The Society comes to Perth : dramatization of inauguration of a branch of the British and Foreign Bible Society in Perth, 18 August 1884. (H\/S Series HS\/333)",
       "ca_objects.LegacyID":"7992",
@@ -958,11 +1163,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"27 September 2007",
-      "ca_objects.DateOut":"30 August 2007"
+      "ca_objects.DateOut":"30 August 2007",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"31",
-      "id":"31",
+      "object_id":"35",
+      "id":"35",
       "idno":"844",
       "display_label":"Shark Bay through four centuries 1616 to 2000",
       "ca_objects.LegacyID":"844",
@@ -989,11 +1196,13 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"17 May 2002",
-      "ca_objects.DateOut":"19 April 2002"
+      "ca_objects.DateOut":"19 April 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"32",
-      "id":"32",
+      "object_id":"36",
+      "id":"36",
       "idno":"88",
       "display_label":"Official record of the debates. Third session. Melbourne, 20th Jan to 17 March, 1898",
       "ca_objects.LegacyID":"88",
@@ -1022,11 +1231,13 @@
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"21 February 2002",
       "ca_objects.DateOut":"24 January 2002",
-      "ca_objects.VolumeNumber":"2 vols."
+      "ca_objects.VolumeNumber":"2 vols.",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No"
     },
     {
-      "object_id":"33",
-      "id":"33",
+      "object_id":"37",
+      "id":"37",
       "idno":"9",
       "display_label":"Merredin; a photographic history",
       "ca_objects.LegacyID":"9",
@@ -1040,7 +1251,7 @@
       "ca_objects.LastEditBy":"LIBRARY",
       "ca_objects.LastEditDate":"19 February 2013",
       "ca_objects.LibraryNumber":"Q  ABE",
-      "ca_objects.Notes":"Large book section\nReview: RWAHS newsletter,, Vol. 31, no.10, November 1992, p.8 \/ M.H.",
+      "ca_objects.Notes":"Large book section",
       "ca_objects.PublicationType":"Books",
       "ca_occurrences":[
         "Merredin - Pictorial works"
@@ -1054,7 +1265,10 @@
       "ca_objects.Rare":"No",
       "ca_objects.Restrictions":"NOT FOR LOAN",
       "ca_objects.DateDue":"14 February 2002",
-      "ca_objects.DateOut":"17 January 2002"
+      "ca_objects.DateOut":"17 January 2002",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"RWAHS newsletter,, Vol. 31, no.10, November 1992, p.8 \/ M.H.",
+      "ca_objects.Purchased":"No"
     }
   ]
 }
