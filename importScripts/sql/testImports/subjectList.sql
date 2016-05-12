@@ -16,13 +16,15 @@ UNION(SELECT s_SubjectID FROM SubjectsExport WHERE os_DateMax IS NOT NULL LIMIT 
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE o_Accession_Full_ID IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE o_ItemType IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_SubjectSubjectID IS NOT NULL LIMIT 2)
-UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_SubjectID IS NOT NULL LIMIT 2)
-UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_SubjectName IS NOT NULL LIMIT 2)
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE relatedSubject_SubjectID IS NOT NULL LIMIT 2)
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE relatedSubject_SubjectName IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_Association IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_Dates IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_DateMin IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_DateMax IS NOT NULL LIMIT 2)
-UNION(SELECT s_SubjectID FROM SubjectsExport WHERE rs_SubjectType IS NOT NULL LIMIT 2)
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE relatedSubject_SubjectType IS NOT NULL LIMIT 2)
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE s_SubjectName LIKE 'PRINSEP%' OR relatedSubject_SubjectName LIKE 'PRINSEP%' OR relatedSubject_SubjectName LIKE 'Bussel%' OR s_SubjectName LIKE 'Bussel%')
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE length(s_SubjectName) > 30 OR length(relatedSubject_SubjectName) > 30)
 ;
 ## now we've found the sample records use them as the source
 SELECT
@@ -44,15 +46,15 @@ SELECT
     o_Accession_Full_ID,
     o_ItemType,
     ss_SubjectSubjectID,
-    ss_SubjectID,
-    ss_SubjectName,
+    relatedSubject_SubjectID,
+    relatedSubject_SubjectName,
     ss_Association,
     ss_Dates,
     ss_DateMin,
     ss_DateMax,
-    rs_SubjectType
+    relatedSubject_SubjectType
 FROM
     SubjectsExport
 WHERE
-    s_SubjectID IN(105,36,200,104,142,202,124,106)
+    s_SubjectID IN(105,36,200,104,142,202,124,106,68,167,218,103,144,170)
 ;

@@ -1,14 +1,18 @@
 {
-    "occurrenceType": "^rs_SubjectType",
-    "relationshipType": "related",
+    "occurrenceType": "Subject",
+    "relationshipType": "subject",
     "matchOn": [
-        "idno"
+        "labels"
     ],
+    "attributes": {
+        "idno": "^relatedSubject_SubjectID",
+        "access": "1"
+    },
     "interstitial": {
         "Association": "^ss_Association",
         "SubjectDates": "^ss_Dates",
-        "sdatetime":  "^ss_DateMin",
-        "edatetime":  "^ss_DateMax",
+        "sdatetime": "^ss_DateMin",
+        "edatetime": "^ss_DateMax",
         "LegacyID": "^ss_SubjectSubjectID"
     }
 }
