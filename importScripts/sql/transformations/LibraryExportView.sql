@@ -73,7 +73,9 @@ CREATE OR REPLACE VIEW LibraryExport AS
         IF(Notes LIKE '%Review%',
            NULLIF(TRIM(MID(REPLACE(REPLACE(Notes, 'Review:', 'Review'), 'Review :', 'Review'),
                            POSITION('Review' IN Notes) + 7)
-                  ), ''), NULL)                                         AS Review
+                  ), ''), NULL)                                         AS Review,
+        IF(Notes LIKE '%Donor%',
+           NULLIF(TRIM(Notes), ''), NULL)                               AS Donor
 
 
     FROM Library l

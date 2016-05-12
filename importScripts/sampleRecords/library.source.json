@@ -306,7 +306,8 @@
   "Borrower": "NOT FOR LOAN",
   "Value": "0",
   "Purchased": "no",
-  "Donated": "yes"
+  "Donated": "yes",
+  "Donor": "Accession no:; 2012/55.  Donor unknown. Ian Heppingtstone Research Collection"
  },
  {
   "PublicationID": "14119",
@@ -337,7 +338,8 @@
   "Borrower": "NOT FOR LOAN",
   "Value": "0",
   "Purchased": "no",
-  "Donated": "yes"
+  "Donated": "yes",
+  "Donor": "Accession no:; 2012/55.  Donor unknown. Ian Heppingtstone Research Collection"
  },
  {
   "PublicationID": "15",
@@ -513,7 +515,8 @@
   "Borrower": "NOT FOR LOAN",
   "Value": "0",
   "Purchased": "yes",
-  "Donated": "yes"
+  "Donated": "yes",
+  "Donor": "A.N. 85.2. Donor: Purchased  for RWAHS\r\nTranslated from the German by Olaf Richter"
  },
  {
   "PublicationID": "3",
@@ -644,7 +647,8 @@
   "Value": "0",
   "Purchased": "no",
   "Donated": "yes",
-  "Review": "RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 / Coralie Solomon"
+  "Review": "RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 / Coralie Solomon",
+  "Donor": "A.N. 1986.34. Donor: Mrs Helen Alexander\r\nReview: RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 / Coralie Solomon"
  },
  {
   "PublicationID": "393",
@@ -776,7 +780,8 @@
   "Value": "0",
   "Purchased": "no",
   "Donated": "yes",
-  "Review": "RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 / B. Parnell"
+  "Review": "RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 / B. Parnell",
+  "Donor": "A. N. 1986.197 Donor: Mr Jim Carson\r\nA.N. 85.28. Donor: Jim Carson\r\nReview: RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 / B. Parnell"
  },
  {
   "PublicationID": "5",

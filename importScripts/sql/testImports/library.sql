@@ -54,6 +54,7 @@ UNION(SELECT PublicationID FROM LibraryExport WHERE Purchased <> 'yes' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Donated = 'yes' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Donated <> 'yes' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Review IS NOT NULL LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Donor IS NOT NULL LIMIT 2)
 ;
 
 
@@ -103,7 +104,8 @@ SELECT
     Xtra,
     Purchased,
     Donated,
-    Review
+    Review,
+    Donor
 FROM
     LibraryExport
 WHERE
