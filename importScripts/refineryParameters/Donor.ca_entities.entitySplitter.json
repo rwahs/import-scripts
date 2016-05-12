@@ -1,0 +1,12 @@
+{
+    "entityType": "individual",
+    "delimiter": ";",
+    "attributes": {
+        "idno": "%"
+    },
+    "relationshipType": "donor",
+    "displaynameFormat": "surnameCommaForename",
+    "matchOn": [
+        "labels"
+    ]
+}

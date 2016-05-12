@@ -54,6 +54,9 @@
         "ca_objects.Purchased": {
             "convertCodesToDisplayText": true
         },
-        "ca_objects.Summary": {}
+        "ca_objects.Summary": {},
+        "ca_entities": {
+            "returnAsArray": true
+        }
     }
 }
