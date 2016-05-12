@@ -35,6 +35,10 @@ UNION (SELECT PrimaryKey_Object_Table
        FROM ObjectsExport
        WHERE UsualLocation IS NOT NULL AND UsualLocation <> ''
        LIMIT 2)
+UNION (SELECT PrimaryKey_Object_Table
+       FROM ObjectsExport
+       WHERE DefaultUsualLocation IS NOT NULL AND DefaultUsualLocation <> ''
+       LIMIT 2)
 ;
 ## now we've found the sample records use them as the source
 SELECT
@@ -48,8 +52,9 @@ SELECT
     LastEditDate,
     LastEditBy,
     OtherNum,
-    UsualLocation
+    UsualLocation,
+    DefaultUsualLocation
 FROM
     ObjectsExport
 WHERE
-    PrimaryKey_Object_Table IN (4450,4451,4386,3767,46,2277,5335,4802);
+    PrimaryKey_Object_Table IN (3,6,4450,4451,4386,3430,3767,46,2277,5335,4802,8789,1730);
