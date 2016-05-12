@@ -29,7 +29,14 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.DeAccessionedYesNo), '')                    AS DeAccessionedYesNo,
         NULLIF(TRIM(d.DeaccessionReason), '')                     AS DeaccessionReason,
         NULLIF(TRIM(d.DeaccessionDisposal), '')                   AS DeaccessionDisposal,
-        NULLIF(TRIM(o.Description), '')                           AS Description,
+        CASE WHEN o.ItemType = 'Photograph'
+            THEN NULL
+        ELSE
+            NULLIF(TRIM(o.Description), '') END                   AS Description,
+        CASE WHEN o.ItemType = 'Photograph'
+            THEN NULLIF(TRIM(o.Description), '')
+        ELSE
+            NULL END                                              AS Summary,
         NULLIF(TRIM(o.Dimensions), '')                            AS Dimensions,
         NULLIF(TRIM(o.EarliestYear), 0)                           AS EarliestYear,
         NULLIF(TRIM(o.ExhibitLoanNeeds), '')                      AS ExhibitLoanNeeds,

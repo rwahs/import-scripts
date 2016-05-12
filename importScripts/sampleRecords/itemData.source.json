@@ -140,9 +140,15 @@
   "TertiaryClass": "building"
  },
  {
+  "Accession_Full_ID": "P2000/",
+  "ItemName": "HOOLEY, ELLA",
+  "Summary": "Test item only.",
+  "PhysicalCondition": "0"
+ },
+ {
   "Accession_Full_ID": "P1999.1004copied",
   "ItemName": "ZEPHYR (FERRY)",
-  "Description": "Zephyr  (Ferry)\r\n\r\nWritten on reverse: A E Tilley & Co Pty Ltd Fremantle Ferry S S Zephyr",
+  "Summary": "Zephyr  (Ferry)\r\n\r\nWritten on reverse: A E Tilley & Co Pty Ltd Fremantle Ferry S S Zephyr",
   "Creator": "Unknown",
   "PhysicalCondition": "0",
   "Dimensions": "Imperial size (21x25 cm)",
@@ -154,7 +160,7 @@
  {
   "Accession_Full_ID": "P1999/1006",
   "ItemName": "COLONIAL HOSPITAL, ST MARY'S CATHEDRAL & R.C. BISHOPS HOUSE",
-  "Description": "Colonial Hospital, St Mary's Cathedral & Roman Catholic Bishops House. Victoria Square c1860s\r\n\r\nSite of Royal Perth Hospital",
+  "Summary": "Colonial Hospital, St Mary's Cathedral & Roman Catholic Bishops House. Victoria Square c1860s\r\n\r\nSite of Royal Perth Hospital",
   "Creator": "Unknown",
   "ItemDates": "c1863",
   "EarliestYear": "1863",
@@ -173,7 +179,7 @@
  {
   "Accession_Full_ID": "P1999.1008copied",
   "ItemName": "THE BUNGALOW, SIR JOHN FORREST'S HOME",
-  "Description": "The Bungalow, Hay Street.\r\nHome of Sir John and Lady Forrest, left to Lady Forrest by her father Howard Hamersley.\r\nBuilt by Wittenoom family",
+  "Summary": "The Bungalow, Hay Street.\r\nHome of Sir John and Lady Forrest, left to Lady Forrest by her father Howard Hamersley.\r\nBuilt by Wittenoom family",
   "Creator": "unknown",
   "SignificanceCriteria": "historic;social",
   "Significance_Historic": "1",
@@ -189,7 +195,7 @@
  {
   "Accession_Full_ID": "P1999.1013Copied",
   "ItemName": "DESCRIPTION OF 'PARK BUNGALOW' HOME OF C.Y. O'CONNOR.",
-  "Description": "Description of 'Park Bungalow', home of C.Y. O'Connor\r\nCOPIED",
+  "Summary": "Description of 'Park Bungalow', home of C.Y. O'Connor\r\nCOPIED",
   "Creator": "unknown",
   "Importance": "State",
   "PhysicalCondition": "0",
@@ -203,7 +209,7 @@
  {
   "Accession_Full_ID": "P1999.1070copied(b",
   "ItemName": "ROTTNEST SETTLEMENT: THOMPSONS BAY 1900-1908",
-  "Description": "Rottnest settlement: Thomsons Bay 1900-1908. From right to left - The Pilot boats crew quarters-dining room, kitchen, etc. The opening in front was the boat shed. The Pilot took ships to Fremantle and he was later ferried back to the island. The second building was originally the Pilot's quarters, then the Signalmans and now Des Sullivan's house. The third building was semi-detached houses, the left one occupied by Chief Warder J.J. O'Donoghue on his retirement. In 1917 or 1918 O'Donoghue was transferred to the Board of Control. Another occupant was the school teacher. The fourth building was the Superintendents house. On the extreme left is the Governor's residence or Government House as the locals called it. The sea wall was built by Superintendent Vincent. \r\nAccession No. 43.120",
+  "Summary": "Rottnest settlement: Thomsons Bay 1900-1908. From right to left - The Pilot boats crew quarters-dining room, kitchen, etc. The opening in front was the boat shed. The Pilot took ships to Fremantle and he was later ferried back to the island. The second building was originally the Pilot's quarters, then the Signalmans and now Des Sullivan's house. The third building was semi-detached houses, the left one occupied by Chief Warder J.J. O'Donoghue on his retirement. In 1917 or 1918 O'Donoghue was transferred to the Board of Control. Another occupant was the school teacher. The fourth building was the Superintendents house. On the extreme left is the Governor's residence or Government House as the locals called it. The sea wall was built by Superintendent Vincent. \r\nAccession No. 43.120",
   "ResearchBy": "po",
   "Importance": "State",
   "PhysicalCondition": "1",
@@ -238,7 +244,7 @@
  {
   "Accession_Full_ID": "P1999.1132copied",
   "ItemName": "? CLARKSON, GROUP OF THREE",
-  "Description": "? Clarkson, group of three",
+  "Summary": "? Clarkson, group of three",
   "Creator": "Manning",
   "Importance": "State",
   "PhysicalCondition": "2",
@@ -250,7 +256,7 @@
  {
   "Accession_Full_ID": "P1999.1798copied",
   "ItemName": "FREMANTLE, LOOKING SOUTH FROM ROUND HOUSE",
-  "Description": "Fremantle, looking South From Round House",
+  "Summary": "Fremantle, looking South From Round House",
   "ItemDates": "1902",
   "SignificanceCriteria": "historic;scientific;social",
   "Significance_Historic": "1",
@@ -381,7 +387,7 @@
  {
   "Accession_Full_ID": "P1999.3645copied",
   "ItemName": "ST ANDREW'S, COOLGARDIE PICNIC",
-  "Description": "Picnic at McMahons Dairy for St Andrews Anglican Church\r\nFront row: Tim Packard, Gwenyth ?, Edna Jacobs, Bobbie Packard\r\nCOPIED",
+  "Summary": "Picnic at McMahons Dairy for St Andrews Anglican Church\r\nFront row: Tim Packard, Gwenyth ?, Edna Jacobs, Bobbie Packard\r\nCOPIED",
   "ItemDates": "1911",
   "Importance": "Local",
   "SignificanceCriteria": "historic;social",
@@ -420,7 +426,7 @@
  {
   "Accession_Full_ID": "P2009.96",
   "ItemName": "WILLIAM & MARY BLAKE GRAVESTONE",
-  "Description": "William & Mary Blake gravestone.  Wooden headstone in foreground & the names of the Blakes on the marble stone in background.",
+  "Summary": "William & Mary Blake gravestone.  Wooden headstone in foreground & the names of the Blakes on the marble stone in background.",
   "SignificanceCriteria": "historic",
   "Significance_Historic": "1",
   "ComparativeCriteria": "condition",
@@ -435,7 +441,7 @@
  {
   "Accession_Full_ID": "P2009.291",
   "ItemName": "H.M.S. HOOD IN FREMANTLE",
-  "Description": "H.M.S. Hood in Fremantle, 1924",
+  "Summary": "H.M.S. Hood in Fremantle, 1924",
   "ItemDates": "1924",
   "EarliestYear": "1924",
   "LatestYear": "1924",
@@ -451,7 +457,7 @@
  {
   "Accession_Full_ID": "P1999.4318copied",
   "ItemName": "MOUNTAIN DEVIL",
-  "Description": "Mountain devil\r\nCOPIED",
+  "Summary": "Mountain devil\r\nCOPIED",
   "Creator": "Mrs Fraser",
   "ItemDates": "1938",
   "EarliestYear": "1938",
@@ -469,7 +475,7 @@
  {
   "Accession_Full_ID": "P1999.2474",
   "ItemName": "ABORIGINES - MAN & WOMAN IN WESTERN DRESS (S.W) (P.C. SENT 1906)",
-  "Description": "Aboriginal man and woman in western dress  in South West.\r\nPC sent 1906\r\nOld No. P926",
+  "Summary": "Aboriginal man and woman in western dress  in South West.\r\nPC sent 1906\r\nOld No. P926",
   "Creator": "Austral Stores",
   "ItemDates": "1906",
   "EarliestYear": "1906",
@@ -490,7 +496,7 @@
  {
   "Accession_Full_ID": "P2009.430",
   "ItemName": "EDWARDS, EDWARD WILLIAM",
-  "Description": "Photo of Edward William Edwards, showing upper body, dressed in shirt, tie and waistcoat with hat. B.1871 d 1956. C1940s",
+  "Summary": "Photo of Edward William Edwards, showing upper body, dressed in shirt, tie and waistcoat with hat. B.1871 d 1956. C1940s",
   "ItemDates": "1940s",
   "EarliestYear": "1940",
   "LatestYear": "1949",
@@ -544,7 +550,7 @@
  {
   "Accession_Full_ID": "P2014.25",
   "ItemName": "GREETING CARD WITH PAINTING OF CARNARVON DRY RIVER BED",
-  "Description": "Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry\r\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. /Paul, paralysed in the arms by poliomyelitis, paints with his foot.\r\nWith Best Wishes/for Christmas/and the New Year\r\nHandwritten message in black ink",
+  "Summary": "Greeting card with painting titled 'Dry River bed near Carnarvon, W.A.' signed P Berry\r\nPrinted in green inside card 'Dry river bed near Carnarvon, WA' By Paul Berry. /Paul, paralysed in the arms by poliomyelitis, paints with his foot.\r\nWith Best Wishes/for Christmas/and the New Year\r\nHandwritten message in black ink",
   "Creator": "painting by Paul Berry for Paraplegic Association of WA",
   "ComparativeCriteria": "representativeness",
   "PhysicalCondition": "2",
@@ -560,7 +566,7 @@
  {
   "Accession_Full_ID": "P2014.807",
   "ItemName": "NURSE PEARL ASHWIN MEEKATHARRA HOSPITAL",
-  "Description": "Post card. Nurse Pearl Ashwin in nursing uniform  Meekatharra Hospital\r\n\r\nPrinted on reverse: Image: Nurse Pearl Ashwin, Meekatharra Hospital/State Library of Western Australia, BA368/278/My Story: Pearl Ashwin was one of the first Aboriginal women in Meekatharra to become a registered nurse and is pictured here working at Meekatharra Hospital.\r\n\r\nStorylines is a State Library initiative to explore with the community the last 125 years of Aboriginal history through our heritage collections.",
+  "Summary": "Post card. Nurse Pearl Ashwin in nursing uniform  Meekatharra Hospital\r\n\r\nPrinted on reverse: Image: Nurse Pearl Ashwin, Meekatharra Hospital/State Library of Western Australia, BA368/278/My Story: Pearl Ashwin was one of the first Aboriginal women in Meekatharra to become a registered nurse and is pictured here working at Meekatharra Hospital.\r\n\r\nStorylines is a State Library initiative to explore with the community the last 125 years of Aboriginal history through our heritage collections.",
   "ComparativeCriteria": "interpretive",
   "Significance_Interpretive": "1",
   "PhysicalCondition": "0",
@@ -575,7 +581,7 @@
  {
   "Accession_Full_ID": "P2015.140",
   "ItemName": "TELECOM HISTORICAL PICTURES",
-  "Description": "Telecom Historical Pictures - PMG Light Truck",
+  "Summary": "Telecom Historical Pictures - PMG Light Truck",
   "ItemDates": "1940s",
   "EarliestYear": "1940",
   "LatestYear": "1949",

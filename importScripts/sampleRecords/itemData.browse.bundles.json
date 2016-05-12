@@ -1,6 +1,7 @@
 {
     "bundles": {
         "ca_objects.Description": {},
+        "ca_objects.Summary": {},
         "ca_objects.MakersMarks": {},
         "ca_objects.Creator.CreatorType": {
             "convertCodesToDisplayText": true
