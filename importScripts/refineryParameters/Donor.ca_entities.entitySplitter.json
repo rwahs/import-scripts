@@ -1,11 +1,10 @@
 {
     "entityType": "individual",
     "delimiter": ";",
-    "attributes": {
-        "idno": "%"
+    "attributes":{
+        "idno": ""
     },
     "relationshipType": "donor",
-    "displaynameFormat": "surnameCommaForename",
     "matchOn": [
         "labels"
     ]

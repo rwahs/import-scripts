@@ -369,8 +369,7 @@
       "ca_objects.Donated":"Yes",
       "ca_objects.Purchased":"No",
       "ca_entities":[
-        "no:, Accession",
-        "unknown. Ian Heppingtstone Research Collection, 2012\/55."
+        "Unknown"
       ]
     },
     {
@@ -584,7 +583,7 @@
       "ca_objects.Donated":"Yes",
       "ca_objects.Purchased":"Yes",
       "ca_entities":[
-        "Donor: Purchased for RWAHS\nTranslated from the German by Olaf Richter, A.N."
+        "Olaf Richter"
       ]
     },
     {
@@ -744,7 +743,7 @@
       "ca_objects.Review":"RWAHS newsletter, Vol. 25, no.5, June 1986, p.9 \/ Coralie Solomon",
       "ca_objects.Purchased":"No",
       "ca_entities":[
-        "A.N. 1986.34. Donor: Mrs Helen Alexander\nReview: RWAHS newsletter,  Vol. 25"
+        "Mrs. Helen Alexander"
       ]
     },
     {
@@ -915,7 +914,7 @@
       "ca_objects.Review":"RWAHS newsletter, Vol. 24, no.3, April 1985, p.6 \/ B. Parnell",
       "ca_objects.Purchased":"No",
       "ca_entities":[
-        "A. N. 1986.197 Donor: Mr Jim Carson\nA.N. 85.28. Donor: Jim Carson\nReview: RWAHS newsletter,  Vol. 24"
+        "Mr. Jim Carson"
       ]
     },
     {
