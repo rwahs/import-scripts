@@ -56,7 +56,8 @@
         },
         "ca_objects.Summary": {},
         "ca_entities": {
-            "returnAsArray": true
+            "returnAsArray": true,
+            "restrictToRelationshipTypes": ["donor"]
         }
     }
 }
