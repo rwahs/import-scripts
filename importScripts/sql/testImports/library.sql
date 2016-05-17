@@ -41,7 +41,21 @@ UNION(SELECT PublicationID FROM LibraryExport WHERE `Value` IS NOT NULL LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE MyText IS NOT NULL LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE XternalReference IS NOT NULL LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Xtra IS NOT NULL LIMIT 2)
-    ;
+UNION(SELECT PublicationID FROM LibraryExport WHERE `Collation` IS NOT NULL LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Maps = 1 AND Marks NOT LIKE '%map%' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Maps = 1 AND Marks LIKE '%map%' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Maps = 0 AND Marks NOT LIKE '%map%' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Maps = 0 AND Pages < 1 AND Marks IS NOT NULL LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Maps = 0 AND Pages < 1 AND Marks IS NULL LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Pages > 0 AND Marks LIKE CONCAT('%', Pages, 'p.%') LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Pages > 0 AND Marks NOT LIKE CONCAT('%', Pages, 'p.%') LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Purchased = 'yes' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Purchased <> 'yes' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Donated = 'yes' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Donated <> 'yes' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Review IS NOT NULL LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE Donor IS NOT NULL LIMIT 2)
+;
 
 
 
@@ -75,6 +89,7 @@ SELECT
     Maps,
     Marks,
     Pages,
+    `Collation`,
     Rare,
     Restrictions,
     DateDue,
@@ -86,9 +101,13 @@ SELECT
     `Value`,
     MyText,
     XternalReference,
-    Xtra
+    Xtra,
+    Purchased,
+    Donated,
+    Review,
+    Donor
 FROM
     LibraryExport
 WHERE
-    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566)
+    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566,393,472,15,24,101,100,68,2847,7186,38,49)
 ;
