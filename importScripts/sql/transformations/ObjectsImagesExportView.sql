@@ -8,7 +8,7 @@ SELECT
         REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(ImageFilePath, '\\', '/'), 'Y:/', ''), 'Y:', ''),
                         '//Foyer/c/Images Mosaic/', ''), '//Foyer/c/Images Mosaic/', ''),
         '//SERVER1/Images Mosaic/', ''), ImageFileName)), '') AS ImagePath,
-    NULLIF(TRIM(ImageDescription), '')                        AS ImageDescription,
+    IFNULL(NULLIF(TRIM(ImageDescription), ''), TRIM(o.ItemName))                        AS ImageDescription,
     NULLIF(TRIM(DisplayImage), '')                            AS DisplayImage,
     NULLIF(TRIM(DefaultImageIndicator), '')                   AS DefaultImageIndicator
 
