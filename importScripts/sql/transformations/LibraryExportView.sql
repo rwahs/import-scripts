@@ -1,4 +1,5 @@
 DROP FUNCTION IF EXISTS clean_spaces;
+DELIMITER //
 CREATE FUNCTION clean_spaces(str TEXT)
     RETURNS TEXT
     BEGIN
@@ -6,7 +7,8 @@ CREATE FUNCTION clean_spaces(str TEXT)
             SET str := replace(str, '  ', ' ');
         END WHILE;
         RETURN trim(str);
-    END;
+    END//
+DELIMITER ;
 CREATE OR REPLACE VIEW LibraryExport AS
     SELECT
         NULLIF(TRIM(l.PublicationID), '')                                     AS PublicationID,
