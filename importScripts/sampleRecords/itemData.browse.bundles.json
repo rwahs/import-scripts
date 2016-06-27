@@ -30,6 +30,9 @@
         "ca_objects.Dimensions.DimensionsValue": {},
         "classificationHierarchy": {
             "template": "<unit relativeTo='ca_list_items'><unit relativeTo='ca_list_items.hierarchy'><unit>^idno (^item_id)</unit></unit></unit>"
+        },
+        "geographicLocation": {
+            "template": "^ca_places.preferred_labels%restrictToRelationshipTypes=located"
         }
     }
 }

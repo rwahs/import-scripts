@@ -229,7 +229,8 @@
   "PhysicalCondition": "0",
   "Materials": "1868 letterbox with bronze plaque",
   "Classification": "Plaques",
-  "PrimaryClass": "MEMORIALS"
+  "PrimaryClass": "MEMORIALS",
+  "Place": "Claremont, Stirling Highway, south side opposite Vaucluse Street"
  },
  {
   "Accession_Full_ID": "ME7.2",
@@ -239,7 +240,8 @@
   "BibliographReferences": "Rottnest Board of Control and Western Australian Historical Society",
   "PhysicalCondition": "0",
   "Classification": "Plaques",
-  "PrimaryClass": "MEMORIALS"
+  "PrimaryClass": "MEMORIALS",
+  "Place": "Rottnest"
  },
  {
   "Accession_Full_ID": "P1999.1132copied",

@@ -1,0 +1,11 @@
+{
+    "placeType": "location",
+    "relationshipType": "located",
+    "attributes": {
+        "idno": "",
+        "access": "1"
+    },
+    "matchOn": [
+        "label"
+    ]
+}
