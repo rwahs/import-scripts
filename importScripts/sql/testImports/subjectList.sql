@@ -25,6 +25,7 @@ UNION(SELECT s_SubjectID FROM SubjectsExport WHERE ss_DateMax IS NOT NULL LIMIT 
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE relatedSubject_SubjectType IS NOT NULL LIMIT 2)
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE s_SubjectName LIKE 'PRINSEP%' OR relatedSubject_SubjectName LIKE 'PRINSEP%' OR relatedSubject_SubjectName LIKE 'Bussel%' OR s_SubjectName LIKE 'Bussel%')
 UNION(SELECT s_SubjectID FROM SubjectsExport WHERE length(s_SubjectName) > 30 OR length(relatedSubject_SubjectName) > 30)
+UNION(SELECT s_SubjectID FROM SubjectsExport WHERE s_SubjectName IN ('VVV', 'Properjohn'))
 ;
 ## now we've found the sample records use them as the source
 SELECT
@@ -56,5 +57,5 @@ SELECT
 FROM
     SubjectsExport
 WHERE
-    s_SubjectID IN(105,36,200,104,142,202,124,106,68,167,218,103,144,170)
+    s_SubjectID IN(105,36,200,104,142,202,124,106,68,167,218,103,144,170,97,110)
 ;
