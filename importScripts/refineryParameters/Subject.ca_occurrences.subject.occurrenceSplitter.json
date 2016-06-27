@@ -1,0 +1,14 @@
+{
+    "occurrenceType": "Subject",
+    "relationshipType": "subject",
+    "delimiter": [
+        ";"
+    ],
+    "attributes": {
+        "idno": "",
+        "access": "1"
+    },
+    "matchOn": [
+        "label"
+    ]
+}

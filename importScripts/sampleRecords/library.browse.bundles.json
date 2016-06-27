@@ -23,7 +23,9 @@
         "ca_objects.Publisher": {},
         "ca_objects.PlaceOfPublication": {},
         "ca_occurrences": {
-            "returnAsArray": true
+            "returnAsArray": true,
+            "restrictToRelationshipTypes": "subject",
+            "restrictToTypes": "Subject"
         },
         "ca_objects.XternalReference": {},
         "ca_objects.Xtra": {},
