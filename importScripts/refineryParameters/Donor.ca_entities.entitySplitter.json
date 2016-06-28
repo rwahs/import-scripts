@@ -1,11 +1,12 @@
 {
     "entityType": "individual",
+    "displayname": "^SourceName",
     "delimiter": ";",
     "attributes":{
-        "idno": ""
+        "idno": "^SourceID"
     },
     "relationshipType": "donor",
     "matchOn": [
-        "labels"
+        "idno"
     ]
 }
