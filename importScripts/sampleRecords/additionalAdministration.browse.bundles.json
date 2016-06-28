@@ -12,6 +12,8 @@
         "ca_objects.OtherNumber": {
             "delimiter": ";"
         },
-        "ca_storage_locations": {}
+        "usualLocationHierarchy": {
+            "template": "<unit relativeTo='ca_storage_locations'><unit relativeTo='ca_storage_locations.hierarchy' hierarchicalDelimiter=' => '><unit>^preferred_labels (id:^location_id, ^type_id)</unit></unit></unit>"
+        }
     }
 }

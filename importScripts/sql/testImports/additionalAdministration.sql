@@ -39,6 +39,18 @@ UNION (SELECT PrimaryKey_Object_Table
        FROM ObjectsExport
        WHERE DefaultUsualLocation IS NOT NULL AND DefaultUsualLocation <> ''
        LIMIT 2)
+UNION (SELECT PrimaryKey_Object_Table
+       FROM ObjectsExport
+       WHERE UsualLocationRoom IS NOT NULL
+       LIMIT 2)
+UNION (SELECT PrimaryKey_Object_Table
+       FROM ObjectsExport
+       WHERE UsualLocationShelf IS NOT NULL
+       LIMIT 2)
+UNION (SELECT PrimaryKey_Object_Table
+       FROM ObjectsExport
+       WHERE UsualLocationBox IS NOT NULL
+       LIMIT 2)
 ;
 ## now we've found the sample records use them as the source
 SELECT
@@ -53,8 +65,13 @@ SELECT
     LastEditBy,
     OtherNum,
     UsualLocation,
-    DefaultUsualLocation
+    DefaultUsualLocation,
+    UsualLocationRoom,
+    UsualLocationShelf,
+    UsualLocationBox,
+    UsualLocationLowest,
+    UsualLocationType
 FROM
     ObjectsExport
 WHERE
-    PrimaryKey_Object_Table IN (3,6,4450,4451,4386,3430,3767,46,2277,5335,4802,8789,1730);
+    PrimaryKey_Object_Table IN (3,6,4450,4451,4386,3430,3767,46,2277,5335,4802,8789,1730,8,11,544,4802);

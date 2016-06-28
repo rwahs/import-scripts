@@ -17,6 +17,32 @@
   "UsualLocation": "Artworks Storeroom shelf B3"
  },
  {
+  "Accession_Full_ID": "A1937.46",
+  "ItemName": "SWAN RIVER 50 MILES UP",
+  "AccessionBy": "jm",
+  "DeAccessionedYesNo": "0",
+  "LastEditDate": "2014-07-25 00:00:00",
+  "LastEditBy": "MUSCO",
+  "UsualLocation": "Tranby Room Drawer 11",
+  "UsualLocationRoom": "Tranby Room",
+  "UsualLocationShelf": "Drawer 11",
+  "UsualLocationLowest": "Drawer 11",
+  "UsualLocationType": "shelf"
+ },
+ {
+  "Accession_Full_ID": "A1984.367",
+  "ItemName": "LETTER FROM HOME, C1935",
+  "AccessionBy": "jm",
+  "DeAccessionedYesNo": "0",
+  "LastEditDate": "2015-03-10 00:00:00",
+  "LastEditBy": "ValH",
+  "UsualLocation": "Locked storeroom",
+  "UsualLocationRoom": "Locked Storeoom",
+  "UsualLocationShelf": "B3",
+  "UsualLocationLowest": "B3",
+  "UsualLocationType": "shelf"
+ },
+ {
   "Accession_Full_ID": "A1900.41",
   "ItemName": "SOUTH PERTH FROM MT ELIZA",
   "AccessionBy": "bjk",
@@ -25,6 +51,19 @@
   "LastEditBy": "ValH",
   "OtherNum": "\r\nRefer old register no 41",
   "UsualLocation": "Art Store Room, C9"
+ },
+ {
+  "Accession_Full_ID": "C1985.121a",
+  "ItemName": "DRESS, FAWN TUSSORE SILK.",
+  "AccessionBy": "UEB",
+  "DeAccessionedYesNo": "0",
+  "LastEditDate": "2013-02-21 00:00:00",
+  "LastEditBy": "ValH",
+  "UsualLocation": "Costume Room Box 099",
+  "UsualLocationRoom": "Costume Room",
+  "UsualLocationBox": "Box 099",
+  "UsualLocationLowest": "Box 099",
+  "UsualLocationType": "box"
  },
  {
   "Accession_Full_ID": "MA2001.21c",
@@ -104,7 +143,11 @@
   "DeaccessionDisposal": "Item discarded",
   "LastEditDate": "2013-02-14 00:00:00",
   "LastEditBy": "ValH",
-  "UsualLocation": "Costume Room Box 025"
+  "UsualLocation": "Costume Room Box 025",
+  "UsualLocationRoom": "Costume Room",
+  "UsualLocationBox": "Box 025",
+  "UsualLocationLowest": "Box 025",
+  "UsualLocationType": "box"
  },
  {
   "Accession_Full_ID": "C1993.26j",
