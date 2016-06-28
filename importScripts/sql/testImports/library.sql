@@ -56,6 +56,10 @@ UNION(SELECT PublicationID FROM LibraryExport WHERE Donated <> 'yes' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Review IS NOT NULL LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE Donor IS NOT NULL LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(Subject) IN ('1. Aboriginal Australians ; 2. Clans ; 3. Tribes ; 4. Wardandi ; 5. Noongar', '1. Bridges - Northam ; 2. Trails ; 3. Katrine'))
+UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'Research essay' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'Unpublished M/S' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  '1987' LIMIT 2)
+UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'F, K., and J., D.' LIMIT 2)
 ;
 
 
@@ -110,5 +114,5 @@ SELECT
 FROM
     LibraryExport
 WHERE
-    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566,393,472,15,24,101,100,68,2847,7186,38,49,15613,16130)
+    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566,393,472,15,24,101,100,68,2847,7186,38,49,15613,16130,13359,13845,13632,3821)
 ;
