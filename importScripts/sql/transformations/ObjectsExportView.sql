@@ -128,13 +128,22 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         lhc.Room                                                  AS UsualLocationRoom,
         lhc.Shelf                                                 AS UsualLocationShelf,
         lhc.Box                                                   AS UsualLocationBox,
-        COALESCE(lhc.Box, lhc.Shelf, lhc.Room)                    AS UsualLocationLowest,
+        IF(
+            o.ItemType IN ('Photograph', 'Memorials'),
+            NULL,
+            COALESCE(lhc.Box, lhc.Shelf, lhc.Room, NULLIF(TRIM(o.UsualLocation), ''))
+        )                                                         AS UsualLocationLowest,
         CASE
         WHEN lhc.Box IS NOT NULL
             THEN 'box'
         WHEN lhc.Shelf IS NOT NULL
             THEN 'shelf'
         WHEN lhc.Room IS NOT NULL
+            THEN 'room'
+        WHEN
+            (o.ItemType NOT IN ('Photograph', 'Memorials') AND
+             NULLIF(TRIM(o.UsualLocation), '') IS NOT NULL AND
+             lhc.UsualLocation IS NULL)
             THEN 'room'
         ELSE NULL
         END                                                       AS UsualLocationType,

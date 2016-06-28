@@ -9,7 +9,8 @@
       "ca_objects.AccessionByContainer.AccessionBy":"Curator",
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"30 July 2015",
-      "ca_objects.LastEditBy":"PENDS"
+      "ca_objects.LastEditBy":"PENDS",
+      "usualLocationHierarchy":" (id:1, ); Artworks Store Room C2 (id:2, room)"
     },
     {
       "object_id":"2",
@@ -19,7 +20,8 @@
       "ca_objects.AccessionByContainer.AccessionBy":"jm",
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"3 June 2015",
-      "ca_objects.LastEditBy":"ValH"
+      "ca_objects.LastEditBy":"ValH",
+      "usualLocationHierarchy":" (id:1, ); Artworks Storeroom shelf B3 (id:3, room)"
     },
     {
       "object_id":"3",
@@ -30,7 +32,7 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"25 July 2014",
       "ca_objects.LastEditBy":"MUSCO",
-      "usualLocationHierarchy":" (id:1, ); Tranby Room (id:2, room); Drawer 11 (id:3, shelf)"
+      "usualLocationHierarchy":" (id:1, ); Tranby Room (id:4, room); Drawer 11 (id:5, shelf)"
     },
     {
       "object_id":"4",
@@ -41,7 +43,7 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"10 March 2015",
       "ca_objects.LastEditBy":"ValH",
-      "usualLocationHierarchy":" (id:1, ); Locked Storeoom (id:4, room); B3 (id:5, shelf)"
+      "usualLocationHierarchy":" (id:1, ); Locked Storeoom (id:6, room); B3 (id:7, shelf)"
     },
     {
       "object_id":"5",
@@ -52,7 +54,8 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"4 June 2015",
       "ca_objects.LastEditBy":"ValH",
-      "ca_objects.OtherNumber":"Refer old register no 41"
+      "ca_objects.OtherNumber":"Refer old register no 41",
+      "usualLocationHierarchy":" (id:1, ); Art Store Room, C9 (id:8, room)"
     },
     {
       "object_id":"6",
@@ -63,7 +66,7 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"21 February 2013",
       "ca_objects.LastEditBy":"ValH",
-      "usualLocationHierarchy":" (id:1, ); Costume Room (id:6, room); Box 099 (id:7, box)"
+      "usualLocationHierarchy":" (id:1, ); Costume Room (id:9, room); Box 099 (id:10, box)"
     },
     {
       "object_id":"7",
@@ -76,7 +79,7 @@
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"4 April 2011",
       "ca_objects.LastEditBy":"BEAE",
-      "usualLocationHierarchy":" (id:1, ); MANCHESTER CUPBOARD (id:8, room)"
+      "usualLocationHierarchy":" (id:1, ); MANCHESTER CUPBOARD (id:11, room)"
     },
     {
       "object_id":"8",
@@ -158,7 +161,7 @@
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"14 February 2013",
       "ca_objects.LastEditBy":"ValH",
-      "usualLocationHierarchy":" (id:1, ); Costume Room (id:6, room); Box 025 (id:9, box)"
+      "usualLocationHierarchy":" (id:1, ); Costume Room (id:9, room); Box 025 (id:12, box)"
     },
     {
       "object_id":"15",
@@ -170,7 +173,8 @@
       "ca_objects.deaccession_notes":"Item not needed for Society's collection",
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"16 February 2011",
-      "ca_objects.LastEditBy":"VandB"
+      "ca_objects.LastEditBy":"VandB",
+      "usualLocationHierarchy":" (id:1, ); Costume Room Box 225 (id:13, room)"
     },
     {
       "object_id":"16",
@@ -181,7 +185,7 @@
       "ca_objects.is_deaccessioned":"1",
       "ca_objects.LastEditDate":"15 February 2013",
       "ca_objects.LastEditBy":"ValH",
-      "usualLocationHierarchy":" (id:1, ); Deaccessioned (id:10, room)"
+      "usualLocationHierarchy":" (id:1, ); Deaccessioned (id:14, room)"
     }
   ]
 }
