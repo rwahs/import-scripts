@@ -13,7 +13,7 @@
             "delimiter": ";"
         },
         "usualLocationHierarchy": {
-            "template": "<unit relativeTo='ca_storage_locations'><unit relativeTo='ca_storage_locations.hierarchy' hierarchicalDelimiter=' => '><unit>^preferred_labels (id:^location_id, ^type_id)</unit></unit></unit>"
+            "template": "<unit relativeTo='ca_storage_locations'><unit relativeTo='ca_storage_locations.hierarchy' delimiter=' => '><unit>^preferred_labels (id:^location_id, ^type_id)</unit></unit></unit>"
         }
     }
 }
