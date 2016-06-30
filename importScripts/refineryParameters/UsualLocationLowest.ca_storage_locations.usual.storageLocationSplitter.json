@@ -1,0 +1,47 @@
+{
+    "storageLocationType": "^UsualLocationType",
+    "relationshipType": "usual",
+    "matchOn": [
+        "label"
+    ],
+    "attributes": {
+        "is_enabled": 1,
+        "idno": ""
+    },
+    "parents": [
+        {
+            "name": "^UsualLocationShelf",
+            "type": "shelf",
+            "attributes": {
+                "is_enabled": 1
+            },
+            "rules": [
+                {
+                    "trigger": "^UsualLocationType = \"shelf\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "^UsualLocationRoom",
+            "type": "room",
+            "attributes": {
+                "is_enabled": 1
+            },
+            "rules": [
+                {
+                    "trigger": "^UsualLocationType = \"room\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

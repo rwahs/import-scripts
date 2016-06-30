@@ -125,6 +125,28 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.TreatmentCompleteYesNo), '')                AS TreatmentCompleteYesNo,
         NULLIF(TRIM(o.TreatmentPriority), '')                     AS TreatmentPriority,
         NULLIF(TRIM(o.UsualLocation), '')                         AS UsualLocation,
+        lhc.Room                                                  AS UsualLocationRoom,
+        lhc.Shelf                                                 AS UsualLocationShelf,
+        lhc.Box                                                   AS UsualLocationBox,
+        IF(
+            o.ItemType IN ('Photograph', 'Memorials'),
+            NULL,
+            COALESCE(lhc.Box, lhc.Shelf, lhc.Room, NULLIF(TRIM(o.UsualLocation), ''))
+        )                                                         AS UsualLocationLowest,
+        CASE
+        WHEN lhc.Box IS NOT NULL
+            THEN 'box'
+        WHEN lhc.Shelf IS NOT NULL
+            THEN 'shelf'
+        WHEN lhc.Room IS NOT NULL
+            THEN 'room'
+        WHEN
+            (o.ItemType NOT IN ('Photograph', 'Memorials') AND
+             NULLIF(TRIM(o.UsualLocation), '') IS NOT NULL AND
+             lhc.UsualLocation IS NULL)
+            THEN 'room'
+        ELSE NULL
+        END                                                       AS UsualLocationType,
         IF(
             TRIM(o.UsualLocation) = '' OR ISNULL(o.UsualLocation),
             NULLIF(TRIM(o.Location), ''),
@@ -173,4 +195,5 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         LEFT JOIN ReceiptConditions pc ON (o.PhysicalCondition = pc.SequenceOnForm)
         LEFT JOIN ReceiptConditions rc ON (o.ConditionOnReceipt = rc.ConditionDescription)
         LEFT JOIN ConservationHistory c ON (o.Accession_Full_ID = c.Accession_Full_ID)
+        LEFT JOIN LocationHomesCleaned lhc ON (o.UsualLocation = lhc.UsualLocation)
     ORDER BY o.PrimaryKey_Object_Table;

@@ -10,7 +10,7 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"30 July 2015",
       "ca_objects.LastEditBy":"PENDS",
-      "ca_storage_locations":"Artworks Store Room C2"
+      "usualLocationHierarchy":" (id:1, ) => Artworks Store Room C2 (id:2, room)"
     },
     {
       "object_id":"2",
@@ -21,11 +21,33 @@
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"3 June 2015",
       "ca_objects.LastEditBy":"ValH",
-      "ca_storage_locations":"Artworks Storeroom shelf B3"
+      "usualLocationHierarchy":" (id:1, ) => Artworks Storeroom shelf B3 (id:3, room)"
     },
     {
       "object_id":"3",
       "id":"3",
+      "idno":"A1937.46",
+      "display_label":"SWAN RIVER 50 MILES UP",
+      "ca_objects.AccessionByContainer.AccessionBy":"jm",
+      "ca_objects.is_deaccessioned":"0",
+      "ca_objects.LastEditDate":"25 July 2014",
+      "ca_objects.LastEditBy":"MUSCO",
+      "usualLocationHierarchy":" (id:1, ) => Tranby Room (id:4, room) => Drawer 11 (id:5, shelf)"
+    },
+    {
+      "object_id":"4",
+      "id":"4",
+      "idno":"A1984.367",
+      "display_label":"LETTER FROM HOME, C1935",
+      "ca_objects.AccessionByContainer.AccessionBy":"jm",
+      "ca_objects.is_deaccessioned":"0",
+      "ca_objects.LastEditDate":"10 March 2015",
+      "ca_objects.LastEditBy":"ValH",
+      "usualLocationHierarchy":" (id:1, ) => Locked Storeoom (id:6, room) => B3 (id:7, shelf)"
+    },
+    {
+      "object_id":"5",
+      "id":"5",
       "idno":"A1900.41",
       "display_label":"SOUTH PERTH FROM MT ELIZA",
       "ca_objects.AccessionByContainer.AccessionBy":"bjk",
@@ -33,11 +55,22 @@
       "ca_objects.LastEditDate":"4 June 2015",
       "ca_objects.LastEditBy":"ValH",
       "ca_objects.OtherNumber":"Refer old register no 41",
-      "ca_storage_locations":"Art Store Room, C9"
+      "usualLocationHierarchy":" (id:1, ) => Art Store Room, C9 (id:8, room)"
     },
     {
-      "object_id":"4",
-      "id":"4",
+      "object_id":"6",
+      "id":"6",
+      "idno":"C1985.121a",
+      "display_label":"DRESS, FAWN TUSSORE SILK.",
+      "ca_objects.AccessionByContainer.AccessionBy":"UEB",
+      "ca_objects.is_deaccessioned":"0",
+      "ca_objects.LastEditDate":"21 February 2013",
+      "ca_objects.LastEditBy":"ValH",
+      "usualLocationHierarchy":" (id:1, ) => Costume Room (id:9, room) => Box 099 (id:10, box)"
+    },
+    {
+      "object_id":"7",
+      "id":"7",
       "idno":"MA2001.21c",
       "display_label":"TABLE CENTRE,  WHITE LINEN CENTRE WITH LACE EDGING",
       "ca_objects.AccessionByContainer.AccessionBy":"REB",
@@ -46,23 +79,22 @@
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"4 April 2011",
       "ca_objects.LastEditBy":"BEAE",
-      "ca_storage_locations":"MANCHESTER CUPBOARD"
+      "usualLocationHierarchy":" (id:1, ) => MANCHESTER CUPBOARD (id:11, room)"
     },
     {
-      "object_id":"5",
-      "id":"5",
+      "object_id":"8",
+      "id":"8",
       "idno":"P1999.1208copied",
       "display_label":"CLARKSON, WILLIAM WILBERFORCE",
       "ca_objects.AccessionByContainer.AccessionBy":"AndI",
       "ca_objects.is_deaccessioned":"0",
       "ca_objects.LastEditDate":"18 August 2015",
       "ca_objects.LastEditBy":"KOLP",
-      "ca_objects.OtherNumber":"P1981\/80",
-      "ca_storage_locations":"R1208, V1"
+      "ca_objects.OtherNumber":"P1981\/80"
     },
     {
-      "object_id":"6",
-      "id":"6",
+      "object_id":"9",
+      "id":"9",
       "idno":"C1992.24",
       "display_label":"DRESS, CHILD'S, SILK WITH SMOCKING",
       "ca_objects.AccessionByContainer.AccessionBy":"BucM",
@@ -73,8 +105,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"7",
-      "id":"7",
+      "object_id":"10",
+      "id":"10",
       "idno":"C1989.169g",
       "display_label":"SHOE, INFANT'S",
       "ca_objects.AccessionByContainer.AccessionBy":"BucM",
@@ -83,8 +115,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"8",
-      "id":"8",
+      "object_id":"11",
+      "id":"11",
       "idno":"C1988.60",
       "display_label":"COAT HANGER",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -95,8 +127,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"9",
-      "id":"9",
+      "object_id":"12",
+      "id":"12",
       "idno":"C1984.109",
       "display_label":"TRAVELLING STOCKING HOLDER",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -107,8 +139,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"10",
-      "id":"10",
+      "object_id":"13",
+      "id":"13",
       "idno":"C1988.31c",
       "display_label":"\"KAYSER\" STOCKING SACHET",
       "ca_objects.AccessionByContainer.AccessionBy":"SuaG",
@@ -119,8 +151,8 @@
       "ca_objects.LastEditBy":"VandB"
     },
     {
-      "object_id":"11",
-      "id":"11",
+      "object_id":"14",
+      "id":"14",
       "idno":"C2003.1e",
       "display_label":"BOW-TIE, BLACK RIBBED SILK, CLIP ON",
       "ca_objects.AccessionByContainer.AccessionBy":"RosB",
@@ -129,11 +161,11 @@
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"14 February 2013",
       "ca_objects.LastEditBy":"ValH",
-      "ca_storage_locations":"Costume Room Box 025"
+      "usualLocationHierarchy":" (id:1, ) => Costume Room (id:9, room) => Box 025 (id:12, box)"
     },
     {
-      "object_id":"12",
-      "id":"12",
+      "object_id":"15",
+      "id":"15",
       "idno":"C1993.26j",
       "display_label":"MID BROWN COTTON GLOVES",
       "ca_objects.AccessionByContainer.AccessionBy":"LesB",
@@ -142,18 +174,18 @@
       "ca_objects.deaccession_type_id":"Item discarded",
       "ca_objects.LastEditDate":"16 February 2011",
       "ca_objects.LastEditBy":"VandB",
-      "ca_storage_locations":"Costume Room Box 225"
+      "usualLocationHierarchy":" (id:1, ) => Costume Room Box 225 (id:13, room)"
     },
     {
-      "object_id":"13",
-      "id":"13",
+      "object_id":"16",
+      "id":"16",
       "idno":"C1995.36",
       "display_label":"FAN, SMALL, BLACK",
       "ca_objects.AccessionByContainer.AccessionBy":"JILLM",
       "ca_objects.is_deaccessioned":"1",
       "ca_objects.LastEditDate":"15 February 2013",
       "ca_objects.LastEditBy":"ValH",
-      "ca_storage_locations":"Deaccessioned"
+      "usualLocationHierarchy":" (id:1, ) => Deaccessioned (id:14, room)"
     }
   ]
 }
