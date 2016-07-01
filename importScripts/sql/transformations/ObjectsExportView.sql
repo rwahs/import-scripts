@@ -185,7 +185,29 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(c.ConservationHistoryID), '')                 AS ConservationHistoryID,
         NULLIF(TRIM(c.ConservationBy), '')                        AS ConservationBy,
         NULLIF(TRIM(c.ConservationDate), '0000-00-00')            AS ConservationDate,
-        NULLIF(TRIM(c.Conservation), '')                          AS Conservation
+        NULLIF(TRIM(c.Conservation), '')                          AS Conservation,
+        IF(o.ItemType = 'Photograph', 'PhotographsRoom', NULL)    AS StoredLocation,
+        IF(
+            o.ItemType = 'Photograph',
+            NULLIF(
+                TRIM(
+                    REPLACE(
+                        REPLACE(
+                            REPLACE(
+                                REPLACE(
+                                    clean_spaces(Location),
+                                    'Photographs Room,', ''
+                                ), 'Photograph Room,', '')
+                            , 'Photographs Room', '')
+                        , 'Photograph Room', '')
+                ), '')
+            , NULL
+        )                                                         AS BoxType,
+        IF(
+            o.ItemType = 'Photograph',
+            IF(AccessionParts LIKE 'copied%', 1, 0)
+            , NULL
+        )                                                         AS Copied
     FROM
         Objects o
         LEFT JOIN Methods m ON (o.Method = m.Method)
