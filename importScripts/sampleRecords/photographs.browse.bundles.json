@@ -1,0 +1,11 @@
+{
+    "bundles": {
+        "ca_objects.StoredLocation": {
+            "convertCodesToDisplayText" : true
+        },
+        "ca_objects.SpecificLocation.BoxType": {},
+        "ca_objects.SpecificLocation.Copied": {
+            "convertCodesToDisplayText" : true
+        }
+    }
+}

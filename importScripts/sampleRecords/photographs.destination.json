@@ -1,0 +1,41 @@
+{
+  "ok":true,
+  "results":[
+    {
+      "object_id":"1",
+      "id":"1",
+      "idno":"P2000\/",
+      "display_label":"HOOLEY, ELLA",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"stored",
+      "ca_objects.SpecificLocation.Copied":"No"
+    },
+    {
+      "object_id":"2",
+      "id":"2",
+      "idno":"P1999.1004copied",
+      "display_label":"ZEPHYR (FERRY)",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"Imp 1, R1004",
+      "ca_objects.SpecificLocation.Copied":"Yes"
+    },
+    {
+      "object_id":"3",
+      "id":"3",
+      "idno":"P1999\/1006",
+      "display_label":"COLONIAL HOSPITAL, ST MARY'S CATHEDRAL &amp; R.C. BISHOPS HOUSE",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"L1, 1999.1006",
+      "ca_objects.SpecificLocation.Copied":"No"
+    },
+    {
+      "object_id":"4",
+      "id":"4",
+      "idno":"P1999.1008copied",
+      "display_label":"THE BUNGALOW, SIR JOHN FORREST'S HOME",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"L1, 1999.1008",
+      "ca_objects.SpecificLocation.Copied":"Yes"
+    }
+  ]
+}

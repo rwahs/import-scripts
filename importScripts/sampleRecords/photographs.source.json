@@ -1,0 +1,34 @@
+[
+  {
+    "Accession_Full_ID": "P2000/",
+    "ItemName": "HOOLEY, ELLA",
+    "PrimaryKey_Object_Table": "404",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "stored",
+    "Copied": 0
+  },
+  {
+    "Accession_Full_ID": "P1999.1004copied",
+    "ItemName": "ZEPHYR (FERRY)",
+    "PrimaryKey_Object_Table": "675",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "Imp 1, R1004",
+    "Copied": 1
+  },
+  {
+    "Accession_Full_ID": "P1999/1006",
+    "ItemName": "COLONIAL HOSPITAL, ST MARY'S CATHEDRAL & R.C. BISHOPS HOUSE",
+    "PrimaryKey_Object_Table": "679",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "L1, 1999.1006",
+    "Copied": 0
+  },
+  {
+    "Accession_Full_ID": "P1999.1008copied",
+    "ItemName": "THE BUNGALOW, SIR JOHN FORREST'S HOME",
+    "PrimaryKey_Object_Table": "750",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "L1, 1999.1008",
+    "Copied": 1
+  }
+]
