@@ -1,3 +1,14 @@
+DROP FUNCTION IF EXISTS clean_spaces;
+DELIMITER //
+CREATE FUNCTION clean_spaces(str TEXT)
+    RETURNS TEXT
+    BEGIN
+        WHILE instr(str, '  ') > 0 DO
+            SET str := replace(str, '  ', ' ');
+        END WHILE;
+        RETURN trim(str);
+    END//
+DELIMITER ;
 CREATE OR REPLACE VIEW ObjectsExport AS
     SELECT
         NULLIF(TRIM(o.PrimaryKey_Object_Table), '')               AS PrimaryKey_Object_Table,
