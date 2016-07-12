@@ -11,7 +11,7 @@
       "ca_objects.PhysicalCondition":"Fair \/ Used",
       "ca_objects.Materials":"Oil on pre-grounded Windsor &amp; Newton canvas.",
       "ca_objects.Dimensions.DimensionsValue":"H:44.9cm W:29.6cm",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Oil (225); portrait (226)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Oil (226); portrait (227)"
     },
     {
       "object_id":"2",
@@ -24,7 +24,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Watercolour in hardboard",
       "ca_objects.Dimensions.DimensionsValue":"H:18.6cm W:12.1cm",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Watercolour (227); flowers (228)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Watercolour (228); flowers (229)"
     },
     {
       "object_id":"3",
@@ -37,7 +37,7 @@
       "ca_objects.PhysicalCondition":"Excellent",
       "ca_objects.Materials":"aquatint",
       "ca_objects.Dimensions.DimensionsValue":"H: 25.2cm W: 35.3cm  Frame width 5cm",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Engraving (229); landscape (230)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Engraving (230); landscape (231)"
     },
     {
       "object_id":"4",
@@ -55,7 +55,7 @@
       "ca_objects.StatementOfSignificance":"Aesthetic: \nHistoric: \nRepresentativeness:",
       "ca_objects.Materials":"Oil on canvas",
       "ca_objects.Dimensions.DimensionsValue":"H:59.6cm W:49.6cm",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Oil (225); portrait (226)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Oil (226); portrait (227)"
     },
     {
       "object_id":"5",
@@ -70,7 +70,7 @@
       "ca_objects.PhysicalCondition":"Excellent",
       "ca_objects.Materials":"Oil on hardboard",
       "ca_objects.Dimensions.DimensionsValue":"H:25.2cms W:45.8cms",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Oil (225); landscape (231)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Oil (226); landscape (232)"
     },
     {
       "object_id":"6",
@@ -83,7 +83,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Oil on hardboard",
       "ca_objects.Dimensions.DimensionsValue":"H:58.4cms W:81.8cms",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Oil (225); building (232)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Oil (226); building (233)"
     },
     {
       "object_id":"7",
@@ -96,7 +96,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Oil on Masonite",
       "ca_objects.Dimensions.DimensionsValue":"H: 45.4cms W: 55.5cms.  Unframed.",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Oil (225); building (232)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Oil (226); building (233)"
     },
     {
       "object_id":"8",
@@ -112,7 +112,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Etching on paper",
       "ca_objects.Dimensions.DimensionsValue":"H: 39.3cms W: 21cms. Frame:",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Etching (233); building (234)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Etching (234); building (235)"
     },
     {
       "object_id":"9",
@@ -128,7 +128,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Etching on paper",
       "ca_objects.Dimensions.DimensionsValue":"H: 35.5cm W: 13.7cm. Frame:",
-      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (224); Etching (233); building (234)"
+      "classificationHierarchy":"Root node for Classification (179); ILLUSTRATIONS (225); Etching (234); building (235)"
     },
     {
       "object_id":"10",
@@ -145,8 +145,7 @@
       "ca_objects.Summary":"Zephyr  (Ferry)<br \/><br \/>\nWritten on reverse: A E Tilley &amp; Co Pty Ltd Fremantle Ferry S S Zephyr",
       "ca_objects.Creator.CreatorType":"Photographer",
       "ca_objects.Creator.CreatorName":"Unknown",
-      "ca_objects.Dimensions.DimensionsValue":"Imperial size (21x25 cm)",
-      "classificationHierarchy":"Root node for Classification (179); OBJECT (235); Ships (236); ferries (237)"
+      "ca_objects.Dimensions.DimensionsValue":"Imperial size (21x25 cm)"
     },
     {
       "object_id":"12",
@@ -161,8 +160,7 @@
       "ca_objects.LatestYear":"1863",
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
-      "ca_objects.Dimensions.DimensionsValue":"Large size 28x22 cm",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Building (239); hospitals (240)"
+      "ca_objects.Dimensions.DimensionsValue":"Large size 28x22 cm"
     },
     {
       "object_id":"13",
@@ -174,8 +172,7 @@
       "ca_objects.Creator.CreatorName":"unknown",
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
-      "ca_objects.Dimensions.DimensionsValue":"Large size (30x25cm)",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Building (239); houses (241)"
+      "ca_objects.Dimensions.DimensionsValue":"Large size (30x25cm)"
     },
     {
       "object_id":"14",
@@ -187,8 +184,7 @@
       "ca_objects.Creator.CreatorName":"unknown",
       "ca_objects.Importance":"State",
       "ca_objects.StatementOfSignificance":"historical importance",
-      "ca_objects.Dimensions.DimensionsValue":"Imperial size (25x19 cm)",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Building (239); description (243)"
+      "ca_objects.Dimensions.DimensionsValue":"Imperial size (25x19 cm)"
     },
     {
       "object_id":"15",
@@ -200,8 +196,7 @@
       "ca_objects.Importance":"State",
       "ca_objects.PhysicalCondition":"Excellent",
       "ca_objects.StatementOfSignificance":"historical importance",
-      "ca_objects.Dimensions.DimensionsValue":"Imperial size 17cm x 22cm",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Land (244); rottnest island (245)"
+      "ca_objects.Dimensions.DimensionsValue":"Imperial size 17cm x 22cm"
     },
     {
       "object_id":"16",
@@ -212,7 +207,7 @@
       "ca_objects.ItemDates":"1936",
       "ca_objects.BibliographReferences":"Western Australian Historical Society &amp; P.M.G.",
       "ca_objects.Materials":"1868 letterbox with bronze plaque",
-      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (246); Plaques (247)",
+      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (237); Plaques (238)",
       "geographicLocation":"Claremont, Stirling Highway, south side opposite Vaucluse Street"
     },
     {
@@ -223,7 +218,7 @@
       "ca_objects.Description":"William de Vlamingh : Inscription reads \"William de Vlamingh Dutch Navigator who visited this island on the 30th December 1696 and named it Rottenest Island.\"  Located on Rottnest.",
       "ca_objects.ItemDates":"1935",
       "ca_objects.BibliographReferences":"Rottnest Board of Control and Western Australian Historical Society",
-      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (246); Plaques (247)",
+      "classificationHierarchy":"Root node for Classification (179); MEMORIALS (237); Plaques (238)",
       "geographicLocation":"Rottnest"
     },
     {
@@ -237,8 +232,7 @@
       "ca_objects.Importance":"State",
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.StatementOfSignificance":"historical importance",
-      "ca_objects.Dimensions.DimensionsValue":"Carte de visite",
-      "classificationHierarchy":"Root node for Classification (179); PERSON (248); Group (249)"
+      "ca_objects.Dimensions.DimensionsValue":"Carte de visite"
     },
     {
       "object_id":"19",
@@ -249,8 +243,7 @@
       "ca_objects.ItemDates":"1902",
       "ca_objects.SignificanceCriteria":"Historic;Scientific or Research;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Social: \nScientific: \nHistoric:",
-      "ca_objects.Dimensions.DimensionsValue":"H: 12 cm. : W: 29 cm.",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Fremantle (250); view of harbour (251)"
+      "ca_objects.Dimensions.DimensionsValue":"H: 12 cm. : W: 29 cm."
     },
     {
       "object_id":"20",
@@ -261,7 +254,7 @@
       "ca_objects.Importance":"Local",
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.Materials":"Wool, cotton, silk, bone (mother of pearl)",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME (253); Infants (254); shoette (255)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (240); Infants (241); shoette (242)"
     },
     {
       "object_id":"21",
@@ -274,7 +267,7 @@
       "ca_objects.PhysicalCondition":"Poor",
       "ca_objects.Materials":"Metal, china.",
       "ca_objects.Dimensions.DimensionsValue":"A. W:19.2cms; D:11.2cms; H:18cms. B. W:7.2cms; D:8.5cms; H:6cms. C:W:6cms; D:12cms; H:7.8cms",
-      "classificationHierarchy":"Root node for Classification (179); DOMESTIC EQUIPMENT (257); Food &amp; drink consumption (258); crockery (259)"
+      "classificationHierarchy":"Root node for Classification (179); DOMESTIC EQUIPMENT (244); Food &amp; drink consumption (245); crockery (246)"
     },
     {
       "object_id":"22",
@@ -288,7 +281,7 @@
       "ca_objects.StatementOfSignificance":"historical importance",
       "ca_objects.Materials":"Wood, cotton, metal",
       "ca_objects.Dimensions.DimensionsValue":"39.5cms x 23.8cms x 9.4cms",
-      "classificationHierarchy":"Root node for Classification (179); DOMESTIC EQUIPMENT (257); Writing equipment (260); desks (261)"
+      "classificationHierarchy":"Root node for Classification (179); DOMESTIC EQUIPMENT (244); Writing equipment (247); desks (248)"
     },
     {
       "object_id":"23",
@@ -301,7 +294,7 @@
       "ca_objects.PhysicalCondition":"Excellent",
       "ca_objects.Materials":"Nylon.",
       "ca_objects.Dimensions.DimensionsValue":"L : 95.5 cm;  Size 9",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME (253); Female (263); stockings (264)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (240); Female (250); stockings (251)"
     },
     {
       "object_id":"24",
@@ -313,7 +306,7 @@
       "ca_objects.PhysicalCondition":"Fair \/ Used",
       "ca_objects.Materials":"Cotton",
       "ca_objects.Dimensions.DimensionsValue":"W:167cms; L:266cms + 5cm fringe",
-      "classificationHierarchy":"Root node for Classification (179); MANCHESTER (266); Bedding (267); bedspreads (268)"
+      "classificationHierarchy":"Root node for Classification (179); MANCHESTER (253); Bedding (254); bedspreads (255)"
     },
     {
       "object_id":"25",
@@ -326,7 +319,7 @@
       "ca_objects.StatementOfSignificance":"Aesthetic: \nSocial:",
       "ca_objects.Materials":"Cotton",
       "ca_objects.Dimensions.DimensionsValue":"W:130cms; L:222cms; Width of lace: 7.5cms",
-      "classificationHierarchy":"Root node for Classification (179); MANCHESTER (266); Bedding (267); sheets (269)"
+      "classificationHierarchy":"Root node for Classification (179); MANCHESTER (253); Bedding (254); sheets (256)"
     },
     {
       "object_id":"26",
@@ -340,7 +333,7 @@
       "ca_objects.StatementOfSignificance":"Social: \nAesthetic:",
       "ca_objects.Materials":"Wood, metal.",
       "ca_objects.Dimensions.DimensionsValue":"L: 27.7 cm x  W: 27.7 cm x H: 27.7 cm",
-      "classificationHierarchy":"Root node for Classification (179); RECREATIONS (270); Games (271); cribbage board (272)"
+      "classificationHierarchy":"Root node for Classification (179); RECREATIONS (257); Games (258); cribbage board (259)"
     },
     {
       "object_id":"27",
@@ -351,7 +344,7 @@
       "ca_objects.Importance":"Local",
       "ca_objects.StatementOfSignificance":"social",
       "ca_objects.Materials":"Bamboo, satin, silver",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME ACCESSORIES (273); Female (274); fan (275)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME ACCESSORIES (260); Female (261); fan (262)"
     },
     {
       "object_id":"28",
@@ -364,8 +357,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.ComparativeCriteria":"Provenance;Condition",
       "ca_objects.StatementOfSignificance":"social",
-      "ca_objects.Dimensions.DimensionsValue":"H: 9cm.; W: 12 cm.",
-      "classificationHierarchy":"Root node for Classification (179); GROUP (276); Picnic (277); coolgardie (278)"
+      "ca_objects.Dimensions.DimensionsValue":"H: 9cm.; W: 12 cm."
     },
     {
       "object_id":"29",
@@ -381,7 +373,7 @@
       "ca_objects.ComparativeCriteria":"Rarity",
       "ca_objects.StatementOfSignificance":"Rarity: Cocked hat\/tricorne C1770 in excellent condition",
       "ca_objects.Materials":"corded silk",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME (253); Male headwear (279); tricorne (280)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (240); Male headwear (263); tricorne (264)"
     },
     {
       "object_id":"30",
@@ -393,8 +385,7 @@
       "ca_objects.ComparativeCriteria":"Condition",
       "ca_objects.StatementOfSignificance":"Historic: \nCondition:  Good",
       "ca_objects.Materials":"Card board",
-      "ca_objects.Dimensions.DimensionsValue":"PC, H:912cm ; W:9cm",
-      "classificationHierarchy":"Root node for Classification (179); PLACE (238); Grave (281)"
+      "ca_objects.Dimensions.DimensionsValue":"PC, H:912cm ; W:9cm"
     },
     {
       "object_id":"31",
@@ -424,8 +415,7 @@
       "ca_objects.LatestYear":"1938",
       "ca_objects.SignificanceCriteria":"Scientific or Research",
       "ca_objects.StatementOfSignificance":"Scientific:",
-      "ca_objects.Dimensions.DimensionsValue":"H: 5 cm., W: 8 cm.",
-      "classificationHierarchy":"Root node for Classification (179); FAUNA (282); Native (283); mountain devil (284)"
+      "ca_objects.Dimensions.DimensionsValue":"H: 5 cm., W: 8 cm."
     },
     {
       "object_id":"33",
@@ -441,8 +431,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.ComparativeCriteria":"Interpretive Potential",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial: \nInterpretive:",
-      "ca_objects.Materials":"Cardboard",
-      "classificationHierarchy":"Root node for Classification (179); PORTRAIT (285); Couple (286); aboriginal australians (287)"
+      "ca_objects.Materials":"Cardboard"
     },
     {
       "object_id":"34",
@@ -456,8 +445,7 @@
       "ca_objects.ComparativeCriteria":"Provenance",
       "ca_objects.StatementOfSignificance":"Provenance: Mollie Bentley papers",
       "ca_objects.Materials":"paper",
-      "ca_objects.Dimensions.DimensionsValue":"H;9cm W:7cm",
-      "classificationHierarchy":"Root node for Classification (179); PERSON (248); Individual (288); edward edwards (289)"
+      "ca_objects.Dimensions.DimensionsValue":"H;9cm W:7cm"
     },
     {
       "object_id":"35",
@@ -472,7 +460,7 @@
       "ca_objects.StatementOfSignificance":"Rarity: Heritage item",
       "ca_objects.Materials":"sateen, silk net, beading, hooks",
       "ca_objects.Dimensions.DimensionsValue":"H:130cm W:196cm",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME (253); Female (263); dress, evening (290)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (240); Female (250); dress, evening (265)"
     },
     {
       "object_id":"36",
@@ -486,7 +474,7 @@
       "ca_objects.SignificanceCriteria":"Historic;Social or Spiritual",
       "ca_objects.StatementOfSignificance":"Historic: \nSocial:",
       "ca_objects.Materials":"Silk",
-      "classificationHierarchy":"Root node for Classification (179); COSTUME (253); Female (263); dress (292)"
+      "classificationHierarchy":"Root node for Classification (179); COSTUME (240); Female (250); dress (267)"
     },
     {
       "object_id":"37",
@@ -500,8 +488,7 @@
       "ca_objects.PhysicalCondition":"Good",
       "ca_objects.StatementOfSignificance":"Representativeness: Greeting card with painting of Carnarvon done for Paraplegic Association of WA",
       "ca_objects.Materials":"paper, printing ink and writing ink",
-      "ca_objects.Dimensions.DimensionsValue":"10 cm x 5 cm",
-      "classificationHierarchy":"Root node for Classification (179); PLACES (293); Carnarvon (294); dry river bed (295)"
+      "ca_objects.Dimensions.DimensionsValue":"10 cm x 5 cm"
     },
     {
       "object_id":"38",
@@ -512,8 +499,7 @@
       "ca_objects.ComparativeCriteria":"Interpretive Potential",
       "ca_objects.StatementOfSignificance":"Interpretive: Photograph of Nurse Pearl Ashwin one of the first Aboriginal women in Meekatharra to become a registered nurse",
       "ca_objects.Materials":"photographic paper and printing ink",
-      "ca_objects.Dimensions.DimensionsValue":"W:10 x H 14",
-      "classificationHierarchy":"Root node for Classification (179); PERSON (248); Individual (288); ashwin pearl (296)"
+      "ca_objects.Dimensions.DimensionsValue":"W:10 x H 14"
     },
     {
       "object_id":"39",
@@ -527,8 +513,7 @@
       "ca_objects.SignificanceCriteria":"Historic",
       "ca_objects.ComparativeCriteria":"Representativeness",
       "ca_objects.StatementOfSignificance":"Historic: \nRepresentativeness:",
-      "ca_objects.Materials":"35 mm negative",
-      "classificationHierarchy":"Root node for Classification (179); COMMUNICATION (297); Postal (298); pmg light truck (299)"
+      "ca_objects.Materials":"35 mm negative"
     }
   ]
 }
