@@ -93,7 +93,9 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         pc.Condition                                              AS PhysicalConditionCode,
         pc.ConditionDescription                                   AS PhysicalConditionDescription,
         # When SecondaryClass is blank then PrimaryClass's value is already in `Classification`
-        CASE WHEN
+        CASE WHEN o.ItemType = 'Photograph'
+            THEN NULL
+        WHEN
             TRIM(o.SecondaryClass) = ''
             THEN NULL
         WHEN TRIM(o.PrimaryClass) = ''
@@ -112,7 +114,9 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.RestrictionsDetails), '')                   AS RestrictionsDetails,
         NULLIF(TRIM(o.ReturnedYesNo), '')                         AS ReturnedYesNo,
         # When TertiaryClass is blank then SecondaryClass's value is already in `Classification`
-        CASE WHEN
+        CASE WHEN o.ItemType = 'Photograph'
+            THEN NULL
+        WHEN
             TRIM(o.TertiaryClass) = ''
             THEN NULL
         WHEN TRIM(o.SecondaryClass) = ''
@@ -131,7 +135,10 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.Significance_Representativeness), 0)        AS Significance_Representativeness,
         NULLIF(TRIM(o.SizeMass), '')                              AS SizeMass,
         NULLIF(TRIM(o.StatementOfSignificance), '')               AS StatementOfSignificance,
-        NULLIF(TRIM(o.TertiaryClass), '')                         AS TertiaryClass,
+        IF(o.ItemType = 'Photograph',
+           NULL,
+           NULLIF(TRIM(o.TertiaryClass), '')
+        )                                                         AS TertiaryClass,
         NULLIF(TRIM(o.TitleDetails), '')                          AS TitleDetails,
         NULLIF(TRIM(o.TreatmentCompleteYesNo), '')                AS TreatmentCompleteYesNo,
         NULLIF(TRIM(o.TreatmentPriority), '')                     AS TreatmentPriority,
@@ -187,11 +194,15 @@ CREATE OR REPLACE VIEW ObjectsExport AS
                          IF(Significance_Condition = 1, 'condition', NULL),
                          IF(Significance_Representativeness = 1, 'representativeness', NULL)
                ), '')                                             AS ComparativeCriteria,
-        COALESCE(
-            NULLIF(TRIM(o.TertiaryClass), ''),
-            NULLIF(TRIM(o.SecondaryClass), ''),
-            NULLIF(TRIM(o.PrimaryClass), '')
-        )                                                         AS Classification,
+        CASE WHEN o.ItemType = 'Photograph'
+            THEN NULL
+        ELSE
+            COALESCE(
+                NULLIF(TRIM(o.TertiaryClass), ''),
+                NULLIF(TRIM(o.SecondaryClass), ''),
+                NULLIF(TRIM(o.PrimaryClass), '')
+            )
+        END                                                       AS Classification,
         # Conservation fields
         NULLIF(TRIM(c.ConservationHistoryID), '')                 AS ConservationHistoryID,
         NULLIF(TRIM(c.ConservationBy), '')                        AS ConservationBy,
