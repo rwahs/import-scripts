@@ -531,6 +531,44 @@
     {
       "object_id":"15",
       "id":"15",
+      "display_label":"Peelers Gazette; newsletter (of)  The Western Australia Police Historical Society Inc.",
+      "ca_objects.LegacyID":"13408",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "`"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"BEAE",
+      "ca_objects.LastEditDate":"7 October 2013",
+      "ca_objects.LibraryNumber":"J   WES",
+      "ca_objects.Notes":"Library has Vol. 1 (2) -",
+      "ca_objects.PublicationType":"Journal title",
+      "ca_objects.Publisher":"Western Australia Police Historical Society",
+      "ca_objects.PlaceOfPublication":"Perth",
+      "ca_occurrences":[
+        "Crime",
+        "Criminals",
+        "Police",
+        "Western Australian Police Historical Society"
+      ],
+      "ca_objects.CurrentLocation":"ANNEXE",
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Pages":"0",
+      "ca_objects.Collation":"maps",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT  FOR  LOAN",
+      "ca_objects.DateDue":"19 January 2012",
+      "ca_objects.DateOut":"22 December 2011",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"16",
+      "id":"16",
       "display_label":"The triumph of Edward John Eyre",
       "ca_objects.LegacyID":"13632",
       "ca_objects.CopyNumber":"1",
@@ -562,8 +600,8 @@
       }
     },
     {
-      "object_id":"16",
-      "id":"16",
+      "object_id":"17",
+      "id":"17",
       "display_label":"Extracts from Western Australian Newspapers 1870-1888c",
       "ca_objects.LegacyID":"13738",
       "ca_objects.Series":"0",
@@ -596,8 +634,8 @@
       }
     },
     {
-      "object_id":"17",
-      "id":"17",
+      "object_id":"18",
+      "id":"18",
       "display_label":"80  years of  memories 1895 - 1975",
       "ca_objects.LegacyID":"13845",
       "ca_objects.Series":"0",
@@ -634,8 +672,8 @@
       ]
     },
     {
-      "object_id":"18",
-      "id":"18",
+      "object_id":"19",
+      "id":"19",
       "display_label":"The ways of life",
       "ca_objects.LegacyID":"139",
       "ca_objects.Series":"0",
@@ -671,8 +709,8 @@
       }
     },
     {
-      "object_id":"19",
-      "id":"19",
+      "object_id":"20",
+      "id":"20",
       "display_label":"Grain pool history",
       "ca_objects.LegacyID":"14118",
       "ca_objects.Series":"0",
@@ -707,8 +745,8 @@
       ]
     },
     {
-      "object_id":"20",
-      "id":"20",
+      "object_id":"21",
+      "id":"21",
       "idno":"D2012\/55",
       "display_label":"Grain pool history",
       "ca_objects.LegacyID":"14119",
@@ -744,8 +782,8 @@
       ]
     },
     {
-      "object_id":"21",
-      "id":"21",
+      "object_id":"22",
+      "id":"22",
       "display_label":"Buddhism in Western Australia ; alienation or integration",
       "ca_objects.LegacyID":"15",
       "ca_objects.Series":"0",
@@ -781,8 +819,8 @@
       }
     },
     {
-      "object_id":"22",
-      "id":"22",
+      "object_id":"23",
+      "id":"23",
       "idno":"D2014\/119",
       "display_label":"The Bridges of Northam, bypass and Katrine Drive",
       "ca_objects.LegacyID":"15613",
@@ -818,8 +856,8 @@
       }
     },
     {
-      "object_id":"23",
-      "id":"23",
+      "object_id":"24",
+      "id":"24",
       "display_label":"The Wardandi and cattle chosen : some ethnographic and historical background regarding the Busselton district (in The Journal  (Australian-Irish Heritage Association of WA), vol 21 no. 3 September pp. 6-32)",
       "ca_objects.LegacyID":"16130",
       "ca_objects.Series":"1",
@@ -858,8 +896,8 @@
       }
     },
     {
-      "object_id":"24",
-      "id":"24",
+      "object_id":"25",
+      "id":"25",
       "display_label":"Non government schooling in Western Australia 1829-1903; selected documents with commentaries",
       "ca_objects.LegacyID":"17",
       "ca_objects.Series":"0",
@@ -895,8 +933,8 @@
       }
     },
     {
-      "object_id":"25",
-      "id":"25",
+      "object_id":"26",
+      "id":"26",
       "display_label":"The outcome is unknown; a Watts Family history",
       "ca_objects.LegacyID":"19",
       "ca_objects.Series":"0",
@@ -934,8 +972,8 @@
       }
     },
     {
-      "object_id":"26",
-      "id":"26",
+      "object_id":"27",
+      "id":"27",
       "display_label":"Bedforshire",
       "ca_objects.LegacyID":"218",
       "ca_objects.Series":"0",
@@ -960,8 +998,8 @@
       }
     },
     {
-      "object_id":"27",
-      "id":"27",
+      "object_id":"28",
+      "id":"28",
       "display_label":"I remember; Stony Hill, Central Greenough",
       "ca_objects.LegacyID":"24",
       "ca_objects.Series":"0",
@@ -997,8 +1035,8 @@
       }
     },
     {
-      "object_id":"28",
-      "id":"28",
+      "object_id":"29",
+      "id":"29",
       "display_label":"Australia unveiled; the share of the Dutch navigators in the discovery of Australia",
       "ca_objects.LegacyID":"2847",
       "ca_objects.Series":"0",
@@ -1033,8 +1071,8 @@
       ]
     },
     {
-      "object_id":"29",
-      "id":"29",
+      "object_id":"30",
+      "id":"30",
       "display_label":"J N Anderson",
       "ca_objects.LegacyID":"3",
       "ca_objects.CopyNumber":"2",
@@ -1073,8 +1111,8 @@
       }
     },
     {
-      "object_id":"30",
-      "id":"30",
+      "object_id":"31",
+      "id":"31",
       "display_label":"Australia since Federation; a narrative and critical analysis",
       "ca_objects.LegacyID":"32",
       "ca_objects.Series":"0",
@@ -1110,8 +1148,8 @@
       }
     },
     {
-      "object_id":"31",
-      "id":"31",
+      "object_id":"32",
+      "id":"32",
       "display_label":"Four bishops and their See; Perth Western Australia 1857-1957",
       "ca_objects.LegacyID":"33",
       "ca_objects.CopyNumber":"2",
@@ -1152,8 +1190,8 @@
       }
     },
     {
-      "object_id":"32",
-      "id":"32",
+      "object_id":"33",
+      "id":"33",
       "display_label":"Hollywood Primary School 1935-1985",
       "ca_objects.LegacyID":"38",
       "ca_objects.Series":"0",
@@ -1189,8 +1227,8 @@
       ]
     },
     {
-      "object_id":"33",
-      "id":"33",
+      "object_id":"34",
+      "id":"34",
       "display_label":"Origins of the Eastern Goldfields Water Scheme in Western Australia",
       "ca_objects.LegacyID":"3821",
       "ca_objects.Series":"0",
@@ -1227,8 +1265,8 @@
       }
     },
     {
-      "object_id":"34",
-      "id":"34",
+      "object_id":"35",
+      "id":"35",
       "display_label":"The Merchant princes of Fremantle: the rise and decline of a colonial elite 1870 - 1900",
       "ca_objects.LegacyID":"393",
       "ca_objects.Series":"0",
@@ -1272,8 +1310,8 @@
       }
     },
     {
-      "object_id":"35",
-      "id":"35",
+      "object_id":"36",
+      "id":"36",
       "display_label":"A history of teacher training in Western Australia",
       "ca_objects.LegacyID":"4",
       "ca_objects.Series":"0",
@@ -1312,8 +1350,8 @@
       }
     },
     {
-      "object_id":"36",
-      "id":"36",
+      "object_id":"37",
+      "id":"37",
       "display_label":"The Rise and demise of Perth's trams and trolley buses",
       "ca_objects.LegacyID":"472",
       "ca_objects.Series":"0",
@@ -1350,8 +1388,8 @@
       }
     },
     {
-      "object_id":"37",
-      "id":"37",
+      "object_id":"38",
+      "id":"38",
       "display_label":"Working lives",
       "ca_objects.LegacyID":"49",
       "ca_objects.Series":"0",
@@ -1394,8 +1432,8 @@
       ]
     },
     {
-      "object_id":"38",
-      "id":"38",
+      "object_id":"39",
+      "id":"39",
       "display_label":"Twenty-five years; a history of Claremont Teachers College 1952-1977.",
       "ca_objects.LegacyID":"5",
       "ca_objects.Series":"0",
@@ -1432,8 +1470,8 @@
       }
     },
     {
-      "object_id":"39",
-      "id":"39",
+      "object_id":"40",
+      "id":"40",
       "idno":"2015\/31",
       "display_label":"William Ford and Coolgardie; the biography of my father 1849-1932",
       "ca_objects.LegacyID":"541",
@@ -1470,8 +1508,8 @@
       }
     },
     {
-      "object_id":"40",
-      "id":"40",
+      "object_id":"41",
+      "id":"41",
       "display_label":"More lonely graves of Western Australia",
       "ca_objects.LegacyID":"555",
       "ca_objects.Series":"0",
@@ -1512,8 +1550,8 @@
       }
     },
     {
-      "object_id":"41",
-      "id":"41",
+      "object_id":"42",
+      "id":"42",
       "display_label":"Hardey, Western Australia",
       "ca_objects.LegacyID":"6000",
       "ca_objects.CopyNumber":"1",
@@ -1550,8 +1588,8 @@
       }
     },
     {
-      "object_id":"42",
-      "id":"42",
+      "object_id":"43",
+      "id":"43",
       "display_label":"Margaret River style",
       "ca_objects.LegacyID":"673",
       "ca_objects.Series":"0",
@@ -1590,8 +1628,8 @@
       }
     },
     {
-      "object_id":"43",
-      "id":"43",
+      "object_id":"44",
+      "id":"44",
       "display_label":"A new general atlas",
       "ca_objects.LegacyID":"68",
       "ca_objects.Series":"0",
@@ -1627,8 +1665,8 @@
       }
     },
     {
-      "object_id":"44",
-      "id":"44",
+      "object_id":"45",
+      "id":"45",
       "idno":"2007\/37",
       "display_label":"Old Fremantle childhood; a tribute to the photography and fatherhood of Arnold Beste",
       "ca_objects.LegacyID":"7186",
@@ -1667,8 +1705,8 @@
       }
     },
     {
-      "object_id":"45",
-      "id":"45",
+      "object_id":"46",
+      "id":"46",
       "display_label":"Country images of Western Australia; a portrait of the past",
       "ca_objects.LegacyID":"74",
       "ca_objects.Series":"0",
@@ -1703,8 +1741,45 @@
       }
     },
     {
-      "object_id":"46",
-      "id":"46",
+      "object_id":"47",
+      "id":"47",
+      "display_label":"Index of names in the History of Pirbright",
+      "ca_objects.LegacyID":"7686",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "*Forster*, Shirley"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"JILLM",
+      "ca_objects.LastEditDate":"14 May 2009",
+      "ca_objects.LibraryNumber":"Box 50  1990\/40",
+      "ca_objects.Notes":"Ian Heppingstone Research Collection",
+      "ca_objects.PublicationType":"Pamphlet",
+      "ca_objects.DateOfPublication":"2004",
+      "ca_occurrences":[
+        "Pioneers",
+        "Pirbright (W.A.)",
+        "Stirling, James Sir",
+        "Swan River Settlement"
+      ],
+      "ca_objects.CurrentLocation":"BOX  COLLECTION",
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"No",
+      "ca_objects.Pages":"25",
+      "ca_objects.Collation":"25p.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT  FOR  LOAN",
+      "ca_objects.DateDue":"9 August 2007",
+      "ca_objects.DateOut":"12 July 2007",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"48",
+      "id":"48",
       "display_label":"The Society comes to Perth : dramatization of inauguration of a branch of the British and Foreign Bible Society in Perth, 18 August 1884. (H\/S Series HS\/333)",
       "ca_objects.LegacyID":"7992",
       "ca_objects.Series":"1",
@@ -1740,8 +1815,59 @@
       }
     },
     {
-      "object_id":"47",
-      "id":"47",
+      "object_id":"49",
+      "id":"49",
+      "display_label":"Rottnest Island, Western Australia",
+      "ca_objects.Author":{
+        
+      },
+      "ca_occurrences":[
+        "Rottnest Island - Maps"
+      ],
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"50",
+      "id":"50",
+      "display_label":"Tanche, Western Australia",
+      "ca_objects.LegacyID":"8439",
+      "ca_objects.Series":"0",
+      "ca_objects.Size":"Scale 1 mile: 1 inch",
+      "ca_objects.Edition":"Emergency",
+      "ca_objects.Author":[
+        "4th Aust. Field Survey Corps, R.A.E."
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"JILLM",
+      "ca_objects.LastEditDate":"29 June 2009",
+      "ca_objects.LibraryNumber":"Drawer 3, T",
+      "ca_objects.Notes":"Australia 1: 63360. Emergency Edition. Sheet No 358 Zone 1. Prepared by Australian Section, Imperial General Staff. Index to adjoining sheets.",
+      "ca_objects.PublicationType":"Map",
+      "ca_objects.DateOfPublication":"1943",
+      "ca_objects.Publisher":"L.H.Q. (Aust.) Cartographic Company",
+      "ca_occurrences":[
+        "Tanche - Maps"
+      ],
+      "ca_objects.CurrentLocation":"Annex: Map cabinet",
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Pages":"0",
+      "ca_objects.Collation":"maps",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"7 November 2007",
+      "ca_objects.DateOut":"10 October 2007",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"51",
+      "id":"51",
       "display_label":"Shark Bay through four centuries 1616 to 2000",
       "ca_objects.LegacyID":"844",
       "ca_objects.Series":"0",
@@ -1775,8 +1901,8 @@
       }
     },
     {
-      "object_id":"48",
-      "id":"48",
+      "object_id":"52",
+      "id":"52",
       "display_label":"Official record of the debates. Third session. Melbourne, 20th Jan to 17 March, 1898",
       "ca_objects.LegacyID":"88",
       "ca_objects.Series":"0",
@@ -1812,8 +1938,8 @@
       }
     },
     {
-      "object_id":"49",
-      "id":"49",
+      "object_id":"53",
+      "id":"53",
       "display_label":"Merredin; a photographic history",
       "ca_objects.LegacyID":"9",
       "ca_objects.Series":"0",
