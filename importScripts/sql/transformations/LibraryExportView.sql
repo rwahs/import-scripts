@@ -12,6 +12,7 @@ DELIMITER ;
 CREATE OR REPLACE VIEW LibraryExport AS
     SELECT
         NULLIF(TRIM(l.PublicationID), '')                                     AS PublicationID,
+        NULLIF(TRIM(l.PublicationID), '')                                     AS LegacyID,
         NULLIF(TRIM(l.Title), '')                                             AS Title,
         NULLIF(TRIM(l.CopyNo), '')                                            AS CopyNo,
         NULLIF(TRIM(l.Series), '')                                            AS Series,

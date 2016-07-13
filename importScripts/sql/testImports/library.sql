@@ -60,6 +60,12 @@ UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'Re
 UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'Unpublished M/S' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  '1987' LIMIT 2)
 UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'F, K., and J., D.' LIMIT 2)
+# PublicationID replaced with valid accession number
+UNION(SELECT PublicationID FROM LibraryExport WHERE LegacyID IN (10009,10010))
+# PublicationID replaced with blank accession number
+UNION(SELECT PublicationID FROM LibraryExport WHERE LegacyID IN (10530,10531))
+# PublicationID not replaced
+UNION(SELECT PublicationID FROM LibraryExport WHERE LegacyID IN (10000,10001))
 ;
 
 
@@ -68,7 +74,7 @@ UNION(SELECT PublicationID FROM LibraryExport WHERE TRIM(PublicationType) =  'F,
 SELECT
     PublicationID,
     Title,
-    PublicationID AS LegacyID,
+    LegacyID,
     CopyNo,
     Series,
     Size,
@@ -114,5 +120,5 @@ SELECT
 FROM
     LibraryExport
 WHERE
-    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566,393,472,15,24,101,100,68,2847,7186,38,49,15613,16130,13359,13845,13632,3821)
+    PublicationID IN(13738,218,541,673,3,4,33,9,17,32,139,19,6000,7992,844,1133,5,1239,10,74,555,14118,14119,88,120,12566,393,472,15,24,101,100,68,2847,7186,38,49,15613,16130,13359,13845,13632,3821,10009,10010,10530,10531,10000,10001)
 ;
