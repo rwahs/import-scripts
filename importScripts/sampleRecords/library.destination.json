@@ -57,7 +57,7 @@
         "Cultural policy",
         "Protection of Movable Cultural Heritage Act, 1986"
       ],
-      "ca_objects.CurrentLocation":"REFERENCE",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -93,7 +93,7 @@
         "Aboriginal Australians",
         "Citizenship - Australia"
       ],
-      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"14p.",
@@ -131,7 +131,7 @@
         "East Perth",
         "Historic sites - East Perth"
       ],
-      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"7p.",
@@ -245,7 +245,7 @@
         "Copyright",
         "Libel and slander"
       ],
-      "ca_objects.CurrentLocation":"Reference",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"unpaged.",
@@ -286,7 +286,7 @@
         "Priestner, Wilfred",
         "Wrought iron"
       ],
-      "ca_objects.CurrentLocation":"A.E.Williams shelf in foyer",
+      "ca_objects.CurrentLocation":"FoyerAnnex",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"16p. : ill., photos.",
@@ -330,7 +330,7 @@
         "Meranji Track",
         "Stock routes"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves.",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"vi, 223p. : illus., maps, photos. Glossary",
@@ -407,7 +407,7 @@
         "Films",
         "Theatre"
       ],
-      "ca_objects.CurrentLocation":".LIBRARY ANNEXE",
+      "ca_objects.CurrentLocation":"FoyerAnnex",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"15p. : photo",
@@ -445,7 +445,7 @@
         "Batavia (Ship)",
         "Shipwrecks"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"332p. Illus., maps, photos",
@@ -482,7 +482,7 @@
         "Heritage sites",
         "Forests and forestry"
       ],
-      "ca_objects.CurrentLocation":"LARGE BOOK SECTION",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"5 vols. Maps, tables.",
@@ -556,7 +556,7 @@
       "ca_occurrences":[
         "Cottages - New Norcia"
       ],
-      "ca_objects.CurrentLocation":"ANNEXE",
+      "ca_objects.CurrentLocation":"FoyerAnnex",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -592,7 +592,7 @@
         "Teachers",
         "Trade unions"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"25p. : ill.. Appendices",
@@ -631,7 +631,7 @@
         "Police",
         "Western Australian Police Historical Society"
       ],
-      "ca_objects.CurrentLocation":"ANNEXE",
+      "ca_objects.CurrentLocation":"FoyerAnnex",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Pages":"0",
@@ -698,7 +698,7 @@
       "ca_occurrences":[
         "Clippings (Newspapers)"
       ],
-      "ca_objects.CurrentLocation":"BATTYE LIBRARY",
+      "ca_objects.CurrentLocation":"BattyeLibrary",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"128p.",
@@ -736,7 +736,7 @@
         "Herbert, R. R.",
         "Humble family"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"Unpublished manuscript. Photos.",
@@ -921,7 +921,7 @@
         "Fiction",
         "Shenton, Rita"
       ],
-      "ca_objects.CurrentLocation":"`RARE BOOK SHELVES",
+      "ca_objects.CurrentLocation":"PhotographsRoom",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"xix, 346p. ; 20cm.",
@@ -958,7 +958,7 @@
         "Katrine",
         "Trails"
       ],
-      "ca_objects.CurrentLocation":"Box collection",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Pages":"0",
@@ -995,7 +995,7 @@
         "Tribes",
         "Wardandi"
       ],
-      "ca_objects.CurrentLocation":"LIBRARY",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"27 p. : 75 refs.",
@@ -1033,7 +1033,7 @@
         "Vaudville",
         "Williams, Billy"
       ],
-      "ca_objects.CurrentLocation":";IBRARY",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"6 p. : ill. ; 12 refs.",
@@ -1068,7 +1068,7 @@
         "Education - Sources",
         "Schools - Sources"
       ],
-      "ca_objects.CurrentLocation":"LARGE BOOKS SECTION",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"145p. Illus., tables, appendix",
@@ -1246,7 +1246,7 @@
         "Perth",
         "Swan River Settlement"
       ],
-      "ca_objects.CurrentLocation":"Rare book shelves",
+      "ca_objects.CurrentLocation":"PhotographsRoom",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"xx, 284p., map",
@@ -1325,7 +1325,7 @@
         "Parry, Henry Hutton, Bishop",
         "Riley, Charles Owen Leaver, Archbishop"
       ],
-      "ca_objects.CurrentLocation":"Rare book shelves",
+      "ca_objects.CurrentLocation":"PhotographsRoom",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"viii, 250p. Illus., maps, photos.",
@@ -1361,7 +1361,7 @@
         "Hollywood Primary School",
         "Schools"
       ],
-      "ca_objects.CurrentLocation":"In Large Book section",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"21p. Illus., plans.",
@@ -1400,7 +1400,7 @@
       "ca_occurrences":{
         
       },
-      "ca_objects.CurrentLocation":"Rare book shelves",
+      "ca_objects.CurrentLocation":"PhotographsRoom",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"154p. Appendices",
@@ -1523,7 +1523,7 @@
         "Trams",
         "Trolley buses"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"53p. Illus., plans, tables",
@@ -1566,7 +1566,7 @@
         "Trenaman, Hubert R.",
         "Working class"
       ],
-      "ca_objects.CurrentLocation":"NOT FOR LOAN",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"284p. Illus., maps.",
@@ -1684,7 +1684,7 @@
         "Western Australian Genealogical Society"
       ],
       "ca_objects.CopyrightNotes":"Review History West: Vol 37 No 10 p11, Mavis Bailey",
-      "ca_objects.CurrentLocation":"Reference",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"xvi, 523p. Illus., maps, photos, appendix",
@@ -1724,7 +1724,7 @@
       "ca_occurrences":[
         "Hardey -  Maps"
       ],
-      "ca_objects.CurrentLocation":"Annex, Map cabinet",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Pages":"0",
@@ -1800,7 +1800,7 @@
         "Atlases",
         "Perth - Social life and customs"
       ],
-      "ca_objects.CurrentLocation":"Rare books passage",
+      "ca_objects.CurrentLocation":"Passage",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Marks":"53 maps.",
@@ -1914,7 +1914,7 @@
         "Stirling, James Sir",
         "Swan River Settlement"
       ],
-      "ca_objects.CurrentLocation":"BOX  COLLECTION",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"25",
@@ -1950,7 +1950,7 @@
         "British and Foreign Bible Society (WA)",
         "Societies"
       ],
-      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"4p.",
@@ -2002,7 +2002,7 @@
       "ca_occurrences":[
         "Tanche - Maps"
       ],
-      "ca_objects.CurrentLocation":"Annex: Map cabinet",
+      "ca_objects.CurrentLocation":"MapAnnex",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"Yes",
       "ca_objects.Pages":"0",
@@ -2074,7 +2074,7 @@
         "Australian Federal Convention",
         "Federation"
       ],
-      "ca_objects.CurrentLocation":"Rare book shelves",
+      "ca_objects.CurrentLocation":"PhotographsRoom",
       "ca_objects.Illustrations":"No",
       "ca_objects.Maps":"No",
       "ca_objects.Pages":"0",
@@ -2109,7 +2109,7 @@
       "ca_occurrences":[
         "Merredin - Pictorial works"
       ],
-      "ca_objects.CurrentLocation":"Large book shelves",
+      "ca_objects.CurrentLocation":"Library",
       "ca_objects.Illustrations":"Yes",
       "ca_objects.Maps":"No",
       "ca_objects.Marks":"151p. Illus., photos.",
