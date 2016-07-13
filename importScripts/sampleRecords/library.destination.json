@@ -4,7 +4,6 @@
     {
       "object_id":"1",
       "id":"1",
-      "idno":"10",
       "display_label":"The 'Caroline' ; 150 years in Western Australia of the Gee and Truslove families 1829-1979",
       "ca_objects.LegacyID":"10",
       "ca_objects.Series":"0",
@@ -15,7 +14,7 @@
       "ca_objects.LastEditBy":"LanK",
       "ca_objects.LastEditDate":"22 March 2004",
       "ca_objects.LibraryNumber":"AAM",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1979",
       "ca_objects.Publisher":"Author",
       "ca_objects.PlaceOfPublication":"Mandurah",
@@ -41,7 +40,6 @@
     {
       "object_id":"2",
       "id":"2",
-      "idno":"100",
       "display_label":"Protection of movable cultural heritage",
       "ca_objects.LegacyID":"100",
       "ca_objects.Series":"0",
@@ -54,7 +52,7 @@
       "ca_objects.LastEditDate":"14 July 2004",
       "ca_objects.LibraryNumber":"R  AUS",
       "ca_objects.Notes":"1 folder, contains Protection of Movable Cultural Heritage Act 1986 and Amendment (1988)",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_occurrences":[
         "Cultural policy",
         "Protection of Movable Cultural Heritage Act, 1986"
@@ -76,7 +74,158 @@
     {
       "object_id":"3",
       "id":"3",
-      "idno":"101",
+      "display_label":"The myth of equality: the denial of citizenship rights for Aboriginal people in Western Australia (Studies in Western Australian history Vol. 22, 2001, pp.69-82)",
+      "ca_objects.LegacyID":"10000",
+      "ca_objects.Series":"1",
+      "ca_objects.Size":"Octavo",
+      "ca_objects.Author":[
+        "Hunter, Tamara"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"KRAV",
+      "ca_objects.LastEditDate":"7 October 2008",
+      "ca_objects.LibraryNumber":"J  STU",
+      "ca_objects.PublicationType":"Journal article",
+      "ca_objects.DateOfPublication":"2001",
+      "ca_objects.Publisher":"UWA",
+      "ca_objects.PlaceOfPublication":"Perth",
+      "ca_occurrences":[
+        "Aboriginal Australians",
+        "Citizenship - Australia"
+      ],
+      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"No",
+      "ca_objects.Marks":"14p.",
+      "ca_objects.Pages":"14",
+      "ca_objects.Collation":"14p.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"4 November 2008",
+      "ca_objects.DateOut":"7 October 2008",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"4",
+      "id":"4",
+      "display_label":"What is East Perth's  heritage? (Studies in Western Australian history Vol. 22, 2001, pp.83-89)",
+      "ca_objects.LegacyID":"10001",
+      "ca_objects.Series":"1",
+      "ca_objects.Size":"Octavo",
+      "ca_objects.Author":[
+        "Milton-Smith, Melissa"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"KRAV",
+      "ca_objects.LastEditDate":"7 October 2008",
+      "ca_objects.LibraryNumber":"J  STU",
+      "ca_objects.PublicationType":"Journal article",
+      "ca_objects.DateOfPublication":"2001",
+      "ca_objects.Publisher":"UWA",
+      "ca_objects.PlaceOfPublication":"Perth",
+      "ca_occurrences":[
+        "East Perth",
+        "Historic sites - East Perth"
+      ],
+      "ca_objects.CurrentLocation":"LIBRARY ANNEXE",
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"No",
+      "ca_objects.Marks":"7p.",
+      "ca_objects.Pages":"7",
+      "ca_objects.Collation":"7p.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"4 November 2008",
+      "ca_objects.DateOut":"7 October 2008",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"No",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"5",
+      "id":"5",
+      "idno":"2008\/73",
+      "display_label":"Bloody Angle; Bullecourt &amp; beyond; 16th Battalion A.I.F. 1914 - 1919",
+      "ca_objects.LegacyID":"10009",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "Gill, Ian"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"JenM",
+      "ca_objects.LastEditDate":"15 December 2011",
+      "ca_objects.LibraryNumber":"GIL",
+      "ca_objects.Notes":"Accession no: 2008\/73. Purchased.",
+      "ca_objects.PublicationType":"Book",
+      "ca_objects.DateOfPublication":"2008",
+      "ca_objects.Publisher":"Author",
+      "ca_objects.PlaceOfPublication":"Perth",
+      "ca_occurrences":[
+        "Australia. Army. Battalion, 16th.",
+        "World War, 1914-1918 - Campaigns",
+        "World War, 1914-1918- Regimental histories"
+      ],
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Marks":"715p. : ill., map, photos.",
+      "ca_objects.Pages":"715",
+      "ca_objects.Collation":"715p. : ill., map, photos.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"5 November 2008",
+      "ca_objects.DateOut":"8 October 2008",
+      "ca_objects.Donated":"No",
+      "ca_objects.Review":"History west, Vol, 48, no. 1, Feb. 2009, p. 7 \/ Malcolm Higham",
+      "ca_objects.Purchased":"Yes",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"6",
+      "id":"6",
+      "idno":"D2008\/36",
+      "display_label":"Clarence",
+      "ca_objects.LegacyID":"10010",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"NATH",
+      "ca_objects.LastEditDate":"8 October 2008",
+      "ca_objects.LibraryNumber":"Box 25 1973\/86",
+      "ca_objects.Notes":"Accession no: D2008 - 36.  Donor: S. Burke",
+      "ca_objects.PublicationType":"Document",
+      "ca_occurrences":[
+        "Clarence",
+        "Letters",
+        "Peel, Thomas",
+        "Roe, John Septimus - Correspondence"
+      ],
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Pages":"0",
+      "ca_objects.Collation":"maps",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"5 November 2008",
+      "ca_objects.DateOut":"8 October 2008",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Purchased":"No",
+      "ca_entities":[
+        "S. Burke"
+      ]
+    },
+    {
+      "object_id":"7",
+      "id":"7",
       "display_label":"Copyright (Copyright Amendment Act 1980)",
       "ca_objects.LegacyID":"101",
       "ca_objects.Series":"0",
@@ -88,7 +237,7 @@
       "ca_objects.LastEditDate":"14 July 2004",
       "ca_objects.LibraryNumber":"R  AUS",
       "ca_objects.Notes":"in copyright file",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1981",
       "ca_objects.Publisher":"Attorney-General's Dept.",
       "ca_objects.PlaceOfPublication":"Canberra",
@@ -113,9 +262,90 @@
       }
     },
     {
-      "object_id":"4",
-      "id":"4",
-      "idno":"1133",
+      "object_id":"8",
+      "id":"8",
+      "display_label":"Kings of the cattle country: the epic story of Australia's beef empires",
+      "ca_objects.LegacyID":"10530",
+      "ca_objects.Series":"0",
+      "ca_objects.Size":"Large",
+      "ca_objects.Author":[
+        "Austin, Nigel"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"LIBRARY",
+      "ca_objects.LastEditDate":"19 February 2013",
+      "ca_objects.LibraryNumber":"Q  AUS",
+      "ca_objects.Notes":"Accession no: 2009\/30.  Donor: Booksale",
+      "ca_objects.PublicationType":"Book",
+      "ca_objects.DateOfPublication":"1986",
+      "ca_objects.Publisher":"Bay Books",
+      "ca_objects.PlaceOfPublication":"Sydney",
+      "ca_occurrences":[
+        "Cattle Stations - Kimberley Region",
+        "Drovers",
+        "Durack family",
+        "Fossil Downs",
+        "Macdonald family",
+        "Meranji Track",
+        "Stock routes"
+      ],
+      "ca_objects.CurrentLocation":"Large book shelves.",
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"Yes",
+      "ca_objects.Marks":"vi, 223p. : illus., maps, photos. Glossary",
+      "ca_objects.Pages":"223",
+      "ca_objects.Collation":"vi, 223p. : illus., maps, photos. Glossary",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"20 May 2009",
+      "ca_objects.DateOut":"22 April 2009",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Purchased":"No",
+      "ca_entities":[
+        "Booksale"
+      ]
+    },
+    {
+      "object_id":"9",
+      "id":"9",
+      "display_label":"Hooked for life",
+      "ca_objects.LegacyID":"10531",
+      "ca_objects.Series":"0",
+      "ca_objects.Size":"Octavo",
+      "ca_objects.Author":[
+        "Cusack, Ross"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"NATH",
+      "ca_objects.LastEditDate":"22 April 2009",
+      "ca_objects.LibraryNumber":"CUS",
+      "ca_objects.Notes":"Accession no: 2009\/32.  Purchased.",
+      "ca_objects.PublicationType":"Book",
+      "ca_objects.DateOfPublication":"2004",
+      "ca_objects.Publisher":"Western Angler Publishing",
+      "ca_objects.PlaceOfPublication":"Perth",
+      "ca_occurrences":[
+        "Fishers",
+        "Fishing industry"
+      ],
+      "ca_objects.Illustrations":"Yes",
+      "ca_objects.Maps":"No",
+      "ca_objects.Marks":"248p. : illus., photos.",
+      "ca_objects.Pages":"248",
+      "ca_objects.Collation":"248p. : illus., photos.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"20 May 2009",
+      "ca_objects.DateOut":"22 April 2009",
+      "ca_objects.Donated":"No",
+      "ca_objects.Purchased":"Yes",
+      "ca_entities":{
+        
+      }
+    },
+    {
+      "object_id":"10",
+      "id":"10",
       "display_label":"The First and last voyage of the Batavia",
       "ca_objects.LegacyID":"1133",
       "ca_objects.Series":"0",
@@ -127,7 +357,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"25 June 2009",
       "ca_objects.LibraryNumber":"Q  GOD",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1993",
       "ca_objects.Publisher":"Abroholos Publishing",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -152,9 +382,8 @@
       }
     },
     {
-      "object_id":"5",
-      "id":"5",
-      "idno":"120",
+      "object_id":"11",
+      "id":"11",
       "display_label":"National estate values in the Southern Forest region of South-West Western Australia",
       "ca_objects.LegacyID":"120",
       "ca_objects.Series":"0",
@@ -167,7 +396,7 @@
       "ca_objects.LastEditBy":"LIBRARY",
       "ca_objects.LastEditDate":"19 February 2013",
       "ca_objects.LibraryNumber":"Q  AUS",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1992",
       "ca_occurrences":[
         "Heritage sites",
@@ -191,9 +420,8 @@
       }
     },
     {
-      "object_id":"6",
-      "id":"6",
-      "idno":"1239",
+      "object_id":"12",
+      "id":"12",
       "display_label":"Nyungar - the people, aboriginal customs in the southwest of Australia",
       "ca_objects.LegacyID":"1239",
       "ca_objects.Series":"0",
@@ -204,7 +432,7 @@
       "ca_objects.LastEditBy":"TrishA",
       "ca_objects.LastEditDate":"29 June 2002",
       "ca_objects.LibraryNumber":"GRE",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1979",
       "ca_objects.Publisher":"Creative Creative Research",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -228,9 +456,8 @@
       }
     },
     {
-      "object_id":"7",
-      "id":"7",
-      "idno":"12566",
+      "object_id":"13",
+      "id":"13",
       "display_label":"Mission cottage restoration (New Norcia Studies, No.17, 2009, pp.46-54)",
       "ca_objects.LegacyID":"12566",
       "ca_objects.Series":"0",
@@ -242,7 +469,7 @@
       "ca_objects.LastEditBy":"JENM",
       "ca_objects.LastEditDate":"19 March 2015",
       "ca_objects.LibraryNumber":"J   NEW",
-      "ca_objects.PublicationType":"Journal articles",
+      "ca_objects.PublicationType":"Journal article",
       "ca_objects.DateOfPublication":"2009",
       "ca_objects.Publisher":"Benedictine Community of New Norcia",
       "ca_objects.PlaceOfPublication":"New Norcia",
@@ -263,8 +490,8 @@
       }
     },
     {
-      "object_id":"8",
-      "id":"8",
+      "object_id":"14",
+      "id":"14",
       "idno":"2011\/186",
       "display_label":"A History of the Independent Schools Salaried Officers' Association  of W.A. Industrial Union of Workers, 1960 - 1976",
       "ca_objects.LegacyID":"13359",
@@ -278,7 +505,7 @@
       "ca_objects.LastEditDate":"2 July 2013",
       "ca_objects.LibraryNumber":"Q  HIL",
       "ca_objects.Notes":"Accession no: 2011\/186.  Donor: J. Hiller",
-      "ca_objects.PublicationType":"Journal titles",
+      "ca_objects.PublicationType":"Journal title",
       "ca_objects.DateOfPublication":"1982",
       "ca_occurrences":[
         "Independent Schools Salaried Officers' Association",
@@ -302,9 +529,8 @@
       ]
     },
     {
-      "object_id":"9",
-      "id":"9",
-      "idno":"13632",
+      "object_id":"15",
+      "id":"15",
       "display_label":"The triumph of Edward John Eyre",
       "ca_objects.LegacyID":"13632",
       "ca_objects.CopyNumber":"1",
@@ -336,9 +562,8 @@
       }
     },
     {
-      "object_id":"10",
-      "id":"10",
-      "idno":"13738",
+      "object_id":"16",
+      "id":"16",
       "display_label":"Extracts from Western Australian Newspapers 1870-1888c",
       "ca_objects.LegacyID":"13738",
       "ca_objects.Series":"0",
@@ -350,7 +575,7 @@
       "ca_objects.LastEditDate":"24 May 2012",
       "ca_objects.LibraryNumber":"J  H\/S Series 505",
       "ca_objects.Notes":"HELD IN BATTYE LIBRARY",
-      "ca_objects.PublicationType":"Journal articles",
+      "ca_objects.PublicationType":"Journal article",
       "ca_objects.DateOfPublication":"1888",
       "ca_occurrences":[
         "Clippings (Newspapers)"
@@ -371,9 +596,8 @@
       }
     },
     {
-      "object_id":"11",
-      "id":"11",
-      "idno":"2011\/49",
+      "object_id":"17",
+      "id":"17",
       "display_label":"80  years of  memories 1895 - 1975",
       "ca_objects.LegacyID":"13845",
       "ca_objects.Series":"0",
@@ -410,9 +634,8 @@
       ]
     },
     {
-      "object_id":"12",
-      "id":"12",
-      "idno":"139",
+      "object_id":"18",
+      "id":"18",
       "display_label":"The ways of life",
       "ca_objects.LegacyID":"139",
       "ca_objects.Series":"0",
@@ -424,7 +647,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"3 May 2006",
       "ca_objects.LibraryNumber":"BAI",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1976",
       "ca_objects.Publisher":"Elder Smith",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -448,11 +671,10 @@
       }
     },
     {
-      "object_id":"14",
-      "id":"14",
-      "idno":"2012\/55",
+      "object_id":"19",
+      "id":"19",
       "display_label":"Grain pool history",
-      "ca_objects.LegacyID":"14119",
+      "ca_objects.LegacyID":"14118",
       "ca_objects.Series":"0",
       "ca_objects.Author":[
         "Sewell, Robert"
@@ -462,7 +684,7 @@
       "ca_objects.LastEditDate":"21 November 2012",
       "ca_objects.LibraryNumber":"Box 31  1977\/44",
       "ca_objects.Notes":"Accession no:; 2012\/55.  Donor unknown. Ian Heppingtstone Research Collection",
-      "ca_objects.PublicationType":"Pamphlets",
+      "ca_objects.PublicationType":"Pamphlet",
       "ca_objects.DateOfPublication":"1999",
       "ca_occurrences":[
         "Co-operative Bulk Handling Ltd.",
@@ -485,9 +707,45 @@
       ]
     },
     {
-      "object_id":"15",
-      "id":"15",
-      "idno":"15",
+      "object_id":"20",
+      "id":"20",
+      "idno":"D2012\/55",
+      "display_label":"Grain pool history",
+      "ca_objects.LegacyID":"14119",
+      "ca_objects.Series":"0",
+      "ca_objects.Author":[
+        "Sewell, Robert"
+      ],
+      "ca_objects.StoredLocation":"Library",
+      "ca_objects.LastEditBy":"NATH",
+      "ca_objects.LastEditDate":"21 November 2012",
+      "ca_objects.LibraryNumber":"Box 31  1977\/44",
+      "ca_objects.Notes":"Accession no:; 2012\/55.  Donor unknown. Ian Heppingtstone Research Collection",
+      "ca_objects.PublicationType":"Pamphlet",
+      "ca_objects.DateOfPublication":"1999",
+      "ca_occurrences":[
+        "Co-operative Bulk Handling Ltd.",
+        "Grain Pool of Western Australia"
+      ],
+      "ca_objects.Illustrations":"No",
+      "ca_objects.Maps":"No",
+      "ca_objects.Marks":"7p.",
+      "ca_objects.Pages":"7",
+      "ca_objects.Collation":"7p.",
+      "ca_objects.Rare":"No",
+      "ca_objects.Restrictions":"NOT FOR LOAN",
+      "ca_objects.DateDue":"28 November 2012",
+      "ca_objects.DateOut":"21 November 2012",
+      "ca_objects.DateReturned":"27 November 2012",
+      "ca_objects.Donated":"Yes",
+      "ca_objects.Purchased":"No",
+      "ca_entities":[
+        "Unknown"
+      ]
+    },
+    {
+      "object_id":"21",
+      "id":"21",
       "display_label":"Buddhism in Western Australia ; alienation or integration",
       "ca_objects.LegacyID":"15",
       "ca_objects.Series":"0",
@@ -498,7 +756,7 @@
       "ca_objects.LastEditBy":"THOB",
       "ca_objects.LastEditDate":"2 September 2009",
       "ca_objects.LibraryNumber":"ADA",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1995",
       "ca_objects.Publisher":"Author",
       "ca_occurrences":[
@@ -523,8 +781,8 @@
       }
     },
     {
-      "object_id":"16",
-      "id":"16",
+      "object_id":"22",
+      "id":"22",
       "idno":"D2014\/119",
       "display_label":"The Bridges of Northam, bypass and Katrine Drive",
       "ca_objects.LegacyID":"15613",
@@ -538,7 +796,7 @@
       "ca_objects.LastEditDate":"30 October 2014",
       "ca_objects.LibraryNumber":"Box 12 No 1103(b)",
       "ca_objects.Notes":"Accession No D 2014\/119(b). Donated by J.Marshall. Ian Heppingstone Research Collection.",
-      "ca_objects.PublicationType":"Pamphlets",
+      "ca_objects.PublicationType":"Pamphlet",
       "ca_objects.Publisher":"Shire of Northam",
       "ca_objects.PlaceOfPublication":"Northam",
       "ca_occurrences":[
@@ -560,9 +818,8 @@
       }
     },
     {
-      "object_id":"17",
-      "id":"17",
-      "idno":"16130",
+      "object_id":"23",
+      "id":"23",
       "display_label":"The Wardandi and cattle chosen : some ethnographic and historical background regarding the Busselton district (in The Journal  (Australian-Irish Heritage Association of WA), vol 21 no. 3 September pp. 6-32)",
       "ca_objects.LegacyID":"16130",
       "ca_objects.Series":"1",
@@ -573,7 +830,7 @@
       "ca_objects.LastEditBy":"THORP",
       "ca_objects.LastEditDate":"21 December 2015",
       "ca_objects.LibraryNumber":"J  JOU",
-      "ca_objects.PublicationType":"Journal articles",
+      "ca_objects.PublicationType":"Journal article",
       "ca_objects.DateOfPublication":"2013",
       "ca_objects.Publisher":"Australian-Irish Heritage Association",
       "ca_objects.PlaceOfPublication":"Subiaco, W.A.",
@@ -601,9 +858,8 @@
       }
     },
     {
-      "object_id":"18",
-      "id":"18",
-      "idno":"17",
+      "object_id":"24",
+      "id":"24",
       "display_label":"Non government schooling in Western Australia 1829-1903; selected documents with commentaries",
       "ca_objects.LegacyID":"17",
       "ca_objects.Series":"0",
@@ -615,7 +871,7 @@
       "ca_objects.LastEditBy":"LIBRARY",
       "ca_objects.LastEditDate":"19 February 2013",
       "ca_objects.LibraryNumber":"Q  ADA",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.Publisher":"WAIT. Faculty of Education.",
       "ca_objects.PlaceOfPublication":"Bentley",
       "ca_occurrences":[
@@ -639,9 +895,8 @@
       }
     },
     {
-      "object_id":"19",
-      "id":"19",
-      "idno":"19",
+      "object_id":"25",
+      "id":"25",
       "display_label":"The outcome is unknown; a Watts Family history",
       "ca_objects.LegacyID":"19",
       "ca_objects.Series":"0",
@@ -653,7 +908,7 @@
       "ca_objects.LastEditBy":"HARJ",
       "ca_objects.LastEditDate":"30 June 2008",
       "ca_objects.LibraryNumber":"ADA",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1990",
       "ca_objects.Publisher":"Hesperian Pr.",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -679,9 +934,8 @@
       }
     },
     {
-      "object_id":"20",
-      "id":"20",
-      "idno":"218",
+      "object_id":"26",
+      "id":"26",
       "display_label":"Bedforshire",
       "ca_objects.LegacyID":"218",
       "ca_objects.Series":"0",
@@ -706,9 +960,8 @@
       }
     },
     {
-      "object_id":"21",
-      "id":"21",
-      "idno":"24",
+      "object_id":"27",
+      "id":"27",
       "display_label":"I remember; Stony Hill, Central Greenough",
       "ca_objects.LegacyID":"24",
       "ca_objects.Series":"0",
@@ -719,7 +972,7 @@
       "ca_objects.LastEditBy":"SueLE",
       "ca_objects.LastEditDate":"17 January 2002",
       "ca_objects.LibraryNumber":"AHE",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1977",
       "ca_objects.Publisher":"Author",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -744,9 +997,8 @@
       }
     },
     {
-      "object_id":"22",
-      "id":"22",
-      "idno":"2847",
+      "object_id":"28",
+      "id":"28",
       "display_label":"Australia unveiled; the share of the Dutch navigators in the discovery of Australia",
       "ca_objects.LegacyID":"2847",
       "ca_objects.Series":"0",
@@ -758,7 +1010,7 @@
       "ca_objects.LastEditDate":"2 October 2008",
       "ca_objects.LibraryNumber":"SCH",
       "ca_objects.Notes":"A.N. 85.2. Donor: Purchased  for RWAHS\nTranslated from the German by Olaf Richter",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1976",
       "ca_objects.Publisher":"Theatrum Orbis Terrarum Ltd.",
       "ca_objects.PlaceOfPublication":"Amsterdam",
@@ -781,9 +1033,8 @@
       ]
     },
     {
-      "object_id":"23",
-      "id":"23",
-      "idno":"3",
+      "object_id":"29",
+      "id":"29",
       "display_label":"J N Anderson",
       "ca_objects.LegacyID":"3",
       "ca_objects.CopyNumber":"2",
@@ -795,7 +1046,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"29 June 2015",
       "ca_objects.LibraryNumber":"RB  MOO",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1894",
       "ca_objects.Publisher":"Orr and Smith",
       "ca_objects.PlaceOfPublication":"London",
@@ -822,9 +1073,8 @@
       }
     },
     {
-      "object_id":"24",
-      "id":"24",
-      "idno":"32",
+      "object_id":"30",
+      "id":"30",
       "display_label":"Australia since Federation; a narrative and critical analysis",
       "ca_objects.LegacyID":"32",
       "ca_objects.Series":"0",
@@ -836,7 +1086,7 @@
       "ca_objects.LastEditBy":"TrishA",
       "ca_objects.LastEditDate":"9 August 2002",
       "ca_objects.LibraryNumber":"ALE",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1980",
       "ca_objects.Publisher":"Nelson",
       "ca_objects.PlaceOfPublication":"Melbourne",
@@ -860,9 +1110,8 @@
       }
     },
     {
-      "object_id":"25",
-      "id":"25",
-      "idno":"33",
+      "object_id":"31",
+      "id":"31",
       "display_label":"Four bishops and their See; Perth Western Australia 1857-1957",
       "ca_objects.LegacyID":"33",
       "ca_objects.CopyNumber":"2",
@@ -875,7 +1124,7 @@
       "ca_objects.LastEditDate":"12 June 2014",
       "ca_objects.LibraryNumber":"RB  FOU",
       "ca_objects.Notes":"2 copies, \nCopy 1 in Library; Copy 2 in RB Locked cupboard A",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1957",
       "ca_objects.Publisher":"UWA Press",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -903,9 +1152,8 @@
       }
     },
     {
-      "object_id":"26",
-      "id":"26",
-      "idno":"38",
+      "object_id":"32",
+      "id":"32",
       "display_label":"Hollywood Primary School 1935-1985",
       "ca_objects.LegacyID":"38",
       "ca_objects.Series":"0",
@@ -918,7 +1166,7 @@
       "ca_objects.LastEditDate":"19 February 2013",
       "ca_objects.LibraryNumber":"Q  ALE",
       "ca_objects.Notes":"A.N. 1986.34. Donor: Mrs Helen Alexander",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_occurrences":[
         "Hollywood Primary School",
         "Schools"
@@ -941,9 +1189,8 @@
       ]
     },
     {
-      "object_id":"27",
-      "id":"27",
-      "idno":"3821",
+      "object_id":"33",
+      "id":"33",
       "display_label":"Origins of the Eastern Goldfields Water Scheme in Western Australia",
       "ca_objects.LegacyID":"3821",
       "ca_objects.Series":"0",
@@ -956,7 +1203,7 @@
       "ca_objects.LastEditBy":"SMIG",
       "ca_objects.LastEditDate":"1 June 2012",
       "ca_objects.LibraryNumber":"RB  ORI",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1954",
       "ca_objects.Publisher":"University of Western Australia Press",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -980,9 +1227,8 @@
       }
     },
     {
-      "object_id":"28",
-      "id":"28",
-      "idno":"393",
+      "object_id":"34",
+      "id":"34",
       "display_label":"The Merchant princes of Fremantle: the rise and decline of a colonial elite 1870 - 1900",
       "ca_objects.LegacyID":"393",
       "ca_objects.Series":"0",
@@ -993,7 +1239,7 @@
       "ca_objects.LastEditBy":"MARRIC",
       "ca_objects.LastEditDate":"25 January 2013",
       "ca_objects.LibraryNumber":"BRO",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1996",
       "ca_objects.Publisher":"UWA Pr.",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1026,9 +1272,8 @@
       }
     },
     {
-      "object_id":"29",
-      "id":"29",
-      "idno":"4",
+      "object_id":"35",
+      "id":"35",
       "display_label":"A history of teacher training in Western Australia",
       "ca_objects.LegacyID":"4",
       "ca_objects.Series":"0",
@@ -1040,7 +1285,7 @@
       "ca_objects.LastEditDate":"30 July 2009",
       "ca_objects.LibraryNumber":"MOS",
       "ca_objects.Notes":"Another copy , Locked cupboard C",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1955",
       "ca_objects.Publisher":"ACER",
       "ca_objects.PlaceOfPublication":"Melb.",
@@ -1067,9 +1312,8 @@
       }
     },
     {
-      "object_id":"30",
-      "id":"30",
-      "idno":"472",
+      "object_id":"36",
+      "id":"36",
       "display_label":"The Rise and demise of Perth's trams and trolley buses",
       "ca_objects.LegacyID":"472",
       "ca_objects.Series":"0",
@@ -1081,7 +1325,7 @@
       "ca_objects.LastEditBy":"LanK",
       "ca_objects.LastEditDate":"5 April 2004",
       "ca_objects.LibraryNumber":"Q  CAR",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1999",
       "ca_objects.Publisher":"Author",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1106,9 +1350,8 @@
       }
     },
     {
-      "object_id":"31",
-      "id":"31",
-      "idno":"49",
+      "object_id":"37",
+      "id":"37",
       "display_label":"Working lives",
       "ca_objects.LegacyID":"49",
       "ca_objects.Series":"0",
@@ -1122,7 +1365,7 @@
       "ca_objects.LastEditDate":"10 March 2008",
       "ca_objects.LibraryNumber":"AMM",
       "ca_objects.Notes":"A. N. 1986.197 Donor: Mr Jim Carson\nA.N. 85.28. Donor: Jim Carson",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1984",
       "ca_objects.Publisher":"Fremantle Arts Centre Pr.",
       "ca_objects.PlaceOfPublication":"Fremantle",
@@ -1151,9 +1394,8 @@
       ]
     },
     {
-      "object_id":"32",
-      "id":"32",
-      "idno":"5",
+      "object_id":"38",
+      "id":"38",
       "display_label":"Twenty-five years; a history of Claremont Teachers College 1952-1977.",
       "ca_objects.LegacyID":"5",
       "ca_objects.Series":"0",
@@ -1165,7 +1407,7 @@
       "ca_objects.LastEditDate":"25 February 2008",
       "ca_objects.LibraryNumber":"McK",
       "ca_objects.Notes":"xx, 160 p. illus., photos, tables, appendices",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1981",
       "ca_objects.Publisher":"WACAE, Claremont Campus",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1190,8 +1432,8 @@
       }
     },
     {
-      "object_id":"33",
-      "id":"33",
+      "object_id":"39",
+      "id":"39",
       "idno":"2015\/31",
       "display_label":"William Ford and Coolgardie; the biography of my father 1849-1932",
       "ca_objects.LegacyID":"541",
@@ -1204,7 +1446,7 @@
       "ca_objects.LastEditDate":"5 February 2015",
       "ca_objects.LibraryNumber":"CLE",
       "ca_objects.Notes":"Accession no 2015\/31",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1988",
       "ca_objects.Publisher":"Gold Producers Association Limited and Hesperian Pr.",
       "ca_occurrences":[
@@ -1228,9 +1470,8 @@
       }
     },
     {
-      "object_id":"34",
-      "id":"34",
-      "idno":"555",
+      "object_id":"40",
+      "id":"40",
       "display_label":"More lonely graves of Western Australia",
       "ca_objects.LegacyID":"555",
       "ca_objects.Series":"0",
@@ -1242,7 +1483,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"3 December 2009",
       "ca_objects.LibraryNumber":"R  COA",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"2000",
       "ca_objects.Publisher":"Hesperian Pr.",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1271,9 +1512,8 @@
       }
     },
     {
-      "object_id":"35",
-      "id":"35",
-      "idno":"6000",
+      "object_id":"41",
+      "id":"41",
       "display_label":"Hardey, Western Australia",
       "ca_objects.LegacyID":"6000",
       "ca_objects.CopyNumber":"1",
@@ -1287,7 +1527,7 @@
       "ca_objects.LastEditDate":"27 May 2010",
       "ca_objects.LibraryNumber":"Drawer 6, M71",
       "ca_objects.Notes":"National Topographic Map Series; Part of 1: 250 000 Series, SF 50-10 WYLOO; Sheet 2252; Edition 1; Distributed by the Department of National Resources",
-      "ca_objects.PublicationType":"Maps",
+      "ca_objects.PublicationType":"Map",
       "ca_objects.DateOfPublication":"1977",
       "ca_objects.Publisher":"Division of National Mapping, Commonwealth of Australia",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1310,9 +1550,8 @@
       }
     },
     {
-      "object_id":"36",
-      "id":"36",
-      "idno":"262\/99",
+      "object_id":"42",
+      "id":"42",
       "display_label":"Margaret River style",
       "ca_objects.LegacyID":"673",
       "ca_objects.Series":"0",
@@ -1327,7 +1566,7 @@
       "ca_objects.LastEditDate":"22 January 2013",
       "ca_objects.LibraryNumber":"CUL",
       "ca_objects.Notes":"Accession no: 262\/99",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1999",
       "ca_objects.Publisher":"Fremantle Arts Centre Pr.",
       "ca_objects.PlaceOfPublication":"Fremantle",
@@ -1351,9 +1590,8 @@
       }
     },
     {
-      "object_id":"37",
-      "id":"37",
-      "idno":"68",
+      "object_id":"43",
+      "id":"43",
       "display_label":"A new general atlas",
       "ca_objects.LegacyID":"68",
       "ca_objects.Series":"0",
@@ -1364,7 +1602,7 @@
       "ca_objects.LastEditBy":"SMIG",
       "ca_objects.LastEditDate":"22 August 2012",
       "ca_objects.LibraryNumber":"RBQ  ARR",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1817",
       "ca_objects.Publisher":"Constable &amp; Co.",
       "ca_objects.PlaceOfPublication":"Edinburgh",
@@ -1389,9 +1627,9 @@
       }
     },
     {
-      "object_id":"38",
-      "id":"38",
-      "idno":"Accession ",
+      "object_id":"44",
+      "id":"44",
+      "idno":"2007\/37",
       "display_label":"Old Fremantle childhood; a tribute to the photography and fatherhood of Arnold Beste",
       "ca_objects.LegacyID":"7186",
       "ca_objects.Series":"0",
@@ -1403,7 +1641,7 @@
       "ca_objects.LastEditDate":"6 November 2008",
       "ca_objects.LibraryNumber":"DOW",
       "ca_objects.Notes":"Accession No. 2007\/37; Purchased",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"2006",
       "ca_objects.Publisher":"Author",
       "ca_objects.PlaceOfPublication":"Fremantle",
@@ -1429,9 +1667,8 @@
       }
     },
     {
-      "object_id":"39",
-      "id":"39",
-      "idno":"74",
+      "object_id":"45",
+      "id":"45",
       "display_label":"Country images of Western Australia; a portrait of the past",
       "ca_objects.LegacyID":"74",
       "ca_objects.Series":"0",
@@ -1442,7 +1679,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"3 December 2009",
       "ca_objects.LibraryNumber":"AUS",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"2000",
       "ca_objects.Publisher":"WA Newspapers",
       "ca_objects.PlaceOfPublication":"Perth",
@@ -1466,9 +1703,8 @@
       }
     },
     {
-      "object_id":"40",
-      "id":"40",
-      "idno":"7992",
+      "object_id":"46",
+      "id":"46",
       "display_label":"The Society comes to Perth : dramatization of inauguration of a branch of the British and Foreign Bible Society in Perth, 18 August 1884. (H\/S Series HS\/333)",
       "ca_objects.LegacyID":"7992",
       "ca_objects.Series":"1",
@@ -1481,7 +1717,7 @@
       "ca_objects.LastEditDate":"30 August 2007",
       "ca_objects.LibraryNumber":"J  H\/S Series 333",
       "ca_objects.Notes":"Copy - Original held at Battye Library",
-      "ca_objects.PublicationType":"Journal articles",
+      "ca_objects.PublicationType":"Journal article",
       "ca_objects.DateOfPublication":"1884",
       "ca_occurrences":[
         "British and Foreign Bible Society (WA)",
@@ -1504,9 +1740,8 @@
       }
     },
     {
-      "object_id":"41",
-      "id":"41",
-      "idno":"844",
+      "object_id":"47",
+      "id":"47",
       "display_label":"Shark Bay through four centuries 1616 to 2000",
       "ca_objects.LegacyID":"844",
       "ca_objects.Series":"0",
@@ -1518,7 +1753,7 @@
       "ca_objects.LastEditBy":"JILLM",
       "ca_objects.LastEditDate":"30 June 2003",
       "ca_objects.LibraryNumber":"EDW",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1999",
       "ca_objects.Publisher":"Shire of Shark Bay",
       "ca_occurrences":[
@@ -1540,9 +1775,8 @@
       }
     },
     {
-      "object_id":"42",
-      "id":"42",
-      "idno":"88",
+      "object_id":"48",
+      "id":"48",
       "display_label":"Official record of the debates. Third session. Melbourne, 20th Jan to 17 March, 1898",
       "ca_objects.LegacyID":"88",
       "ca_objects.Series":"0",
@@ -1554,7 +1788,7 @@
       "ca_objects.LastEditDate":"10 February 2012",
       "ca_objects.LibraryNumber":"RB  AUS",
       "ca_objects.Notes":"2 vols.",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_objects.DateOfPublication":"1898",
       "ca_objects.Publisher":"Govt. Printer",
       "ca_objects.PlaceOfPublication":"Melbourne",
@@ -1578,9 +1812,8 @@
       }
     },
     {
-      "object_id":"43",
-      "id":"43",
-      "idno":"9",
+      "object_id":"49",
+      "id":"49",
       "display_label":"Merredin; a photographic history",
       "ca_objects.LegacyID":"9",
       "ca_objects.Series":"0",
@@ -1594,7 +1827,7 @@
       "ca_objects.LastEditDate":"19 February 2013",
       "ca_objects.LibraryNumber":"Q  ABE",
       "ca_objects.Notes":"Large book section",
-      "ca_objects.PublicationType":"Books",
+      "ca_objects.PublicationType":"Book",
       "ca_occurrences":[
         "Merredin - Pictorial works"
       ],
