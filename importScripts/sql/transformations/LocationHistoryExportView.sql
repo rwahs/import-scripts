@@ -1,133 +1,56 @@
-DROP TABLE IF EXISTS StandardisedLocations;
-CREATE TABLE StandardisedLocations (
-    id               INT AUTO_INCREMENT PRIMARY KEY,
-    Alias            VARCHAR(255) NOT NULL,
-    StandardisedName VARCHAR(255) NOT NULL
-);
-ALTER TABLE StandardisedLocations
-ADD INDEX (Alias),
-ADD INDEX (StandardisedName);
-
-INSERT INTO StandardisedLocations (Alias, StandardisedName)
-VALUES
-    ('Artworks storeoom ,', 'Artworks room'),
-    ('Artworks storeoom,', 'Artworks room'),
-    ('Artworks storeoom', 'Artworks room'),
-    ('Art Storeroom ,', 'Artworks room'),
-    ('Art Storeroom,', 'Artworks room'),
-    ('Art Storeroom', 'Artworks room'),
-    ('Art Store ,', 'Artworks room'),
-    ('Art Store,', 'Artworks room'),
-    ('Art Store', 'Artworks room'),
-    ('Artworks storeroom ,', 'Artworks room'),
-    ('Artworks storeroom,', 'Artworks room'),
-    ('Artworks storeroom', 'Artworks room'),
-    ('Artworks Store room ,', 'Artworks room'),
-    ('Artworks Store room,', 'Artworks room'),
-    ('Artworks Store room', 'Artworks room'),
-    ('Artworks room ,', 'Artworks room'),
-    ('Artworks room,', 'Artworks room'),
-    ('Artworks room', 'Artworks room'),
-    ('Costume room ,', 'Costume room'),
-    ('Costume room,', 'Costume room'),
-    ('Costume room', 'Costume room'),
-    ('Costume ,', 'Costume room'),
-    ('Costume,', 'Costume room'),
-    ('Costume', 'Costume room'),
-    ('Exhibition room ,', 'Exhibition room'),
-    ('Exhibition room,', 'Exhibition room'),
-    ('Exhibition room', 'Exhibition room'),
-    ('Museum Room (Tranby Room),', 'Tranby room'),
-    ('Museum Room (Tranby Room)', 'Tranby room'),
-    ('Museum Storeroom ,', 'Museum Store'),
-    ('Museum Storeroom,', 'Museum Store'),
-    ('Museum Storeroom', 'Museum Store'),
-    ('Storeroom ,', 'Museum Store'),
-    ('Storeroom,', 'Museum Store'),
-    ('Storeroom', 'Museum Store'),
-    ('Museum Room ,', 'Museum Store'),
-    ('Museum Room,', 'Museum Store'),
-    ('Museum Room', 'Museum Store'),
-    ('Museum Store ,', 'Museum Store'),
-    ('Museum Store,', 'Museum Store'),
-    ('Museum Store', 'Museum Store'),
-    ('Museum ,', 'Museum Store'),
-    ('Museum,', 'Museum Store'),
-    ('Museum', 'Museum Store'),
-    ('Passage ,', 'Passage'),
-    ('Passage ,', 'Passage'),
-    ('Passage,', 'Passage'),
-    ('Passage', 'Passage'),
-    ('Foyer, ', 'Foyer'),
-    ('Foyer', 'Foyer'),
-    ('Meeting room ,', 'Meeting room'),
-    ('Meeting room ,', 'Meeting room'),
-    ('Meeting room,', 'Meeting room'),
-    ('Meeting room', 'Meeting room'),
-    ('Tranby room ,', 'Tranby room'),
-    ('Tranby room,', 'Tranby room'),
-    ('Tranby room', 'Tranby room'),
-    ('T.R.,', 'Tranby room'),
-    ('T.R.', 'Tranby room'),
-    ('Container ,', 'Container'),
-    ('Container,', 'Container'),
-    ('Container', 'Container'),
-    ('Locked Storeroom ,', 'Locked Storeroom'),
-    ('Locked Storeroom,', 'Locked Storeroom'),
-    ('Locked Storeroom', 'Locked Storeroom'),
-    ('Library ,', 'Library'),
-    ('Library,', 'Library'),
-    ('Library', 'Library');
-
-
 CREATE OR REPLACE VIEW LocationHistoryExport AS
 SELECT
-    NULLIF(lh.LocationHistoryID, '')       AS LocationHistoryID,
-    NULLIF(lh.AuthorizedBy, '')            AS AuthorizedBy,
-    NULLIF(lh.Location, '')                AS Location,
-    NULLIF(lh.LocationDate, '')            AS LocationDate,
-    NULLIF(lh.LocationStatus, '')          AS LocationStatus,
-    NULLIF(lh.PrimaryKey_Object_Table, '') AS PrimaryKey_Object_Table,
-    NULLIF(o.Accession_Full_ID, '')        AS o_Accession_Full_ID,
-    NULLIF(o.ItemType, '')                 AS o_ItemType,
+    NULLIF(TRIM(lh.LocationHistoryID), '')       AS LocationHistoryID,
+    NULLIF(TRIM(lh.AuthorizedBy), '')            AS AuthorizedBy,
+    NULLIF(TRIM(lh.Location), '')                AS Location,
+    NULLIF(TRIM(lh.LocationDate), '')            AS LocationDate,
+    NULLIF(TRIM(lh.LocationStatus), '')          AS LocationStatus,
+    NULLIF(TRIM(lh.PrimaryKey_Object_Table), '') AS PrimaryKey_Object_Table,
+    NULLIF(TRIM(o.Accession_Full_ID), '')        AS o_Accession_Full_ID,
+    NULLIF(
+        LOWER(REPLACE(TRIM(o.ItemType), ' ', ''))
+        , ''
+    )                                            AS o_ItemType,
+    NULLIF(TRIM(lhc.Room), '')                   AS Room,
+    NULLIF(TRIM(lhc.ShelfDrawer), '')            AS ShelfDrawer,
+    IF(
+        lhc.ShelfDrawer NOT LIKE '%drawer%',
+        NULLIF(TRIM(lhc.ShelfDrawer), ''),
+        NULL
+    )                                            AS Shelf,
+    IF(
+        lhc.ShelfDrawer LIKE '%drawer%',
+        NULLIF(TRIM(lhc.ShelfDrawer), ''),
+        NULL
+    )                                            AS Drawer,
+    NULLIF(TRIM(lhc.Box), '')                    AS Box,
+    NULLIF(TRIM(lhc.LibraryNo), '')              AS LibraryNo,
+    NULLIF(TRIM(lhc.OldLocation), '')            AS OldLocation,
+    COALESCE(
+        NULLIF(TRIM(lhc.Box), ''),
+        NULLIF(TRIM(lhc.ShelfDrawer), ''),
+        NULLIF(TRIM(lhc.Room), ''),
+        NULLIF(TRIM(lh.Location), '')
+    )                                            AS lowestLocation,
     CASE
-    WHEN
-        # The location has no parent, and will appear in `childStorageLocation` below
-        TRIM(lh.Location) = sl.Alias
-        THEN NULL
-    ELSE
-        # Otherwise we fill in from the standardised name
-        sl.StandardisedName
-    END                                    AS topLevelLocation,
-    CASE
-    WHEN
-        # Fill in the standardised name for an item which only has a single level
-        TRIM(lh.Location) = sl.Alias
-        THEN sl.StandardisedName
-    WHEN
-        ISNULL(sl.StandardisedName)
-        THEN TRIM(lh.Location)
-    ELSE
-        TRIM(SUBSTR(lh.Location, POSITION(sl.Alias IN lh.Location) + length(sl.Alias)))
-    END                                    AS childStorageLocation,
-    CASE
-    WHEN
-        ISNULL(sl.StandardisedName)
-        THEN 'container'
-    WHEN TRIM(lh.Location) = sl.Alias
-        THEN 'room'
-    WHEN lh.Location LIKE '%box%'
+    WHEN NULLIF(TRIM(lhc.Box), '') IS NOT NULL
         THEN 'box'
-    WHEN lh.Location LIKE '%draw%'
+    WHEN NULLIF(TRIM(lhc.ShelfDrawer), '') IS NOT NULL AND lhc.ShelfDrawer like '%drawer%'
         THEN 'drawer'
+    WHEN NULLIF(TRIM(lhc.ShelfDrawer), '') IS NOT NULL
+        THEN 'shelf'
+    WHEN NULLIF(TRIM(lhc.Room), '') IS NOT NULL
+        THEN 'room'
     ELSE 'container'
-    END                                    AS childType
+    END                                          AS lowestLocationType
+
 FROM
-    LocationHistory lh JOIN Objects o USING (PrimaryKey_Object_Table)
-    LEFT JOIN StandardisedLocations sl
-        ON LEFT(TRIM(lh.Location), LENGTH(sl.Alias)) = sl.Alias
+    LocationHistory lh
+    JOIN Objects o USING (PrimaryKey_Object_Table)
+    LEFT JOIN LocationHistoryCleaned lhc USING (LocationHistoryID)
 WHERE
-    ItemType NOT IN ('Photograph', 'Memorials')
+    ItemType NOT IN ('Photograph', 'Memorials') AND
+    (lhc.OldLocation = FALSE OR lhc.OldLocation IS NULL)
 GROUP BY lh.LocationHistoryID
 ORDER BY
-    lh.LocationHistoryID, sl.id;
+    lh.LocationHistoryID;
