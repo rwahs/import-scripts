@@ -9,6 +9,7 @@ pushd `dirname "$0"`>/dev/null
 source ../env
 source ../bin/importData
 function refreshData() {
+    sqltransform LocationHistoryCleaned.sql
     sqltransform LocationHistoryExportView.sql
 }
 

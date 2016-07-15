@@ -1,0 +1,100 @@
+{
+    "storageLocationType": "^lowestLocationType",
+    "relationshipType": "related",
+    "attributes": {
+        "idno": "",
+        "is_enabled": true,
+        "status": "completed"
+    },
+    "matchOn": [
+        "label"
+    ],
+    "parents": [
+        {
+            "name": "^Drawer",
+            "type": "drawer",
+            "idno": "",
+            "attributes": {
+                "is_enabled": true
+            },
+            "rules": [
+                {
+                    "trigger": "^lowestLocationType = \"drawer\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                },
+                {
+                    "trigger": "^Drawer =~ /^$/",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "^Shelf",
+            "type": "shelf",
+            "idno": "",
+            "attributes": {
+                "is_enabled": true
+            },
+            "rules": [
+                {
+                    "trigger": "^lowestLocationType = \"shelf\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                },
+                {
+                    "trigger": "^Shelf =~ /^$/",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "^Room",
+            "type": "room",
+            "idno": "",
+            "attributes": {
+                "is_enabled": true
+            },
+            "rules": [
+                {
+                    "trigger": "^lowestLocationType = \"room\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                },
+                {
+                    "trigger": "^lowestLocationType = \"container\"",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                },
+                {
+                    "trigger": "^Room =~ /^$/",
+                    "actions": [
+                        {
+                            "action": "SKIP"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
