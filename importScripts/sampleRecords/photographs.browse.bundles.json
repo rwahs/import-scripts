@@ -6,6 +6,7 @@
         "ca_objects.SpecificLocation.BoxType": {},
         "ca_objects.SpecificLocation.Copied": {
             "convertCodesToDisplayText" : true
-        }
+        },
+        "ca_objects.DateOfCreation": {}
     }
 }

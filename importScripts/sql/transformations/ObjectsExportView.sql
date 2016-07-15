@@ -229,7 +229,24 @@ CREATE OR REPLACE VIEW ObjectsExport AS
             o.ItemType = 'Photograph',
             IF(AccessionParts LIKE 'copied%', 1, 0)
             , NULL
-        )                                                         AS Copied
+        )                                                         AS Copied,
+        IF(
+            o.ItemType = 'Photograph',
+            COALESCE(
+                CONCAT(
+                    NULLIF(o.EarliestYear, 0),
+                    ' - ',
+                    NULLIF(
+                        o.LatestYear,
+                        o.EarliestYear
+                    )
+                ),
+                NULLIF(o.EarliestYear, 0),
+                CONCAT('- ', NULLIF(o.LatestYear, 0)),
+                NULLIF(TRIM(o.ItemDates), '')
+            )
+            , NULL
+        )                                                         AS DateOfCreation
     FROM
         Objects o
         LEFT JOIN Methods m ON (o.Method = m.Method)
