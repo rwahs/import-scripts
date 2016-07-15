@@ -233,6 +233,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         IF(
             o.ItemType = 'Photograph',
             COALESCE(
+                # Try to create a date like `1886 - 1895`
                 CONCAT(
                     NULLIF(o.EarliestYear, 0),
                     ' - ',
@@ -241,9 +242,10 @@ CREATE OR REPLACE VIEW ObjectsExport AS
                         o.EarliestYear
                     )
                 ),
-                NULLIF(o.EarliestYear, 0),
-                NULLIF(o.LatestYear, 0),
-                NULLIF(TRIM(o.ItemDates), '')
+                # or fall back on the individual values
+                NULLIF(o.EarliestYear, 0), # These are integer fields so we use `0` here
+                NULLIF(o.LatestYear, 0), # And here
+                NULLIF(TRIM(o.ItemDates), '') # Finally fall back on the text date if the other fields are empty
         )
             , NULL
         )                                                         AS DateOfCreation
