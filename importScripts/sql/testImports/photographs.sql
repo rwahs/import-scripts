@@ -28,11 +28,6 @@ UNION (SELECT PrimaryKey_Object_Table
        WHERE
            DateOfCreation LIKE '% - %' AND ItemType = 'Photograph'
        LIMIT 2)
-UNION (SELECT PrimaryKey_Object_Table
-       FROM ObjectsExport
-       WHERE
-           DateOfCreation LIKE '- %' AND ItemType = 'Photograph'
-       LIMIT 2)
 ;
 ## now we've found the sample records use them as the source
 SELECT
@@ -46,4 +41,4 @@ SELECT
 FROM
     ObjectsExport
 WHERE
-    PrimaryKey_Object_Table IN (404,675,750,679,751,1834,2209,12879,13277);
+    PrimaryKey_Object_Table IN (404,675,750,679,751,1834,2209);

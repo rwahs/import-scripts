@@ -242,9 +242,9 @@ CREATE OR REPLACE VIEW ObjectsExport AS
                     )
                 ),
                 NULLIF(o.EarliestYear, 0),
-                CONCAT('- ', NULLIF(o.LatestYear, 0)),
+                NULLIF(o.LatestYear, 0),
                 NULLIF(TRIM(o.ItemDates), '')
-            )
+        )
             , NULL
         )                                                         AS DateOfCreation
     FROM
