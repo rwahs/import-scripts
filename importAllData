@@ -3,6 +3,8 @@ set -e
 set -u
 pushd `dirname "$0"`>/dev/null
 
+caUtils update-installation-profile -p ./importScripts/source -n users
+
 # Refresh source donor data, produce a data report and load the donor import mapping
 ./importScripts/importDonors -rpm
 # Run the donor import
