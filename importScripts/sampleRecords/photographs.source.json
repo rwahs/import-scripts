@@ -21,7 +21,8 @@
     "PrimaryKey_Object_Table": "679",
     "StoredLocation": "PhotographsRoom",
     "BoxType": "L1, 1999.1006",
-    "Copied": 0
+    "Copied": 0,
+    "DateOfCreation": "1863"
   },
   {
     "Accession_Full_ID": "P1999.1008copied",
@@ -30,5 +31,32 @@
     "StoredLocation": "PhotographsRoom",
     "BoxType": "L1, 1999.1008",
     "Copied": 1
+  },
+  {
+    "Accession_Full_ID": "P1999.1009Copied",
+    "ItemName": "THE BUNGALOW, SIR JOHN FORREST'S HOME",
+    "PrimaryKey_Object_Table": "751",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "L1, 1999.1009",
+    "Copied": 1,
+    "DateOfCreation": "1900"
+  },
+  {
+    "Accession_Full_ID": "P1999.1130copied",
+    "ItemName": "BANKS BAND,SELECT DANCES",
+    "PrimaryKey_Object_Table": "1834",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "L1,1999.1130",
+    "Copied": 1,
+    "DateOfCreation": "1930 - 1939"
+  },
+  {
+    "Accession_Full_ID": "P1999.1166",
+    "ItemName": "MOSS, W.E.C.",
+    "PrimaryKey_Object_Table": "2209",
+    "StoredLocation": "PhotographsRoom",
+    "BoxType": "CV1, R1166",
+    "Copied": 0,
+    "DateOfCreation": "1906 - 1909"
   }
 ]

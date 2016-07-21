@@ -26,7 +26,8 @@
       "display_label":"COLONIAL HOSPITAL, ST MARY'S CATHEDRAL &amp; R.C. BISHOPS HOUSE",
       "ca_objects.StoredLocation":"Photographs Room",
       "ca_objects.SpecificLocation.BoxType":"L1, 1999.1006",
-      "ca_objects.SpecificLocation.Copied":"No"
+      "ca_objects.SpecificLocation.Copied":"No",
+      "ca_objects.DateOfCreation":"1863"
     },
     {
       "object_id":"4",
@@ -36,6 +37,36 @@
       "ca_objects.StoredLocation":"Photographs Room",
       "ca_objects.SpecificLocation.BoxType":"L1, 1999.1008",
       "ca_objects.SpecificLocation.Copied":"Yes"
+    },
+    {
+      "object_id":"5",
+      "id":"5",
+      "idno":"P1999.1009Copied",
+      "display_label":"THE BUNGALOW, SIR JOHN FORREST'S HOME",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"L1, 1999.1009",
+      "ca_objects.SpecificLocation.Copied":"Yes",
+      "ca_objects.DateOfCreation":"1900"
+    },
+    {
+      "object_id":"6",
+      "id":"6",
+      "idno":"P1999.1130copied",
+      "display_label":"BANKS BAND,SELECT DANCES",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"L1,1999.1130",
+      "ca_objects.SpecificLocation.Copied":"Yes",
+      "ca_objects.DateOfCreation":"1930s"
+    },
+    {
+      "object_id":"7",
+      "id":"7",
+      "idno":"P1999.1166",
+      "display_label":"MOSS, W.E.C.",
+      "ca_objects.StoredLocation":"Photographs Room",
+      "ca_objects.SpecificLocation.BoxType":"CV1, R1166",
+      "ca_objects.SpecificLocation.Copied":"No",
+      "ca_objects.DateOfCreation":"1906 to 1909"
     }
   ]
 }
