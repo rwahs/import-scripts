@@ -1,13 +1,15 @@
 {
     "occurrenceType": "Conservation",
     "relationshipType": "conservation",
-    "name": "^Conservation",
     "matchOn": [
         "idno"
     ],
-    "attributes":{
+    "attributes": {
         "ConservationDetails": "^Conservation",
         "ConservationDate": "^ConservationDate",
-        "Conservator": "^ConservationBy"
+        "Conservator": "^ConservationBy",
+        "preferred_labels":{
+            "name": "^Accession_Full_ID conserved on ^ConservationDate"
+        }
     }
 }

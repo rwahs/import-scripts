@@ -13,10 +13,10 @@
       "ca_objects.VisualCondition":"Excellent",
       "ca_occurrences.ConservationDetails":"Conserved",
       "ca_occurrences.ConservationDate":"1 January 1997",
-      "ca_occurrences":"1",
+      "ca_occurrences":"A1984.380 conserved on 1997-01-01",
       "ca_occurrences.idno":"1",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105"
+      "ca_objects_x_occurrences.type_id":"106"
     },
     {
       "object_id":"2",
@@ -29,10 +29,10 @@
       "ca_objects.VisualCondition":"Good",
       "ca_occurrences.ConservationDetails":"Reframed by Glyde Gallery in 1992.",
       "ca_occurrences.ConservationDate":"1 February 1992",
-      "ca_occurrences":"2",
+      "ca_occurrences":"A1978.9 conserved on 1992-02-01",
       "ca_occurrences.idno":"2",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105",
+      "ca_objects_x_occurrences.type_id":"106",
       "ca_occurrences.Conservator":"External"
     },
     {
@@ -46,10 +46,10 @@
       "ca_objects.VisualCondition":"Excellent",
       "ca_occurrences.ConservationDetails":"Framed 1971.Restored and re-framed by Dr Lilbourne,Ian 1994. New frame elaborate,moulded gilt,5 cm wide,beige coloured mount.",
       "ca_occurrences.ConservationDate":"1 January 1994",
-      "ca_occurrences":"3",
+      "ca_occurrences":"A1937.46 conserved on 1994-01-01",
       "ca_occurrences.idno":"3",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105",
+      "ca_objects_x_occurrences.type_id":"106",
       "ca_occurrences.Conservator":"internal"
     },
     {
@@ -64,10 +64,10 @@
       "ca_objects.VisualCondition":"Good",
       "ca_occurrences.ConservationDetails":"Framed &amp; conserved.",
       "ca_occurrences.ConservationDate":"1 January 1997",
-      "ca_occurrences":"4",
+      "ca_occurrences":"A1984.367 conserved on 1997-01-01",
       "ca_occurrences.idno":"4",
       "ca_occurrences.type_id":"Conservation Record",
-      "ca_objects_x_occurrences.type_id":"105"
+      "ca_objects_x_occurrences.type_id":"106"
     },
     {
       "object_id":"5",
