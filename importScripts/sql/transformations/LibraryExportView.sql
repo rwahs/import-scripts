@@ -62,7 +62,11 @@ CREATE OR REPLACE VIEW LibraryExport AS
         NULLIF(TRIM(l.Pages), '')                                             AS Pages,
         NULLIF(TRIM(l.Rare), '')                                              AS Rare,
         NULLIF(TRIM(l.Restrictions), '')                                      AS Restrictions,
-        NULLIF(TRIM(l.DateOut), '0000-00-00')                                 AS DateOut,
+        NULLIF(
+            TRIM(
+                REPLACE(l.DateOut, '0213-10-02', '2013-10-02')
+            ), '0000-00-00'
+        )                                                                     AS DateOut,
         NULLIF(TRIM(l.DateDue), '0000-00-00')                                 AS DateDue,
         NULLIF(TRIM(l.DateReturned), '0000-00-00')                            AS DateReturned,
         NULLIF(TRIM(l.VolumeNum), '')                                         AS VolumeNum,
