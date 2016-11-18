@@ -36,7 +36,7 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.CopyrightDetails), '')                      AS CopyrightDetails,
         NULLIF(TRIM(o.CopyrightYesNo), '')                        AS CopyrightYesNo,
         NULLIF(TRIM(o.Correspondence), '')                        AS Correspondence,
-        NULLIF(TRIM(REPLACE(o.DateReceived, '13/.6/2013', '13/6/2013'),'')
+        NULLIF(TRIM(REPLACE(o.DateReceived, '13/.6/2013', '13/6/2013')),'')
                                                                   AS DateReceived,
         NULLIF(TRIM(o.DeAccessionedYesNo), '')                    AS DeAccessionedYesNo,
         NULLIF(TRIM(d.DeaccessionReason), '')                     AS DeaccessionReason,
