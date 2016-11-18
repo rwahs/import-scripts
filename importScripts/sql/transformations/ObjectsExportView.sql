@@ -61,7 +61,15 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.InsuranceValue), '')                        AS InsuranceValue,
         NULLIF(TRIM(o.ItemDates), '')                             AS ItemDates,
         NULLIF(TRIM(o.ItemName), '')                              AS ItemName,
-        NULLIF(TRIM(o.ItemType), '')                              AS ItemType,
+        CASE WHEN o.ItemType = '' AND o.AccessionPrefix = 'P'
+            THEN 'Photograph'
+        WHEN o.ItemType = '' AND o.AccessionPrefix = 'MA'
+            THEN 'Museum Artefact'
+        WHEN o.ItemType = '' AND o.AccessionPrefix = 'A'
+            THEN 'Artwork'
+        ELSE
+            NULLIF(TRIM(o.ItemType), '')
+        END                                                       AS ItemType,
         NULLIF(TRIM(o.LastEditDate), '0000-00-00 00:00:00')       AS LastEditDate,
         NULLIF(TRIM(o.LastEditBy), '')                            AS LastEditBy,
         NULLIF(TRIM(o.LatestYear), 0)                             AS LatestYear,
