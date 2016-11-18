@@ -48,7 +48,9 @@ CREATE OR REPLACE VIEW LibraryExport AS
                        l.Notes))
         , '')                                                                 AS Notes,
         NULLIF(TRIM(l.PublicationType), '')                                   AS PublicationType,
-        NULLIF(TRIM(l.PublicationYear), 0)                                    AS PublicationYear,
+        NULLIF(NULLIF(NULLIF(NULLIF(
+            TRIM(l.PublicationYear)
+            , 1), 21), 18), 0)                                                AS PublicationYear,
         NULLIF(TRIM(l.Publisher), '')                                         AS Publisher,
         NULLIF(TRIM(l.WherePublished), '')                                    AS WherePublished,
         NULLIF(TRIM(l.Subject), '')                                           AS Subject,
