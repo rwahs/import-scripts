@@ -36,7 +36,8 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.CopyrightDetails), '')                      AS CopyrightDetails,
         NULLIF(TRIM(o.CopyrightYesNo), '')                        AS CopyrightYesNo,
         NULLIF(TRIM(o.Correspondence), '')                        AS Correspondence,
-        NULLIF(TRIM(o.DateReceived), '')                          AS DateReceived,
+        NULLIF(TRIM(REPLACE(o.DateReceived, '13/.6/2013', '13/6/2013')),'')
+                                                                  AS DateReceived,
         NULLIF(TRIM(o.DeAccessionedYesNo), '')                    AS DeAccessionedYesNo,
         NULLIF(TRIM(d.DeaccessionReason), '')                     AS DeaccessionReason,
         NULLIF(TRIM(d.DeaccessionDisposal), '')                   AS DeaccessionDisposal,
@@ -60,7 +61,15 @@ CREATE OR REPLACE VIEW ObjectsExport AS
         NULLIF(TRIM(o.InsuranceValue), '')                        AS InsuranceValue,
         NULLIF(TRIM(o.ItemDates), '')                             AS ItemDates,
         NULLIF(TRIM(o.ItemName), '')                              AS ItemName,
-        NULLIF(TRIM(o.ItemType), '')                              AS ItemType,
+        CASE WHEN o.ItemType = '' AND o.AccessionPrefix = 'P'
+            THEN 'Photograph'
+        WHEN o.ItemType = '' AND o.AccessionPrefix = 'MA'
+            THEN 'Museum Artefact'
+        WHEN o.ItemType = '' AND o.AccessionPrefix = 'A'
+            THEN 'Artwork'
+        ELSE
+            NULLIF(TRIM(o.ItemType), '')
+        END                                                       AS ItemType,
         NULLIF(TRIM(o.LastEditDate), '0000-00-00 00:00:00')       AS LastEditDate,
         NULLIF(TRIM(o.LastEditBy), '')                            AS LastEditBy,
         NULLIF(TRIM(o.LatestYear), 0)                             AS LatestYear,
