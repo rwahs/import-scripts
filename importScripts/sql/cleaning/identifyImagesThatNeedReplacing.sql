@@ -6,9 +6,11 @@ CREATE OR REPLACE VIEW object_image_relinking AS
         original_object.idno                        AS original_idno,
         original_object.deleted                     AS original_deleted,
         original_representation.original_filename   AS original_original_filename,
+        oxr.relation_id                             AS original_relation_id,
         oxr.representation_id                       AS original_representation_id,
         reimported_representation.original_filename AS reimported_original_filename,
-        roxr.representation_id                      AS new_representation_id
+        roxr.representation_id                      AS new_representation_id,
+        roxr.relation_id                            AS new_relation_id
     FROM ca_objects original_object
         JOIN ca_objects_x_object_representations oxr ON original_object.object_id = oxr.object_id
         JOIN ca_object_representations original_representation
@@ -32,4 +34,17 @@ CREATE OR REPLACE VIEW object_image_relinking AS
           )
     ORDER BY original_object.idno_sort;
 
+SELECT
+    original_idno,
+    # recreate the following query: `UPDATE ca_objects_x_object_representations SET representation_id = 22054 WHERE relation_id = 23700;`
+    CONCAT_WS(
+        '',
+        'UPDATE ca_objects_x_object_representations SET representation_id = ',
+        original_representation_id,
+        ' WHERE relation_id = ',
+        new_relation_id, ';'
+    ) AS update_sql
+FROM object_image_relinking
+WHERE original_deleted;
 DROP VIEW IF EXISTS object_image_relinking;
+
